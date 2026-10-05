@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-05T21:14:37+00:00",
+ "generatedAt": "2026-10-05T21:30:39+00:00",
  "companies": [
   {
    "cik": 896493,
@@ -35,8 +35,8 @@
      "kind": "insider",
      "isActive": true,
      "isNew": false,
-     "headline": "1 Kauf · 5,1 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 5,1 Mio. $ eigene Aktien gekauft."
+     "headline": "2 Käufe · 5,2 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 5,2 Mio. $ eigene Aktien gekauft."
     },
     {
      "kind": "trend",
@@ -53,6 +53,13 @@
      "date": "2026-09-30",
      "shares": 10313474,
      "value": 5051382
+    },
+    {
+     "name": "Milton C Ault III",
+     "role": "Chairman",
+     "date": "2026-09-25",
+     "shares": 689600,
+     "value": 117459
     }
    ],
    "financials": [
@@ -131,8 +138,8 @@
      "kind": "insider",
      "isActive": true,
      "isNew": false,
-     "headline": "1 Kauf · 278.132 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 278.132 $ eigene Aktien gekauft."
+     "headline": "2 Käufe · 356.328 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 356.328 $ eigene Aktien gekauft."
     },
     {
      "kind": "trend",
@@ -149,6 +156,13 @@
      "date": "2026-09-30",
      "shares": 306813,
      "value": 278132
+    },
+    {
+     "name": "Richard Barry",
+     "role": "President",
+     "date": "2026-09-28",
+     "shares": 93091,
+     "value": 78196
     }
    ],
    "financials": [
@@ -191,6 +205,102 @@
      "period": "2026-Q1",
      "revenue": null,
      "netIncome": -10331000.0
+    }
+   ]
+  },
+  {
+   "cik": 2029118,
+   "ticker": "INR",
+   "name": "Infinity Natural Resources, Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:INR",
+   "sector": "Crude Petroleum & Natural Gas",
+   "publicFloat": 277442275.0,
+   "importance": 3.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "EVP and CFO kaufte für 299.993 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 277,4 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 299.993 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 299.993 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +135 %",
+     "detail": "Umsatz im Quartal 2026-Q2 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Cary D Baetz",
+     "role": "EVP and CFO",
+     "date": "2026-09-25",
+     "shares": 22316,
+     "value": 299993
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 49839000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 70067000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 68971000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 84184000.0,
+     "netIncome": -34569000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 72471000.0,
+     "netIncome": 17988000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 78254000.0,
+     "netIncome": 10404000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 150704000.0,
+     "netIncome": -1871000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 170410000.0,
+     "netIncome": 31752000.0
     }
    ]
   },
@@ -483,6 +593,116 @@
    ]
   },
   {
+   "cik": 1072627,
+   "ticker": "KWY",
+   "name": "KINGSWAY Corp",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:KWY",
+   "sector": "Fire, Marine & Casualty Insurance",
+   "publicFloat": 217756671.0,
+   "importance": 3.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "3 Insider kauften für 37.195 $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 217,8 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "3 Käufe · 37.195 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 37.195 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +28 %",
+     "detail": "Umsatz im Quartal 2026-Q2 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "John Taylor Maloney Fitzgerald",
+     "role": "President",
+     "date": "2026-09-30",
+     "shares": 269,
+     "value": 2502
+    },
+    {
+     "name": "Kent A Hansen",
+     "role": "CFO & EVP",
+     "date": "2026-09-30",
+     "shares": 169,
+     "value": 1572
+    },
+    {
+     "name": "Joshua Horowitz",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "shares": 3575,
+     "value": 33121
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 26160000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 26446000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 27136000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 28349000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 30919000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 37173000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 38959000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 39442000.0,
+     "netIncome": null
+    }
+   ]
+  },
+  {
    "cik": 1408534,
    "ticker": "FGBI",
    "name": "First Guaranty Bancshares, Inc.",
@@ -675,6 +895,493 @@
    ]
   },
   {
+   "cik": 1822523,
+   "ticker": "AFCG",
+   "name": "Advanced Flower Capital Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:AFCG",
+   "sector": "Unbekannt",
+   "publicFloat": 80942440.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 344.047 $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 80,9 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "2 Käufe · 432.250 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 432.250 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −26 % im Quartal 2025-Q3 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Leonard M Tannenbaum",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "shares": 95397,
+     "value": 344047
+    },
+    {
+     "name": "Leonard M Tannenbaum",
+     "role": "Direktor",
+     "date": "2026-09-25",
+     "shares": 25228,
+     "value": 88203
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 12731591.0,
+     "netIncome": -54116.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 16404670.0,
+     "netIncome": 16446121.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 8882316.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 6642977.0,
+     "netIncome": 4067685.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 6203335.0,
+     "netIncome": -13164651.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 6530948.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": 11427347.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": 5360048.0
+    }
+   ]
+  },
+  {
+   "cik": 849145,
+   "ticker": "HGBL",
+   "name": "Heritage Global Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:HGBL",
+   "sector": "Services-Business Services, NEC",
+   "publicFloat": 66800000.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 399.000 $",
+    "date": "2026-09-29"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 66,8 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 399.000 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 399.000 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −14 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "William L Burnham",
+     "role": "Direktor",
+     "date": "2026-09-25",
+     "shares": 300000,
+     "value": 399000
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 12161000.0,
+     "netIncome": 1799000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 12023000.0,
+     "netIncome": 2497000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 10410000.0,
+     "netIncome": 1089000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 13459000.0,
+     "netIncome": 1064000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 14304000.0,
+     "netIncome": 1637000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 11360000.0,
+     "netIncome": 585000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 12725000.0,
+     "netIncome": 717000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 12265000.0,
+     "netIncome": -15888000.0
+    }
+   ]
+  },
+  {
+   "cik": 1766478,
+   "ticker": "AOMR",
+   "name": "Angel Oak Mortgage REIT, Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:AOMR",
+   "sector": "Real Estate",
+   "publicFloat": 123700000.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 290.511 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 123,7 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 290.511 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 290.511 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Michael Fierman",
+     "role": "Direktor",
+     "date": "2026-09-25",
+     "shares": 38726,
+     "value": 290511
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": null,
+     "netIncome": 12874000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": null,
+     "netIncome": -273000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": null,
+     "netIncome": 31204000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": null,
+     "netIncome": 20531000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": null,
+     "netIncome": 767000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": null,
+     "netIncome": 11410000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": -7379000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": 3353000.0
+    }
+   ]
+  },
+  {
+   "cik": 1800315,
+   "ticker": "DMRA",
+   "name": "Damora Therapeutics, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:DMRA",
+   "sector": "Pharmaceutical Preparations",
+   "publicFloat": 4400000.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "President kaufte für 252.875 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 4,4 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 252.875 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 252.875 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Jennifer Jarrett",
+     "role": "President",
+     "date": "2026-09-25",
+     "shares": 12500,
+     "value": 252875
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": null,
+     "netIncome": -5477000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": null,
+     "netIncome": -5338000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": null,
+     "netIncome": -3883000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": null,
+     "netIncome": -2533000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": null,
+     "netIncome": -3437000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": null,
+     "netIncome": -3133000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": -27783000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": -31174000.0
+    }
+   ]
+  },
+  {
+   "cik": 2007919,
+   "ticker": "INBX",
+   "name": "Inhibrx Biosciences, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:INBX",
+   "sector": "Biological Products, (No Diagnostic Substances)",
+   "publicFloat": 174600000.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 998.784 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 174,6 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 998.784 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 998.784 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −100 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-09-28",
+     "shares": 10000,
+     "value": 998784
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 0.0,
+     "netIncome": -78710000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 100000.0,
+     "netIncome": 1858011000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 0.0,
+     "netIncome": -43864000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 0.0,
+     "netIncome": -43311000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 1300000.0,
+     "netIncome": -28654000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 0.0,
+     "netIncome": -35256000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": -33441000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 0.0,
+     "netIncome": -36650000.0
+    }
+   ]
+  },
+  {
    "cik": 1326380,
    "ticker": "GME",
    "name": "GameStop Corp.",
@@ -707,8 +1414,8 @@
      "kind": "insider",
      "isActive": true,
      "isNew": false,
-     "headline": "2 Käufe · 17,3 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 17,3 Mio. $ eigene Aktien gekauft."
+     "headline": "3 Käufe · 27,9 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 27,9 Mio. $ eigene Aktien gekauft."
     },
     {
      "kind": "trend",
@@ -732,6 +1439,13 @@
      "date": "2026-10-01",
      "shares": 10462,
      "value": 254540
+    },
+    {
+     "name": "Ryan Cohen",
+     "role": "Chairman",
+     "date": "2026-09-29",
+     "shares": 450000,
+     "value": 10563796
     }
    ],
    "financials": [
@@ -776,6 +1490,130 @@
      "netIncome": 298700000.0
     }
    ]
+  },
+  {
+   "cik": 1469395,
+   "ticker": "PAM",
+   "name": "Pampa Energy Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:PAM",
+   "sector": "Electric Services",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "President kaufte für 5,6 Mio. $",
+    "date": "2026-10-02"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "2 Käufe · 7,5 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 7,5 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Damian Miguel Mindlin",
+     "role": "President",
+     "date": "2026-09-28",
+     "shares": 1432197,
+     "value": 5564817
+    },
+    {
+     "name": "Gustavo Mariani",
+     "role": "President",
+     "date": "2026-09-25",
+     "shares": 25000,
+     "value": 1956500
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1901279,
+   "ticker": "NYAX",
+   "name": "Nayax Ltd.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:NYAX",
+   "sector": "Services-Prepackaged Software",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Chairman kaufte für 2,1 Mio. $",
+    "date": "2026-10-02"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "2 Käufe · 4,2 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 4,2 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Yair Nechmad",
+     "role": "Chairman",
+     "date": "2026-09-30",
+     "shares": 44148,
+     "value": 2112082
+    },
+    {
+     "name": "Yair Nechmad",
+     "role": "Chairman",
+     "date": "2026-09-29",
+     "shares": 46935,
+     "value": 2107580
+    }
+   ],
+   "financials": []
   },
   {
    "cik": 879635,
@@ -909,73 +1747,18 @@
    ]
   },
   {
-   "cik": 1469395,
-   "ticker": "PAM",
-   "name": "Pampa Energy Inc.",
-   "exchange": "NYSE",
-   "tradingViewSymbol": "NYSE:PAM",
-   "sector": "Electric Services",
-   "publicFloat": null,
-   "importance": 2.0,
-   "trigger": {
-    "kind": "insider",
-    "headline": "President kaufte für 5,6 Mio. $",
-    "date": "2026-10-02"
-   },
-   "signals": [
-    {
-     "kind": "value",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Bald verfügbar",
-     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
-    },
-    {
-     "kind": "overlooked",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Keine Angabe zum Streubesitz."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": false,
-     "headline": "1 Kauf · 5,6 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 5,6 Mio. $ eigene Aktien gekauft."
-    },
-    {
-     "kind": "trend",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
-    }
-   ],
-   "insiderTrades": [
-    {
-     "name": "Damian Miguel Mindlin",
-     "role": "President",
-     "date": "2026-09-28",
-     "shares": 1432197,
-     "value": 5564817
-    }
-   ],
-   "financials": []
-  },
-  {
-   "cik": 1901279,
-   "ticker": "NYAX",
-   "name": "Nayax Ltd.",
+   "cik": 1535955,
+   "ticker": "LPCN",
+   "name": "Lipocine Inc.",
    "exchange": "Nasdaq",
-   "tradingViewSymbol": "NASDAQ:NYAX",
-   "sector": "Services-Prepackaged Software",
-   "publicFloat": null,
+   "tradingViewSymbol": "NASDAQ:LPCN",
+   "sector": "Pharmaceutical Preparations",
+   "publicFloat": 16400000.0,
    "importance": 2.0,
    "trigger": {
     "kind": "insider",
-    "headline": "Chairman kaufte für 2,1 Mio. $",
-    "date": "2026-10-02"
+    "headline": "Direktor kaufte für 55.043 $",
+    "date": "2026-10-01"
    },
    "signals": [
     {
@@ -987,36 +1770,84 @@
     },
     {
      "kind": "overlooked",
-     "isActive": false,
+     "isActive": true,
      "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Keine Angabe zum Streubesitz."
+     "headline": "Streubesitz 16,4 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
     },
     {
      "kind": "insider",
      "isActive": true,
      "isNew": false,
-     "headline": "1 Kauf · 2,1 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 2,1 Mio. $ eigene Aktien gekauft."
+     "headline": "2 Käufe · 82.175 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 82.175 $ eigene Aktien gekauft."
     },
     {
      "kind": "trend",
      "isActive": false,
      "isNew": false,
      "headline": "Kein Signal",
-     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+     "detail": "Umsatz −69 % im Quartal 2026-Q2 – unter +20 %."
     }
    ],
    "insiderTrades": [
     {
-     "name": "Yair Nechmad",
-     "role": "Chairman",
+     "name": "John W. Higuchi",
+     "role": "Direktor",
      "date": "2026-09-30",
-     "shares": 44148,
-     "value": 2112082
+     "shares": 25007,
+     "value": 55043
+    },
+    {
+     "name": "John W. Higuchi",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 12561,
+     "value": 27132
     }
    ],
-   "financials": []
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 7617174.0,
+     "netIncome": 3513621.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 89565.0,
+     "netIncome": -3068634.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": null,
+     "netIncome": -2218818.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 93864.0,
+     "netIncome": -1864873.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 622849.0,
+     "netIncome": -2205716.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 114574.0,
+     "netIncome": -3186832.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 119397.0,
+     "netIncome": -3671894.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 190099.0,
+     "netIncome": -2622595.0
+    }
+   ]
   },
   {
    "cik": 1770501,
@@ -1262,102 +2093,6 @@
      "period": "2026-Q2",
      "revenue": 286254000.0,
      "netIncome": -36844000.0
-    }
-   ]
-  },
-  {
-   "cik": 1535955,
-   "ticker": "LPCN",
-   "name": "Lipocine Inc.",
-   "exchange": "Nasdaq",
-   "tradingViewSymbol": "NASDAQ:LPCN",
-   "sector": "Pharmaceutical Preparations",
-   "publicFloat": 16400000.0,
-   "importance": 2.0,
-   "trigger": {
-    "kind": "insider",
-    "headline": "Direktor kaufte für 55.043 $",
-    "date": "2026-10-01"
-   },
-   "signals": [
-    {
-     "kind": "value",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Bald verfügbar",
-     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
-    },
-    {
-     "kind": "overlooked",
-     "isActive": true,
-     "isNew": false,
-     "headline": "Streubesitz 16,4 Mio. $",
-     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": false,
-     "headline": "1 Kauf · 55.043 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 55.043 $ eigene Aktien gekauft."
-    },
-    {
-     "kind": "trend",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Umsatz −69 % im Quartal 2026-Q2 – unter +20 %."
-    }
-   ],
-   "insiderTrades": [
-    {
-     "name": "John W. Higuchi",
-     "role": "Direktor",
-     "date": "2026-09-30",
-     "shares": 25007,
-     "value": 55043
-    }
-   ],
-   "financials": [
-    {
-     "period": "2024-Q1",
-     "revenue": 7617174.0,
-     "netIncome": 3513621.0
-    },
-    {
-     "period": "2024-Q2",
-     "revenue": 89565.0,
-     "netIncome": -3068634.0
-    },
-    {
-     "period": "2024-Q3",
-     "revenue": null,
-     "netIncome": -2218818.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 93864.0,
-     "netIncome": -1864873.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 622849.0,
-     "netIncome": -2205716.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 114574.0,
-     "netIncome": -3186832.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 119397.0,
-     "netIncome": -3671894.0
-    },
-    {
-     "period": "2026-Q2",
-     "revenue": 190099.0,
-     "netIncome": -2622595.0
     }
    ]
   },
@@ -1644,6 +2379,1456 @@
    "financials": []
   },
   {
+   "cik": 1802369,
+   "ticker": "ADRX",
+   "name": "ADARx Pharmaceuticals, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:ADRX",
+   "sector": "Pharmaceutical Preparations",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "3 Insider kauften für 33,3 Mio. $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "4 Käufe · 60,5 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 60,5 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Simeon George",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 1600000,
+     "value": 27200000
+    },
+    {
+     "name": "Advisors Llc Orbimed",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 950000,
+     "value": 16150000
+    },
+    {
+     "name": "Carl L Gordon",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 950000,
+     "value": 16150000
+    },
+    {
+     "name": "Erez Chimovits",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 61516,
+     "value": 1045772
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1160330,
+   "ticker": "BBD",
+   "name": "Bank Bradesco",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:BBD",
+   "sector": "State Commercial Banks",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Executive Officer kaufte für 1,0 Mio. $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 1,0 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 1,0 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Marcello Francesco Di",
+     "role": "Executive Officer",
+     "date": "2026-09-29",
+     "shares": 57160,
+     "value": 1008844
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1649096,
+   "ticker": "CLPR",
+   "name": "Clipper Realty Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:CLPR",
+   "sector": "Real Estate Investment Trusts",
+   "publicFloat": 46676906.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "COO kaufte für 246.225 $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 46,7 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 246.225 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 246.225 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −1 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Jacob Bistricer",
+     "role": "COO",
+     "date": "2026-09-28",
+     "shares": 73500,
+     "value": 246225
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 35760000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 37346000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 37622000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 39398000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 39036000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 37698000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 38115000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 38575000.0,
+     "netIncome": null
+    }
+   ]
+  },
+  {
+   "cik": 1551047,
+   "ticker": "BPRE",
+   "name": "Bluerock Private Real Estate Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:BPRE",
+   "sector": "Unbekannt",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "2 Insider kauften für 5,4 Mio. $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "2 Käufe · 5,4 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 5,4 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Jordan B. Ruddy",
+     "role": "President",
+     "date": "2026-09-30",
+     "shares": 4780,
+     "value": 59963
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "shares": 425590,
+     "value": 5351244
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1747172,
+   "ticker": "KBDC",
+   "name": "Kayne Anderson BDC, Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:KBDC",
+   "sector": "Unbekannt",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 1,9 Mio. $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 1,9 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 1,9 Mio. $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "James L Robo",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 146755,
+     "value": 1912658
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": null,
+     "netIncome": 27755000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": null,
+     "netIncome": 31180000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": null,
+     "netIncome": 37556000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": null,
+     "netIncome": 22215000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": null,
+     "netIncome": 24910000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": null,
+     "netIncome": 24613000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": 17241000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": 10717000.0
+    }
+   ]
+  },
+  {
+   "cik": 885462,
+   "ticker": "GURE",
+   "name": "Gulf Resources, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:GURE",
+   "sector": "Chemicals & Allied Products",
+   "publicFloat": 6800000.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +54 % ggü. Vorjahresquartal",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 6,8 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +54 %",
+     "detail": "Umsatz im Quartal 2026-Q2 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 1307062.0,
+     "netIncome": -3992132.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 2383169.0,
+     "netIncome": -33097918.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 2242365.0,
+     "netIncome": -3492883.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 1604447.0,
+     "netIncome": -4670180.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 8343785.0,
+     "netIncome": -814364.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 9044581.0,
+     "netIncome": -35664512.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 2368626.0,
+     "netIncome": -3926381.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 12886977.0,
+     "netIncome": 1143193.0
+    }
+   ]
+  },
+  {
+   "cik": 715446,
+   "ticker": "ANIX",
+   "name": "Anixa Biosciences Inc",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:ANIX",
+   "sector": "Pharmaceutical Preparations",
+   "publicFloat": 85116394.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "2 Insider kauften für 33.260 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 85,1 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "2 Käufe · 33.260 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 33.260 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Arnold M Baskies",
+     "role": "Direktor",
+     "date": "2026-09-24",
+     "shares": 5000,
+     "value": 13800
+    },
+    {
+     "name": "Amit Kumar",
+     "role": "CEO",
+     "date": "2026-09-24",
+     "shares": 7000,
+     "value": 19460
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": null,
+     "netIncome": -3139000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": null,
+     "netIncome": -3277000.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": null,
+     "netIncome": -3184000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": null,
+     "netIncome": -2790000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": null,
+     "netIncome": -2258000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": null,
+     "netIncome": -2565000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": -2516000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": -2606000.0
+    }
+   ]
+  },
+  {
+   "cik": 1983736,
+   "ticker": "GOAI",
+   "name": "Eva Live Inc",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:GOAI",
+   "sector": "Services-Computer Programming, Data Processing, Etc.",
+   "publicFloat": 51059288.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 39.798 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 51,1 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 39.798 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 39.798 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz +2 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "David Boulette",
+     "role": "CEO",
+     "date": "2026-09-25",
+     "shares": 19800,
+     "value": 39798
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 2236950.0,
+     "netIncome": 196709.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 2188616.0,
+     "netIncome": -360361.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 1982252.0,
+     "netIncome": -4951202.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 3681520.0,
+     "netIncome": 1995694.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 4138712.0,
+     "netIncome": 2625101.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 4913318.0,
+     "netIncome": 1824316.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 3903231.0,
+     "netIncome": -8564076.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 4204390.0,
+     "netIncome": -1749757.0
+    }
+   ]
+  },
+  {
+   "cik": 826675,
+   "ticker": "DX",
+   "name": "Dynex Capital Inc",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:DX",
+   "sector": "Real Estate Investment Trusts",
+   "publicFloat": 1500000000.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Vorstand kaufte für 27.950 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 1,5 Mrd. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 27.950 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 27.950 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Terrence John Connelly Jr",
+     "role": "Vorstand",
+     "date": "2026-09-25",
+     "shares": 2500,
+     "value": 27950
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": null,
+     "netIncome": 40118000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": null,
+     "netIncome": -8304000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": null,
+     "netIncome": 30997000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": null,
+     "netIncome": -3076000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": null,
+     "netIncome": -13606000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": null,
+     "netIncome": 150388000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": null,
+     "netIncome": -80362000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": null,
+     "netIncome": 180793000.0
+    }
+   ]
+  },
+  {
+   "cik": 1525769,
+   "ticker": "PLAY",
+   "name": "Dave & Buster's Entertainment, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:PLAY",
+   "sector": "Retail-Eating  Places",
+   "publicFloat": 1000000000.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Interim CFO kaufte für 26.000 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 1,0 Mrd. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 26.000 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 26.000 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −2 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Cory Hatton",
+     "role": "Interim CFO",
+     "date": "2026-09-28",
+     "shares": 4000,
+     "value": 26000
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 588100000.0,
+     "netIncome": 41400000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 557100000.0,
+     "netIncome": 40300000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 453000000.0,
+     "netIncome": -32700000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 567700000.0,
+     "netIncome": 21700000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 557400000.0,
+     "netIncome": 11400000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 448200000.0,
+     "netIncome": -42100000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 559200000.0,
+     "netIncome": 5700000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 544100000.0,
+     "netIncome": -12500000.0
+    }
+   ]
+  },
+  {
+   "cik": 1318008,
+   "ticker": "ZUMZ",
+   "name": "Zumiez Inc",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:ZUMZ",
+   "sector": "Retail-Apparel & Accessory Stores",
+   "publicFloat": 177088388.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "President kaufte für 134.000 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 177,1 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 134.000 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 134.000 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz −2 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Adam Christopher Ellis",
+     "role": "President",
+     "date": "2026-09-18",
+     "shares": 10000,
+     "value": 134000
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 177388000.0,
+     "netIncome": -16780000.0
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 210179000.0,
+     "netIncome": -847000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 222475000.0,
+     "netIncome": 1159000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 184343000.0,
+     "netIncome": -14330000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 214275000.0,
+     "netIncome": -1002000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 239132000.0,
+     "netIncome": 9160000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 193348000.0,
+     "netIncome": -13266000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 208964000.0,
+     "netIncome": -2743000.0
+    }
+   ]
+  },
+  {
+   "cik": 69422,
+   "ticker": "INTG",
+   "name": "Intergroup Corp",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:INTG",
+   "sector": "Operators of  Apartment Buildings",
+   "publicFloat": 17181000.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +21 % ggü. Vorjahresquartal",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 17,2 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +21 %",
+     "detail": "Umsatz im Quartal 2026-Q1 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2023-Q4",
+     "revenue": 14321000.0,
+     "netIncome": -1529000.0
+    },
+    {
+     "period": "2024-Q1",
+     "revenue": 14883000.0,
+     "netIncome": -3164000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 16906000.0,
+     "netIncome": -398000.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 14441000.0,
+     "netIncome": -2725000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 16824000.0,
+     "netIncome": -578000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 17913000.0,
+     "netIncome": -535000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 17301000.0,
+     "netIncome": 1515000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 20372000.0,
+     "netIncome": 457000.0
+    }
+   ]
+  },
+  {
+   "cik": 787253,
+   "ticker": "NAII",
+   "name": "Natural Alternatives International Inc",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:NAII",
+   "sector": "Medicinal Chemicals & Botanical Products",
+   "publicFloat": 6264847.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +23 % ggü. Vorjahresquartal",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 6,3 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +23 %",
+     "detail": "Umsatz im Quartal 2026-Q1 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2023-Q4",
+     "revenue": 25202000.0,
+     "netIncome": -3070000.0
+    },
+    {
+     "period": "2024-Q1",
+     "revenue": 25136000.0,
+     "netIncome": -1578000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 33150000.0,
+     "netIncome": -1982000.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 34078000.0,
+     "netIncome": -2191000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 28766000.0,
+     "netIncome": -2186000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 37730000.0,
+     "netIncome": -291000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 34795000.0,
+     "netIncome": -2553000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 35482000.0,
+     "netIncome": -4311000.0
+    }
+   ]
+  },
+  {
+   "cik": 867840,
+   "ticker": "POCI",
+   "name": "Precision Optics Corporation, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:POCI",
+   "sector": "Electromedical & Electrotherapeutic Apparatus",
+   "publicFloat": 25603000.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +108 % ggü. Vorjahresquartal",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 25,6 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +108 %",
+     "detail": "Umsatz im Quartal 2026-Q1 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2023-Q4",
+     "revenue": 4824289.0,
+     "netIncome": -758802.0
+    },
+    {
+     "period": "2024-Q1",
+     "revenue": 5242579.0,
+     "netIncome": -317055.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 4197053.0,
+     "netIncome": -1311247.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 4526907.0,
+     "netIncome": -969681.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 4185968.0,
+     "netIncome": -2096761.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 6680823.0,
+     "netIncome": -1637030.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 7367837.0,
+     "netIncome": -1780791.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 8708631.0,
+     "netIncome": -108283.0
+    }
+   ]
+  },
+  {
+   "cik": 1550913,
+   "ticker": "MKZR",
+   "name": "MacKenzie Realty Capital, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:MKZR",
+   "sector": "Real Estate Investment Trusts",
+   "publicFloat": 7209672.0,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +27 % ggü. Vorjahresquartal",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Streubesitz 7,2 Mio. $",
+     "detail": "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +27 %",
+     "detail": "Umsatz im Quartal 2026-Q1 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2023-Q4",
+     "revenue": 3577486.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q1",
+     "revenue": 4079036.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 4952229.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 8030316.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 4273646.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 4539062.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 4594058.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 5441504.0,
+     "netIncome": null
+    }
+   ]
+  },
+  {
+   "cik": 39368,
+   "ticker": "FUL",
+   "name": "Fuller H B Co",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:FUL",
+   "sector": "Adhesives & Sealants",
+   "publicFloat": 3003336830.0,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "2 Insider kauften für 122.248 $",
+    "date": "2026-10-01"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Streubesitz 3,0 Mrd. $ – keine kleine Firma."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "7 Käufe · 621.316 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 621.316 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz +5 % im Quartal 2026-Q3 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Celine Christine Martin",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "shares": 465,
+     "value": 22998
+    },
+    {
+     "name": "Srilata Zaheer",
+     "role": "Direktor",
+     "date": "2026-09-29",
+     "shares": 2040,
+     "value": 100119
+    },
+    {
+     "name": "Charles T Lauber",
+     "role": "Direktor",
+     "date": "2026-09-29",
+     "shares": 2005,
+     "value": 99985
+    },
+    {
+     "name": "Michael J Happe",
+     "role": "Direktor",
+     "date": "2026-09-29",
+     "shares": 2000,
+     "value": 99250
+    },
+    {
+     "name": "Daniel L Florness",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 2030,
+     "value": 100160
+    },
+    {
+     "name": "Trangsrud Teresa J Rasmussen",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 2042,
+     "value": 99984
+    },
+    {
+     "name": "Thomas W Handley",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "shares": 2000,
+     "value": 98820
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q2",
+     "revenue": 917107000.0,
+     "netIncome": 51264000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 917927000.0,
+     "netIncome": 55361000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 788663000.0,
+     "netIncome": 13248000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 898095000.0,
+     "netIncome": 41828000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 892043000.0,
+     "netIncome": 67160000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 770844000.0,
+     "netIncome": 21045000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 950271000.0,
+     "netIncome": 67805000.0
+    },
+    {
+     "period": "2026-Q3",
+     "revenue": 938175000.0,
+     "netIncome": 79182000.0
+    }
+   ]
+  },
+  {
    "cik": 1063761,
    "ticker": "SPG",
    "name": "Simon Property Group Inc.",
@@ -1858,6 +4043,61 @@
    "financials": []
   },
   {
+   "cik": 1815846,
+   "ticker": "MNSO",
+   "name": "MINISO Group Holding Ltd",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:MNSO",
+   "sector": "Retail-Variety Stores",
+   "publicFloat": null,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CFO kaufte für 340.100 $",
+    "date": "2026-09-30"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 340.100 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 340.100 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Jingjing Eason Zhang",
+     "role": "CFO",
+     "date": "2026-09-29",
+     "shares": 150600,
+     "value": 340100
+    }
+   ],
+   "financials": []
+  },
+  {
    "cik": 1868995,
    "ticker": "CINT",
    "name": "CI&T Inc",
@@ -2028,109 +4268,6 @@
     }
    ],
    "financials": []
-  },
-  {
-   "cik": 39368,
-   "ticker": "FUL",
-   "name": "Fuller H B Co",
-   "exchange": "NYSE",
-   "tradingViewSymbol": "NYSE:FUL",
-   "sector": "Adhesives & Sealants",
-   "publicFloat": 3003336830.0,
-   "importance": 1.0,
-   "trigger": {
-    "kind": "insider",
-    "headline": "2 Insider kauften für 122.248 $",
-    "date": "2026-10-01"
-   },
-   "signals": [
-    {
-     "kind": "value",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Bald verfügbar",
-     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
-    },
-    {
-     "kind": "overlooked",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Streubesitz 3,0 Mrd. $ – keine kleine Firma."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": false,
-     "headline": "2 Käufe · 122.248 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 122.248 $ eigene Aktien gekauft."
-    },
-    {
-     "kind": "trend",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Umsatz +5 % im Quartal 2026-Q3 – unter +20 %."
-    }
-   ],
-   "insiderTrades": [
-    {
-     "name": "Celine Christine Martin",
-     "role": "Direktor",
-     "date": "2026-09-30",
-     "shares": 465,
-     "value": 22998
-    },
-    {
-     "name": "Michael J Happe",
-     "role": "Direktor",
-     "date": "2026-09-29",
-     "shares": 2000,
-     "value": 99250
-    }
-   ],
-   "financials": [
-    {
-     "period": "2024-Q2",
-     "revenue": 917107000.0,
-     "netIncome": 51264000.0
-    },
-    {
-     "period": "2024-Q3",
-     "revenue": 917927000.0,
-     "netIncome": 55361000.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 788663000.0,
-     "netIncome": 13248000.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 898095000.0,
-     "netIncome": 41828000.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 892043000.0,
-     "netIncome": 67160000.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 770844000.0,
-     "netIncome": 21045000.0
-    },
-    {
-     "period": "2026-Q2",
-     "revenue": 950271000.0,
-     "netIncome": 67805000.0
-    },
-    {
-     "period": "2026-Q3",
-     "revenue": 938175000.0,
-     "netIncome": 79182000.0
-    }
-   ]
   },
   {
    "cik": 1004980,
@@ -2315,6 +4452,410 @@
      "netIncome": 416240000.0
     }
    ]
+  },
+  {
+   "cik": 1837493,
+   "ticker": "QTEX",
+   "name": "QTREX Quantum Ltd.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:QTEX",
+   "sector": "Surgical & Medical Instruments & Apparatus",
+   "publicFloat": null,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 119.543 $",
+    "date": "2026-09-29"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 119.543 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 119.543 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Dagi Shahar Ben-Noon",
+     "role": "CEO",
+     "date": "2026-09-28",
+     "shares": 168894,
+     "value": 119543
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 813623,
+   "ticker": "SWZ",
+   "name": "Total Return Securities Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:SWZ",
+   "sector": "Unbekannt",
+   "publicFloat": null,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "President kaufte für 115.814 $",
+    "date": "2026-09-29"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 115.814 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 115.814 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Andrew Dakos",
+     "role": "President",
+     "date": "2026-09-28",
+     "shares": 20000,
+     "value": 115814
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1750,
+   "ticker": "AIR",
+   "name": "Aar Corp",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:AIR",
+   "sector": "Aircraft & Parts",
+   "publicFloat": 3224000000.0,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "trend",
+    "headline": "Umsatz +24 % ggü. Vorjahresquartal",
+    "date": "2026-09-29"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Streubesitz 3,2 Mrd. $ – keine kleine Firma."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    },
+    {
+     "kind": "trend",
+     "isActive": true,
+     "isNew": false,
+     "headline": "Umsatz +24 %",
+     "detail": "Umsatz im Quartal 2026-Q3 gegenüber dem Vorjahresquartal."
+    }
+   ],
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 567300000.0,
+     "netIncome": 14000000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 661700000.0,
+     "netIncome": 18000000.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 686100000.0,
+     "netIncome": -30600000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 678200000.0,
+     "netIncome": -8900000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 739600000.0,
+     "netIncome": 34400000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 795300000.0,
+     "netIncome": 34600000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 845100000.0,
+     "netIncome": 68000000.0
+    },
+    {
+     "period": "2026-Q3",
+     "revenue": 918000000.0,
+     "netIncome": 40100000.0
+    }
+   ]
+  },
+  {
+   "cik": 1156375,
+   "ticker": "CME",
+   "name": "Cme Group Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:CME",
+   "sector": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+   "publicFloat": 98900000000.0,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 78.626 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Streubesitz 98,9 Mrd. $ – keine kleine Firma."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 78.626 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 78.626 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Umsatz +1 % im Quartal 2026-Q2 – unter +20 %."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "William R Shepard",
+     "role": "Direktor",
+     "date": "2026-09-25",
+     "shares": 293,
+     "value": 78626
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q1",
+     "revenue": 1487900000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q2",
+     "revenue": 1532500000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 1584400000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 1642300000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 1692000000.0,
+     "netIncome": 1025100000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 1537600000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 1880100000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 1706200000.0,
+     "netIncome": 1041800000.0
+    }
+   ]
+  },
+  {
+   "cik": 1810523,
+   "ticker": "FTHY",
+   "name": "First Trust High Yield Opportunities 2027 Term Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:FTHY",
+   "sector": "Unbekannt",
+   "publicFloat": null,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Vorstand kaufte für 129.247 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 129.247 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 129.247 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "David Mcgarel",
+     "role": "Vorstand",
+     "date": "2026-09-25",
+     "shares": 10000,
+     "value": 129247
+    }
+   ],
+   "financials": []
+  },
+  {
+   "cik": 1510599,
+   "ticker": "PDI",
+   "name": "PIMCO Dynamic Income Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:PDI",
+   "sector": "Unbekannt",
+   "publicFloat": null,
+   "importance": 1.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 75.655 $",
+    "date": "2026-09-28"
+   },
+   "signals": [
+    {
+     "kind": "value",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bald verfügbar",
+     "detail": "Die Bewertung kommt mit lizenzierten Kursdaten."
+    },
+    {
+     "kind": "overlooked",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Angabe zum Streubesitz."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": false,
+     "headline": "1 Kauf · 75.655 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 75.655 $ eigene Aktien gekauft."
+    },
+    {
+     "kind": "trend",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine vergleichbaren Quartalszahlen verfügbar."
+    }
+   ],
+   "insiderTrades": [
+    {
+     "name": "Alan Rappaport",
+     "role": "Direktor",
+     "date": "2026-09-24",
+     "shares": 5500,
+     "value": 75655
+    }
+   ],
+   "financials": []
   }
  ]
 }

@@ -1,0 +1,356 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1468748,
+  "ticker": "KOD",
+  "date": "2026-09-30",
+  "value": 156986394,
+  "trades": [
+   {
+    "name": "Bros. Advisors Lp Baker",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 807840,
+    "value": 58625708
+   },
+   {
+    "name": "Bros. Advisors Lp Baker",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 418323,
+    "value": 34963077
+   },
+   {
+    "name": "Bros. Advisors Lp Baker",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 715592,
+    "value": 63397609
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1802369,
+  "ticker": "ADRX",
+  "date": "2026-09-30",
+  "value": 33345772,
+  "trades": [
+   {
+    "name": "Advisors Llc Orbimed",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 950000,
+    "value": 16150000
+   },
+   {
+    "name": "Carl L Gordon",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 950000,
+    "value": 16150000
+   },
+   {
+    "name": "Erez Chimovits",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 61516,
+    "value": 1045772
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2011498,
+  "ticker": "NONE",
+  "date": "2026-09-30",
+  "value": 33570,
+  "trades": [
+   {
+    "name": "Wynne Richards Comer",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 956,
+    "value": 22380
+   },
+   {
+    "name": "Taylor Boswell",
+    "role": "CEO",
+    "date": "2026-09-28",
+    "shares": 478,
+    "value": 11190
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1822523,
+  "ticker": "AFCG",
+  "date": "2026-09-30",
+  "value": 344047,
+  "trades": [
+   {
+    "name": "Leonard M Tannenbaum",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 95397,
+    "value": 344047
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1160330,
+  "ticker": "BBD",
+  "date": "2026-09-30",
+  "value": 1008844,
+  "trades": [
+   {
+    "name": "Marcello Francesco Di",
+    "role": "Executive Officer",
+    "date": "2026-09-29",
+    "shares": 57160,
+    "value": 1008844
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1069530,
+  "ticker": "FLNA",
+  "date": "2026-09-30",
+  "value": 78196,
+  "trades": [
+   {
+    "name": "Richard Barry",
+    "role": "President",
+    "date": "2026-09-28",
+    "shares": 93091,
+    "value": 78196
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1649096,
+  "ticker": "CLPR",
+  "date": "2026-09-30",
+  "value": 246225,
+  "trades": [
+   {
+    "name": "Jacob Bistricer",
+    "role": "COO",
+    "date": "2026-09-28",
+    "shares": 73500,
+    "value": 246225
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-09-30",
+  "value": 5411207,
+  "trades": [
+   {
+    "name": "Jordan B. Ruddy",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 4780,
+    "value": 59963
+   },
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 425590,
+    "value": 5351244
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 39368,
+  "ticker": "FUL",
+  "date": "2026-09-30",
+  "value": 499068,
+  "trades": [
+   {
+    "name": "Daniel L Florness",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 2030,
+    "value": 100160
+   },
+   {
+    "name": "Srilata Zaheer",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 2040,
+    "value": 100119
+   },
+   {
+    "name": "Charles T Lauber",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 2005,
+    "value": 99985
+   },
+   {
+    "name": "Trangsrud Teresa J Rasmussen",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 2042,
+    "value": 99984
+   },
+   {
+    "name": "Thomas W Handley",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 2000,
+    "value": 98820
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1072627,
+  "ticker": "KWY",
+  "date": "2026-09-30",
+  "value": 37195,
+  "trades": [
+   {
+    "name": "John Taylor Maloney Fitzgerald",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 269,
+    "value": 2502
+   },
+   {
+    "name": "Kent A Hansen",
+    "role": "CFO & EVP",
+    "date": "2026-09-30",
+    "shares": 169,
+    "value": 1572
+   },
+   {
+    "name": "Joshua Horowitz",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 3575,
+    "value": 33121
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1535955,
+  "ticker": "LPCN",
+  "date": "2026-09-30",
+  "value": 27132,
+  "trades": [
+   {
+    "name": "John W. Higuchi",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 12561,
+    "value": 27132
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1747172,
+  "ticker": "KBDC",
+  "date": "2026-09-30",
+  "value": 1912658,
+  "trades": [
+   {
+    "name": "James L Robo",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 146755,
+    "value": 1912658
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1911066,
+  "ticker": "NONE",
+  "date": "2026-09-30",
+  "value": 500000,
+  "trades": [
+   {
+    "name": "Kenneth J. Kencel",
+    "role": "President",
+    "date": "2026-09-28",
+    "shares": 20964,
+    "value": 500000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1815846,
+  "ticker": "MNSO",
+  "date": "2026-09-30",
+  "value": 340100,
+  "trades": [
+   {
+    "name": "Jingjing Eason Zhang",
+    "role": "CFO",
+    "date": "2026-09-29",
+    "shares": 150600,
+    "value": 340100
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1901279,
+  "ticker": "NYAX",
+  "date": "2026-09-30",
+  "value": 2107580,
+  "trades": [
+   {
+    "name": "Yair Nechmad",
+    "role": "Chairman",
+    "date": "2026-09-29",
+    "shares": 46935,
+    "value": 2107580
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2036272,
+  "ticker": "TPYTX",
+  "date": "2026-09-30",
+  "value": 28107,
+  "trades": [
+   {
+    "name": "Michael Swell",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 1532,
+    "value": 15244
+   },
+   {
+    "name": "Andrew Tarica",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 1293,
+    "value": 12863
+   }
+  ]
+ },
+ {
+  "kind": "trend",
+  "cik": 885462,
+  "date": "2026-09-30",
+  "period": "2026-Q2",
+  "growth": 0.5445
+ }
+]

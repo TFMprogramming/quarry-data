@@ -1,0 +1,151 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1802369,
+  "ticker": "ADRX",
+  "date": "2026-09-29",
+  "value": 27200000,
+  "trades": [
+   {
+    "name": "Simeon George",
+    "role": "Direktor",
+    "date": "2026-09-28",
+    "shares": 1600000,
+    "value": 27200000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1837493,
+  "ticker": "QTEX",
+  "date": "2026-09-29",
+  "value": 119543,
+  "trades": [
+   {
+    "name": "Dagi Shahar Ben-Noon",
+    "role": "CEO",
+    "date": "2026-09-28",
+    "shares": 168894,
+    "value": 119543
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 849145,
+  "ticker": "HGBL",
+  "date": "2026-09-29",
+  "value": 399000,
+  "trades": [
+   {
+    "name": "William L Burnham",
+    "role": "Direktor",
+    "date": "2026-09-25",
+    "shares": 300000,
+    "value": 399000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2114459,
+  "ticker": "CRAFX",
+  "date": "2026-09-29",
+  "value": 300000,
+  "trades": [
+   {
+    "name": "Paul Jay Williams",
+    "role": "Direktor",
+    "date": "2026-09-25",
+    "shares": 30000,
+    "value": 300000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1326380,
+  "ticker": "GME",
+  "date": "2026-09-29",
+  "value": 10563796,
+  "trades": [
+   {
+    "name": "Ryan Cohen",
+    "role": "Chairman",
+    "date": "2026-09-29",
+    "shares": 450000,
+    "value": 10563796
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 813623,
+  "ticker": "SWZ",
+  "date": "2026-09-29",
+  "value": 115814,
+  "trades": [
+   {
+    "name": "Andrew Dakos",
+    "role": "President",
+    "date": "2026-09-28",
+    "shares": 20000,
+    "value": 115814
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1469395,
+  "ticker": "PAM",
+  "date": "2026-09-29",
+  "value": 1956500,
+  "trades": [
+   {
+    "name": "Gustavo Mariani",
+    "role": "President",
+    "date": "2026-09-25",
+    "shares": 25000,
+    "value": 1956500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1867714,
+  "ticker": "MONIX",
+  "date": "2026-09-29",
+  "value": 86000,
+  "trades": [
+   {
+    "name": "Ali Meli",
+    "role": "President",
+    "date": "2026-09-25",
+    "shares": 8423,
+    "value": 86000
+   }
+  ]
+ },
+ {
+  "kind": "trend",
+  "cik": 1750,
+  "date": "2026-09-29",
+  "period": "2026-Q3",
+  "growth": 0.2412
+ },
+ {
+  "kind": "trend",
+  "cik": 1832161,
+  "date": "2026-09-29",
+  "period": "2026-Q1",
+  "growth": 101.0
+ },
+ {
+  "kind": "trend",
+  "cik": 2034288,
+  "date": "2026-09-29",
+  "period": "2026-Q3",
+  "growth": 1.0
+ }
+]

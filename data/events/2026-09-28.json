@@ -1,0 +1,282 @@
+[
+ {
+  "kind": "insider",
+  "cik": 896493,
+  "ticker": "GPUS",
+  "date": "2026-09-28",
+  "value": 117459,
+  "trades": [
+   {
+    "name": "Milton C Ault III",
+    "role": "Chairman",
+    "date": "2026-09-25",
+    "shares": 689600,
+    "value": 117459
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1822523,
+  "ticker": "AFCG",
+  "date": "2026-09-28",
+  "value": 88203,
+  "trades": [
+   {
+    "name": "Leonard M Tannenbaum",
+    "role": "Direktor",
+    "date": "2026-09-25",
+    "shares": 25228,
+    "value": 88203
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1766478,
+  "ticker": "AOMR",
+  "date": "2026-09-28",
+  "value": 290511,
+  "trades": [
+   {
+    "name": "Michael Fierman",
+    "role": "Direktor",
+    "date": "2026-09-25",
+    "shares": 38726,
+    "value": 290511
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 715446,
+  "ticker": "ANIX",
+  "date": "2026-09-28",
+  "value": 33260,
+  "trades": [
+   {
+    "name": "Arnold M Baskies",
+    "role": "Direktor",
+    "date": "2026-09-24",
+    "shares": 5000,
+    "value": 13800
+   },
+   {
+    "name": "Amit Kumar",
+    "role": "CEO",
+    "date": "2026-09-24",
+    "shares": 7000,
+    "value": 19460
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2029118,
+  "ticker": "INR",
+  "date": "2026-09-28",
+  "value": 299993,
+  "trades": [
+   {
+    "name": "Cary D Baetz",
+    "role": "EVP and CFO",
+    "date": "2026-09-25",
+    "shares": 22316,
+    "value": 299993
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1983736,
+  "ticker": "GOAI",
+  "date": "2026-09-28",
+  "value": 39798,
+  "trades": [
+   {
+    "name": "David Boulette",
+    "role": "CEO",
+    "date": "2026-09-25",
+    "shares": 19800,
+    "value": 39798
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1156375,
+  "ticker": "CME",
+  "date": "2026-09-28",
+  "value": 78626,
+  "trades": [
+   {
+    "name": "William R Shepard",
+    "role": "Direktor",
+    "date": "2026-09-25",
+    "shares": 293,
+    "value": 78626
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 826675,
+  "ticker": "DX",
+  "date": "2026-09-28",
+  "value": 27950,
+  "trades": [
+   {
+    "name": "Terrence John Connelly Jr",
+    "role": "Vorstand",
+    "date": "2026-09-25",
+    "shares": 2500,
+    "value": 27950
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1800315,
+  "ticker": "DMRA",
+  "date": "2026-09-28",
+  "value": 252875,
+  "trades": [
+   {
+    "name": "Jennifer Jarrett",
+    "role": "President",
+    "date": "2026-09-25",
+    "shares": 12500,
+    "value": 252875
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1525769,
+  "ticker": "PLAY",
+  "date": "2026-09-28",
+  "value": 26000,
+  "trades": [
+   {
+    "name": "Cory Hatton",
+    "role": "Interim CFO",
+    "date": "2026-09-28",
+    "shares": 4000,
+    "value": 26000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1318008,
+  "ticker": "ZUMZ",
+  "date": "2026-09-28",
+  "value": 134000,
+  "trades": [
+   {
+    "name": "Adam Christopher Ellis",
+    "role": "President",
+    "date": "2026-09-18",
+    "shares": 10000,
+    "value": 134000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1810523,
+  "ticker": "FTHY",
+  "date": "2026-09-28",
+  "value": 129247,
+  "trades": [
+   {
+    "name": "David Mcgarel",
+    "role": "Vorstand",
+    "date": "2026-09-25",
+    "shares": 10000,
+    "value": 129247
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2007919,
+  "ticker": "INBX",
+  "date": "2026-09-28",
+  "value": 998784,
+  "trades": [
+   {
+    "name": "Mark Lappe",
+    "role": "CEO",
+    "date": "2026-09-28",
+    "shares": 10000,
+    "value": 998784
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1510599,
+  "ticker": "PDI",
+  "date": "2026-09-28",
+  "value": 75655,
+  "trades": [
+   {
+    "name": "Alan Rappaport",
+    "role": "Direktor",
+    "date": "2026-09-24",
+    "shares": 5500,
+    "value": 75655
+   }
+  ]
+ },
+ {
+  "kind": "trend",
+  "cik": 69422,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 0.2109
+ },
+ {
+  "kind": "trend",
+  "cik": 79661,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 0.3511
+ },
+ {
+  "kind": "trend",
+  "cik": 787253,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 0.2335
+ },
+ {
+  "kind": "trend",
+  "cik": 867840,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 1.0804
+ },
+ {
+  "kind": "trend",
+  "cik": 1433551,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 0.6912
+ },
+ {
+  "kind": "trend",
+  "cik": 1550913,
+  "date": "2026-09-28",
+  "period": "2026-Q1",
+  "growth": 0.2733
+ },
+ {
+  "kind": "trend",
+  "cik": 2065462,
+  "date": "2026-09-28",
+  "period": "2026-Q2",
+  "growth": 0.9996
+ }
+]
