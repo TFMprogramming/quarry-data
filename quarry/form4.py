@@ -74,6 +74,10 @@ def _role(relationship) -> str | None:
     if _flag(relationship, "isOfficer"):
         title = (_text(relationship, "officerTitle") or "").strip()
         lowered = title.lower()
+        words = set(lowered.replace(",", " ").replace("/", " ").replace("&", " ").split())
+        for abbreviation in ("ceo", "cfo", "coo", "cto"):
+            if abbreviation in words:
+                return abbreviation.upper()
         for needle, shortcut in TITLE_SHORTCUTS:
             if needle in lowered:
                 return shortcut

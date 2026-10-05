@@ -63,3 +63,8 @@ def test_names_are_turned_around_and_keep_suffixes():
     assert _person_name("Cohen Ryan") == "Ryan Cohen"
     assert _person_name("AULT MILTON C III") == "Milton C Ault III"
     assert _person_name("OLSEN MARGARET") == "Margaret Olsen"
+
+
+def test_abbreviated_titles_are_recognised():
+    xml = XML.replace("Chief Executive Officer", "EVP and CFO")
+    assert parse_form4(xml).role == "CFO"
