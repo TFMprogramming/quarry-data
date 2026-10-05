@@ -63,3 +63,10 @@ def test_profile_without_recent_events_has_no_trigger():
 def test_tradingview_symbol_uses_dots_for_share_classes():
     berkshire = dict(SUBMISSIONS, tickers=["BRK-B"], exchanges=["NYSE"])
     assert build_company(1, [INSIDER], berkshire, FACTS, TODAY)["tradingViewSymbol"] == "NYSE:BRK.B"
+
+
+def test_sector_is_german_and_original_kept():
+    semis = dict(SUBMISSIONS, sic="3674", sicDescription="Semiconductors & Related Devices")
+    company = build_company(1, [INSIDER], semis, FACTS, TODAY)
+    assert company["sector"] == "Halbleiter"
+    assert company["industry"] == "Semiconductors & Related Devices"

@@ -24,7 +24,7 @@ class FakeClient:
     def get_json(self, url):
         self.calls.append(url)
         if "submissions" in url:
-            return {"name": "MICRON TECHNOLOGY INC", "tickers": ["MU"], "exchanges": ["Nasdaq"], "sicDescription": "Semiconductors"}
+            return {"name": "MICRON TECHNOLOGY INC", "tickers": ["MU"], "exchanges": ["Nasdaq"], "sic": "3674", "sicDescription": "Semiconductors"}
         return {"facts": {}}
 
 
@@ -35,7 +35,7 @@ def test_builds_profile_without_recent_event(tmp_path):
     profile = json.loads((tmp_path / "723125.json").read_text())
     assert profile["ticker"] == "MU"
     assert profile["trigger"] is None
-    assert profile["sector"] == "Semiconductors"
+    assert profile["sector"] == "Halbleiter"
 
 
 def test_skips_profiles_that_are_not_due(tmp_path):

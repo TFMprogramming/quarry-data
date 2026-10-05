@@ -6,6 +6,7 @@ from datetime import date, timedelta
 from quarry.directory import display_name
 from quarry.facts import public_float, quarters, revenue_growth
 from quarry.formatting import money, percent
+from quarry.sectors import german_sector
 from quarry.signals import ATTENTION_MAX_FLOAT, MOMENTUM_MIN_GROWTH
 
 LISTED_EXCHANGES = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE Arca": "AMEX", "CBOE": "CBOE"}
@@ -66,7 +67,8 @@ def build_company(
         "exchange": exchange,
         # SEC writes share classes as "BRK-B", TradingView as "BRK.B".
         "tradingViewSymbol": f"{LISTED_EXCHANGES[exchange]}:{ticker.replace('-', '.')}",
-        "sector": submissions.get("sicDescription") or "Unbekannt",
+        "sector": german_sector(submissions.get("sic")),
+        "industry": submissions.get("sicDescription") or None,
         "publicFloat": floating,
         "importance": importance,
         "trigger": {"kind": trigger_event["kind"], "headline": _headline(trigger_event), "date": trigger_event["date"]}
