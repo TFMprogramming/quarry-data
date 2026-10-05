@@ -38,3 +38,9 @@ def test_several_buyers_headline():
     event = dict(INSIDER, trades=INSIDER["trades"] + [{"name": "Bob", "role": "Direktor", "date": "2026-10-01", "shares": 1, "value": 20_000}], value=500_000)
     company = build_company(1, [event], SUBMISSIONS, FACTS, TODAY)
     assert company["trigger"]["headline"] == "2 Insider kauften für 500.000 $"
+
+
+def test_purchase_larger_than_public_float_is_ignored():
+    tiny = {"facts": {"dei": {"EntityPublicFloat": {"units": {"USD": [{"val": 8_400_000, "filed": "2026-02-01"}]}}}}}
+    bogus = dict(INSIDER, value=92_412_000, trades=[dict(INSIDER["trades"][0], value=92_412_000)])
+    assert build_company(1, [bogus], SUBMISSIONS, tiny, TODAY) is None

@@ -56,3 +56,10 @@ def test_director_role():
         "<isDirector>0</isDirector>", "<isDirector>true</isDirector>"
     )
     assert parse_form4(xml).role == "Direktor"
+
+
+def test_names_are_turned_around_and_keep_suffixes():
+    from quarry.form4 import _person_name
+    assert _person_name("Cohen Ryan") == "Ryan Cohen"
+    assert _person_name("AULT MILTON C III") == "Milton C Ault III"
+    assert _person_name("OLSEN MARGARET") == "Margaret Olsen"

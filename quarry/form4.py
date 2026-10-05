@@ -83,12 +83,23 @@ def _role(relationship) -> str | None:
     return None
 
 
+NAME_SUFFIXES = {"JR", "JR.", "SR", "SR.", "II", "III", "IV"}
+
+
 def _person_name(sec_name: str) -> str:
-    """SEC writes 'LAST FIRST MIDDLE' in capitals; turn it into 'First Middle Last'."""
+    """SEC writes 'Last First Middle [Suffix]'; turn it into 'First Middle Last [Suffix]'."""
     parts = sec_name.split()
-    if len(parts) >= 2 and sec_name.isupper():
-        parts = parts[1:] + parts[:1]
-    return " ".join(part.capitalize() if part.isupper() else part for part in parts)
+    if len(parts) < 2:
+        return sec_name.title() if sec_name.isupper() else sec_name
+    suffix = [parts.pop()] if parts[-1].upper() in NAME_SUFFIXES else []
+    ordered = parts[1:] + parts[:1] + suffix
+    return " ".join(_name_case(part) for part in ordered)
+
+
+def _name_case(part: str) -> str:
+    if part.upper() in NAME_SUFFIXES:
+        return part.upper().replace("JR", "Jr").replace("SR", "Sr")
+    return part.capitalize() if part.isupper() else part
 
 
 def _flag(element, path: str) -> bool:

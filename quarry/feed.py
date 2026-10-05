@@ -20,6 +20,9 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
     ticker, exchange = listing
     facts = facts or {}
 
+    floating = public_float(facts)
+    events = [event for event in events if _is_plausible(event, floating)]
+
     window_start = (today - timedelta(days=FEED_WINDOW_DAYS)).isoformat()
     new_start = (today - timedelta(days=NEW_WITHIN_DAYS)).isoformat()
     recent = [event for event in events if event["date"] >= window_start]
@@ -30,7 +33,6 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
     insider_total = sum(event["value"] for event in insider)
     trades = sorted((trade for event in insider for trade in event["trades"]), key=lambda t: t["date"], reverse=True)
 
-    floating = public_float(facts)
     growth = revenue_growth(facts)
 
     signals = [
@@ -63,6 +65,12 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
             {"period": q.period, "revenue": q.revenue, "netIncome": q.net_income} for q in quarters(facts)
         ],
     }
+
+
+def _is_plausible(event: dict, floating: float | None) -> bool:
+    """Filers occasionally misreport prices. A purchase bigger than the whole
+    public float cannot be an ordinary open-market buy."""
+    return event["kind"] != "insider" or floating is None or event["value"] <= floating
 
 
 def _listing(submissions: dict) -> tuple[str, str] | None:
