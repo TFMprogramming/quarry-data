@@ -1,0 +1,165 @@
+[
+ {
+  "kind": "insider",
+  "cik": 879635,
+  "ticker": "MPB",
+  "date": "2026-10-02",
+  "value": 27435,
+  "trades": [
+   {
+    "name": "Robert A Abel",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 14,
+    "value": 496
+   },
+   {
+    "name": "Kimberly J Brumbaugh",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 70,
+    "value": 2478
+   },
+   {
+    "name": "Soto Matthew G De",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 283,
+    "value": 10018
+   },
+   {
+    "name": "Albert J. Evans",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 282,
+    "value": 9983
+   },
+   {
+    "name": "Joel L. Frank",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 70,
+    "value": 2478
+   },
+   {
+    "name": "Theodore W Mowery",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 56,
+    "value": 1982
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 15847,
+  "ticker": "BUKS",
+  "date": "2026-10-02",
+  "value": 61387,
+  "trades": [
+   {
+    "name": "Joseph Patrick Daly",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 15000,
+    "value": 61387
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1326380,
+  "ticker": "GME",
+  "date": "2026-10-02",
+  "value": 17084270,
+  "trades": [
+   {
+    "name": "Ryan Cohen",
+    "role": "Chairman",
+    "date": "2026-10-02",
+    "shares": 700000,
+    "value": 17084270
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1408534,
+  "ticker": "FGBI",
+  "date": "2026-10-02",
+  "value": 822014,
+  "trades": [
+   {
+    "name": "Edgar R. Smith III",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 99277,
+    "value": 822014
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1711141,
+  "ticker": "LEEEF",
+  "date": "2026-10-02",
+  "value": 89388,
+  "trades": [
+   {
+    "name": "Robert James Mendola Jr",
+    "role": "Direktor",
+    "date": "2026-05-18",
+    "shares": 357553,
+    "value": 89388
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1469395,
+  "ticker": "PAM",
+  "date": "2026-10-02",
+  "value": 5564817,
+  "trades": [
+   {
+    "name": "Damian Miguel Mindlin",
+    "role": "President",
+    "date": "2026-09-28",
+    "shares": 1432197,
+    "value": 5564817
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1901279,
+  "ticker": "NYAX",
+  "date": "2026-10-02",
+  "value": 2112082,
+  "trades": [
+   {
+    "name": "Yair Nechmad",
+    "role": "Chairman",
+    "date": "2026-09-30",
+    "shares": 44148,
+    "value": 2112082
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2148436,
+  "ticker": "PORT.U",
+  "date": "2026-10-02",
+  "value": 5000000,
+  "trades": [
+   {
+    "name": "Jeb S. Spencer",
+    "role": "CEO and CFO",
+    "date": "2026-09-30",
+    "shares": 500000,
+    "value": 5000000
+   }
+  ]
+ }
+]

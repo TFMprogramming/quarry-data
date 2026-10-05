@@ -1,0 +1,526 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1921865,
+  "ticker": "ASPI",
+  "date": "2026-10-01",
+  "value": 40200,
+  "trades": [
+   {
+    "name": "Robert John Andrew Ryan",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 15000,
+    "value": 40200
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 896493,
+  "ticker": "GPUS",
+  "date": "2026-10-01",
+  "value": 5051382,
+  "trades": [
+   {
+    "name": "Milton C Ault III",
+    "role": "Chairman",
+    "date": "2026-09-30",
+    "shares": 10313474,
+    "value": 5051382
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 102109,
+  "ticker": "UUU",
+  "date": "2026-10-01",
+  "value": 92412000,
+  "trades": [
+   {
+    "name": "Milton C Ault III",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 18000,
+    "value": 92412000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1063761,
+  "ticker": "SPG",
+  "date": "2026-10-01",
+  "value": 460716,
+  "trades": [
+   {
+    "name": "Glyn Aeppel",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 222,
+    "value": 45017
+   },
+   {
+    "name": "Martin J Cicco",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 15,
+    "value": 3042
+   },
+   {
+    "name": "Larry C Glasscock",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 367,
+    "value": 74420
+   },
+   {
+    "name": "Nina P Jones",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 46,
+    "value": 9328
+   },
+   {
+    "name": "Reuben S Leibowitz",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 480,
+    "value": 97334
+   },
+   {
+    "name": "Randall J Lewis",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 65,
+    "value": 13181
+   },
+   {
+    "name": "Gary M Rodkin",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 232,
+    "value": 47045
+   },
+   {
+    "name": "Peggy Roe",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 88,
+    "value": 17845
+   },
+   {
+    "name": "Stefan M Selig",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 208,
+    "value": 42178
+   },
+   {
+    "name": "Marta R Stewart",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 199,
+    "value": 40353
+   },
+   {
+    "name": "Daniel C. Smith",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 350,
+    "value": 70973
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1089063,
+  "ticker": "DKS",
+  "date": "2026-10-01",
+  "value": 499869,
+  "trades": [
+   {
+    "name": "Matthew Barnes",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 3665,
+    "value": 499869
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1069530,
+  "ticker": "FLNA",
+  "date": "2026-10-01",
+  "value": 278132,
+  "trades": [
+   {
+    "name": "Richard Barry",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 306813,
+    "value": 278132
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1930054,
+  "ticker": "NONE",
+  "date": "2026-10-01",
+  "value": 330000,
+  "trades": [
+   {
+    "name": "Joan Solotar",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 4355,
+    "value": 173000
+   },
+   {
+    "name": "Christopher J. James",
+    "role": "Chairperson",
+    "date": "2026-09-29",
+    "shares": 3298,
+    "value": 131000
+   },
+   {
+    "name": "Thomas M Morrison",
+    "role": "President",
+    "date": "2026-09-29",
+    "shares": 655,
+    "value": 26000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 17313,
+  "ticker": "CSWC",
+  "date": "2026-10-01",
+  "value": 50005,
+  "trades": [
+   {
+    "name": "William R Thomas III",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 2170,
+    "value": 50005
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1868995,
+  "ticker": "CINT",
+  "date": "2026-10-01",
+  "value": 28555,
+  "trades": [
+   {
+    "name": "Neto Bruno Guicardi",
+    "role": "Vorstand",
+    "date": "2026-09-30",
+    "shares": 2825,
+    "value": 8410
+   },
+   {
+    "name": "Cesar Nivaldo Gon",
+    "role": "CEO",
+    "date": "2026-09-30",
+    "shares": 6684,
+    "value": 20145
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1034957,
+  "ticker": "CRESY",
+  "date": "2026-10-01",
+  "value": 199282,
+  "trades": [
+   {
+    "name": "Alejandro Gustavo Elsztain",
+    "role": "CEO",
+    "date": "2026-10-01",
+    "shares": 17334,
+    "value": 199282
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1833141,
+  "ticker": "HELP",
+  "date": "2026-10-01",
+  "value": 38730,
+  "trades": [
+   {
+    "name": "Greg Cavers",
+    "role": "CFO",
+    "date": "2026-09-29",
+    "shares": 3000,
+    "value": 38730
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 39368,
+  "ticker": "FUL",
+  "date": "2026-10-01",
+  "value": 122248,
+  "trades": [
+   {
+    "name": "Celine Christine Martin",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 465,
+    "value": 22998
+   },
+   {
+    "name": "Michael J Happe",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 2000,
+    "value": 99250
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1770501,
+  "ticker": "VENU",
+  "date": "2026-10-01",
+  "value": 75900,
+  "trades": [
+   {
+    "name": "Thomas M Finke",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 50000,
+    "value": 75900
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 825202,
+  "ticker": "FUND",
+  "date": "2026-10-01",
+  "value": 1827221,
+  "trades": [
+   {
+    "name": "W Whitney George",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 181813,
+    "value": 1827221
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1326380,
+  "ticker": "GME",
+  "date": "2026-10-01",
+  "value": 254540,
+  "trades": [
+   {
+    "name": "Nat Turner",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 10462,
+    "value": 254540
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1653482,
+  "ticker": "GTLB",
+  "date": "2026-10-01",
+  "value": 124802,
+  "trades": [
+   {
+    "name": "William Staples",
+    "role": "CEO",
+    "date": "2026-09-30",
+    "shares": 2677,
+    "value": 124802
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1535955,
+  "ticker": "LPCN",
+  "date": "2026-10-01",
+  "value": 55043,
+  "trades": [
+   {
+    "name": "John W. Higuchi",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 25007,
+    "value": 55043
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1836242,
+  "ticker": "TKLF",
+  "date": "2026-10-01",
+  "value": 382711,
+  "trades": [
+   {
+    "name": "Mei Kanayama",
+    "role": "Vorstand",
+    "date": "2026-09-29",
+    "shares": 1396755,
+    "value": 382711
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1582313,
+  "ticker": "XENE",
+  "date": "2026-10-01",
+  "value": 1681140,
+  "trades": [
+   {
+    "name": "Thomas Patrick Kelly",
+    "role": "CFO",
+    "date": "2026-09-30",
+    "shares": 15000,
+    "value": 559740
+   },
+   {
+    "name": "Ian Mortimer",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 30000,
+    "value": 1121400
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1449349,
+  "ticker": "RDGL",
+  "date": "2026-10-01",
+  "value": 99600,
+  "trades": [
+   {
+    "name": "Michael K Korenko",
+    "role": "CEO",
+    "date": "2026-09-30",
+    "shares": 200000,
+    "value": 99600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1004980,
+  "ticker": "PCG",
+  "date": "2026-10-01",
+  "value": 91500,
+  "trades": [
+   {
+    "name": "John O Larsen",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 7500,
+    "value": 91500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1502292,
+  "ticker": "PRHI",
+  "date": "2026-10-01",
+  "value": 248878,
+  "trades": [
+   {
+    "name": "Harold J Meloche",
+    "role": "CFO, Treasurer",
+    "date": "2026-09-30",
+    "shares": 4100,
+    "value": 26138
+   },
+   {
+    "name": "Isolde O'Hanlon",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 7250,
+    "value": 48935
+   },
+   {
+    "name": "Brian J Roney",
+    "role": "CEO",
+    "date": "2026-09-30",
+    "shares": 7500,
+    "value": 50623
+   },
+   {
+    "name": "James Grant Smith",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 7250,
+    "value": 48935
+   },
+   {
+    "name": "Joseph D Sarafa",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 11000,
+    "value": 74247
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1341439,
+  "ticker": "ORCL",
+  "date": "2026-10-01",
+  "value": 3483800,
+  "trades": [
+   {
+    "name": "Stephen H Rusckowski",
+    "role": "Direktor",
+    "date": "2026-09-29",
+    "shares": 25000,
+    "value": 3483800
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2070534,
+  "ticker": "SLBT",
+  "date": "2026-10-01",
+  "value": 10329903316818,
+  "trades": [
+   {
+    "name": "Ching-Dong Wang",
+    "role": "CEO",
+    "date": "2026-09-29",
+    "shares": 4545306,
+    "value": 10329903316818
+   }
+  ]
+ },
+ {
+  "kind": "trend",
+  "cik": 1177394,
+  "date": "2026-10-01",
+  "period": "2026-Q3",
+  "growth": 0.3775
+ }
+]

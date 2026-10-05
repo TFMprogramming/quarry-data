@@ -44,3 +44,9 @@ def test_purchase_larger_than_public_float_is_ignored():
     tiny = {"facts": {"dei": {"EntityPublicFloat": {"units": {"USD": [{"val": 8_400_000, "filed": "2026-02-01"}]}}}}}
     bogus = dict(INSIDER, value=92_412_000, trades=[dict(INSIDER["trades"][0], value=92_412_000)])
     assert build_company(1, [bogus], SUBMISSIONS, tiny, TODAY) is None
+
+
+def test_display_name_keeps_apostrophes_lowercase():
+    from quarry.feed import _display_name
+    assert _display_name("DICK'S SPORTING GOODS, INC.") == "Dick's Sporting Goods, Inc."
+    assert _display_name("Oracle Corp") == "Oracle Corp"

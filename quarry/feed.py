@@ -125,4 +125,5 @@ def _trend_signal(growth: tuple[str, float] | None, is_new: bool) -> dict:
 
 
 def _display_name(name: str) -> str:
-    return name.title() if name.isupper() else name
+    # str.title() would turn "DICK'S" into "Dick'S"; capitalise word by word instead.
+    return " ".join(word.capitalize() for word in name.split()) if name.isupper() else name

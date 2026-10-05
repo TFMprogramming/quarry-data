@@ -1,0 +1,58 @@
+name: Daily feed
+
+on:
+  schedule:
+    # 05:00 UTC = 07:00 in German summer time, 06:00 in winter. SEC daily
+    # indexes of the previous day are published by then.
+    - cron: "0 5 * * 2-6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: |
+          pip install -r requirements-dev.txt
+          python -m pytest -q
+
+      - name: Build feed from SEC filings
+        run: python -m quarry --days 7
+        env:
+          QUARRY_USER_AGENT: "Quarry tim.mehrbrey@gmail.com"
+
+      - name: Keep processed days in the repository
+        run: |
+          git config user.name "quarry-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public
+          git diff --cached --quiet || git commit -m "Feed $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
