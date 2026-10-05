@@ -50,3 +50,16 @@ def test_display_name_keeps_apostrophes_lowercase():
     from quarry.feed import _display_name
     assert _display_name("DICK'S SPORTING GOODS, INC.") == "Dick's Sporting Goods, Inc."
     assert _display_name("Oracle Corp") == "Oracle Corp"
+
+
+def test_profile_without_recent_events_has_no_trigger():
+    old = dict(INSIDER, date="2026-08-01")
+    company = build_company(1, [old], SUBMISSIONS, FACTS, TODAY, require_recent=False)
+    assert company["trigger"] is None
+    assert {s["kind"]: s for s in company["signals"]}["insider"]["isActive"]
+    assert build_company(1, [old], SUBMISSIONS, FACTS, TODAY) is None
+
+
+def test_tradingview_symbol_uses_dots_for_share_classes():
+    berkshire = dict(SUBMISSIONS, tickers=["BRK-B"], exchanges=["NYSE"])
+    assert build_company(1, [INSIDER], berkshire, FACTS, TODAY)["tradingViewSymbol"] == "NYSE:BRK.B"

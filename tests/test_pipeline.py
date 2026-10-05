@@ -15,7 +15,7 @@ class FakeClient:
     def __init__(self, responses):
         self.responses = responses
 
-    def get_text(self, url):
+    def get_text(self, url, **kwargs):
         return self.responses.get(url)
 
     def get_json(self, url):

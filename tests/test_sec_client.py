@@ -32,3 +32,15 @@ def test_404_returns_none():
 
     client = SecClient("ua", opener=opener, max_per_second=1000)
     assert client.get_text("https://example.com/missing") is None
+
+
+def test_custom_absent_codes_return_none_without_retrying():
+    calls = []
+
+    def opener(request, timeout):
+        calls.append(1)
+        raise urllib.error.HTTPError(request.full_url, 403, "Forbidden", {}, None)
+
+    client = SecClient("ua", opener=opener, max_per_second=1000)
+    assert client.get_text("https://example.com/not-yet", absent_codes=(403, 404)) is None
+    assert len(calls) == 1

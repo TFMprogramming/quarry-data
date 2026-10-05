@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
+from quarry.directory import display_name
 from quarry.facts import public_float, quarters, revenue_growth
 from quarry.formatting import money, percent
 from quarry.signals import ATTENTION_MAX_FLOAT, MOMENTUM_MIN_GROWTH
@@ -12,8 +13,17 @@ FEED_WINDOW_DAYS = 7
 NEW_WITHIN_DAYS = 2
 
 
-def build_company(cik: int, events: list[dict], submissions: dict, facts: dict | None, today: date) -> dict | None:
-    """`events` are all of the company's events from the last 90 days."""
+def build_company(
+    cik: int,
+    events: list[dict],
+    submissions: dict,
+    facts: dict | None,
+    today: date,
+    require_recent: bool = True,
+) -> dict | None:
+    """`events` are all of the company's events from the last 90 days.
+    Feed entries need a recent event; profiles (`require_recent=False`) don't and
+    then carry no trigger."""
     listing = _listing(submissions)
     if listing is None:
         return None
@@ -26,7 +36,7 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
     window_start = (today - timedelta(days=FEED_WINDOW_DAYS)).isoformat()
     new_start = (today - timedelta(days=NEW_WITHIN_DAYS)).isoformat()
     recent = [event for event in events if event["date"] >= window_start]
-    if not recent:
+    if not recent and require_recent:
         return None
 
     insider = [event for event in events if event["kind"] == "insider"]
@@ -42,7 +52,7 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
         _trend_signal(growth, any(e["kind"] == "trend" and e["date"] >= new_start for e in events)),
     ]
 
-    trigger_event = max(recent, key=lambda event: (event["date"], event["kind"] == "insider"))
+    trigger_event = max(recent, key=lambda event: (event["date"], event["kind"] == "insider")) if recent else None
     importance = sum(1 for s in signals if s["isActive"]) + 0.5 * sum(1 for s in signals if s["isActive"] and s["isNew"])
     if insider_total >= 1_000_000:
         importance += 1
@@ -54,11 +64,13 @@ def build_company(cik: int, events: list[dict], submissions: dict, facts: dict |
         "ticker": ticker,
         "name": _display_name(submissions.get("name", ticker)),
         "exchange": exchange,
-        "tradingViewSymbol": f"{LISTED_EXCHANGES[exchange]}:{ticker}",
+        # SEC writes share classes as "BRK-B", TradingView as "BRK.B".
+        "tradingViewSymbol": f"{LISTED_EXCHANGES[exchange]}:{ticker.replace('-', '.')}",
         "sector": submissions.get("sicDescription") or "Unbekannt",
         "publicFloat": floating,
         "importance": importance,
-        "trigger": {"kind": trigger_event["kind"], "headline": _headline(trigger_event), "date": trigger_event["date"]},
+        "trigger": {"kind": trigger_event["kind"], "headline": _headline(trigger_event), "date": trigger_event["date"]}
+        if trigger_event else None,
         "signals": signals,
         "insiderTrades": trades[:10],
         "financials": [
@@ -125,5 +137,4 @@ def _trend_signal(growth: tuple[str, float] | None, is_new: bool) -> dict:
 
 
 def _display_name(name: str) -> str:
-    # str.title() would turn "DICK'S" into "Dick'S"; capitalise word by word instead.
-    return " ".join(word.capitalize() for word in name.split()) if name.isupper() else name
+    return display_name(name)

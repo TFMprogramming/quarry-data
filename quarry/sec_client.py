@@ -16,8 +16,11 @@ class SecClient:
         self.opener = opener or urllib.request.urlopen
         self._last_request = 0.0
 
-    def get_text(self, url: str) -> str | None:
-        """Body as text, or None if the resource does not exist (404)."""
+    def get_text(self, url: str, absent_codes: tuple[int, ...] = (404,)) -> str | None:
+        """Body as text, or None if the resource does not exist.
+
+        EDGAR answers 403 instead of 404 for daily indexes that aren't
+        published yet, so callers can widen `absent_codes`."""
         for attempt in range(self.retries):
             self._throttle()
             request = urllib.request.Request(url, headers={"User-Agent": self.user_agent, "Accept-Encoding": "gzip"})
@@ -28,7 +31,7 @@ class SecClient:
                         body = gzip.decompress(body)
                     return body.decode("utf-8", errors="replace")
             except urllib.error.HTTPError as error:
-                if error.code == 404:
+                if error.code in absent_codes:
                     return None
                 if error.code in (403, 429, 500, 502, 503) and attempt < self.retries - 1:
                     time.sleep(2 ** attempt * 5)

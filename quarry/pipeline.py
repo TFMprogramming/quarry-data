@@ -7,16 +7,27 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from quarry.daily_index import index_url, parse_form_index
+from quarry.directory import DIRECTORY_URL, index_json, parse_directory
 from quarry.facts import revenue_growth
 from quarry.feed import FEED_WINDOW_DAYS, build_company
 from quarry.form4 import extract_ownership_xml, parse_form4
+from quarry.profiles import build_profiles
 from quarry.signals import insider_events, momentum_event
 
 ARCHIVES = "https://www.sec.gov/Archives/"
 HISTORY_DAYS = 90
 
 
-def run(client, today: date, data_dir: Path, feed_path: Path, process_days: int = 7, log=print) -> dict:
+def run(
+    client,
+    today: date,
+    data_dir: Path,
+    feed_path: Path,
+    process_days: int = 7,
+    log=print,
+    profiles: bool = True,
+    profile_limit: int | None = None,
+) -> dict:
     events_dir = Path(data_dir) / "events"
     events_dir.mkdir(parents=True, exist_ok=True)
 
@@ -25,7 +36,7 @@ def run(client, today: date, data_dir: Path, feed_path: Path, process_days: int 
         target = events_dir / f"{day.isoformat()}.json"
         if day.weekday() >= 5 or target.exists():
             continue
-        index = client.get_text(index_url(day))
+        index = client.get_text(index_url(day), absent_codes=(403, 404))
         if index is None:
             log(f"{day}: kein Index (Feiertag oder noch nicht veröffentlicht)")
             continue
@@ -38,7 +49,36 @@ def run(client, today: date, data_dir: Path, feed_path: Path, process_days: int 
     feed_path.parent.mkdir(parents=True, exist_ok=True)
     feed_path.write_text(json.dumps(feed, ensure_ascii=False, indent=1))
     log(f"Feed: {len(feed['companies'])} Firmen -> {feed_path}")
+
+    if profiles:
+        build_directory(client, today, events_dir, feed_path.parent, {c["cik"] for c in feed["companies"]}, log, profile_limit)
     return feed
+
+
+def build_directory(client, today: date, events_dir: Path, public_dir: Path, feed_ciks: set[int], log=print,
+                    limit: int | None = None) -> None:
+    """index.json for search plus one profile per listed company."""
+    raw = client.get_json(DIRECTORY_URL)
+    if not raw:
+        log("Firmenverzeichnis nicht verfügbar – Profile übersprungen")
+        return
+    entries = parse_directory(raw)
+    (public_dir / "index.json").write_text(json.dumps(index_json(entries), ensure_ascii=False, separators=(",", ":")))
+    log(f"Index: {len(entries)} Kürzel")
+    written = build_profiles(client, entries, load_events(events_dir, today), today, public_dir / "companies",
+                             feed_ciks, log, limit)
+    log(f"Profile geschrieben: {written}")
+
+
+def load_events(events_dir: Path, today: date) -> dict[int, list[dict]]:
+    """All events of the last HISTORY_DAYS days, grouped by company."""
+    history_start = (today - timedelta(days=HISTORY_DAYS)).isoformat()
+    by_company: dict[int, list[dict]] = defaultdict(list)
+    for path in sorted(Path(events_dir).glob("*.json")):
+        if path.stem >= history_start:
+            for event in json.loads(path.read_text()):
+                by_company[event["cik"]].append(event)
+    return by_company
 
 
 def process_day(client, day: date, index_text: str, log=print) -> list[dict]:
@@ -66,12 +106,7 @@ def process_day(client, day: date, index_text: str, log=print) -> list[dict]:
 
 
 def build_feed(client, today: date, events_dir: Path, log=print) -> dict:
-    history_start = (today - timedelta(days=HISTORY_DAYS)).isoformat()
-    by_company: dict[int, list[dict]] = defaultdict(list)
-    for path in sorted(Path(events_dir).glob("*.json")):
-        if path.stem >= history_start:
-            for event in json.loads(path.read_text()):
-                by_company[event["cik"]].append(event)
+    by_company = load_events(events_dir, today)
 
     companies = []
     window_start = (today - timedelta(days=FEED_WINDOW_DAYS)).isoformat()

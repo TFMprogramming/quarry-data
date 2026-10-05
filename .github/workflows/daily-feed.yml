@@ -19,7 +19,7 @@ concurrency:
 jobs:
   feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -34,6 +34,15 @@ jobs:
         run: |
           pip install -r requirements-dev.txt
           python -m pytest -q
+
+      # Company profiles are rebuilt in a five-day rotation, so keep them
+      # between runs. A lost cache only means one longer full rebuild.
+      - name: Restore company profiles
+        uses: actions/cache@v4
+        with:
+          path: public/companies
+          key: profiles-${{ github.run_id }}
+          restore-keys: profiles-
 
       - name: Build feed from SEC filings
         run: python -m quarry --days 7
