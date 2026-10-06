@@ -1,0 +1,291 @@
+[
+ {
+  "kind": "insider",
+  "cik": 2141406,
+  "ticker": "ACCV",
+  "date": "2026-10-05",
+  "value": 4098600,
+  "trades": [
+   {
+    "name": "Brent C Jewell",
+    "role": "COO",
+    "date": "2026-10-01",
+    "shares": 2500,
+    "value": 45000
+   },
+   {
+    "name": "Paul D Donahue",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 7000,
+    "value": 126000
+   },
+   {
+    "name": "Howard C Heckes",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 5000,
+    "value": 90000
+   },
+   {
+    "name": "Ginger M Jones",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 10000,
+    "value": 180000
+   },
+   {
+    "name": "Michael Rubiera",
+    "role": "CEO",
+    "date": "2026-10-01",
+    "shares": 203200,
+    "value": 3657600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1095435,
+  "ticker": "ALP",
+  "date": "2026-10-05",
+  "value": 51483,
+  "trades": [
+   {
+    "name": "Yury Mitin",
+    "role": "See Remarks",
+    "date": "2026-09-14",
+    "shares": 12657,
+    "value": 51483
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1160330,
+  "ticker": "BBD",
+  "date": "2026-10-05",
+  "value": 39338578,
+  "trades": [
+   {
+    "name": "Denise Aguiar Alvarez",
+    "role": "Direktor",
+    "date": "2026-08-31",
+    "shares": 1950000,
+    "value": 33581299
+   },
+   {
+    "name": "Denise Aguiar Alvarez",
+    "role": "Direktor",
+    "date": "2026-08-25",
+    "shares": 345000,
+    "value": 5757279
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-05",
+  "value": 3493283,
+  "trades": [
+   {
+    "name": "Ryan S MacDonald",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 6700,
+    "value": 85090
+   },
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 269164,
+    "value": 3408193
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1499849,
+  "ticker": "LND",
+  "date": "2026-10-05",
+  "value": 199696,
+  "trades": [
+   {
+    "name": "Alejandro Gustavo Elsztain",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 56750,
+    "value": 199696
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 887396,
+  "ticker": "EP",
+  "date": "2026-10-05",
+  "value": 26825,
+  "trades": [
+   {
+    "name": "Phil E Mulacek",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 11915,
+    "value": 26825
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1341170,
+  "ticker": "ESEA",
+  "date": "2026-10-05",
+  "value": 74626,
+  "trades": [
+   {
+    "name": "Aristeidis P Pittas",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 1050,
+    "value": 74626
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1489874,
+  "ticker": "GGROU",
+  "date": "2026-10-05",
+  "value": 50000,
+  "trades": [
+   {
+    "name": "Chris A Johnson",
+    "role": "Direktor",
+    "date": "2026-10-01",
+    "shares": 10000,
+    "value": 50000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1823587,
+  "ticker": "SKYH",
+  "date": "2026-10-05",
+  "value": 35612,
+  "trades": [
+   {
+    "name": "Francisco Gonzalez",
+    "role": "CFO",
+    "date": "2026-10-02",
+    "shares": 3850,
+    "value": 35612
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1930510,
+  "ticker": "VCIG",
+  "date": "2026-10-05",
+  "value": 313225,
+  "trades": [
+   {
+    "name": "Voon Him Hoo",
+    "role": "CEO",
+    "date": "2026-09-30",
+    "shares": 193349,
+    "value": 313225
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 63754,
+  "ticker": "MKC",
+  "date": "2026-10-05",
+  "value": 44610,
+  "trades": [
+   {
+    "name": "Gavin Hattersley",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 1000,
+    "value": 44610
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2115681,
+  "ticker": "NONE",
+  "date": "2026-10-05",
+  "value": 100000,
+  "trades": [
+   {
+    "name": "Stephen Craig Jacobs",
+    "role": "Secretary of Issuer",
+    "date": "2025-10-02",
+    "shares": 10000,
+    "value": 100000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1620393,
+  "ticker": "NXRT",
+  "date": "2026-10-05",
+  "value": 201049,
+  "trades": [
+   {
+    "name": "Matt McGraner",
+    "role": "See Remarks",
+    "date": "2026-10-05",
+    "shares": 10780,
+    "value": 201049
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 838875,
+  "ticker": "WVVI",
+  "date": "2026-10-05",
+  "value": 30565,
+  "trades": [
+   {
+    "name": "Michael Jordan Osborn",
+    "role": "CEO",
+    "date": "2026-10-02",
+    "shares": 10000,
+    "value": 19065
+   },
+   {
+    "name": "Gregory William Voorhies",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 6000,
+    "value": 11500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1357459,
+  "ticker": "PALI",
+  "date": "2026-10-05",
+  "value": 28800,
+  "trades": [
+   {
+    "name": "Donald Allen Williams",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 20000,
+    "value": 28800
+   }
+  ]
+ }
+]
