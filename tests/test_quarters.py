@@ -1,6 +1,6 @@
 from datetime import date
 
-from quarry.quarters import quarter_table, year_ago
+from quarry.quarters import current, quarter_table, year_ago
 
 
 def _entry(start, end, val, filed="2026-01-01"):
@@ -55,3 +55,9 @@ def test_losses_stay_negative_and_feed_the_fourth_quarter():
         _entry("2025-02-28", "2025-05-29", -3), _entry("2024-08-30", "2025-08-28", -10, filed="2025-10-01"),
     ]))
     assert [q.net_income for q in table] == [-5, -4, -3, 2]
+
+
+def test_stale_tables_are_dropped():
+    table = quarter_table(_facts(Revenues=FISCAL))
+    assert current(table, date(2025, 12, 1)) == table
+    assert current(table, date(2026, 10, 6)) == []

@@ -9,7 +9,7 @@ from quarry.facts import balance, public_float
 from quarry.formatting import money, percent
 from quarry.sectors import german_sector
 from quarry.insiders import insider_profile
-from quarry.quarters import quarter_table
+from quarry.quarters import current, quarter_table
 from quarry.timeline import timeline
 from quarry.upswing import UPSWING_KINDS, is_newcomer, revenue_growth_latest, upswing_signals
 from quarry.valuation import ValuationContext, basis
@@ -59,9 +59,9 @@ def build_company(
     insider_total = sum(event["value"] for event in insider)
     trades = sorted((trade for event in insider for trade in event["trades"]), key=lambda t: t["date"], reverse=True)
 
-    table = quarter_table(facts)
+    table = current(quarter_table(facts), today)
     sector = german_sector(submissions.get("sic"))
-    valued = valuation_context.value(cik, basis(facts, submissions, sector)) if valuation_context else None
+    valued = valuation_context.value(cik, basis(facts, submissions, sector, today)) if valuation_context else None
     figures = balance(facts)
     filings = timeline(cik, submissions, today, holder_filings or {})
     if insider_since is not None:

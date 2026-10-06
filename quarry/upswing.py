@@ -8,7 +8,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from quarry.formatting import percent
-from quarry.quarters import QuarterFigures, growth, quarter_table, year_ago
+from quarry.quarters import QuarterFigures, current, growth, quarter_table, year_ago
 
 MIN_GROWTH = 0.15
 MIN_ACCELERATION = 0.05  # percentage points faster than the quarter before
@@ -50,7 +50,8 @@ def is_newcomer(table: list[QuarterFigures], today: date, score: int) -> bool:
 
 def upswing_event(cik: int, filed: date, facts: dict | None) -> dict | None:
     """A feed event when a fresh quarterly report shows signs of an upswing."""
-    active = [signal for signal in upswing_signals(quarter_table(facts or {}), filed) if signal["isActive"]]
+    active = [signal for signal in upswing_signals(current(quarter_table(facts or {}), filed), filed)
+              if signal["isActive"]]
     if not active:
         return None
     return {"kind": active[0]["kind"], "cik": cik, "date": filed.isoformat(), "headline": active[0]["headline"],

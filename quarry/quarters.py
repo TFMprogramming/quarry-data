@@ -11,6 +11,8 @@ from datetime import date, timedelta
 from quarry.facts import REVENUE_CONCEPTS
 
 QUARTER_DAYS = range(80, 101)
+# The latest quarter must be this fresh, or the company has stopped reporting in a way we can read.
+MAX_AGE_DAYS = 200
 YEAR_DAYS = range(350, 381)
 TOLERANCE = timedelta(days=4)
 MAX_QUARTERS = 12
@@ -53,6 +55,13 @@ def quarter_table(facts: dict) -> list[QuarterFigures]:
         if gross_profit is None and _value(cost, end) is not None:
             gross_profit = value - _value(cost, end)
         table.append(QuarterFigures(start, end, filed, value, _value(income, end), gross_profit, _value(operating, end)))
+    return table
+
+
+def current(table: list[QuarterFigures], today: date) -> list[QuarterFigures]:
+    """The table if its latest quarter is recent, otherwise nothing."""
+    if not table or table[-1].end < today - timedelta(days=MAX_AGE_DAYS):
+        return []
     return table
 
 

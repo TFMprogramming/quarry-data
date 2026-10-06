@@ -12,7 +12,7 @@ from pathlib import Path
 from statistics import median
 
 from quarry.facts import REVENUE_CONCEPTS, _shares, _trailing_year
-from quarry.quarters import quarter_table
+from quarry.quarters import current, quarter_table
 from quarry.prices import Close, close_for
 
 MIN_PEERS = 8
@@ -23,8 +23,9 @@ FOREIGN_FORMS = {"20-F", "40-F", "20-F/A", "40-F/A"}
 LISTED = {"Nasdaq", "NYSE", "NYSE American", "NYSE Arca", "CBOE"}
 
 
-def basis(facts: dict, submissions: dict, sector: str) -> dict | None:
-    """The SEC figures a valuation needs, or None if they are missing or not comparable."""
+def basis(facts: dict, submissions: dict, sector: str, today: date | None = None) -> dict | None:
+    """The SEC figures a valuation needs, or None if they are missing or not comparable.
+    With `today`, a latest quarter that is too old is not used for the run-rate P/E."""
     forms = set(submissions.get("filings", {}).get("recent", {}).get("form", []))
     if forms & FOREIGN_FORMS:
         # Foreign filers count ordinary shares while the listed ticker is often an ADR.
@@ -37,7 +38,10 @@ def basis(facts: dict, submissions: dict, sector: str) -> dict | None:
         return None
     revenue = next((value for value in (_trailing_year(gaap, concept) for concept in REVENUE_CONCEPTS)
                     if value is not None), None)
-    latest = next((q for q in reversed(quarter_table(facts or {})) if q.net_income is not None), None)
+    table = quarter_table(facts or {})
+    if today is not None:
+        table = current(table, today)
+    latest = next((q for q in reversed(table) if q.net_income is not None), None)
     return {"tickers": tickers, "sector": sector, "netIncome": _trailing_year(gaap, "NetIncomeLoss"),
             "revenue": revenue, "shares": shares,
             "quarterIncome": latest.net_income if latest else None,
