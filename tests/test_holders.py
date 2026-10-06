@@ -65,8 +65,9 @@ def test_latest_filing_per_holder_wins_and_cache_saves_requests(tmp_path):
 
 
 def test_without_budget_uncached_filings_wait(tmp_path):
-    holders = holders_for(FakeClient(), 723125, SUBMISSIONS, HolderCache(tmp_path / "h.json"), date(2026, 10, 6), Budget(1))
-    assert len(holders) == 1
+    cache = HolderCache(tmp_path / "h.json")
+    assert holders_for(FakeClient(), 723125, SUBMISSIONS, cache, date(2026, 10, 6), Budget(1)) is None
+    assert len(holders_for(FakeClient(), 723125, SUBMISSIONS, cache, date(2026, 10, 6), Budget(5))) == 2
 
 
 def test_stakes_in_other_companies_and_small_stakes_are_left_out(tmp_path):

@@ -98,7 +98,7 @@ def build_company(
         "about": _about(submissions),
         "insiderSummary": insider_summary,
         "insiderTransactions": insider_transactions,
-        "holders": holders or [],
+        "holders": holders,  # None: not (completely) known yet
         "events": filings,
         "balance": figures,
         "checks": health_checks(quarters(facts), figures, filings, financial=_is_financial(submissions)),

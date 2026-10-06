@@ -50,7 +50,8 @@ class HolderCache:
         self.path.write_text(json.dumps(self.entries, ensure_ascii=False, separators=(",", ":")))
 
 
-def holders_for(client, cik: int, submissions: dict, cache: HolderCache, today: date, budget: Budget) -> list[dict]:
+def holders_for(client, cik: int, submissions: dict, cache: HolderCache, today: date,
+                budget: Budget) -> list[dict] | None:
     """The latest reported stake of each holder that still holds 5 % or more, largest first.
 
     A company's filing list also holds the stakes it reports in *other*
@@ -58,6 +59,7 @@ def holders_for(client, cik: int, submissions: dict, cache: HolderCache, today: 
     recent = submissions.get("filings", {}).get("recent", {})
     oldest = (today - timedelta(days=HISTORY_DAYS)).isoformat()
     latest: dict[int, dict] = {}
+    complete = True
     rows = zip(recent.get("form", []), recent.get("filingDate", []), recent.get("accessionNumber", []),
                recent.get("primaryDocument", []))
     for form, filed, accession, document in sorted(rows, key=lambda row: row[1]):
@@ -65,6 +67,7 @@ def holders_for(client, cik: int, submissions: dict, cache: HolderCache, today: 
             continue
         if accession not in cache.entries:
             if not budget.allows():
+                complete = False
                 continue
             budget.spend()
             xml = client.get_text(_document_url(cik, accession, document))
@@ -76,6 +79,8 @@ def holders_for(client, cik: int, submissions: dict, cache: HolderCache, today: 
         if parsed and parsed["percent"] is not None and parsed.get("issuer") == cik:
             latest[parsed["filer"]] = {"name": parsed["name"], "percent": parsed["percent"], "date": filed,
                                        "activist": parsed["activist"]}
+    if not complete:
+        return None
     current = [holder for holder in latest.values() if holder["percent"] >= THRESHOLD]
     return sorted(current, key=lambda holder: holder["percent"], reverse=True)
 

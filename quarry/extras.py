@@ -18,7 +18,7 @@ class CompanyExtras:
 
     def for_company(self, client, cik: int, submissions: dict, today: date) -> dict:
         """Keyword arguments for `build_company`."""
-        holders = []
+        holders = None
         if self.holder_cache is not None:
             holders = holders_for(client, cik, submissions, self.holder_cache, today, self.holder_budget)
         return {
