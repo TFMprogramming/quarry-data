@@ -26,6 +26,7 @@ HISTORY_DAYS = 365
 # Indexes of the last few days may simply not be out yet; older missing ones are holidays.
 INDEX_GRACE_DAYS = 3
 MAX_TRANSACTIONS = 50
+MAX_PEOPLE = 5
 DATASET_LINK = re.compile(r'href="([^"]*/(\d{4}q[1-4])_form345\.zip)"')
 
 
@@ -211,7 +212,8 @@ def insider_profile(records: list[dict], today: date, since: date,
 
     sells = side("S")
     sells["planned"] = sum(1 for r in kept if r["code"] == "S" and r["planned"])
-    summary = {"since": max(since, today - timedelta(days=HISTORY_DAYS)).isoformat(), "buys": side("P"), "sells": sells}
+    summary = {"since": max(since, today - timedelta(days=HISTORY_DAYS)).isoformat(), "buys": side("P"), "sells": sells,
+               "byPerson": _by_person(kept)}
 
     latest = sorted(kept, key=lambda r: r["date"], reverse=True)[:MAX_TRANSACTIONS]
     transactions = [{
@@ -220,6 +222,19 @@ def insider_profile(records: list[dict], today: date, since: date,
         "sharesAfter": r["after"], "planned": r["planned"],
     } for r in latest]
     return summary, transactions
+
+
+def _by_person(records: list[dict]) -> list[dict]:
+    """The people who traded the most, with what they bought and sold in total."""
+    people: dict[str, dict] = {}
+    for record in sorted(records, key=lambda r: r["date"]):
+        person = people.setdefault(record["name"], {"name": record["name"], "bought": 0, "sold": 0, "trades": 0})
+        person["role"] = tidy_role(record["role"])  # the latest one
+        person["bought" if record["code"] == "P" else "sold"] += round(record["shares"] * record["price"])
+        person["trades"] += 1
+    ranked = sorted(people.values(), key=lambda p: p["bought"] + p["sold"], reverse=True)[:MAX_PEOPLE]
+    return [{"name": p["name"], "role": p["role"], "bought": p["bought"], "sold": p["sold"], "trades": p["trades"]}
+            for p in ranked]
 
 
 def _load_datasets(client, store: InsiderStore, oldest: date, log) -> None:

@@ -122,6 +122,10 @@ def test_insider_profile_sums_buys_and_sells_and_drops_duplicates():
         "since": "2025-10-06",
         "buys": {"count": 2, "people": 2, "value": 12200},
         "sells": {"count": 1, "people": 1, "value": 36000, "planned": 1},
+        "byPerson": [
+            {"name": "Ann Lee", "role": "CEO", "bought": 10000, "sold": 36000, "trades": 2},
+            {"name": "Bo Kim", "role": "Direktor", "bought": 2200, "sold": 0, "trades": 1},
+        ],
     }
     assert [t["kind"] for t in transactions] == ["sell", "buy", "buy"]
     assert transactions[0] == {"name": "Ann Lee", "role": "CEO", "date": "2026-09-10", "kind": "sell", "shares": 3000,
