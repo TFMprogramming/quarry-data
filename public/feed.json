@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-06T10:56:08+00:00",
+ "generatedAt": "2026-10-06T12:17:35+00:00",
  "companies": [
   {
    "cik": 1341439,
@@ -51,7 +51,14 @@
     "score": 4,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.2960605654562509
+    "revenueGrowth": 0.2960605654562509,
+    "history": [
+     [
+      "2026-10-06",
+      4
+     ]
+    ],
+    "since": "2026-10-06"
    },
    "insiderTrades": [
     {
@@ -538,7 +545,14 @@
     "score": 3,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.1872042789549475
+    "revenueGrowth": -0.1872042789549475,
+    "history": [
+     [
+      "2026-10-06",
+      3
+     ]
+    ],
+    "since": "2026-10-06"
    },
    "insiderTrades": [
     {
@@ -1193,7 +1207,14 @@
     "score": 2,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.37745260279840354
+    "revenueGrowth": 0.37745260279840354,
+    "history": [
+     [
+      "2026-10-06",
+      2
+     ]
+    ],
+    "since": "2026-10-06"
    },
    "insiderTrades": [],
    "financials": [
@@ -1962,7 +1983,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -2479,7 +2507,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -2801,7 +2836,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -3039,7 +3081,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -3246,7 +3295,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -3684,7 +3740,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -4403,7 +4466,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.34750154702970293
+    "revenueGrowth": 0.34750154702970293,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -5426,7 +5496,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -5613,7 +5690,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -6155,7 +6239,14 @@
     "score": 2,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.0006781959986437158
+    "revenueGrowth": 0.0006781959986437158,
+    "history": [
+     [
+      "2026-10-06",
+      2
+     ]
+    ],
+    "since": "2026-10-06"
    },
    "insiderTrades": [
     {
@@ -6687,7 +6778,14 @@
     "score": 2,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.4333705218792612
+    "revenueGrowth": -0.4333705218792612,
+    "history": [
+     [
+      "2026-10-06",
+      2
+     ]
+    ],
+    "since": "2026-10-06"
    },
    "insiderTrades": [
     {
@@ -7116,7 +7214,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -7266,7 +7371,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -7483,7 +7595,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -7824,7 +7943,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -8140,7 +8266,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -8414,7 +8547,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.0857893534384282
+    "revenueGrowth": 0.0857893534384282,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -8960,7 +9100,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -9185,7 +9332,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.49590163934426235
+    "revenueGrowth": 0.49590163934426235,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -9672,7 +9826,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.17386515160299143
+    "revenueGrowth": 0.17386515160299143,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -10196,7 +10357,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.023119922722450115
+    "revenueGrowth": 0.023119922722450115,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -10629,7 +10797,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.015642576234853656
+    "revenueGrowth": -0.015642576234853656,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -11001,7 +11176,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -11539,7 +11721,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -12205,7 +12394,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -12542,7 +12738,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.05171499580177197
+    "revenueGrowth": 0.05171499580177197,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -12855,6 +13058,12 @@
    ],
    "events": [
     {
+     "date": "2026-10-06",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/39368/000143774926032108/ful20261005d_8k.htm"
+    },
+    {
      "date": "2026-09-28",
      "title": "Wechsel in Vorstand oder Aufsichtsrat",
      "kind": "people",
@@ -13031,7 +13240,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.1949596218515155
+    "revenueGrowth": 0.1949596218515155,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -13890,7 +14106,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.5320546501194532
+    "revenueGrowth": 0.5320546501194532,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -14381,7 +14604,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -14594,7 +14824,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -15476,7 +15713,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -15635,7 +15879,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.14254753914988816
+    "revenueGrowth": -0.14254753914988816,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -16091,7 +16342,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -16738,7 +16996,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.694791193371106
+    "revenueGrowth": -0.694791193371106,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -17206,7 +17471,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 3.2762938230383973
+    "revenueGrowth": 3.2762938230383973,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -18015,7 +18287,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -18402,7 +18681,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -18697,7 +18983,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -19041,7 +19334,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -19348,7 +19648,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.06867236852749325
+    "revenueGrowth": 0.06867236852749325,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -20055,7 +20362,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.21314629598236978
+    "revenueGrowth": 0.21314629598236978,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -20701,7 +21015,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": -0.011809611640536954
+    "revenueGrowth": -0.011809611640536954,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -21201,7 +21522,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.27565574565800954
+    "revenueGrowth": 0.27565574565800954,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -22084,7 +22412,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -22371,7 +22706,14 @@
     "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": null
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [
     {
@@ -23085,7 +23427,14 @@
     "score": 0,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.5445001279395383
+    "revenueGrowth": 0.5445001279395383,
+    "history": [
+     [
+      "2026-10-06",
+      0
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [],
    "financials": [
@@ -23431,7 +23780,14 @@
     "score": 0,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.24121146565711205
+    "revenueGrowth": 0.24121146565711205,
+    "history": [
+     [
+      "2026-10-06",
+      0
+     ]
+    ],
+    "since": null
    },
    "insiderTrades": [],
    "financials": [
