@@ -3,11 +3,14 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
+from quarry.checks import health_checks
 from quarry.directory import display_name
-from quarry.facts import public_float, quarters, revenue_growth
+from quarry.facts import balance, public_float, quarters, revenue_growth
 from quarry.formatting import money, percent
 from quarry.sectors import german_sector
+from quarry.insiders import insider_profile
 from quarry.signals import ATTENTION_MAX_FLOAT, MOMENTUM_MIN_GROWTH
+from quarry.timeline import timeline
 
 LISTED_EXCHANGES = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE Arca": "AMEX", "CBOE": "CBOE"}
 FEED_WINDOW_DAYS = 7
@@ -21,10 +24,18 @@ def build_company(
     facts: dict | None,
     today: date,
     require_recent: bool = True,
+    insider_records: list[dict] | None = None,
+    insider_since: date | None = None,
+    holders: list[dict] | None = None,
+    holder_filings: dict[str, dict] | None = None,
 ) -> dict | None:
     """`events` are all of the company's events from the last 90 days.
     Feed entries need a recent event; profiles (`require_recent=False`) don't and
-    then carry no trigger."""
+    then carry no trigger.
+
+    `insider_records` is the company's insider history, complete since
+    `insider_since`; `holders` its large shareholders and `holder_filings` the
+    parsed 13D/G filings by accession, to name holders in the timeline."""
     listing = _listing(submissions)
     if listing is None:
         return None
@@ -45,6 +56,12 @@ def build_company(
     trades = sorted((trade for event in insider for trade in event["trades"]), key=lambda t: t["date"], reverse=True)
 
     growth = revenue_growth(facts)
+    figures = balance(facts)
+    filings = timeline(cik, submissions, today, holder_filings or {})
+    if insider_since is not None:
+        insider_summary, insider_transactions = insider_profile(insider_records or [], today, insider_since, floating)
+    else:
+        insider_summary, insider_transactions = None, []
 
     signals = [
         _signal("value", False, "Bald verfügbar", "Die Bewertung kommt mit lizenzierten Kursdaten."),
@@ -78,7 +95,27 @@ def build_company(
         "financials": [
             {"period": q.period, "revenue": q.revenue, "netIncome": q.net_income} for q in quarters(facts)
         ],
+        "about": _about(submissions),
+        "insiderSummary": insider_summary,
+        "insiderTransactions": insider_transactions,
+        "holders": holders or [],
+        "events": filings,
+        "balance": figures,
+        "checks": health_checks(quarters(facts), figures, filings),
     }
+
+
+def _about(submissions: dict) -> dict:
+    address = submissions.get("addresses", {}).get("business") or {}
+    city = display_name(address.get("city") or "")
+    region = address.get("stateOrCountryDescription") if address.get("isForeignLocation") else address.get("stateOrCountry")
+    about = {}
+    if city:
+        about["location"] = f"{city}, {region}" if region else city
+    fiscal_end = submissions.get("fiscalYearEnd") or ""
+    if len(fiscal_end) == 4 and fiscal_end[:2].isdigit() and 1 <= int(fiscal_end[:2]) <= 12:
+        about["fiscalYearEndMonth"] = int(fiscal_end[:2])
+    return about
 
 
 def _is_plausible(event: dict, floating: float | None) -> bool:

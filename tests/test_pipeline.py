@@ -36,7 +36,10 @@ def test_run_writes_events_and_feed(tmp_path):
         process_days=2, log=lambda message: None)
 
     assert (tmp_path / "data" / "events" / "2026-10-02.json").exists()
+    insiders = json.loads((tmp_path / "data" / "insiders" / "2026-10-02.json").read_text())
+    assert [(r["cik"], r["code"], r["name"]) for r in insiders] == [(108312, "P", "Margaret Olsen")]
     feed = json.loads(feed_path.read_text())
     assert feed["version"] == 1
     assert [c["ticker"] for c in feed["companies"]] == ["WWD"]
     assert feed["companies"][0]["trigger"]["headline"] == "CEO kaufte für 479.700 $"
+    assert feed["companies"][0]["insiderSummary"]["buys"]["count"] == 1

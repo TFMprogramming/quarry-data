@@ -39,8 +39,20 @@ def test_builds_profile_without_recent_event(tmp_path):
 
 
 def test_skips_profiles_that_are_not_due(tmp_path):
+    from quarry.profiles import PROFILE_VERSION
+    (tmp_path / "version.txt").write_text(str(PROFILE_VERSION))
     (tmp_path / "723127.json").write_text("{}")  # 723127 % 5 == 2, exists
     entries = [DirectoryEntry(723127, "XYZ", "Xyz", "Nasdaq")]
     client = FakeClient()
     assert build_profiles(client, entries, {}, TUESDAY, tmp_path, feed_ciks=set(), log=lambda m: None) == 0
     assert client.calls == []
+
+
+def test_new_profile_format_rebuilds_everything_once(tmp_path):
+    from quarry.profiles import PROFILE_VERSION
+    (tmp_path / "version.txt").write_text(str(PROFILE_VERSION - 1))
+    (tmp_path / "723127.json").write_text("{}")
+    entries = [DirectoryEntry(723127, "XYZ", "Xyz", "Nasdaq")]
+    assert build_profiles(FakeClient(), entries, {}, TUESDAY, tmp_path, feed_ciks=set(), log=lambda m: None) == 1
+    assert (tmp_path / "version.txt").read_text() == str(PROFILE_VERSION)
+    assert build_profiles(FakeClient(), entries, {}, TUESDAY, tmp_path, feed_ciks=set(), log=lambda m: None) == 0

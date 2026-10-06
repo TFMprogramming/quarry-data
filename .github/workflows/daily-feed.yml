@@ -44,6 +44,15 @@ jobs:
           key: profiles-${{ github.run_id }}
           restore-keys: profiles-
 
+      # Parsed 5 % holder filings (13D/13G). Filings never change; a lost
+      # cache is refilled over a few runs within the request budget.
+      - name: Restore holder filings
+        uses: actions/cache@v4
+        with:
+          path: data/holders.json
+          key: holders-${{ github.run_id }}
+          restore-keys: holders-
+
       - name: Build feed from SEC filings
         run: python -m quarry --days 7
         env:

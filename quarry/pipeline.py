@@ -6,16 +6,21 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from quarry.budget import Budget
 from quarry.daily_index import index_url, parse_form_index
 from quarry.directory import DIRECTORY_URL, index_json, parse_directory
+from quarry.extras import CompanyExtras
 from quarry.facts import revenue_growth
 from quarry.feed import FEED_WINDOW_DAYS, build_company
-from quarry.form4 import extract_ownership_xml, parse_form4
+from quarry.holders import HolderCache
+from quarry.insiders import HISTORY_DAYS as INSIDER_HISTORY_DAYS
+from quarry.insiders import InsiderStore, backfill, fetch_filings, records_from_filing
 from quarry.profiles import build_profiles
 from quarry.signals import insider_events, momentum_event
 
-ARCHIVES = "https://www.sec.gov/Archives/"
 HISTORY_DAYS = 90
+# Forms that mean a company's profile is worth rebuilding today.
+FRESH_FORMS = {"4", "10-Q", "10-K", "8-K", "SCHEDULE 13D", "SCHEDULE 13D/A", "SCHEDULE 13G"}
 
 
 def run(
@@ -27,9 +32,13 @@ def run(
     log=print,
     profiles: bool = True,
     profile_limit: int | None = None,
+    insider_budget: int = 15_000,
+    holder_budget: int = 10_000,
 ) -> dict:
     events_dir = Path(data_dir) / "events"
     events_dir.mkdir(parents=True, exist_ok=True)
+    store = InsiderStore(Path(data_dir) / "insiders")
+    fresh_ciks: set[int] = set()
 
     for offset in range(process_days, 0, -1):
         day = today - timedelta(days=offset)
@@ -40,23 +49,37 @@ def run(
         if index is None:
             log(f"{day}: kein Index (Feiertag oder noch nicht veröffentlicht)")
             continue
-        events = process_day(client, day, index, log)
+        events = process_day(client, day, index, log, store)
         target.write_text(json.dumps(events, ensure_ascii=False, indent=1))
+        fresh_ciks |= {entry.cik for entry in parse_form_index(index, FRESH_FORMS)}
+        fresh_ciks |= {record["cik"] for record in json.loads((store.directory / f"{day}.json").read_text())}
         log(f"{day}: {len(events)} Ereignisse")
 
-    feed = build_feed(client, today, events_dir, log)
+    backfill(client, store, today, Budget(insider_budget), log)
+    holder_cache = HolderCache(Path(data_dir) / "holders.json")
+    extras = CompanyExtras(
+        insiders=store.load(today - timedelta(days=INSIDER_HISTORY_DAYS + 7)),
+        insider_since=None if store.is_empty() else store.coverage_start(today),
+        holder_cache=holder_cache,
+        holder_budget=Budget(holder_budget),
+    )
+
+    feed = build_feed(client, today, events_dir, log, extras)
+    holder_cache.save()
     feed_path = Path(feed_path)
     feed_path.parent.mkdir(parents=True, exist_ok=True)
     feed_path.write_text(json.dumps(feed, ensure_ascii=False, indent=1))
     log(f"Feed: {len(feed['companies'])} Firmen -> {feed_path}")
 
     if profiles:
-        build_directory(client, today, events_dir, feed_path.parent, {c["cik"] for c in feed["companies"]}, log, profile_limit)
+        build_directory(client, today, events_dir, feed_path.parent, {c["cik"] for c in feed["companies"]} | fresh_ciks,
+                        log, profile_limit, extras)
+        holder_cache.save()
     return feed
 
 
 def build_directory(client, today: date, events_dir: Path, public_dir: Path, feed_ciks: set[int], log=print,
-                    limit: int | None = None) -> None:
+                    limit: int | None = None, extras: CompanyExtras | None = None) -> None:
     """index.json for search plus one profile per listed company."""
     raw = client.get_json(DIRECTORY_URL)
     if not raw:
@@ -66,7 +89,7 @@ def build_directory(client, today: date, events_dir: Path, public_dir: Path, fee
     (public_dir / "index.json").write_text(json.dumps(index_json(entries), ensure_ascii=False, separators=(",", ":")))
     log(f"Index: {len(entries)} Kürzel")
     written = build_profiles(client, entries, load_events(events_dir, today), today, public_dir / "companies",
-                             feed_ciks, log, limit)
+                             feed_ciks, log, limit, extras)
     log(f"Profile geschrieben: {written}")
 
 
@@ -81,21 +104,15 @@ def load_events(events_dir: Path, today: date) -> dict[int, list[dict]]:
     return by_company
 
 
-def process_day(client, day: date, index_text: str, log=print) -> list[dict]:
+def process_day(client, day: date, index_text: str, log=print, store: InsiderStore | None = None) -> list[dict]:
+    """The day's signal events; with a `store`, also its insider transactions."""
     entries = parse_form_index(index_text, {"4", "10-Q", "10-K"})
 
-    filings = []
-    form4_entries = [entry for entry in entries if entry.form == "4"]
-    for number, entry in enumerate(form4_entries, start=1):
-        if number % 250 == 0:
-            log(f"{day}: Form 4 {number}/{len(form4_entries)}")
-        xml = extract_ownership_xml(client.get_text(ARCHIVES + entry.path) or "")
-        if xml:
-            try:
-                filings.append(parse_form4(xml))
-            except Exception as error:  # malformed filings must not stop the run
-                log(f"Form 4 übersprungen ({entry.path}): {error}")
-    events = insider_events(filings, day)
+    parsed = fetch_filings(client, [entry for entry in entries if entry.form == "4"], log)
+    events = insider_events([filing for _, filing in parsed], day)
+    if store is not None:
+        store.write(day.isoformat(), [record for accession, filing in parsed
+                                      for record in records_from_filing(filing, accession)])
 
     for cik in sorted({entry.cik for entry in entries if entry.form in ("10-Q", "10-K")}):
         facts = client.get_json(_facts_url(cik))
@@ -105,8 +122,9 @@ def process_day(client, day: date, index_text: str, log=print) -> list[dict]:
     return events
 
 
-def build_feed(client, today: date, events_dir: Path, log=print) -> dict:
+def build_feed(client, today: date, events_dir: Path, log=print, extras: CompanyExtras | None = None) -> dict:
     by_company = load_events(events_dir, today)
+    extras = extras or CompanyExtras()
 
     companies = []
     window_start = (today - timedelta(days=FEED_WINDOW_DAYS)).isoformat()
@@ -116,7 +134,8 @@ def build_feed(client, today: date, events_dir: Path, log=print) -> dict:
         submissions = client.get_json(f"https://data.sec.gov/submissions/CIK{cik:010d}.json")
         if not submissions:
             continue
-        company = build_company(cik, events, submissions, client.get_json(_facts_url(cik)), today)
+        company = build_company(cik, events, submissions, client.get_json(_facts_url(cik)), today,
+                                **extras.for_company(client, cik, submissions, today))
         if company:
             companies.append(company)
 

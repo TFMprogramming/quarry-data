@@ -70,3 +70,27 @@ def test_sector_is_german_and_original_kept():
     company = build_company(1, [INSIDER], semis, FACTS, TODAY)
     assert company["sector"] == "Halbleiter"
     assert company["industry"] == "Semiconductors & Related Devices"
+
+
+def test_profile_carries_insiders_holders_events_balance_and_checks():
+    submissions = dict(SUBMISSIONS, fiscalYearEnd="0903",
+                       addresses={"business": {"city": "BOISE", "stateOrCountry": "ID", "isForeignLocation": 0}},
+                       filings={"recent": {"form": ["8-K"], "filingDate": ["2026-09-30"], "items": ["2.02"],
+                                           "accessionNumber": ["0000-26-1"], "primaryDocument": ["a.htm"]}})
+    sale = {"cik": 1, "acc": "a1", "name": "Ann Lee", "role": "CEO", "code": "S", "date": "2026-09-01",
+            "shares": 1000, "price": 10.0, "after": 5000, "planned": True}
+    holders = [{"name": "Starboard Value LP", "percent": 13.4, "date": "2026-09-11", "activist": True}]
+    company = build_company(1, [INSIDER], submissions, FACTS, TODAY, insider_records=[sale],
+                            insider_since=date(2025, 10, 3), holders=holders)
+    assert company["about"] == {"location": "Boise, ID", "fiscalYearEndMonth": 9}
+    assert company["insiderSummary"]["sells"] == {"count": 1, "people": 1, "value": 10000, "planned": 1}
+    assert company["insiderTransactions"][0]["kind"] == "sell"
+    assert company["holders"] == holders
+    assert company["events"][0]["title"] == "Quartalszahlen veröffentlicht"
+    assert "balance" in company and "checks" in company
+
+
+def test_without_insider_history_there_is_no_summary():
+    company = build_company(1, [INSIDER], SUBMISSIONS, FACTS, TODAY)
+    assert company["insiderSummary"] is None
+    assert company["insiderTransactions"] == []

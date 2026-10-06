@@ -21,6 +21,10 @@ class SecClient:
 
         EDGAR answers 403 instead of 404 for daily indexes that aren't
         published yet, so callers can widen `absent_codes`."""
+        body = self.get_bytes(url, absent_codes)
+        return body.decode("utf-8", errors="replace") if body is not None else None
+
+    def get_bytes(self, url: str, absent_codes: tuple[int, ...] = (404,)) -> bytes | None:
         for attempt in range(self.retries):
             self._throttle()
             request = urllib.request.Request(url, headers={"User-Agent": self.user_agent, "Accept-Encoding": "gzip"})
@@ -29,7 +33,7 @@ class SecClient:
                     body = response.read()
                     if response.headers.get("Content-Encoding") == "gzip":
                         body = gzip.decompress(body)
-                    return body.decode("utf-8", errors="replace")
+                    return body
             except urllib.error.HTTPError as error:
                 if error.code in absent_codes:
                     return None

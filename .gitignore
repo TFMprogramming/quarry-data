@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 public/companies/
 .DS_Store
+data/holders.json
