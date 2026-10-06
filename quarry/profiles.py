@@ -11,7 +11,7 @@ from quarry.feed import build_company
 
 ROTATION_DAYS = 5
 # Raise when profiles gain fields: every profile is then rebuilt once.
-PROFILE_VERSION = 2
+PROFILE_VERSION = 3
 
 
 def is_due(cik: int, today: date, exists: bool, feed_ciks: set[int]) -> bool:

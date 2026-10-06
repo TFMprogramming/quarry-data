@@ -19,7 +19,8 @@ def main() -> None:
 
     user_agent = os.environ.get("QUARRY_USER_AGENT", "Quarry tim.mehrbrey@gmail.com")
     run(SecClient(user_agent), today=date.today(), data_dir=Path(args.data), feed_path=Path(args.out), process_days=args.days,
-        profiles=not args.no_profiles, profile_limit=args.profile_limit)
+        profiles=not args.no_profiles, profile_limit=args.profile_limit,
+        databento_key=os.environ.get("DATABENTO_API_KEY") or None)
 
 
 if __name__ == "__main__":

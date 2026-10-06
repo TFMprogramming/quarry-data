@@ -33,7 +33,7 @@ def test_run_writes_events_and_feed(tmp_path):
     }
     feed_path = tmp_path / "public" / "feed.json"
     run(FakeClient(responses), today=date(2026, 10, 3), data_dir=tmp_path / "data", feed_path=feed_path,
-        process_days=2, log=lambda message: None)
+        process_days=2, log=lambda message: None, closes={"WWD": ("2026-10-01", 200.0)})
 
     assert (tmp_path / "data" / "events" / "2026-10-02.json").exists()
     insiders = json.loads((tmp_path / "data" / "insiders" / "2026-10-02.json").read_text())
@@ -43,3 +43,6 @@ def test_run_writes_events_and_feed(tmp_path):
     assert [c["ticker"] for c in feed["companies"]] == ["WWD"]
     assert feed["companies"][0]["trigger"]["headline"] == "CEO kaufte für 479.700 $"
     assert feed["companies"][0]["insiderSummary"]["buys"]["count"] == 1
+    # No share count in the fake facts, so no valuation – but the file is written for the app.
+    assert feed["companies"][0]["valuation"] is None
+    assert json.loads((tmp_path / "public" / "valuations.json").read_text())["version"] == 1

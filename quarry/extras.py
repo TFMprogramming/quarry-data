@@ -7,6 +7,7 @@ from datetime import date
 
 from quarry.budget import Budget
 from quarry.holders import HolderCache, holders_for
+from quarry.valuation import ValuationContext
 
 
 @dataclass
@@ -15,6 +16,7 @@ class CompanyExtras:
     insider_since: date | None = None
     holder_cache: HolderCache | None = None
     holder_budget: Budget = field(default_factory=lambda: Budget(0))
+    valuation: ValuationContext | None = None
 
     def for_company(self, client, cik: int, submissions: dict, today: date) -> dict:
         """Keyword arguments for `build_company`."""
@@ -26,4 +28,5 @@ class CompanyExtras:
             "insider_since": self.insider_since,
             "holders": holders,
             "holder_filings": self.holder_cache.entries if self.holder_cache else {},
+            "valuation_context": self.valuation,
         }

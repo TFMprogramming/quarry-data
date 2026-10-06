@@ -9,6 +9,10 @@ Meldungen des Vortags bei der SEC (Insider-Käufe aus Form 4, Umsatzwachstum aus
 - `data/insiders/` hält ein Jahr Insider-Käufe und -Verkäufe, eine Datei je Meldetag. Ganze Quartale
   kommen aus den Quartals-Datensätzen der SEC, die Tage danach aus den einzelnen Form-4-Meldungen
   (neueste zuerst, mit Abruf-Budget pro Lauf).
+- Bewertung: Schlusskurse aus Databento „US Equities Summary“ (Secret `DATABENTO_API_KEY`; nur Kurse,
+  die älter als 24 Stunden sind). KGV/KUV rechnen wir selbst mit SEC-Gewinn/-Umsatz der letzten
+  zwölf Monate; Branchen-Mediane aus `data/fundamentals.json`. Täglich für alle Firmen in
+  `public/valuations.json`.
 - `public/companies/` (ein Profil je börsennotierter Firma) und `data/holders.json` (gelesene
   13D/13G-Meldungen) liegen im Actions-Cache, nicht im Git. Neues Profilformat → `PROFILE_VERSION`
   in `quarry/profiles.py` erhöhen, dann wird jedes Profil einmal neu gebaut.

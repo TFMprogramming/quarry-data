@@ -16,7 +16,9 @@ from quarry.holders import HolderCache
 from quarry.insiders import HISTORY_DAYS as INSIDER_HISTORY_DAYS
 from quarry.insiders import InsiderStore, backfill, fetch_filings, records_from_filing
 from quarry.profiles import build_profiles
+from quarry.prices import fetch_closes
 from quarry.signals import insider_events, momentum_event
+from quarry.valuation import FundamentalsStore, ValuationContext, sector_medians, valuations_json
 
 HISTORY_DAYS = 90
 # Forms that mean a company's profile is worth rebuilding today.
@@ -34,7 +36,11 @@ def run(
     profile_limit: int | None = None,
     insider_budget: int = 15_000,
     holder_budget: int = 10_000,
+    databento_key: str | None = None,
+    closes: dict | None = None,
 ) -> dict:
+    """`databento_key` enables closing prices and with them valuations;
+    tests pass `closes` directly."""
     events_dir = Path(data_dir) / "events"
     events_dir.mkdir(parents=True, exist_ok=True)
     store = InsiderStore(Path(data_dir) / "insiders")
@@ -57,11 +63,17 @@ def run(
 
     backfill(client, store, today, Budget(insider_budget), log)
     holder_cache = HolderCache(Path(data_dir) / "holders.json")
+    fundamentals = FundamentalsStore(Path(data_dir) / "fundamentals.json")
+    if closes is None:
+        closes = fetch_closes(databento_key, today, log=log) if databento_key else {}
+        if not databento_key:
+            log("Kein Databento-Schlüssel – Bewertung übersprungen")
     extras = CompanyExtras(
         insiders=store.load(today - timedelta(days=INSIDER_HISTORY_DAYS + 7)),
         insider_since=None if store.is_empty() else store.coverage_start(today),
         holder_cache=holder_cache,
         holder_budget=Budget(holder_budget),
+        valuation=ValuationContext(closes, sector_medians(fundamentals.entries, closes), fundamentals),
     )
 
     feed = build_feed(client, today, events_dir, log, extras)
@@ -75,6 +87,11 @@ def run(
         build_directory(client, today, events_dir, feed_path.parent, {c["cik"] for c in feed["companies"]} | fresh_ciks,
                         log, profile_limit, extras)
         holder_cache.save()
+    fundamentals.save()
+    if closes:
+        valuations = valuations_json(fundamentals, closes, today)
+        (feed_path.parent / "valuations.json").write_text(json.dumps(valuations, ensure_ascii=False, separators=(",", ":")))
+        log(f"Bewertungen: {len(valuations['companies'])} Firmen, {len(valuations['sectors'])} Branchen")
     return feed
 
 

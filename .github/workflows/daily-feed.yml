@@ -57,6 +57,8 @@ jobs:
         run: python -m quarry --days 7
         env:
           QUARRY_USER_AGENT: "Quarry tim.mehrbrey@gmail.com"
+          # Closing prices for valuations; without it the feed runs, just without P/E.
+          DATABENTO_API_KEY: ${{ secrets.DATABENTO_API_KEY }}
 
       - name: Keep processed days in the repository
         run: |

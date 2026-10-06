@@ -11,6 +11,7 @@ from quarry.sectors import german_sector
 from quarry.insiders import insider_profile
 from quarry.signals import ATTENTION_MAX_FLOAT, MOMENTUM_MIN_GROWTH
 from quarry.timeline import timeline
+from quarry.valuation import ValuationContext, basis
 
 LISTED_EXCHANGES = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE Arca": "AMEX", "CBOE": "CBOE"}
 FEED_WINDOW_DAYS = 7
@@ -28,6 +29,7 @@ def build_company(
     insider_since: date | None = None,
     holders: list[dict] | None = None,
     holder_filings: dict[str, dict] | None = None,
+    valuation_context: ValuationContext | None = None,
 ) -> dict | None:
     """`events` are all of the company's events from the last 90 days.
     Feed entries need a recent event; profiles (`require_recent=False`) don't and
@@ -35,7 +37,8 @@ def build_company(
 
     `insider_records` is the company's insider history, complete since
     `insider_since`; `holders` its large shareholders and `holder_filings` the
-    parsed 13D/G filings by accession, to name holders in the timeline."""
+    parsed 13D/G filings by accession, to name holders in the timeline.
+    `valuation_context` brings closing prices and sector medians."""
     listing = _listing(submissions)
     if listing is None:
         return None
@@ -56,6 +59,8 @@ def build_company(
     trades = sorted((trade for event in insider for trade in event["trades"]), key=lambda t: t["date"], reverse=True)
 
     growth = revenue_growth(facts)
+    sector = german_sector(submissions.get("sic"))
+    valued = valuation_context.value(cik, basis(facts, submissions, sector)) if valuation_context else None
     figures = balance(facts)
     filings = timeline(cik, submissions, today, holder_filings or {})
     if insider_since is not None:
@@ -64,7 +69,7 @@ def build_company(
         insider_summary, insider_transactions = None, []
 
     signals = [
-        _signal("value", False, "Bald verfügbar", "Die Bewertung kommt mit lizenzierten Kursdaten."),
+        _value_signal(valued, sector),
         _overlooked_signal(floating),
         _insider_signal(insider, insider_total, new_start),
         _trend_signal(growth, any(e["kind"] == "trend" and e["date"] >= new_start for e in events)),
@@ -84,7 +89,7 @@ def build_company(
         "exchange": exchange,
         # SEC writes share classes as "BRK-B", TradingView as "BRK.B".
         "tradingViewSymbol": f"{LISTED_EXCHANGES[exchange]}:{ticker.replace('-', '.')}",
-        "sector": german_sector(submissions.get("sic")),
+        "sector": sector,
         "industry": submissions.get("sicDescription") or None,
         "publicFloat": floating,
         "importance": importance,
@@ -95,6 +100,7 @@ def build_company(
         "financials": [
             {"period": q.period, "revenue": q.revenue, "netIncome": q.net_income} for q in quarters(facts)
         ],
+        "valuation": valued,
         "about": _about(submissions),
         "insiderSummary": insider_summary,
         "insiderTransactions": insider_transactions,
@@ -148,6 +154,32 @@ def _headline(event: dict) -> str:
 
 def _signal(kind: str, active: bool, headline: str, detail: str, new: bool = False) -> dict:
     return {"kind": kind, "isActive": active, "isNew": active and new, "headline": headline, "detail": detail}
+
+
+VALUE_DISCOUNT = 0.6  # "günstig": P/E at most 60 % of the sector median
+
+
+def _value_signal(valued: dict | None, sector: str) -> dict:
+    if valued is None:
+        return _signal("value", False, "Keine Kursdaten", "Für eine Bewertung fehlen Schlusskurs oder Aktienzahl.")
+    pe, sector_pe = valued["pe"], valued.get("sectorPe")
+    if pe is None:
+        return _signal("value", False, "Kein KGV",
+                       "Ohne Gewinn in den letzten zwölf Monaten lässt sich kein KGV berechnen.")
+    if not sector_pe:
+        return _signal("value", False, f"KGV {_number(pe)}",
+                       f"Zu wenige vergleichbare Firmen in der Branche {sector} für einen Vergleich.")
+    headline = f"KGV {_number(pe)} · Branche {_number(sector_pe)}"
+    detail = (f"Für 1 $ Jahresgewinn zahlt man an der Börse {_number(pe)} $, in der Branche {sector} "
+              f"im Mittel {_number(sector_pe)} $.")
+    if pe <= VALUE_DISCOUNT * sector_pe:
+        return _signal("value", True, headline,
+                       detail + " Ein niedriges KGV kann auch heißen, dass der Markt sinkende Gewinne erwartet.")
+    return _signal("value", False, headline, detail)
+
+
+def _number(value: float) -> str:
+    return f"{value:.0f}" if value >= 10 or value == int(value) else f"{value:.1f}".replace(".", ",")
 
 
 def _overlooked_signal(floating: float | None) -> dict:

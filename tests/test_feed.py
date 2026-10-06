@@ -94,3 +94,36 @@ def test_without_insider_history_there_is_no_summary():
     company = build_company(1, [INSIDER], SUBMISSIONS, FACTS, TODAY)
     assert company["insiderSummary"] is None
     assert company["insiderTransactions"] == []
+
+
+def _valued(sector_pe):
+    from quarry.valuation import ValuationContext
+    facts = {"facts": {
+        "dei": FACTS["facts"]["dei"] | {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
+            {"end": "2026-07-20", "val": 10_000_000, "accn": "k"}]}}},
+        "us-gaap": FACTS["facts"]["us-gaap"] | {
+            "NetIncomeLoss": {"units": {"USD": [{"start": "2025-07-01", "end": "2026-06-30", "val": 50_000_000}]}}},
+    }}
+    medians = {"Halbleiter": {"pe": sector_pe, "ps": 3.0, "count": 20}} if sector_pe else {}
+    semis = dict(SUBMISSIONS, sic="3674")
+    return build_company(1, [INSIDER], semis, facts, TODAY,
+                         valuation_context=ValuationContext({"ABCD": ("2026-10-01", 30.0)}, medians))
+
+
+def test_value_signal_when_pe_is_well_below_the_sector():
+    company = _valued(sector_pe=20.0)
+    value = {s["kind"]: s for s in company["signals"]}["value"]
+    assert value["isActive"] is True
+    assert value["headline"] == "KGV 6 · Branche 20"
+    assert company["valuation"]["pe"] == 6.0 and company["valuation"]["sectorPe"] == 20.0
+
+
+def test_value_signal_stays_off_near_the_sector_or_without_peers():
+    assert {s["kind"]: s for s in _valued(sector_pe=8.0)["signals"]}["value"]["isActive"] is False
+    no_peers = {s["kind"]: s for s in _valued(sector_pe=None)["signals"]}["value"]
+    assert no_peers["isActive"] is False and no_peers["headline"] == "KGV 6"
+
+
+def test_without_prices_value_signal_is_unavailable():
+    value = {s["kind"]: s for s in build_company(1, [INSIDER], SUBMISSIONS, FACTS, TODAY)["signals"]}["value"]
+    assert value["isActive"] is False and value["headline"] == "Keine Kursdaten"
