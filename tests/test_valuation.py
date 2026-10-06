@@ -10,7 +10,10 @@ def _usd(*entries):
 
 FACTS = {"facts": {
     "us-gaap": {
-        "NetIncomeLoss": _usd(("2025-07-01", "2026-06-30", 50_000_000, "k")),
+        "NetIncomeLoss": {"units": {"USD": [
+            {"start": "2025-07-01", "end": "2026-06-30", "val": 50_000_000, "accn": "k"},
+            {"start": "2026-04-01", "end": "2026-06-30", "val": 25_000_000, "accn": "k", "frame": "CY2026Q2"},
+        ]}},
         "Revenues": _usd(("2025-07-01", "2026-06-30", 400_000_000, "k")),
     },
     "dei": {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
@@ -23,7 +26,7 @@ CLOSES = {"ABCD": ("2026-10-02", 30.0)}
 def test_basis_from_sec_figures():
     assert basis(FACTS, SUBMISSIONS, "Halbleiter") == {
         "tickers": ["ABCD"], "sector": "Halbleiter", "netIncome": 50_000_000, "revenue": 400_000_000,
-        "shares": 10_000_000,
+        "shares": 10_000_000, "quarterIncome": 25_000_000, "quarter": "2026-Q2",
     }
 
 
@@ -36,6 +39,7 @@ def test_foreign_filers_have_no_basis():
 def test_valuation_from_close_and_basis():
     assert valuation(basis(FACTS, SUBMISSIONS, "Halbleiter"), CLOSES) == {
         "date": "2026-10-02", "price": 30.0, "marketCap": 300_000_000, "pe": 6.0, "ps": 0.75,
+        "peRunRate": 3.0, "quarter": "2026-Q2",
     }
 
 
@@ -75,5 +79,5 @@ def test_valuations_json_lists_every_priced_company(tmp_path):
     store.entries["1"] = basis(FACTS, SUBMISSIONS, "Halbleiter")
     data = valuations_json(store, CLOSES, date(2026, 10, 6))
     assert data["version"] == 1 and data["date"] == "2026-10-02"
-    assert data["companies"] == {"1": [30.0, 300_000_000, 6.0, 0.75]}
+    assert data["companies"] == {"1": [30.0, 300_000_000, 6.0, 0.75, 3.0]}
     assert data["sectors"] == {}

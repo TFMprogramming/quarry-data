@@ -11,7 +11,7 @@ from datetime import date
 from pathlib import Path
 from statistics import median
 
-from quarry.facts import REVENUE_CONCEPTS, _shares, _trailing_year
+from quarry.facts import REVENUE_CONCEPTS, _shares, _trailing_year, quarters
 from quarry.prices import Close, close_for
 
 MIN_PEERS = 8
@@ -36,8 +36,10 @@ def basis(facts: dict, submissions: dict, sector: str) -> dict | None:
         return None
     revenue = next((value for value in (_trailing_year(gaap, concept) for concept in REVENUE_CONCEPTS)
                     if value is not None), None)
+    latest = next((q for q in reversed(quarters(facts or {})) if q.net_income is not None), None)
     return {"tickers": tickers, "sector": sector, "netIncome": _trailing_year(gaap, "NetIncomeLoss"),
-            "revenue": revenue, "shares": shares}
+            "revenue": revenue, "shares": shares,
+            "quarterIncome": latest.net_income if latest else None, "quarter": latest.period if latest else None}
 
 
 def valuation(company: dict | None, closes: dict[str, Close]) -> dict | None:
@@ -53,12 +55,17 @@ def valuation(company: dict | None, closes: dict[str, Close]) -> dict | None:
     market_cap = price * company["shares"]
     income, revenue = company.get("netIncome"), company.get("revenue")
     pe = market_cap / income if income and income > 0 else None
+    # The latest quarter's profit as if it held for a year: where the P/E is heading.
+    quarter = company.get("quarterIncome")
+    run_rate = market_cap / (4 * quarter) if quarter and quarter > 0 else None
     return {
         "date": day,
         "price": price,
         "marketCap": round(market_cap),
         "pe": round(pe, 1) if pe is not None and pe <= MAX_PE else None,
         "ps": round(market_cap / revenue, 2) if revenue and revenue > 0 else None,
+        "peRunRate": round(run_rate, 1) if run_rate is not None and run_rate <= MAX_PE else None,
+        "quarter": company.get("quarter") if run_rate is not None else None,
     }
 
 
@@ -114,13 +121,13 @@ class ValuationContext:
 
 
 def valuations_json(store: FundamentalsStore, closes: dict[str, Close], today: date) -> dict:
-    """Every valued company as [price, market cap, P/E, P/S], plus the sector medians –
+    """Every valued company as [price, market cap, P/E, P/S, run-rate P/E], plus the sector medians –
     published daily, so the app always shows fresh numbers."""
     companies = {}
     for cik, company in store.entries.items():
         value = valuation(company, closes)
         if value:
-            companies[cik] = [value["price"], value["marketCap"], value["pe"], value["ps"]]
+            companies[cik] = [value["price"], value["marketCap"], value["pe"], value["ps"], value["peRunRate"]]
     days = [day for day, _ in closes.values()]
     return {
         "version": 1,
