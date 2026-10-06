@@ -120,7 +120,7 @@ def estimate_summary(rows: list[dict] | None, today: date) -> dict | None:
 def surprises(pit_rows: list[dict] | None) -> list[dict]:
     """Estimate and actual EPS per reported quarter, from the latest snapshot."""
     latest: dict[tuple[str, str], tuple[str, float]] = {}
-    for row in pit_rows or []:
+    for row in _clean(pit_rows):
         key = (row["period"], row["field"])
         try:
             value = float(row["value"])
@@ -134,25 +134,39 @@ def surprises(pit_rows: list[dict] | None) -> list[dict]:
     return result[-MAX_SURPRISES:]
 
 
-def revision(pit_rows: list[dict] | None, today: date) -> dict | None:
-    """How the estimate for the coming quarter moved over the last 30 days."""
-    rows = pit_rows or []
-    reported = {r["period"] for r in rows if r["field"] == "eps_actual"}
-    coming = sorted({r["period"] for r in rows if r["field"] == "eps_estimate" and r["period"] not in reported})
-    if not coming:
+HISTORY_DAYS = 120
+
+
+def remember(history: list[list] | None, summary: dict | None, today: date) -> list[list]:
+    """Our own record of the consensus for the next fiscal year: [day, period, eps]."""
+    history = [entry for entry in history or [] if entry[0] >= (today - timedelta(days=HISTORY_DAYS)).isoformat()]
+    if summary and summary.get("eps") is not None:
+        history = [entry for entry in history if entry[0] != today.isoformat()]
+        history.append([today.isoformat(), summary["period"], summary["eps"]])
+    return history
+
+
+def revision(history: list[list] | None, today: date) -> dict | None:
+    """How the consensus for the same fiscal year moved over the last 30 days."""
+    if not history:
         return None
-    period = coming[0]
-    history = sorted(((r["as_of_date"], float(r["value"])) for r in rows
-                      if r["period"] == period and r["field"] == "eps_estimate"))
+    day, period, now = history[-1]
     cutoff = (today - timedelta(days=REVISION_DAYS)).isoformat()
-    before = [value for day, value in history if day <= cutoff]
-    if not before or not history:
+    before = [eps for when, same, eps in history if same == period and when <= cutoff]
+    if not before or before[-1] == 0:
         return None
-    now, then = history[-1][1], before[-1]
-    if then == 0:
-        return None
-    change = round((now - then) / abs(then), 3)
-    return {"period": period, "now": now, "before": then, "change": change}
+    then = before[-1]
+    return {"period": period, "now": now, "before": then, "change": round((now - then) / abs(then), 3)}
+
+
+def _clean(pit_rows: list[dict] | None) -> list[dict]:
+    """Periods and dates come with or without a time ("2026-06-30T00:00:00.000+02:00")."""
+    return [dict(row, period=str(row["period"])[:10], as_of_date=str(row["as_of_date"])[:10])
+            for row in pit_rows or [] if row.get("period") and row.get("as_of_date")]
+
+
+def _dollars(value: float) -> str:
+    return f"{value:.2f}".replace(".", ",") + " $"
 
 
 def analyst_signals(summary: dict | None, quarters: list[dict], moved: dict | None) -> list[dict]:
@@ -166,8 +180,7 @@ def _beat(quarters: list[dict]) -> dict:
     beats = sum(1 for q in recent if q["actual"] > q["estimate"])
     active = beats >= 3 and recent[-1]["actual"] > recent[-1]["estimate"]
     last = recent[-1]
-    detail = (f"Zuletzt {last['actual']:.2f} $ Gewinn je Aktie bei erwarteten {last['estimate']:.2f} $."
-              .replace(".", ","))
+    detail = f"Zuletzt {_dollars(last['actual'])} Gewinn je Aktie bei erwarteten {_dollars(last['estimate'])}."
     return _signal("beat", active, f"{beats} von 4 Quartalen über der Schätzung", detail)
 
 
@@ -188,10 +201,11 @@ def _outlook(summary: dict | None) -> dict:
 
 def _revisions(moved: dict | None) -> dict:
     if not moved:
-        return _signal("revisions", False, "Kein Verlauf", "Für die letzten 30 Tage fehlt der Verlauf der Schätzungen.")
+        return _signal("revisions", False, "Verlauf wird aufgezeichnet",
+                       "Quarry zeichnet die Schätzungen selbst auf – nach 30 Tagen lässt sich vergleichen.")
     headline = f"Schätzung {percent(moved['change'])} in 30 Tagen"
     active = moved["change"] >= MIN_REVISION
-    detail = "Analysten haben ihre Gewinnerwartung für das kommende Quartal " + (
+    detail = "Analysten haben ihre Gewinnerwartung für das Geschäftsjahr " + (
         "angehoben." if moved["change"] > 0 else "gesenkt." if moved["change"] < 0 else "nicht verändert.")
     return _signal("revisions", active, headline, detail)
 
@@ -279,13 +293,13 @@ def run(client: EulerpoolClient, today: date, data_dir: Path, out_dir: Path, pub
         ticker = directory[cik]["ticker"]
         budget.spend()
         estimates = client.get(f"/api/1/equity/estimates/{ticker}") or []
-        entry = {"ticker": ticker, "fetched": today.isoformat(), "summary": estimate_summary(estimates, today),
-                 "surprises": [], "revision": None}
+        summary = estimate_summary(estimates, today)
+        history = remember((store.entries.get(cik) or {}).get("history"), summary, today)
+        entry = {"ticker": ticker, "fetched": today.isoformat(), "summary": summary, "surprises": [],
+                 "history": history, "revision": revision(history, today)}
         if estimates:  # without analysts there are no surprises either
             budget.spend()
-            pit = client.get(f"/api/1/equity/pit/estimates/{ticker}?limit=500") or []
-            entry["surprises"] = surprises(pit)
-            entry["revision"] = revision(pit, today)
+            entry["surprises"] = surprises(client.get(f"/api/1/equity/pit/estimates/{ticker}?limit=500") or [])
         store.entries[cik] = entry
     store.save()
 

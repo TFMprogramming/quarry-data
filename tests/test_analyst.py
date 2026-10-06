@@ -1,6 +1,6 @@
 from datetime import date
 
-from quarry.analyst import analyst_signals, closes_from_bulk, estimate_summary, revision, surprises
+from quarry.analyst import analyst_signals, closes_from_bulk, estimate_summary, remember, revision, surprises
 
 TODAY = date(2026, 10, 6)
 
@@ -9,10 +9,9 @@ def _pit(period, field, value, as_of):
     return {"ticker": "MU", "field": field, "period": period, "value": str(value), "as_of_date": as_of}
 
 
+HISTORY = [["2026-08-30", "2027-08-31", 140.0], ["2026-09-04", "2027-08-31", 150.0], ["2026-10-05", "2027-08-31", 180.0]]
+
 PIT = [
-    # Older snapshot with a different estimate for the coming quarter.
-    _pit("2026-12-31", "eps_estimate", 30.0, "2026-09-01"),
-    _pit("2026-12-31", "eps_estimate", 36.0, "2026-10-05"),
     *[_pit(p, f, v, "2026-10-05") for p, f, v in [
         ("2025-12-31", "eps_estimate", 4.07), ("2025-12-31", "eps_actual", 4.78),
         ("2026-03-31", "eps_estimate", 9.58), ("2026-03-31", "eps_actual", 12.20),
@@ -39,13 +38,30 @@ def test_surprises_use_the_latest_snapshot_per_quarter():
     ]
 
 
-def test_revision_of_the_coming_quarter_over_thirty_days():
-    assert revision(PIT, TODAY) == {"period": "2026-12-31", "now": 36.0, "before": 30.0, "change": 0.2}
+def test_revision_of_the_fiscal_year_consensus_over_thirty_days():
+    assert revision(HISTORY, TODAY) == {"period": "2027-08-31", "now": 180.0, "before": 150.0, "change": 0.2}
 
 
-def test_revision_needs_a_month_of_history():
-    recent = [_pit("2026-12-31", "eps_estimate", 30.0, "2026-09-25"), _pit("2026-12-31", "eps_estimate", 36.0, "2026-10-05")]
-    assert revision(recent, TODAY) is None
+def test_remember_keeps_one_entry_per_day_and_forgets_old_ones():
+    summary = estimate_summary(ESTIMATES, TODAY)
+    history = remember([["2026-01-01", "2026-08-31", 50.0], ["2026-10-06", "2027-08-31", 170.0]], summary, TODAY)
+    assert history == [["2026-10-06", "2027-08-31", 173.77]]
+
+
+def test_timestamps_in_periods_are_the_same_quarter():
+    stamped = [dict(row, period=row["period"] + "T00:00:00.000+02:00", as_of_date=row["as_of_date"] + "T06:00:00Z")
+               for row in PIT]
+    assert surprises(PIT + stamped) == surprises(PIT)
+
+
+def test_beat_detail_reads_naturally():
+    signals = {s["kind"]: s for s in analyst_signals(None, surprises(PIT), None)}
+    assert signals["beat"]["detail"] == "Zuletzt 33,42 $ Gewinn je Aktie bei erwarteten 32,56 $."
+
+
+def test_revision_needs_a_month_of_history_for_the_same_year():
+    assert revision([["2026-09-25", "2027-08-31", 150.0], ["2026-10-05", "2027-08-31", 180.0]], TODAY) is None
+    assert revision([["2026-08-01", "2026-08-31", 70.0], ["2026-10-05", "2027-08-31", 180.0]], TODAY) is None
 
 
 def test_estimate_summary_takes_the_next_fiscal_year():
@@ -56,7 +72,7 @@ def test_estimate_summary_takes_the_next_fiscal_year():
 
 def test_signals_beat_outlook_and_tailwind():
     signals = {s["kind"]: s for s in analyst_signals(estimate_summary(ESTIMATES, TODAY), surprises(PIT),
-                                                     revision(PIT, TODAY))}
+                                                     revision(HISTORY, TODAY))}
     assert signals["beat"]["isActive"] and signals["beat"]["headline"] == "4 von 4 Quartalen über der Schätzung"
     assert signals["outlook"]["isActive"] and signals["outlook"]["headline"] == "Gewinn je Aktie +135 % erwartet (24 Analysten)"
     assert signals["revisions"]["isActive"] and signals["revisions"]["headline"] == "Schätzung +20 % in 30 Tagen"
@@ -112,9 +128,9 @@ def test_run_writes_private_valuations_signals_and_a_ranking_out_of_seven(tmp_pa
     analyst = json.loads((tmp_path / "out" / "analyst.json").read_text())
     micron = analyst["companies"]["723125"]
     assert micron["valuation"]["pe"] == 22.6 and micron["valuation"]["forwardPe"] == 5.8
-    assert [s["kind"] for s in micron["signals"] if s["isActive"]] == ["beat", "outlook", "revisions"]
+    assert [s["kind"] for s in micron["signals"] if s["isActive"]] == ["beat", "outlook"]
     ranking = json.loads((tmp_path / "out" / "ranking.json").read_text())
     assert ranking["maxScore"] == 7
-    assert ranking["companies"][0]["score"] == 6
-    assert [s["kind"] for s in ranking["companies"][0]["signals"]] == ["acceleration", "beat", "outlook", "revisions"]
+    assert ranking["companies"][0]["score"] == 5
+    assert [s["kind"] for s in ranking["companies"][0]["signals"]] == ["acceleration", "beat", "outlook"]
     assert (tmp_path / "data" / "analyst.json").exists()
