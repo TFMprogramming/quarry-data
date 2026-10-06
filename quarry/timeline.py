@@ -23,7 +23,7 @@ ITEMS = {
     "2.04": ("Schulden vorzeitig fällig", "warning"),
     "2.05": ("Umbau mit Stellenabbau oder Schließungen", "other"),
     "2.06": ("Wertberichtigung auf Vermögen", "warning"),
-    "3.01": ("Börse warnt: Notierung gefährdet", "warning"),
+    "3.01": ("Hinweis zur Börsennotierung", "warning"),
     "3.02": ("Neue Aktien ausgegeben", "capital"),
     "3.03": ("Rechte der Aktionäre geändert", "other"),
     "4.01": ("Wirtschaftsprüfer gewechselt", "warning"),
@@ -59,10 +59,11 @@ FORMS = {
     "SCHEDULE 13D": ("Aktiver Großinvestor meldet Anteil", "holder"),
     "SCHEDULE 13D/A": ("Aktiver Großinvestor ändert Anteil", "holder"),
     "SCHEDULE 13G": ("Neuer Großaktionär über 5 %", "holder"),
-    "25-NSE": ("Börsennotierung wird beendet", "warning"),
-    "25": ("Börsennotierung wird beendet", "warning"),
-    "15-12B": ("Abmeldung bei der SEC", "warning"),
-    "15-12G": ("Abmeldung bei der SEC", "warning"),
+    # Often only a bond or warrant leaves the exchange, not the shares.
+    "25-NSE": ("Ein Wertpapier verlässt die Börse", "other"),
+    "25": ("Ein Wertpapier verlässt die Börse", "other"),
+    "15-12B": ("Wertpapier bei der SEC abgemeldet", "other"),
+    "15-12G": ("Wertpapier bei der SEC abgemeldet", "other"),
     "DEF 14A": ("Einladung zur Hauptversammlung", "other"),
 }
 

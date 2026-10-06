@@ -101,8 +101,14 @@ def build_company(
         "holders": holders or [],
         "events": filings,
         "balance": figures,
-        "checks": health_checks(quarters(facts), figures, filings),
+        "checks": health_checks(quarters(facts), figures, filings, financial=_is_financial(submissions)),
     }
+
+
+def _is_financial(submissions: dict) -> bool:
+    """Banks, insurers, investment funds and other finance (SIC 6000–6799)."""
+    sic = str(submissions.get("sic") or "")
+    return sic.isdigit() and 6000 <= int(sic) <= 6799
 
 
 def _about(submissions: dict) -> dict:

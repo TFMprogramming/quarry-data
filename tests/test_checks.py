@@ -20,7 +20,7 @@ def test_loss_maker_with_short_runway_and_dilution():
         ("warning", "Wirtschaftsprüfer gewechselt"),
         ("ok", "Keine Finanzschulden"),
     ]
-    assert checks[3]["detail"] == "Gemeldet am 1.8.2026."
+    assert checks[3]["detail"] == "Kann Routine sein – oder auf Uneinigkeit über die Bilanz hindeuten. Gemeldet am 1.8.2026."
     assert checks[1]["detail"].startswith("Kasse 30,0 Mio. $, Abfluss 40,0 Mio. $ in zwölf Monaten.")
 
 
@@ -40,3 +40,14 @@ def test_healthy_company():
 
 def test_without_data_there_are_no_checks():
     assert health_checks([], None, []) == []
+
+
+def test_profitable_company_burning_cash_is_not_counting_months():
+    checks = health_checks(_quarters(10e6, 12e6, 9e6, 11e6), {"cash": 1e9, "freeCashFlow": -4e9}, [])
+    assert ("info", "Investiert mehr, als hereinkommt") in [(c["level"], c["title"]) for c in checks]
+
+
+def test_banks_skip_cash_flow_and_debt():
+    checks = health_checks(_quarters(10e6, 12e6, 9e6, 11e6),
+                           {"cash": 1e6, "debt": 9e9, "freeCashFlow": -4e9}, [], financial=True)
+    assert [c["title"] for c in checks] == ["Profitabel"]

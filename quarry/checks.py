@@ -5,19 +5,36 @@ from __future__ import annotations
 from quarry.facts import Quarter
 from quarry.formatting import money
 
+# What a warning filing means, in one sentence.
+WARNING_EXPLANATIONS = {
+    "Hinweis zur Börsennotierung": "Meist hat die Firma eine Regel der Börse verfehlt, etwa den Mindestkurs von 1 $; "
+                                   "selten ist es ein freiwilliger Börsenwechsel.",
+    "Bericht verspätet angekündigt": "Die Firma hat angekündigt, einen Pflichtbericht nicht rechtzeitig abzugeben.",
+    "Frühere Zahlen nicht mehr verlässlich": "Bereits veröffentlichte Abschlüsse müssen korrigiert werden.",
+    "Wirtschaftsprüfer gewechselt": "Kann Routine sein – oder auf Uneinigkeit über die Bilanz hindeuten.",
+    "Wertberichtigung auf Vermögen": "Vermögenswerte sind weniger wert als bisher angenommen.",
+    "Schulden vorzeitig fällig": "Kredite müssen früher als geplant zurückgezahlt werden.",
+    "Insolvenz oder Zwangsverwaltung": "Die Firma steht unter dem Schutz eines Insolvenzverfahrens oder unter Verwaltung.",
+    "Cyberangriff gemeldet": "Die Firma meldet einen erheblichen Angriff auf ihre IT.",
+}
+
 DILUTION_WARNING = 0.10
 DILUTION_NOTE = 0.03
 BUYBACK = -0.02
 
 
-def health_checks(quarters: list[Quarter], balance: dict | None, events: list[dict]) -> list[dict]:
+def health_checks(quarters: list[Quarter], balance: dict | None, events: list[dict],
+                  financial: bool = False) -> list[dict]:
+    """`financial`: banks, insurers and funds – lending and deposits make cash
+    flow and debt mean something else there, so those two checks are left out."""
+    balance = balance or {}
+    profit = _profit(quarters)
     checks = [
-        _profit(quarters),
-        _cash(balance or {}),
-        _shares(balance or {}),
-        *[_check("warning", event["title"], f"Gemeldet am {_german_date(event['date'])}.")
-          for event in events if event["kind"] == "warning"],
-        _debt(balance or {}),
+        profit,
+        None if financial else _cash(balance, losing=profit is None or profit["level"] == "warning"),
+        _shares(balance),
+        *[_warning_event(event) for event in events if event["kind"] == "warning"],
+        None if financial else _debt(balance),
     ]
     unique: dict[str, dict] = {}
     for check in checks:
@@ -39,12 +56,16 @@ def _profit(quarters: list[Quarter]) -> dict | None:
     return _check("ok", "Profitabel", f"Gewinn von {money(total)} {span}.")
 
 
-def _cash(balance: dict) -> dict | None:
+def _cash(balance: dict, losing: bool) -> dict | None:
     cash, flow = balance.get("cash"), balance.get("freeCashFlow")
     if flow is None:
         return None
     if flow >= 0:
         return _check("ok", "Erwirtschaftet Geld", f"Free Cashflow von {money(flow)} in zwölf Monaten.")
+    if not losing:
+        # Profitable, but investing more than it earns – common for utilities or fast growers.
+        return _check("info", "Investiert mehr, als hereinkommt",
+                      f"Free Cashflow −{money(-flow)} in zwölf Monaten, trotz Gewinn – etwa durch hohe Investitionen.")
     if cash is None:
         return _check("warning", "Verbraucht Geld", f"Abfluss von {money(-flow)} in zwölf Monaten.")
     months = cash / (-flow / 12)
@@ -79,6 +100,11 @@ def _debt(balance: dict) -> dict | None:
     if debt > cash:
         return _check("info", "Mehr Schulden als Geld", f"Schulden {money(debt)}, Kasse {money(cash)}.")
     return _check("ok", "Mehr Geld als Schulden", f"Kasse {money(cash)}, Schulden {money(debt)}.")
+
+
+def _warning_event(event: dict) -> dict:
+    explanation = WARNING_EXPLANATIONS.get(event["title"], "")
+    return _check("warning", event["title"], f"{explanation} Gemeldet am {_german_date(event['date'])}.".strip())
 
 
 def _check(level: str, title: str, detail: str) -> dict:
