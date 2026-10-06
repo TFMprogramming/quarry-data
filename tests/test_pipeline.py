@@ -48,3 +48,4 @@ def test_run_writes_events_and_feed(tmp_path):
     assert json.loads((tmp_path / "public" / "valuations.json").read_text())["version"] == 1
     ranking = json.loads((tmp_path / "public" / "upswing.json").read_text())
     assert ranking["maxScore"] == 4 and ranking["companies"] == []  # one signal is not enough
+    assert json.loads((tmp_path / "public" / "sectors.json").read_text())["version"] == 1

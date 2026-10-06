@@ -84,6 +84,8 @@ def test_store_ranks_companies_and_spots_newcomers(tmp_path):
     store.record(company(2, {"acceleration", "turnaround", "margin"}, new=True))
     store.record(company(3, {"insider"}))
     store.record(dict(company(4, set()), upswing=None))
+    store.record(dict(company(5, set()), upswing={"score": 0, "isNew": False, "revenueGrowth": 0.01}))
+    assert "5" in store.entries and "4" not in store.entries  # every company counts for the sectors
     ranking = store.ranking(TODAY)
     assert [c["cik"] for c in ranking["companies"]] == [2, 1]
     assert ranking["companies"][0]["signals"] == [

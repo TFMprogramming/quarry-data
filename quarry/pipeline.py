@@ -16,6 +16,7 @@ from quarry.insiders import HISTORY_DAYS as INSIDER_HISTORY_DAYS
 from quarry.insiders import InsiderStore, backfill, fetch_filings, records_from_filing
 from quarry.profiles import build_profiles
 from quarry.prices import fetch_closes
+from quarry.sector_stats import sector_overview
 from quarry.signals import insider_events
 from quarry.upswing import UpswingStore, upswing_event
 from quarry.valuation import FundamentalsStore, ValuationContext, sector_medians, valuations_json
@@ -93,6 +94,8 @@ def run(
     ranking = extras.upswing.ranking(today)
     (feed_path.parent / "upswing.json").write_text(json.dumps(ranking, ensure_ascii=False, separators=(",", ":")))
     log(f"Aufschwung: {len(ranking['companies'])} Firmen in der Rangliste")
+    sectors = sector_overview(extras.upswing.entries, today)
+    (feed_path.parent / "sectors.json").write_text(json.dumps(sectors, ensure_ascii=False, separators=(",", ":")))
     if closes:
         valuations = valuations_json(fundamentals, closes, today)
         (feed_path.parent / "valuations.json").write_text(json.dumps(valuations, ensure_ascii=False, separators=(",", ":")))

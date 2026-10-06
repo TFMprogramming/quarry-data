@@ -132,7 +132,8 @@ def _signal(kind: str, active: bool, headline: str, detail: str) -> dict:
 
 class UpswingStore:
     """The upswing state of every company, kept between runs (profiles rotate), so
-    the daily ranking covers all of them."""
+    the daily ranking and the sector overview cover all of them – companies
+    without any sign included."""
 
     def __init__(self, path: Path):
         self.path = Path(path)
@@ -140,7 +141,7 @@ class UpswingStore:
 
     def record(self, company: dict) -> None:
         upswing = company.get("upswing")
-        if not upswing or upswing["score"] == 0:
+        if not upswing:
             self.entries.pop(str(company["cik"]), None)
             return
         self.entries[str(company["cik"])] = {
