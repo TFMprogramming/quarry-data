@@ -7,8 +7,6 @@ from datetime import date
 from quarry.form4 import InsiderFiling
 
 INSIDER_MIN_VALUE = 25_000
-MOMENTUM_MIN_GROWTH = 0.20
-ATTENTION_MAX_FLOAT = 2_000_000_000
 
 
 def insider_events(filings: list[InsiderFiling], filed: date) -> list[dict]:
@@ -41,10 +39,3 @@ def insider_events(filings: list[InsiderFiling], filed: date) -> list[dict]:
                 "trades": trades,
             })
     return events
-
-
-def momentum_event(cik: int, filed: date, growth: tuple[str, float] | None) -> dict | None:
-    if growth is None or growth[1] < MOMENTUM_MIN_GROWTH:
-        return None
-    period, value = growth
-    return {"kind": "trend", "cik": cik, "date": filed.isoformat(), "period": period, "growth": round(value, 4)}

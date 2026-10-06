@@ -14,7 +14,10 @@ FACTS = {"facts": {
             {"start": "2025-07-01", "end": "2026-06-30", "val": 50_000_000, "accn": "k"},
             {"start": "2026-04-01", "end": "2026-06-30", "val": 25_000_000, "accn": "k", "frame": "CY2026Q2"},
         ]}},
-        "Revenues": _usd(("2025-07-01", "2026-06-30", 400_000_000, "k")),
+        "Revenues": {"units": {"USD": [
+            {"start": "2025-07-01", "end": "2026-06-30", "val": 400_000_000, "accn": "k"},
+            {"start": "2026-04-01", "end": "2026-06-30", "val": 110_000_000, "accn": "k"},
+        ]}},
     },
     "dei": {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
         {"end": "2026-07-20", "val": 10_000_000, "accn": "k"}]}}},

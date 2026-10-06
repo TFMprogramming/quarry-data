@@ -35,19 +35,6 @@ def quarters(facts: dict, count: int = 8) -> list[Quarter]:
     return [Quarter(period, revenue.get(period), income.get(period)) for period in periods]
 
 
-def revenue_growth(facts: dict) -> tuple[str, float] | None:
-    """Latest quarter's revenue growth against the same quarter a year earlier."""
-    revenue = _quarterly(facts, REVENUE_CONCEPTS)
-    if not revenue:
-        return None
-    latest = max(revenue)
-    year, quarter = latest.split("-")
-    previous = revenue.get(f"{int(year) - 1}-{quarter}")
-    if not previous or previous <= 0:
-        return None
-    return latest, revenue[latest] / previous - 1
-
-
 def _quarterly(facts: dict, concepts: list[str]) -> dict[str, float]:
     """Quarter -> value. Earlier concepts win; later ones fill gaps (companies switch concepts over time)."""
     gaap = facts.get("facts", {}).get("us-gaap", {})

@@ -10,14 +10,14 @@ from quarry.budget import Budget
 from quarry.daily_index import index_url, parse_form_index
 from quarry.directory import DIRECTORY_URL, index_json, parse_directory
 from quarry.extras import CompanyExtras
-from quarry.facts import revenue_growth
 from quarry.feed import FEED_WINDOW_DAYS, build_company
 from quarry.holders import HolderCache
 from quarry.insiders import HISTORY_DAYS as INSIDER_HISTORY_DAYS
 from quarry.insiders import InsiderStore, backfill, fetch_filings, records_from_filing
 from quarry.profiles import build_profiles
 from quarry.prices import fetch_closes
-from quarry.signals import insider_events, momentum_event
+from quarry.signals import insider_events
+from quarry.upswing import UpswingStore, upswing_event
 from quarry.valuation import FundamentalsStore, ValuationContext, sector_medians, valuations_json
 
 HISTORY_DAYS = 90
@@ -74,6 +74,7 @@ def run(
         holder_cache=holder_cache,
         holder_budget=Budget(holder_budget),
         valuation=ValuationContext(closes, sector_medians(fundamentals.entries, closes), fundamentals),
+        upswing=UpswingStore(Path(data_dir) / "upswing.json"),
     )
 
     feed = build_feed(client, today, events_dir, log, extras)
@@ -88,6 +89,10 @@ def run(
                         log, profile_limit, extras)
         holder_cache.save()
     fundamentals.save()
+    extras.upswing.save()
+    ranking = extras.upswing.ranking(today)
+    (feed_path.parent / "upswing.json").write_text(json.dumps(ranking, ensure_ascii=False, separators=(",", ":")))
+    log(f"Aufschwung: {len(ranking['companies'])} Firmen in der Rangliste")
     if closes:
         valuations = valuations_json(fundamentals, closes, today)
         (feed_path.parent / "valuations.json").write_text(json.dumps(valuations, ensure_ascii=False, separators=(",", ":")))
@@ -133,7 +138,7 @@ def process_day(client, day: date, index_text: str, log=print, store: InsiderSto
 
     for cik in sorted({entry.cik for entry in entries if entry.form in ("10-Q", "10-K")}):
         facts = client.get_json(_facts_url(cik))
-        event = momentum_event(cik, day, revenue_growth(facts) if facts else None)
+        event = upswing_event(cik, day, facts)
         if event:
             events.append(event)
     return events
@@ -154,6 +159,7 @@ def build_feed(client, today: date, events_dir: Path, log=print, extras: Company
         company = build_company(cik, events, submissions, client.get_json(_facts_url(cik)), today,
                                 **extras.for_company(client, cik, submissions, today))
         if company:
+            extras.record(company)
             companies.append(company)
 
     companies.sort(key=lambda c: (c["importance"], c["trigger"]["date"]), reverse=True)

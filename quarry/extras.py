@@ -7,6 +7,7 @@ from datetime import date
 
 from quarry.budget import Budget
 from quarry.holders import HolderCache, holders_for
+from quarry.upswing import UpswingStore
 from quarry.valuation import ValuationContext
 
 
@@ -17,6 +18,12 @@ class CompanyExtras:
     holder_cache: HolderCache | None = None
     holder_budget: Budget = field(default_factory=lambda: Budget(0))
     valuation: ValuationContext | None = None
+    upswing: UpswingStore | None = None
+
+    def record(self, company: dict) -> None:
+        """Remembers a freshly built company for the daily upswing ranking."""
+        if self.upswing is not None:
+            self.upswing.record(company)
 
     def for_company(self, client, cik: int, submissions: dict, today: date) -> dict:
         """Keyword arguments for `build_company`."""

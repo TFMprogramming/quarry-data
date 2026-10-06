@@ -6,8 +6,11 @@ from quarry.upswing import UpswingStore, upswing_signals
 TODAY = date(2026, 10, 6)
 
 
+M = 1_000_000
+
+
 def _table(revenues, incomes=None, gross=None, last_filed=date(2026, 10, 1)):
-    """Quarters ending every 91 days, the newest last."""
+    """Quarters ending every 91 days, the newest last; amounts in millions."""
     count = len(revenues)
     first_end = date(2026, 9, 30) - timedelta(days=91 * (count - 1))
     table = []
@@ -16,9 +19,9 @@ def _table(revenues, incomes=None, gross=None, last_filed=date(2026, 10, 1)):
         table.append(QuarterFigures(
             start=end - timedelta(days=90), end=end,
             filed=last_filed if i == count - 1 else end + timedelta(days=30),
-            revenue=revenue,
-            net_income=incomes[i] if incomes else None,
-            gross_profit=gross[i] if gross else None,
+            revenue=revenue * M,
+            net_income=incomes[i] * M if incomes else None,
+            gross_profit=gross[i] * M if gross else None,
         ))
     return table
 
@@ -89,3 +92,23 @@ def test_store_ranks_companies_and_spots_newcomers(tmp_path):
         {"kind": "margin", "headline": "MARGIN", "isNew": True},
     ]
     assert ranking["maxScore"] == 4 and ranking["companies"][0]["isNew"] is True
+
+
+def test_event_on_report_day_names_the_strongest_sign():
+    from quarry.upswing import upswing_event
+
+    def quarter(end, revenue):
+        start = (date.fromisoformat(end) - timedelta(days=90)).isoformat()
+        return {"start": start, "end": end, "val": revenue, "filed": "2026-10-01"}
+    facts = {"facts": {"us-gaap": {"Revenues": {"units": {"USD": [
+        quarter("2025-06-30", 100e6), quarter("2025-09-30", 100e6), quarter("2026-06-30", 110e6), quarter("2026-09-30", 150e6),
+    ]}}}}}
+    event = upswing_event(7, date(2026, 10, 1), facts)
+    assert event == {"kind": "acceleration", "cik": 7, "date": "2026-10-01",
+                     "headline": "Umsatz +50 % (Vorquartal +10 %)", "signals": ["acceleration"]}
+    assert upswing_event(7, date(2026, 10, 1), {"facts": {}}) is None
+
+
+def test_tiny_revenue_does_not_count():
+    signals = upswing_signals(_table([1, 1, 1, 1, 1, 1.1, 1, 14]), TODAY)
+    assert "acceleration" in _kinds(signals, active=False)

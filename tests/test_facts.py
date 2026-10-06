@@ -1,4 +1,4 @@
-from quarry.facts import public_float, quarters, revenue_growth
+from quarry.facts import public_float, quarters
 
 FACTS = {"facts": {
     "dei": {"EntityPublicFloat": {"units": {"USD": [
@@ -31,15 +31,8 @@ def test_quarters_merge_concepts_and_skip_annual_frames():
     assert result[-1].revenue == 148 and result[-1].net_income == 12
 
 
-def test_revenue_growth_compares_same_quarter_last_year():
-    period, growth = revenue_growth(FACTS)
-    assert period == "2026-Q2"
-    assert round(growth, 2) == 0.48
-
-
 def test_missing_data_is_none():
     assert public_float({"facts": {}}) is None
-    assert revenue_growth({"facts": {}}) is None
 
 
 def _usd(*entries):

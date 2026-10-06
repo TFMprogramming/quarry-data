@@ -8,12 +8,14 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from quarry.formatting import percent
-from quarry.quarters import QuarterFigures, growth, year_ago
+from quarry.quarters import QuarterFigures, growth, quarter_table, year_ago
 
 MIN_GROWTH = 0.15
 MIN_ACCELERATION = 0.05  # percentage points faster than the quarter before
 MIN_PROFIT_GROWTH = 0.25
 MIN_MARGIN_GAIN = 0.03
+# Below this quarterly revenue, percentages explode from tiny amounts (early biotech, shells).
+MIN_REVENUE = 20_000_000
 NEW_WITHIN_DAYS = 7
 # Signals that make the score; insider buying counts as well.
 UPSWING_KINDS = ["acceleration", "turnaround", "margin", "insider"]
@@ -46,6 +48,15 @@ def is_newcomer(table: list[QuarterFigures], today: date, score: int) -> bool:
     return before < now and before < RANKING_MIN_SCORE
 
 
+def upswing_event(cik: int, filed: date, facts: dict | None) -> dict | None:
+    """A feed event when a fresh quarterly report shows signs of an upswing."""
+    active = [signal for signal in upswing_signals(quarter_table(facts or {}), filed) if signal["isActive"]]
+    if not active:
+        return None
+    return {"kind": active[0]["kind"], "cik": cik, "date": filed.isoformat(), "headline": active[0]["headline"],
+            "signals": [signal["kind"] for signal in active]}
+
+
 def _acceleration(table: list[QuarterFigures]) -> dict:
     if len(table) < 2:
         return _signal("acceleration", False, "Keine Vergleichszahlen", "Für einen Vergleich fehlen Quartalszahlen.")
@@ -59,6 +70,8 @@ def _acceleration(table: list[QuarterFigures]) -> dict:
     headline = f"Umsatz {percent(now)} (Vorquartal {percent(before)})"
     detail = (f"Umsatzwachstum gegenüber dem Vorjahresquartal: zuletzt {percent(now)}, "
               f"im Quartal davor {percent(before)}.")
+    if (latest.revenue or 0) < MIN_REVENUE:
+        return _signal("acceleration", False, headline, detail + " Bei so kleinem Umsatz sagen Prozente wenig.")
     active = now >= MIN_GROWTH and now - before >= MIN_ACCELERATION
     return _signal("acceleration", active, headline, detail + (" Das Wachstum wird schneller." if active else ""))
 
@@ -95,7 +108,7 @@ def _margin(table: list[QuarterFigures]) -> dict:
     ):
         if now is not None and before is not None and -1 <= now <= 1 and -1 <= before <= 1:
             headline = f"{name} {now * 100:.0f} % (Vorjahr {before * 100:.0f} %)"
-            active = now - before >= MIN_MARGIN_GAIN
+            active = now - before >= MIN_MARGIN_GAIN and (latest.revenue or 0) >= MIN_REVENUE
             detail = (f"Von jedem Dollar Umsatz bleiben {now * 100:.0f} Cent statt {before * 100:.0f} Cent vor einem Jahr."
                       if active else f"{name} im Vergleich zum Vorjahresquartal.")
             return _signal("margin", active, headline, detail)

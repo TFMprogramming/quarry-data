@@ -11,7 +11,8 @@ from datetime import date
 from pathlib import Path
 from statistics import median
 
-from quarry.facts import REVENUE_CONCEPTS, _shares, _trailing_year, quarters
+from quarry.facts import REVENUE_CONCEPTS, _shares, _trailing_year
+from quarry.quarters import quarter_table
 from quarry.prices import Close, close_for
 
 MIN_PEERS = 8
@@ -36,10 +37,11 @@ def basis(facts: dict, submissions: dict, sector: str) -> dict | None:
         return None
     revenue = next((value for value in (_trailing_year(gaap, concept) for concept in REVENUE_CONCEPTS)
                     if value is not None), None)
-    latest = next((q for q in reversed(quarters(facts or {})) if q.net_income is not None), None)
+    latest = next((q for q in reversed(quarter_table(facts or {})) if q.net_income is not None), None)
     return {"tickers": tickers, "sector": sector, "netIncome": _trailing_year(gaap, "NetIncomeLoss"),
             "revenue": revenue, "shares": shares,
-            "quarterIncome": latest.net_income if latest else None, "quarter": latest.period if latest else None}
+            "quarterIncome": latest.net_income if latest else None,
+            "quarter": f"{latest.end.year}-Q{(latest.end.month - 1) // 3 + 1}" if latest else None}
 
 
 def valuation(company: dict | None, closes: dict[str, Close]) -> dict | None:

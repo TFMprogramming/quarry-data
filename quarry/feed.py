@@ -5,12 +5,13 @@ from datetime import date, timedelta
 
 from quarry.checks import health_checks
 from quarry.directory import display_name
-from quarry.facts import balance, public_float, quarters, revenue_growth
+from quarry.facts import balance, public_float
 from quarry.formatting import money, percent
 from quarry.sectors import german_sector
 from quarry.insiders import insider_profile
-from quarry.signals import ATTENTION_MAX_FLOAT, MOMENTUM_MIN_GROWTH
+from quarry.quarters import quarter_table
 from quarry.timeline import timeline
+from quarry.upswing import UPSWING_KINDS, is_newcomer, revenue_growth_latest, upswing_signals
 from quarry.valuation import ValuationContext, basis
 
 LISTED_EXCHANGES = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE American": "AMEX", "NYSE Arca": "AMEX", "CBOE": "CBOE"}
@@ -58,7 +59,7 @@ def build_company(
     insider_total = sum(event["value"] for event in insider)
     trades = sorted((trade for event in insider for trade in event["trades"]), key=lambda t: t["date"], reverse=True)
 
-    growth = revenue_growth(facts)
+    table = quarter_table(facts)
     sector = german_sector(submissions.get("sic"))
     valued = valuation_context.value(cik, basis(facts, submissions, sector)) if valuation_context else None
     figures = balance(facts)
@@ -68,12 +69,14 @@ def build_company(
     else:
         insider_summary, insider_transactions = None, []
 
-    signals = [
-        _value_signal(valued, sector),
-        _overlooked_signal(floating),
-        _insider_signal(insider, insider_total, new_start),
-        _trend_signal(growth, any(e["kind"] == "trend" and e["date"] >= new_start for e in events)),
-    ]
+    signals = [*upswing_signals(table, today), _insider_signal(insider, insider_total, new_start)]
+    score = sum(1 for signal in signals if signal["isActive"])
+    upswing = {
+        "score": score,
+        "maxScore": len(UPSWING_KINDS),
+        "isNew": is_newcomer(table, today, sum(1 for s in signals[:3] if s["isActive"])),
+        "revenueGrowth": revenue_growth_latest(table),
+    }
 
     trigger_event = max(recent, key=lambda event: (event["date"], event["kind"] == "insider")) if recent else None
     importance = sum(1 for s in signals if s["isActive"]) + 0.5 * sum(1 for s in signals if s["isActive"] and s["isNew"])
@@ -96,9 +99,11 @@ def build_company(
         "trigger": {"kind": trigger_event["kind"], "headline": _headline(trigger_event), "date": trigger_event["date"]}
         if trigger_event else None,
         "signals": signals,
+        "upswing": upswing,
         "insiderTrades": trades[:10],
         "financials": [
-            {"period": q.period, "revenue": q.revenue, "netIncome": q.net_income} for q in quarters(facts)
+            {"period": f"{q.end.year}-Q{(q.end.month - 1) // 3 + 1}", "revenue": q.revenue, "netIncome": q.net_income}
+            for q in table[-8:]
         ],
         "valuation": valued,
         "about": _about(submissions),
@@ -107,7 +112,7 @@ def build_company(
         "holders": holders,  # None: not (completely) known yet
         "events": filings,
         "balance": figures,
-        "checks": health_checks(quarters(facts), figures, filings, financial=_is_financial(submissions)),
+        "checks": health_checks(table, figures, filings, financial=_is_financial(submissions)),
     }
 
 
@@ -144,6 +149,8 @@ def _listing(submissions: dict) -> tuple[str, str] | None:
 
 
 def _headline(event: dict) -> str:
+    if event.get("headline"):
+        return event["headline"]
     if event["kind"] == "insider":
         buyers = {trade["name"] for trade in event["trades"]}
         if len(buyers) == 1:
@@ -156,40 +163,6 @@ def _signal(kind: str, active: bool, headline: str, detail: str, new: bool = Fal
     return {"kind": kind, "isActive": active, "isNew": active and new, "headline": headline, "detail": detail}
 
 
-VALUE_DISCOUNT = 0.6  # "günstig": P/E at most 60 % of the sector median
-
-
-def _value_signal(valued: dict | None, sector: str) -> dict:
-    if valued is None:
-        return _signal("value", False, "Keine Kursdaten", "Für eine Bewertung fehlen Schlusskurs oder Aktienzahl.")
-    pe, sector_pe = valued["pe"], valued.get("sectorPe")
-    if pe is None:
-        return _signal("value", False, "Kein KGV",
-                       "Ohne Gewinn in den letzten zwölf Monaten lässt sich kein KGV berechnen.")
-    if not sector_pe:
-        return _signal("value", False, f"KGV {_number(pe)}",
-                       f"Zu wenige vergleichbare Firmen in der Branche {sector} für einen Vergleich.")
-    headline = f"KGV {_number(pe)} · Branche {_number(sector_pe)}"
-    detail = (f"Für 1 $ Jahresgewinn zahlt man an der Börse {_number(pe)} $, in der Branche {sector} "
-              f"im Mittel {_number(sector_pe)} $.")
-    if pe <= VALUE_DISCOUNT * sector_pe:
-        return _signal("value", True, headline,
-                       detail + " Ein niedriges KGV kann auch heißen, dass der Markt sinkende Gewinne erwartet.")
-    return _signal("value", False, headline, detail)
-
-
-def _number(value: float) -> str:
-    return f"{value:.0f}" if value >= 10 or value == int(value) else f"{value:.1f}".replace(".", ",")
-
-
-def _overlooked_signal(floating: float | None) -> dict:
-    if floating is None:
-        return _signal("overlooked", False, "Kein Signal", "Keine Angabe zum Streubesitz.")
-    if floating < ATTENTION_MAX_FLOAT:
-        return _signal("overlooked", True, f"Streubesitz {money(floating)}",
-                       "Kleine Firma – solche Werte verfolgen Analysten und Fonds seltener.")
-    return _signal("overlooked", False, "Kein Signal", f"Streubesitz {money(floating)} – keine kleine Firma.")
-
 
 def _insider_signal(events: list[dict], total: float, new_start: str) -> dict:
     if not events:
@@ -201,16 +174,6 @@ def _insider_signal(events: list[dict], total: float, new_start: str) -> dict:
         f"Vorstände oder Direktoren haben in den letzten 90 Tagen für {money(total)} eigene Aktien gekauft.",
         new=any(event["date"] >= new_start for event in events),
     )
-
-
-def _trend_signal(growth: tuple[str, float] | None, is_new: bool) -> dict:
-    if growth is None:
-        return _signal("trend", False, "Kein Signal", "Keine vergleichbaren Quartalszahlen verfügbar.")
-    period, value = growth
-    if value >= MOMENTUM_MIN_GROWTH:
-        return _signal("trend", True, f"Umsatz {percent(value)}",
-                       f"Umsatz im Quartal {period} gegenüber dem Vorjahresquartal.", new=is_new)
-    return _signal("trend", False, "Kein Signal", f"Umsatz {percent(value)} im Quartal {period} – unter +20 %.")
 
 
 def _display_name(name: str) -> str:

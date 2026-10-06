@@ -11,7 +11,7 @@ from quarry.feed import build_company
 
 ROTATION_DAYS = 5
 # Raise when profiles gain fields: every profile is then rebuilt once.
-PROFILE_VERSION = 3
+PROFILE_VERSION = 4
 
 
 def is_due(cik: int, today: date, exists: bool, feed_ciks: set[int]) -> bool:
@@ -54,6 +54,7 @@ def build_profiles(
         company = build_company(cik, events_by_cik.get(cik, []), submissions, facts, today, require_recent=False,
                                 **extras.for_company(client, cik, submissions, today))
         if company:
+            extras.record(company)
             (out_dir / f"{cik}.json").write_text(json.dumps(company, ensure_ascii=False, separators=(",", ":")))
             written += 1
     if limit is None:

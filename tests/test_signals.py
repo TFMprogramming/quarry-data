@@ -1,7 +1,7 @@
 from datetime import date
 
 from quarry.form4 import InsiderFiling, Purchase
-from quarry.signals import insider_events, momentum_event
+from quarry.signals import insider_events
 
 DAY = date(2026, 10, 2)
 
@@ -24,7 +24,3 @@ def test_aggregates_purchases_per_issuer_and_applies_threshold():
     assert event["date"] == "2026-10-02"
 
 
-def test_momentum_event_needs_twenty_percent():
-    assert momentum_event(7, DAY, ("2026-Q2", 0.25))["growth"] == 0.25
-    assert momentum_event(7, DAY, ("2026-Q2", 0.10)) is None
-    assert momentum_event(7, DAY, None) is None
