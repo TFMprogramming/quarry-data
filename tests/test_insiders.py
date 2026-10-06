@@ -192,3 +192,10 @@ def test_prune_drops_days_beyond_the_window(tmp_path):
     store.write("2026-09-01", [])
     store.prune(TODAY)
     assert not store.has("2025-09-01") and store.has("2026-09-01")
+
+
+def test_buyers_come_first_and_names_are_tidied():
+    records = [_record(code="S", shares=100_000, name="Big Seller"), _record(name="Deirdre O'brien", shares=10)]
+    summary, transactions = insider_profile(records, TODAY, since=date(2025, 10, 6))
+    assert [p["name"] for p in summary["byPerson"]] == ["Deirdre O'Brien", "Big Seller"]
+    assert transactions[0]["name"] in ("Big Seller", "Deirdre O'Brien")

@@ -181,7 +181,10 @@ def _person_name(sec_name: str) -> str:
 def _name_case(part: str) -> str:
     if part.upper() in NAME_SUFFIXES:
         return part.upper().replace("JR", "Jr").replace("SR", "Sr")
-    return part.capitalize() if part.isupper() else part
+    if not part.isupper():
+        return part
+    # "O'BRIEN" -> "O'Brien", "SMITH-JONES" -> "Smith-Jones"
+    return "-".join("'".join(piece.capitalize() for piece in segment.split("'")) for segment in part.split("-"))
 
 
 def _entity_case(part: str) -> str:

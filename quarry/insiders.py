@@ -217,22 +217,30 @@ def insider_profile(records: list[dict], today: date, since: date,
 
     latest = sorted(kept, key=lambda r: r["date"], reverse=True)[:MAX_TRANSACTIONS]
     transactions = [{
-        "name": r["name"], "role": tidy_role(r["role"]), "date": r["date"], "kind": "buy" if r["code"] == "P" else "sell",
+        "name": tidy_name(r["name"]), "role": tidy_role(r["role"]), "date": r["date"], "kind": "buy" if r["code"] == "P" else "sell",
         "shares": r["shares"], "price": round(r["price"], 2), "value": round(r["shares"] * r["price"]),
         "sharesAfter": r["after"], "planned": r["planned"],
     } for r in latest]
     return summary, transactions
 
 
+def tidy_name(name: str) -> str:
+    """"O'brien" -> "O'Brien" (names stored before this rule existed)."""
+    return " ".join(word[:2] + word[2:].capitalize() if len(word) > 2 and word[1] == "'" else word
+                    for word in name.split(" "))
+
+
 def _by_person(records: list[dict]) -> list[dict]:
-    """The people who traded the most, with what they bought and sold in total."""
+    """The people who traded the most, with what they bought and sold in total.
+    Buyers come first: purchases are rarer and say more."""
     people: dict[str, dict] = {}
     for record in sorted(records, key=lambda r: r["date"]):
-        person = people.setdefault(record["name"], {"name": record["name"], "bought": 0, "sold": 0, "trades": 0})
+        person = people.setdefault(record["name"], {"name": tidy_name(record["name"]), "bought": 0, "sold": 0,
+                                                    "trades": 0})
         person["role"] = tidy_role(record["role"])  # the latest one
         person["bought" if record["code"] == "P" else "sold"] += round(record["shares"] * record["price"])
         person["trades"] += 1
-    ranked = sorted(people.values(), key=lambda p: p["bought"] + p["sold"], reverse=True)[:MAX_PEOPLE]
+    ranked = sorted(people.values(), key=lambda p: (p["bought"] > 0, p["bought"] + p["sold"]), reverse=True)[:MAX_PEOPLE]
     return [{"name": p["name"], "role": p["role"], "bought": p["bought"], "sold": p["sold"], "trades": p["trades"]}
             for p in ranked]
 

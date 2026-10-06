@@ -63,6 +63,8 @@ def test_names_are_turned_around_and_keep_suffixes():
     assert _person_name("Cohen Ryan") == "Ryan Cohen"
     assert _person_name("AULT MILTON C III") == "Milton C Ault III"
     assert _person_name("OLSEN MARGARET") == "Margaret Olsen"
+    assert _person_name("O'BRIEN DEIRDRE") == "Deirdre O'Brien"
+    assert _person_name("SMITH-JONES ANN") == "Ann Smith-Jones"
 
 
 def test_abbreviated_titles_are_recognised():
