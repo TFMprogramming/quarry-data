@@ -69,12 +69,12 @@ def _acceleration(table: list[QuarterFigures]) -> dict:
     if before is None:
         return _signal("acceleration", False, f"Umsatz {percent(now)}", "Zum Quartal davor fehlt der Vorjahresvergleich.")
     headline = f"Umsatz {percent(now)} (Vorquartal {percent(before)})"
-    detail = (f"Umsatzwachstum gegenüber dem Vorjahresquartal: zuletzt {percent(now)}, "
-              f"im Quartal davor {percent(before)}.")
     if (latest.revenue or 0) < MIN_REVENUE:
-        return _signal("acceleration", False, headline, detail + " Bei so kleinem Umsatz sagen Prozente wenig.")
+        return _signal("acceleration", False, headline, "Bei so kleinem Umsatz sagen Prozente wenig.")
     active = now >= MIN_GROWTH and now - before >= MIN_ACCELERATION
-    return _signal("acceleration", active, headline, detail + (" Das Wachstum wird schneller." if active else ""))
+    detail = ("Der Umsatz wächst gegenüber dem Vorjahr schneller als noch im Quartal davor." if active
+              else "Umsatzwachstum gegenüber dem Vorjahresquartal.")
+    return _signal("acceleration", active, headline, detail)
 
 
 def _turnaround(table: list[QuarterFigures]) -> dict:
@@ -93,8 +93,8 @@ def _turnaround(table: list[QuarterFigures]) -> dict:
                        "Im Vorjahresquartal gab es keinen Gewinn – ein Vergleich in Prozent ist nicht möglich.")
     headline = f"Gewinn {percent(profit_growth)}" + (f" (Umsatz {percent(sales_growth)})" if sales_growth is not None else "")
     active = profit_growth >= MIN_PROFIT_GROWTH and (sales_growth is None or profit_growth > sales_growth)
-    detail = "Gewinn gegenüber dem Vorjahresquartal" + (", schneller als der Umsatz – die Firma verdient an jedem Dollar mehr."
-                                                         if active else ".")
+    detail = ("Der Gewinn wächst schneller als der Umsatz – die Firma verdient an jedem Dollar mehr." if active
+              else "Gewinn gegenüber dem Vorjahresquartal.")
     return _signal("turnaround", active, headline, detail)
 
 
