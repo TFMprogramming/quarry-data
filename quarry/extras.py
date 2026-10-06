@@ -20,10 +20,10 @@ class CompanyExtras:
     valuation: ValuationContext | None = None
     upswing: UpswingStore | None = None
 
-    def record(self, company: dict) -> None:
+    def record(self, company: dict, today: date) -> None:
         """Remembers a freshly built company for the daily upswing ranking."""
         if self.upswing is not None:
-            self.upswing.record(company)
+            self.upswing.record(company, today)
 
     def for_company(self, client, cik: int, submissions: dict, today: date) -> dict:
         """Keyword arguments for `build_company`."""

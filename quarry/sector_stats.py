@@ -3,7 +3,9 @@ upswing, typical revenue growth and its members – published daily as
 `sectors.json` for the Branchen view and company comparisons."""
 from __future__ import annotations
 
-from datetime import date
+import json
+from datetime import date, timedelta
+from pathlib import Path
 from statistics import median
 
 from quarry.upswing import RANKING_MIN_SCORE
@@ -51,3 +53,30 @@ def _stats(name: str, companies: list[dict]) -> dict:
                      round(c["revenueGrowth"], 3) if c.get("revenueGrowth") is not None else None]
                     for c in members],
     }
+
+
+class SectorHistory:
+    """Daily counts of companies in an upswing per sector, for the change over a week."""
+
+    KEEP_DAYS = 35
+    WEEK = 7
+
+    def __init__(self, path: Path):
+        self.path = Path(path)
+        self.days: dict[str, dict[str, int]] = json.loads(self.path.read_text()) if self.path.exists() else {}
+
+    def update(self, overview: dict, today: date) -> None:
+        """Records today's counts and adds each sector's change against a week ago,
+        plus the sector of the week (the largest increase), to `overview`."""
+        self.days[today.isoformat()] = {s["name"]: s["upswing"] for s in overview["sectors"]}
+        cutoff = (today - timedelta(days=self.KEEP_DAYS)).isoformat()
+        self.days = {day: counts for day, counts in self.days.items() if day >= cutoff}
+        week_ago = (today - timedelta(days=self.WEEK)).isoformat()
+        earlier = [day for day in self.days if day <= week_ago]
+        before = self.days[max(earlier)] if earlier else None
+        for sector in overview["sectors"]:
+            sector["change"] = sector["upswing"] - before[sector["name"]] if before and sector["name"] in before else None
+        rising = [s for s in overview["sectors"] if (s["change"] or 0) > 0]
+        overview["sectorOfTheWeek"] = max(rising, key=lambda s: (s["change"], s["share"]))["name"] if rising else None
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        self.path.write_text(json.dumps(self.days, ensure_ascii=False, separators=(",", ":"), sort_keys=True))

@@ -37,3 +37,15 @@ def test_small_sectors_are_grouped_and_shells_left_out():
 def test_growth_median_ignores_missing_values():
     companies = [_company(i, "Chemie", 0, None if i % 2 else 0.2) for i in range(MIN_COMPANIES * 2)]
     assert sector_overview(_entries(*companies), TODAY)["sectors"][0]["medianGrowth"] == 0.2
+
+
+def test_change_over_the_week_from_the_history(tmp_path):
+    from quarry.sector_stats import SectorHistory
+    history = SectorHistory(tmp_path / "sectors.json")
+    semis = [_company(i, "Halbleiter", 3 if i < 2 else 0, 0.1) for i in range(10)]
+    history.update(sector_overview(_entries(*semis), date(2026, 9, 29)), date(2026, 9, 29))
+    more = [_company(i, "Halbleiter", 3 if i < 5 else 0, 0.1) for i in range(10)]
+    overview = sector_overview(_entries(*more), TODAY)
+    history.update(overview, TODAY)
+    assert overview["sectors"][0]["change"] == 3
+    assert overview["sectorOfTheWeek"] == "Halbleiter"

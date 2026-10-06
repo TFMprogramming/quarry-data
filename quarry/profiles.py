@@ -54,7 +54,7 @@ def build_profiles(
         company = build_company(cik, events_by_cik.get(cik, []), submissions, facts, today, require_recent=False,
                                 **extras.for_company(client, cik, submissions, today))
         if company:
-            extras.record(company)
+            extras.record(company, today)
             (out_dir / f"{cik}.json").write_text(json.dumps(company, ensure_ascii=False, separators=(",", ":")))
             written += 1
     if limit is None:

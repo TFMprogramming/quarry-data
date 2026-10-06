@@ -20,6 +20,7 @@ NEW_WITHIN_DAYS = 7
 # Signals that make the score; insider buying counts as well.
 UPSWING_KINDS = ["acceleration", "turnaround", "margin", "insider"]
 RANKING_MIN_SCORE = 2
+HISTORY_DAYS = 183
 
 
 def upswing_signals(table: list[QuarterFigures], today: date) -> list[dict]:
@@ -139,15 +140,27 @@ class UpswingStore:
         self.path = Path(path)
         self.entries: dict[str, dict] = json.loads(self.path.read_text()) if self.path.exists() else {}
 
-    def record(self, company: dict) -> None:
+    def record(self, company: dict, today: date) -> None:
+        """Remembers the company's state and adds its strength history (one point per
+        change, half a year) and since when it is in the ranking – to the store and to
+        the company itself, so profiles carry it too."""
         upswing = company.get("upswing")
         if not upswing:
             self.entries.pop(str(company["cik"]), None)
             return
+        previous = self.entries.get(str(company["cik"])) or {}
+        cutoff = (today - timedelta(days=HISTORY_DAYS)).isoformat()
+        history = [point for point in previous.get("history", []) if point[0] >= cutoff]
+        if not history or history[-1][1] != upswing["score"]:
+            history.append([today.isoformat(), upswing["score"]])
+        since = (previous.get("since") or today.isoformat()) if upswing["score"] >= RANKING_MIN_SCORE else None
+        upswing["history"] = history
+        upswing["since"] = since
         self.entries[str(company["cik"])] = {
             "cik": company["cik"], "ticker": company["ticker"], "name": company["name"],
             "exchange": company["exchange"], "sector": company["sector"],
             "score": upswing["score"], "isNew": upswing["isNew"], "revenueGrowth": upswing.get("revenueGrowth"),
+            "since": since, "history": history,
             "signals": [{"kind": s["kind"], "headline": s["headline"], "isNew": s["isNew"]}
                         for s in company["signals"] if s["isActive"] and s["kind"] in UPSWING_KINDS],
         }

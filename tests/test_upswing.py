@@ -80,11 +80,11 @@ def test_store_ranks_companies_and_spots_newcomers(tmp_path):
         return {"cik": cik, "ticker": f"T{cik}", "name": f"Firma {cik}", "exchange": "NYSE", "sector": "Chemie",
                 "signals": signals, "upswing": {"score": len(active), "isNew": new, "revenueGrowth": 0.3}}
 
-    store.record(company(1, {"acceleration", "margin"}))
-    store.record(company(2, {"acceleration", "turnaround", "margin"}, new=True))
-    store.record(company(3, {"insider"}))
-    store.record(dict(company(4, set()), upswing=None))
-    store.record(dict(company(5, set()), upswing={"score": 0, "isNew": False, "revenueGrowth": 0.01}))
+    store.record(company(1, {"acceleration", "margin"}), TODAY)
+    store.record(company(2, {"acceleration", "turnaround", "margin"}, new=True), TODAY)
+    store.record(company(3, {"insider"}), TODAY)
+    store.record(dict(company(4, set()), upswing=None), TODAY)
+    store.record(dict(company(5, set()), upswing={"score": 0, "isNew": False, "revenueGrowth": 0.01}), TODAY)
     assert "5" in store.entries and "4" not in store.entries  # every company counts for the sectors
     ranking = store.ranking(TODAY)
     assert [c["cik"] for c in ranking["companies"]] == [2, 1]
@@ -114,3 +114,33 @@ def test_event_on_report_day_names_the_strongest_sign():
 def test_tiny_revenue_does_not_count():
     signals = upswing_signals(_table([1, 1, 1, 1, 1, 1.1, 1, 14]), TODAY)
     assert "acceleration" in _kinds(signals, active=False)
+
+
+def _company_with(cik, score, signals=("acceleration",)):
+    return {"cik": cik, "ticker": "MU", "name": "Micron", "exchange": "Nasdaq", "sector": "Halbleiter",
+            "signals": [{"kind": k, "isActive": True, "isNew": False, "headline": k, "detail": ""} for k in signals],
+            "upswing": {"score": score, "maxScore": 4, "isNew": False, "revenueGrowth": 0.5}}
+
+
+def test_history_and_since_follow_the_score(tmp_path):
+    store = UpswingStore(tmp_path / "u.json")
+    days = [date(2026, 9, 1), date(2026, 9, 2), date(2026, 9, 10), date(2026, 9, 20), date(2026, 10, 1)]
+    for day, score in zip(days, [1, 1, 2, 3, 1]):
+        company = _company_with(7, score)
+        store.record(company, day)
+    entry = store.entries["7"]
+    # One point per change only.
+    assert entry["history"] == [["2026-09-01", 1], ["2026-09-10", 2], ["2026-09-20", 3], ["2026-10-01", 1]]
+    assert entry["since"] is None  # dropped out again
+    company = _company_with(7, 2)
+    store.record(company, date(2026, 10, 5))
+    assert store.entries["7"]["since"] == "2026-10-05"
+    # The profile carries the same history.
+    assert company["upswing"]["since"] == "2026-10-05" and company["upswing"]["history"][-1] == ["2026-10-05", 2]
+
+
+def test_history_keeps_half_a_year(tmp_path):
+    store = UpswingStore(tmp_path / "u.json")
+    store.record(_company_with(7, 1), date(2026, 1, 1))
+    store.record(_company_with(7, 2), date(2026, 10, 1))
+    assert store.entries["7"]["history"] == [["2026-10-01", 2]]
