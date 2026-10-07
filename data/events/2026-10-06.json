@@ -1,0 +1,116 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1439124,
+  "ticker": "AXIA3",
+  "date": "2026-10-06",
+  "value": 5295819,
+  "trades": [
+   {
+    "name": "de Lima Filho Pedro Batista",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 489900,
+    "value": 5295819
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-06",
+  "value": 6197100,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 1500000,
+    "value": 6197100
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1818794,
+  "ticker": "DYN",
+  "date": "2026-10-06",
+  "value": 40000,
+  "trades": [
+   {
+    "name": "Brian S Posner",
+    "role": "Direktor",
+    "date": "2026-10-02",
+    "shares": 2500,
+    "value": 40000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 48465,
+  "ticker": "HRL",
+  "date": "2026-10-06",
+  "value": 201000,
+  "trades": [
+   {
+    "name": "William A Newlands",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 10000,
+    "value": 201000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2002660,
+  "ticker": "PSUS",
+  "date": "2026-10-06",
+  "value": 9615216,
+  "trades": [
+   {
+    "name": "Ryan Israel",
+    "role": "Vorstand",
+    "date": "2026-10-06",
+    "shares": 256613,
+    "value": 9615216
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1130713,
+  "ticker": "NXH",
+  "date": "2026-10-06",
+  "value": 1000000,
+  "trades": [
+   {
+    "name": "Marcus Lemonis",
+    "role": "CEO",
+    "date": "2026-10-06",
+    "shares": 362319,
+    "value": 1000000
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 6845,
+  "date": "2026-10-06",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1718500,
+  "date": "2026-10-06",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
