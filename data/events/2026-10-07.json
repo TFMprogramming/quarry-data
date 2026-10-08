@@ -1,0 +1,82 @@
+[
+ {
+  "kind": "insider",
+  "cik": 2020932,
+  "ticker": "AGMB",
+  "date": "2026-10-07",
+  "value": 266670,
+  "trades": [
+   {
+    "name": "David R Epstein",
+    "role": "Direktor",
+    "date": "2026-10-06",
+    "shares": 10000,
+    "value": 86350
+   },
+   {
+    "name": "Pierre Thadee Victor Kemula",
+    "role": "CFO",
+    "date": "2026-10-06",
+    "shares": 10000,
+    "value": 85940
+   },
+   {
+    "name": "Tim Jasper Knotnerus",
+    "role": "CEO",
+    "date": "2026-10-06",
+    "shares": 11000,
+    "value": 94380
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-07",
+  "value": 6364200,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-06",
+    "shares": 1500000,
+    "value": 6364200
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1495320,
+  "ticker": "VRA",
+  "date": "2026-10-07",
+  "value": 50200,
+  "trades": [
+   {
+    "name": "Ivan Brockman",
+    "role": "Direktor",
+    "date": "2026-10-06",
+    "shares": 10000,
+    "value": 50200
+   }
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 94845,
+  "date": "2026-10-07",
+  "headline": "Bruttomarge 66 % (Vorjahr 62 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1144879,
+  "date": "2026-10-07",
+  "headline": "Umsatz +225 % (Vorquartal +139 %)",
+  "signals": [
+   "acceleration"
+  ]
+ }
+]
