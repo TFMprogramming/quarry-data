@@ -1,0 +1,173 @@
+[
+ {
+  "kind": "insider",
+  "cik": 2020932,
+  "ticker": "AGMB",
+  "date": "2026-10-09",
+  "value": 44500,
+  "trades": [
+   {
+    "name": "David R Epstein",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 5000,
+    "value": 44500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1339688,
+  "ticker": "LCU",
+  "date": "2026-10-09",
+  "value": 39675,
+  "trades": [
+   {
+    "name": "Tony L Alford",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 3000,
+    "value": 12830
+   },
+   {
+    "name": "Tony L Alford",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 5600,
+    "value": 22457
+   },
+   {
+    "name": "Mark Brady Sharman",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 1000,
+    "value": 4388
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1160330,
+  "ticker": "BBD",
+  "date": "2026-10-09",
+  "value": 32042484,
+  "trades": [
+   {
+    "name": "Rubens Aguiar Alvarez",
+    "role": "Direktor",
+    "date": "2026-09-01",
+    "shares": 1845000,
+    "value": 32042484
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1837493,
+  "ticker": "QTEX",
+  "date": "2026-10-09",
+  "value": 30362,
+  "trades": [
+   {
+    "name": "Dagi Shahar Ben-Noon",
+    "role": "CEO",
+    "date": "2026-10-09",
+    "shares": 18181,
+    "value": 30362
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-09",
+  "value": 8501527,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 651063,
+    "value": 8501527
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1886190,
+  "ticker": "GGR",
+  "date": "2026-10-09",
+  "value": 35114298,
+  "trades": [
+   {
+    "name": "Chung-Yao Yin",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 14158991,
+    "value": 35114298
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1350593,
+  "ticker": "MWA",
+  "date": "2026-10-09",
+  "value": 29927,
+  "trades": [
+   {
+    "name": "Brian C. Healy",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 1376,
+    "value": 29927
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2033264,
+  "ticker": "VDTA",
+  "date": "2026-10-09",
+  "value": 255000,
+  "trades": [
+   {
+    "name": "Jaime Leverton",
+    "role": "Direktor",
+    "date": "2026-08-11",
+    "shares": 85000,
+    "value": 255000
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 27904,
+  "date": "2026-10-09",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 723125,
+  "date": "2026-10-09",
+  "headline": "Umsatz +379 % (Vorquartal +346 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 862692,
+  "date": "2026-10-09",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]

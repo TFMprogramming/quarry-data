@@ -1,0 +1,387 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1659494,
+  "ticker": "COE",
+  "date": "2026-10-08",
+  "value": 32333530,
+  "trades": [
+   {
+    "name": "Jack Jiajia Huang",
+    "role": "CEO",
+    "date": "2026-09-25",
+    "shares": 2812140,
+    "value": 32333530
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 39368,
+  "ticker": "FUL",
+  "date": "2026-10-08",
+  "value": 500000,
+  "trades": [
+   {
+    "name": "R Jeffrey Bailly",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 10000,
+    "value": 500000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-08",
+  "value": 5390250,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 1250000,
+    "value": 5390250
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 18748,
+  "ticker": "CET",
+  "date": "2026-10-08",
+  "value": 28185,
+  "trades": [
+   {
+    "name": "John C Hill",
+    "role": "CEO",
+    "date": "2026-10-06",
+    "shares": 500,
+    "value": 28185
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1868995,
+  "ticker": "CINT",
+  "date": "2026-10-08",
+  "value": 49323,
+  "trades": [
+   {
+    "name": "Fernando Matt Borges Martins",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 15745,
+    "value": 49323
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1046179,
+  "ticker": "TSM",
+  "date": "2026-10-08",
+  "value": 121467,
+  "trades": [
+   {
+    "name": "Min Cao",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 51,
+    "value": 4049
+   },
+   {
+    "name": "Tzonz-Sheng Chang",
+    "role": "SVP",
+    "date": "2026-10-07",
+    "shares": 51,
+    "value": 4049
+   },
+   {
+    "name": "Chih-Ho Chen",
+    "role": "Controller",
+    "date": "2026-10-07",
+    "shares": 31,
+    "value": 2461
+   },
+   {
+    "name": "Pei-Hung Chen",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 43,
+    "value": 3414
+   },
+   {
+    "name": "Yung-Pei Chin",
+    "role": "EVP and Co-COO",
+    "date": "2026-10-07",
+    "shares": 67,
+    "value": 5319
+   },
+   {
+    "name": "Juiping Chuang",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 46,
+    "value": 3652
+   },
+   {
+    "name": "Tzu-Sou Chuang",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 46,
+    "value": 3652
+   },
+   {
+    "name": "Shu-Hua Fang",
+    "role": "SVP and GC",
+    "date": "2026-10-07",
+    "shares": 53,
+    "value": 4208
+   },
+   {
+    "name": "Jun He",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 43,
+    "value": 3414
+   },
+   {
+    "name": "Yung-Chin Hou",
+    "role": "Vorstand",
+    "date": "2026-10-07",
+    "shares": 60,
+    "value": 4763
+   },
+   {
+    "name": "Kuo-Chin Hsu",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 52,
+    "value": 4128
+   },
+   {
+    "name": "Jen-Chau Huang",
+    "role": "CFO",
+    "date": "2026-10-07",
+    "shares": 28,
+    "value": 2223
+   },
+   {
+    "name": "Yuan-Ko Hwang",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 39,
+    "value": 3096
+   },
+   {
+    "name": "Syun-Ming Jang",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 46,
+    "value": 3652
+   },
+   {
+    "name": "Yao-Ching Ku",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 46,
+    "value": 3652
+   },
+   {
+    "name": "Chun-Hsien Lee",
+    "role": "SVP",
+    "date": "2026-10-07",
+    "shares": 51,
+    "value": 4049
+   },
+   {
+    "name": "Chris Horng-Dar Lin",
+    "role": "VP and CIO",
+    "date": "2026-10-07",
+    "shares": 44,
+    "value": 3493
+   },
+   {
+    "name": "Shyue-Shyh Lin",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 44,
+    "value": 3493
+   },
+   {
+    "name": "Chin-Sheng Lu",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 36,
+    "value": 2858
+   },
+   {
+    "name": "Lee-Chung Lu",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 49,
+    "value": 3890
+   },
+   {
+    "name": "Yuh-Jier Mii",
+    "role": "EVP and Co-COO",
+    "date": "2026-10-07",
+    "shares": 68,
+    "value": 5399
+   },
+   {
+    "name": "Bor-Zen Tien",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 47,
+    "value": 3731
+   },
+   {
+    "name": "Ying-Lang Wang",
+    "role": "SVP",
+    "date": "2026-10-07",
+    "shares": 52,
+    "value": 4128
+   },
+   {
+    "name": "Yi-Huang Wu",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 39,
+    "value": 3096
+   },
+   {
+    "name": "Che-Chia Wei",
+    "role": "CEO",
+    "date": "2026-10-07",
+    "shares": 144,
+    "value": 11432
+   },
+   {
+    "name": "Shien-Yang Wu",
+    "role": "SVP",
+    "date": "2026-10-07",
+    "shares": 53,
+    "value": 4208
+   },
+   {
+    "name": "Chue-San Yoo",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 50,
+    "value": 3970
+   },
+   {
+    "name": "Kevin Xiaoqiang Zhang",
+    "role": "Vorstand",
+    "date": "2026-10-07",
+    "shares": 59,
+    "value": 4684
+   },
+   {
+    "name": "Choh Fei Yeap",
+    "role": "SVP",
+    "date": "2026-10-07",
+    "shares": 52,
+    "value": 4128
+   },
+   {
+    "name": "Lipen Yuan",
+    "role": "VP",
+    "date": "2026-10-07",
+    "shares": 40,
+    "value": 3176
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1510599,
+  "ticker": "PDI",
+  "date": "2026-10-08",
+  "value": 249508,
+  "trades": [
+   {
+    "name": "David C Flattum",
+    "role": "Direktor",
+    "date": "2026-10-06",
+    "shares": 17448,
+    "value": 249508
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1219360,
+  "ticker": "PHK",
+  "date": "2026-10-08",
+  "value": 249245,
+  "trades": [
+   {
+    "name": "David C Flattum",
+    "role": "Direktor",
+    "date": "2026-10-06",
+    "shares": 60204,
+    "value": 249245
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1058811,
+  "ticker": "IMMR",
+  "date": "2026-10-08",
+  "value": 292800,
+  "trades": [
+   {
+    "name": "Eric Singer",
+    "role": "CEO",
+    "date": "2026-10-07",
+    "shares": 41000,
+    "value": 292800
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 355948,
+  "date": "2026-10-08",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 916789,
+  "date": "2026-10-08",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 1275187,
+  "date": "2026-10-08",
+  "headline": "Bruttomarge 59 % (Vorjahr 55 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1931055,
+  "date": "2026-10-08",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
