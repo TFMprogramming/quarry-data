@@ -1,0 +1,402 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1888654,
+  "ticker": "FEAM",
+  "date": "2026-10-13",
+  "value": 215400,
+  "trades": [
+   {
+    "name": "Hoff Graham vant",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 60000,
+    "value": 215400
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1802883,
+  "ticker": "API",
+  "date": "2026-10-13",
+  "value": 695747,
+  "trades": [
+   {
+    "name": "Bin Zhao",
+    "role": "CEO",
+    "date": "2026-10-09",
+    "shares": 167385,
+    "value": 695747
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2002988,
+  "ticker": "RTSN",
+  "date": "2026-10-13",
+  "value": 369600,
+  "trades": [
+   {
+    "name": "Franklin M Berger",
+    "role": "Direktor",
+    "date": "2026-10-13",
+    "shares": 10000,
+    "value": 120000
+   },
+   {
+    "name": "Eric L. Keller",
+    "role": "CEO",
+    "date": "2026-10-13",
+    "shares": 20800,
+    "value": 249600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2019804,
+  "ticker": "IMSR",
+  "date": "2026-10-13",
+  "value": 39336,
+  "trades": [
+   {
+    "name": "Frederick W Buckman",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 12000,
+    "value": 39336
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-13",
+  "value": 11843500,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 2500000,
+    "value": 11843500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1951667,
+  "ticker": "CTNT",
+  "date": "2026-10-13",
+  "value": 330000,
+  "trades": [
+   {
+    "name": "Huan Liu",
+    "role": "See Remarks",
+    "date": "2026-10-09",
+    "shares": 100000,
+    "value": 330000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 46619,
+  "ticker": "HEI, HEI.A",
+  "date": "2026-10-13",
+  "value": 1400595,
+  "trades": [
+   {
+    "name": "Nandakumar Cheruvatath",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Thomas M Culligan",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Carol F. Fine",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Victor H Mendelson",
+    "role": "Co-COB and Co-CEO",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Adolfo Henriques",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Alan Schriesheim",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Mark H Hildebrandt",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 795,
+    "value": 175142
+   },
+   {
+    "name": "Julie Neitzel",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 592,
+    "value": 174601
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1326380,
+  "ticker": "GME",
+  "date": "2026-10-13",
+  "value": 22774728,
+  "trades": [
+   {
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "date": "2026-10-13",
+    "shares": 844130,
+    "value": 22774728
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 887396,
+  "ticker": "EP",
+  "date": "2026-10-13",
+  "value": 68068,
+  "trades": [
+   {
+    "name": "Phil E Mulacek",
+    "role": "Direktor",
+    "date": "2026-10-08",
+    "shares": 25127,
+    "value": 68068
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 813623,
+  "ticker": "SWZ",
+  "date": "2026-10-13",
+  "value": 28637,
+  "trades": [
+   {
+    "name": "Phillip Goldstein",
+    "role": "Secretary",
+    "date": "2026-10-08",
+    "shares": 5000,
+    "value": 28637
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1677576,
+  "ticker": "IIPR",
+  "date": "2026-10-13",
+  "value": 1000000,
+  "trades": [
+   {
+    "name": "Alan D Gold",
+    "role": "Chairman",
+    "date": "2026-10-08",
+    "shares": 40000,
+    "value": 1000000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1802974,
+  "ticker": "AVO",
+  "date": "2026-10-13",
+  "value": 594785,
+  "trades": [
+   {
+    "name": "Luis A Gonzalez",
+    "role": "Direktor",
+    "date": "2026-10-12",
+    "shares": 52022,
+    "value": 594785
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 732417,
+  "ticker": "HBIA.PK",
+  "date": "2026-10-13",
+  "value": 47000,
+  "trades": [
+   {
+    "name": "Thomas M. Slattery",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 1000,
+    "value": 47000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1956741,
+  "ticker": "ZONE",
+  "date": "2026-10-13",
+  "value": 146075,
+  "trades": [
+   {
+    "name": "Tyler Lewis Hassen",
+    "role": "CEO",
+    "date": "2026-10-13",
+    "shares": 1250000,
+    "value": 146075
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1849380,
+  "ticker": "ONMD",
+  "date": "2026-10-13",
+  "value": 999999,
+  "trades": [
+   {
+    "name": "Thomas Kosasa",
+    "role": "Direktor",
+    "date": "2026-10-07",
+    "shares": 129758,
+    "value": 750001
+   },
+   {
+    "name": "Jeffrey Yu",
+    "role": "Vorstand",
+    "date": "2026-10-09",
+    "shares": 45126,
+    "value": 249998
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1339688,
+  "ticker": "LCU",
+  "date": "2026-10-13",
+  "value": 28997,
+  "trades": [
+   {
+    "name": "Mark Brady Sharman",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 7285,
+    "value": 28997
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1377936,
+  "ticker": "SAR",
+  "date": "2026-10-13",
+  "value": 445800,
+  "trades": [
+   {
+    "name": "Christian L Oberbeck",
+    "role": "CEO",
+    "date": "2026-10-09",
+    "shares": 30000,
+    "value": 445800
+   }
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 8947,
+  "date": "2026-10-13",
+  "headline": "Umsatz +17 % (Vorquartal +6 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 76267,
+  "date": "2026-10-13",
+  "headline": "Umsatz +27 % (Vorquartal +19 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 91668,
+  "date": "2026-10-13",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 862668,
+  "date": "2026-10-13",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1123596,
+  "date": "2026-10-13",
+  "headline": "Gewinn +36 % (Umsatz +18 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1549595,
+  "date": "2026-10-13",
+  "headline": "Umsatz +8426 % (Vorquartal −79 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1968487,
+  "date": "2026-10-13",
+  "headline": "Umsatz +212 % (Vorquartal +12 %)",
+  "signals": [
+   "acceleration"
+  ]
+ }
+]
