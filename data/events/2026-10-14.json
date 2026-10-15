@@ -1,0 +1,183 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1625414,
+  "ticker": "BZUN",
+  "date": "2026-10-14",
+  "value": 40166,
+  "trades": [
+   {
+    "name": "Wenbin Qiu",
+    "role": "CEO",
+    "date": "2026-10-13",
+    "shares": 11800,
+    "value": 40166
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-14",
+  "value": 5477975,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-14",
+    "shares": 427609,
+    "value": 5477975
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-14",
+  "value": 7401600,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-13",
+    "shares": 1500000,
+    "value": 7401600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2041338,
+  "ticker": "TDIC",
+  "date": "2026-10-14",
+  "value": 600000,
+  "trades": [
+   {
+    "name": "Wai Yue Seto",
+    "role": "CEO",
+    "date": "2026-10-09",
+    "shares": 300000,
+    "value": 600000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1731388,
+  "ticker": "EDRY",
+  "date": "2026-10-14",
+  "value": 35826,
+  "trades": [
+   {
+    "name": "Aristeidis P Pittas",
+    "role": "Direktor",
+    "date": "2026-10-13",
+    "shares": 700,
+    "value": 35826
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1956741,
+  "ticker": "ZONE",
+  "date": "2026-10-14",
+  "value": 85200,
+  "trades": [
+   {
+    "name": "Tyler Lewis Hassen",
+    "role": "CEO",
+    "date": "2026-10-14",
+    "shares": 750000,
+    "value": 85200
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2007919,
+  "ticker": "INBX",
+  "date": "2026-10-14",
+  "value": 848977,
+  "trades": [
+   {
+    "name": "Mark Lappe",
+    "role": "CEO",
+    "date": "2026-10-14",
+    "shares": 10040,
+    "value": 848977
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2019804,
+  "ticker": "IMSR",
+  "date": "2026-10-14",
+  "value": 50818,
+  "trades": [
+   {
+    "name": "Simon Irish",
+    "role": "CEO",
+    "date": "2026-10-13",
+    "shares": 16900,
+    "value": 50818
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1515940,
+  "ticker": "KIO",
+  "date": "2026-10-14",
+  "value": 40890,
+  "trades": [
+   {
+    "name": "Rudy Pimentel",
+    "role": "President",
+    "date": "2026-10-08",
+    "shares": 4000,
+    "value": 40890
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 747540,
+  "date": "2026-10-14",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 908315,
+  "date": "2026-10-14",
+  "headline": "Umsatz +23 % (Vorquartal +8 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1362988,
+  "date": "2026-10-14",
+  "headline": "Umsatz +24 % (Vorquartal −9 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1549084,
+  "date": "2026-10-14",
+  "headline": "Umsatz +148 % (Vorquartal −37 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ }
+]

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-14T09:53:58+00:00",
+ "generatedAt": "2026-10-15T09:34:01+00:00",
  "companies": [
   {
    "cik": 1326380,
@@ -138,7 +138,7 @@
     "fiscalYearEndMonth": 1
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 15,
      "people": 5,
@@ -812,7 +812,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 6,
      "people": 3,
@@ -955,6 +955,13 @@
     }
    ],
    "events": [
+    {
+     "date": "2026-10-14",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1677576/000110465926115864/tm2627350d1_8k.htm",
+     "detail": "Außerdem: Rechte der Aktionäre geändert, Satzung geändert"
+    },
     {
      "date": "2026-10-07",
      "title": "Neue Aktien oder Anleihen angeboten",
@@ -1253,7 +1260,7 @@
     "fiscalYearEndMonth": 2
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
@@ -1498,12 +1505,6 @@
      "title": "Quartalszahlen veröffentlicht",
      "kind": "report",
      "url": "https://www.sec.gov/Archives/edgar/data/76267/000143774926001183/pke20260113_8k.htm"
-    },
-    {
-     "date": "2025-10-14",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/76267/000143774925030897/pke20250831_10q.htm"
     }
    ],
    "balance": {
@@ -1650,7 +1651,7 @@
     "fiscalYearEndMonth": 9
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 2,
      "people": 1,
@@ -2419,7 +2420,7 @@
     "fiscalYearEndMonth": 10
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 4,
      "people": 4,
@@ -2704,6 +2705,593 @@
    ]
   },
   {
+   "cik": 1549084,
+   "ticker": "CHRN",
+   "name": "ChronoScale Holdings Corp",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:CHRN",
+   "sector": "Industrie & Maschinenbau",
+   "industry": "General Industrial Machinery & Equipment, NEC",
+   "publicFloat": 15551441.0,
+   "importance": 3.0,
+   "trigger": {
+    "kind": "acceleration",
+    "headline": "Umsatz +148 % (Vorquartal −37 %)",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": true,
+     "isNew": true,
+     "headline": "Umsatz +148 % (Vorquartal −37 %)",
+     "detail": "Der Umsatz wächst gegenüber dem Vorjahr schneller als noch im Quartal davor."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Verlust im letzten Quartal",
+     "detail": "Die Firma schreibt noch rote Zahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": true,
+     "isNew": true,
+     "headline": "Bruttomarge -10 % (Vorjahr -43 %)",
+     "detail": "Von jedem Dollar Umsatz bleiben -10 Cent statt -43 Cent vor einem Jahr."
+    },
+    {
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    }
+   ],
+   "upswing": {
+    "score": 2,
+    "maxScore": 4,
+    "isNew": true,
+    "revenueGrowth": 1.4812776647924393,
+    "history": [
+     [
+      "2026-10-07",
+      0
+     ],
+     [
+      "2026-10-15",
+      2
+     ]
+    ],
+    "since": "2026-10-15"
+   },
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2024-Q4",
+     "revenue": 5090000.0,
+     "netIncome": -3413000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 3375000.0,
+     "netIncome": -2891000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 2057000.0,
+     "netIncome": -2709000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 16718000.0,
+     "netIncome": -11243000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 4227000.0,
+     "netIncome": -1421000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 3140000.0,
+     "netIncome": null
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 2141000.0,
+     "netIncome": -6885000.0
+    },
+    {
+     "period": "2026-Q3",
+     "revenue": 41482000.0,
+     "netIncome": -42484000.0
+    }
+   ],
+   "valuation": null,
+   "about": {
+    "location": "Dallas, TX",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 9,
+     "people": 2,
+     "value": 1188100
+    },
+    "sells": {
+     "count": 6,
+     "people": 3,
+     "value": 232062,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Daniel Asher",
+      "role": "Großaktionär",
+      "bought": 1172601,
+      "sold": 0,
+      "trades": 8
+     },
+     {
+      "name": "Jerome Wong",
+      "role": "CFO",
+      "bought": 15500,
+      "sold": 60001,
+      "trades": 3
+     },
+     {
+      "name": "Scott G. Davis",
+      "role": "CEO",
+      "bought": 0,
+      "sold": 111912,
+      "trades": 1
+     },
+     {
+      "name": "Jason C Jones",
+      "role": "COO",
+      "bought": 0,
+      "sold": 60149,
+      "trades": 3
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Jerome Wong",
+     "role": "CFO",
+     "date": "2026-03-16",
+     "kind": "buy",
+     "shares": 1308,
+     "price": 11.85,
+     "value": 15500,
+     "sharesAfter": 4184,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-19",
+     "kind": "buy",
+     "shares": 1200,
+     "price": 9.6,
+     "value": 11520,
+     "sharesAfter": 259992,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-19",
+     "kind": "buy",
+     "shares": 15540,
+     "price": 12.3,
+     "value": 191142,
+     "sharesAfter": 270432,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-13",
+     "kind": "buy",
+     "shares": 27192,
+     "price": 9.03,
+     "value": 245636,
+     "sharesAfter": 242692,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-12",
+     "kind": "buy",
+     "shares": 39032,
+     "price": 9.57,
+     "value": 373677,
+     "sharesAfter": 231600,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-11",
+     "kind": "buy",
+     "shares": 20611,
+     "price": 9.69,
+     "value": 199721,
+     "sharesAfter": 192568,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-10",
+     "kind": "buy",
+     "shares": 10200,
+     "price": 9.92,
+     "value": 101184,
+     "sharesAfter": 171957,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-09",
+     "kind": "buy",
+     "shares": 4800,
+     "price": 9.96,
+     "value": 47808,
+     "sharesAfter": 161757,
+     "planned": false
+    },
+    {
+     "name": "Daniel Asher",
+     "role": "Großaktionär",
+     "date": "2026-02-06",
+     "kind": "buy",
+     "shares": 194,
+     "price": 9.86,
+     "value": 1913,
+     "sharesAfter": 156957,
+     "planned": false
+    },
+    {
+     "name": "Jason C Jones",
+     "role": "COO",
+     "date": "2026-01-06",
+     "kind": "sell",
+     "shares": 1320,
+     "price": 9.25,
+     "value": 12210,
+     "sharesAfter": 25621,
+     "planned": false
+    },
+    {
+     "name": "Jerome Wong",
+     "role": "CFO",
+     "date": "2025-12-09",
+     "kind": "sell",
+     "shares": 1238,
+     "price": 4.7,
+     "value": 5819,
+     "sharesAfter": 24771,
+     "planned": false
+    },
+    {
+     "name": "Jason C Jones",
+     "role": "COO",
+     "date": "2025-12-09",
+     "kind": "sell",
+     "shares": 270,
+     "price": 4.7,
+     "value": 1269,
+     "sharesAfter": 26941,
+     "planned": false
+    },
+    {
+     "name": "Scott G. Davis",
+     "role": "CEO",
+     "date": "2025-11-10",
+     "kind": "sell",
+     "shares": 23315,
+     "price": 4.8,
+     "value": 111912,
+     "sharesAfter": 78777,
+     "planned": false
+    },
+    {
+     "name": "Jason C Jones",
+     "role": "COO",
+     "date": "2025-11-10",
+     "kind": "sell",
+     "shares": 9723,
+     "price": 4.8,
+     "value": 46670,
+     "sharesAfter": 27211,
+     "planned": false
+    },
+    {
+     "name": "Jerome Wong",
+     "role": "CFO",
+     "date": "2025-11-10",
+     "kind": "sell",
+     "shares": 11288,
+     "price": 4.8,
+     "value": 54182,
+     "sharesAfter": 26009,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Applied Digital Corporation",
+     "percent": 96.1,
+     "date": "2026-06-26",
+     "activist": true
+    },
+    {
+     "name": "Daniel Asher",
+     "percent": 16.51,
+     "date": "2026-01-29",
+     "activist": false
+    },
+    {
+     "name": "Kosow Keith",
+     "percent": 5.9,
+     "date": "2026-03-19",
+     "activist": false
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-10-14",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000162828026065876/chrn-20260831.htm"
+    },
+    {
+     "date": "2026-10-06",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226045973/forms-3.htm"
+    },
+    {
+     "date": "2026-10-02",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226045612/form8-k.htm",
+     "detail": "Außerdem: Satzung geändert, Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-09-25",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226044383/formdef14a.htm"
+    },
+    {
+     "date": "2026-09-16",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226042947/form8-k.htm"
+    },
+    {
+     "date": "2026-08-27",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226040398/form8-k.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-08-19",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000162828026058018/chrn-20260531.htm"
+    },
+    {
+     "date": "2026-08-18",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226039008/form8-k.htm"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226031335/forms-3.htm"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "Sonstige wichtige Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226031317/form8-ka.htm"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226031298/form8-k.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-06-26",
+     "title": "Aktiver Großinvestor ändert Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226030373/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Applied Digital Corporation · 96,1 %"
+    },
+    {
+     "date": "2026-06-26",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226030318/form8-k.htm",
+     "detail": "Außerdem: Neue Schulden aufgenommen"
+    },
+    {
+     "date": "2026-06-04",
+     "title": "Umbau mit Stellenabbau oder Schließungen",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226027271/form8-k.htm"
+    },
+    {
+     "date": "2026-05-20",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226024664/form8-ka.htm"
+    },
+    {
+     "date": "2026-05-12",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226022569/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Applied Digital Corporation · 97,5 %"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "Wirtschaftsprüfer gewechselt",
+     "kind": "warning",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226021330/form8-ka.htm",
+     "detail": "Außerdem: Wichtiger Vertrag geschlossen, Übernahme oder Verkauf abgeschlossen, Kontrollwechsel, Neue Aktien ausgegeben, Wechsel in Vorstand oder Aufsichtsrat, Quartalszahlen veröffentlicht, Rechte der Aktionäre geändert, Satzung geändert"
+    },
+    {
+     "date": "2026-05-04",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226021099/form8-k.htm",
+     "detail": "Außerdem: Neue Aktien ausgegeben, Rechte der Aktionäre geändert, Satzung geändert"
+    },
+    {
+     "date": "2026-04-28",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926013682/ekso20260331_10q.htm"
+    },
+    {
+     "date": "2026-04-10",
+     "title": "Jahresbericht nachträglich geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926012069/ekso20251231_10ka.htm"
+    },
+    {
+     "date": "2026-04-09",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926011894/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Mink Brook Partners LP · 5,4 %"
+    },
+    {
+     "date": "2026-03-19",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000147793226001485/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Kosow Keith · 5,9 %"
+    },
+    {
+     "date": "2026-02-23",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926005086/ekso20251231_10k.htm"
+    },
+    {
+     "date": "2026-02-17",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926004205/ekso20260216_8k.htm",
+     "detail": "Außerdem: Kontrollwechsel, Neue Aktien ausgegeben, Wechsel in Vorstand oder Aufsichtsrat, Quartalszahlen veröffentlicht, Rechte der Aktionäre geändert, Satzung geändert"
+    },
+    {
+     "date": "2026-01-22",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774926001774/ekso20260122_8k.htm",
+     "detail": "Außerdem: Neue Aktien ausgegeben, Satzung geändert"
+    },
+    {
+     "date": "2026-01-08",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000121390026002642/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "Daniel Asher · 9,5 %"
+    },
+    {
+     "date": "2025-12-29",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925038864/ekso20251229_8k.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2025-11-07",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925033889/ekso20251106_8k.htm"
+    },
+    {
+     "date": "2025-10-30",
+     "title": "Neue Aktien ausgegeben",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925032276/ekso20251029_8k.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2025-10-28",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925031976/ekso20251028_424b5.htm"
+    },
+    {
+     "date": "2025-10-28",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925031960/ekso20250930_10q.htm"
+    },
+    {
+     "date": "2025-10-28",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1549084/000143774925031957/ekso20250806_8k.htm"
+    }
+   ],
+   "balance": {
+    "date": "2026-08-31",
+    "cash": 15221000.0,
+    "debt": 10690000.0,
+    "shares": 145637452.0,
+    "sharesChange": 54.5183,
+    "operatingCashFlow": 53597000.0,
+    "freeCashFlow": 53419000.0
+   },
+   "checks": [
+    {
+     "level": "warning",
+     "title": "Macht Verluste",
+     "detail": "Verlust von 50,8 Mio. $ in den letzten 3 Quartalen."
+    },
+    {
+     "level": "warning",
+     "title": "Aktienzahl +5452 % in einem Jahr",
+     "detail": "Neue Aktien verkleinern den Anteil bestehender Aktionäre (Verwässerung)."
+    },
+    {
+     "level": "warning",
+     "title": "Wirtschaftsprüfer gewechselt",
+     "detail": "Kann Routine sein – oder auf Uneinigkeit über die Bilanz hindeuten. Gemeldet am 5.5.2026."
+    },
+    {
+     "level": "ok",
+     "title": "Erwirtschaftet Geld",
+     "detail": "Free Cashflow von 53,4 Mio. $ in zwölf Monaten."
+    },
+    {
+     "level": "ok",
+     "title": "Mehr Geld als Schulden",
+     "detail": "Kasse 15,2 Mio. $, Schulden 10,7 Mio. $."
+    }
+   ]
+  },
+  {
    "cik": 1802974,
    "ticker": "AVO",
    "name": "Mission Produce, Inc.",
@@ -2822,7 +3410,7 @@
     "fiscalYearEndMonth": 10
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 40,
      "people": 4,
@@ -3765,16 +4353,16 @@
     "fiscalYearEndMonth": 5
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
      "value": 0
     },
     "sells": {
-     "count": 20,
+     "count": 19,
      "people": 9,
-     "value": 3704027,
+     "value": 3595277,
      "planned": 0
     },
     "byPerson": [
@@ -3784,13 +4372,6 @@
       "bought": 0,
       "sold": 918385,
       "trades": 2
-     },
-     {
-      "name": "Robert J Ben",
-      "role": "CFO",
-      "bought": 0,
-      "sold": 564703,
-      "trades": 5
      },
      {
       "name": "Robert H Kluge",
@@ -3805,6 +4386,13 @@
       "bought": 0,
       "sold": 478020,
       "trades": 1
+     },
+     {
+      "name": "Robert J Ben",
+      "role": "CFO",
+      "bought": 0,
+      "sold": 455953,
+      "trades": 4
      },
      {
       "name": "Kenneth Halverson",
@@ -4023,17 +4611,6 @@
      "price": 11.33,
      "value": 47586,
      "sharesAfter": 14345,
-     "planned": false
-    },
-    {
-     "name": "Robert J Ben",
-     "role": "CFO",
-     "date": "2025-10-14",
-     "kind": "sell",
-     "shares": 9500,
-     "price": 11.45,
-     "value": 108750,
-     "sharesAfter": 66534,
      "planned": false
     }
    ],
@@ -4264,7 +4841,7 @@
     "fiscalYearEndMonth": 2
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
@@ -4436,6 +5013,952 @@
    ]
   },
   {
+   "cik": 2007919,
+   "ticker": "INBX",
+   "name": "Inhibrx Biosciences, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:INBX",
+   "sector": "Pharma & Biotech",
+   "industry": "Biological Products, (No Diagnostic Substances)",
+   "publicFloat": 174600000.0,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 848.977 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Umsatz −100 % (Vorquartal −100 %)",
+     "detail": "Bei so kleinem Umsatz sagen Prozente wenig."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Verlust im letzten Quartal",
+     "detail": "Die Firma schreibt noch rote Zahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "2 Käufe · 1,8 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 1,8 Mio. $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": -1.0,
+    "history": [
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-10-14",
+     "shares": 10040,
+     "value": 848977
+    },
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-09-28",
+     "shares": 10000,
+     "value": 998784
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q2",
+     "revenue": 100000.0,
+     "netIncome": 1858011000.0
+    },
+    {
+     "period": "2024-Q3",
+     "revenue": 0.0,
+     "netIncome": -43864000.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 100000.0,
+     "netIncome": -47865000.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 0.0,
+     "netIncome": -43311000.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 1300000.0,
+     "netIncome": -28654000.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 0.0,
+     "netIncome": -35256000.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 0.0,
+     "netIncome": -32834000.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 0.0,
+     "netIncome": -36650000.0
+    }
+   ],
+   "valuation": null,
+   "about": {
+    "location": "La Jolla, CA",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 8,
+     "people": 3,
+     "value": 6347352
+    },
+    "sells": {
+     "count": 5,
+     "people": 1,
+     "value": 279015,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Mark Lappe",
+      "role": "CEO",
+      "bought": 4493127,
+      "sold": 0,
+      "trades": 4
+     },
+     {
+      "name": "Jon Faiz Kayyem",
+      "role": "Direktor",
+      "bought": 1567600,
+      "sold": 0,
+      "trades": 3
+     },
+     {
+      "name": "Douglas Forsyth",
+      "role": "Direktor",
+      "bought": 286625,
+      "sold": 0,
+      "trades": 1
+     },
+     {
+      "name": "Kimberly Manhard",
+      "role": "Direktor",
+      "bought": 0,
+      "sold": 279015,
+      "trades": 5
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-10-14",
+     "kind": "buy",
+     "shares": 10040,
+     "price": 84.56,
+     "value": 848976,
+     "sharesAfter": 170000,
+     "planned": false
+    },
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-09-28",
+     "kind": "buy",
+     "shares": 4500,
+     "price": 100.76,
+     "value": 453420,
+     "sharesAfter": 740548,
+     "planned": false
+    },
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-09-25",
+     "kind": "buy",
+     "shares": 5500,
+     "price": 99.16,
+     "value": 545373,
+     "sharesAfter": 736048,
+     "planned": false
+    },
+    {
+     "name": "Jon Faiz Kayyem",
+     "role": "Direktor",
+     "date": "2026-09-23",
+     "kind": "buy",
+     "shares": 5000,
+     "price": 100.0,
+     "value": 500000,
+     "sharesAfter": 434360,
+     "planned": false
+    },
+    {
+     "name": "Jon Faiz Kayyem",
+     "role": "Direktor",
+     "date": "2026-09-16",
+     "kind": "buy",
+     "shares": 5000,
+     "price": 100.0,
+     "value": 500000,
+     "sharesAfter": 429360,
+     "planned": false
+    },
+    {
+     "name": "Kimberly Manhard",
+     "role": "Direktor",
+     "date": "2026-09-15",
+     "kind": "sell",
+     "shares": 500,
+     "price": 105.05,
+     "value": 52525,
+     "sharesAfter": 7500,
+     "planned": false
+    },
+    {
+     "name": "Kimberly Manhard",
+     "role": "Direktor",
+     "date": "2026-09-14",
+     "kind": "sell",
+     "shares": 500,
+     "price": 110.26,
+     "value": 55130,
+     "sharesAfter": 8000,
+     "planned": false
+    },
+    {
+     "name": "Kimberly Manhard",
+     "role": "Direktor",
+     "date": "2026-09-11",
+     "kind": "sell",
+     "shares": 500,
+     "price": 111.78,
+     "value": 55890,
+     "sharesAfter": 8500,
+     "planned": false
+    },
+    {
+     "name": "Kimberly Manhard",
+     "role": "Direktor",
+     "date": "2026-09-09",
+     "kind": "sell",
+     "shares": 500,
+     "price": 115.8,
+     "value": 57900,
+     "sharesAfter": 9000,
+     "planned": false
+    },
+    {
+     "name": "Kimberly Manhard",
+     "role": "Direktor",
+     "date": "2026-09-08",
+     "kind": "sell",
+     "shares": 500,
+     "price": 115.14,
+     "value": 57570,
+     "sharesAfter": 9500,
+     "planned": false
+    },
+    {
+     "name": "Douglas Forsyth",
+     "role": "Direktor",
+     "date": "2026-09-08",
+     "kind": "buy",
+     "shares": 2500,
+     "price": 114.65,
+     "value": 286625,
+     "sharesAfter": 227064,
+     "planned": false
+    },
+    {
+     "name": "Mark Lappe",
+     "role": "CEO",
+     "date": "2026-09-08",
+     "kind": "buy",
+     "shares": 25000,
+     "price": 105.81,
+     "value": 2645358,
+     "sharesAfter": 719148,
+     "planned": false
+    },
+    {
+     "name": "Jon Faiz Kayyem",
+     "role": "Direktor",
+     "date": "2026-09-08",
+     "kind": "buy",
+     "shares": 5000,
+     "price": 113.52,
+     "value": 567600,
+     "sharesAfter": 424360,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Perceptive Advisors LLC",
+     "percent": 9.99,
+     "date": "2026-08-14",
+     "activist": false
+    },
+    {
+     "name": "Viking Global Investors LP",
+     "percent": 9.3,
+     "date": "2026-08-14",
+     "activist": false
+    },
+    {
+     "name": "Morgan Stanley",
+     "percent": 7.9,
+     "date": "2026-02-11",
+     "activist": false
+    },
+    {
+     "name": "Bank Of America Corp /de/",
+     "percent": 5.9,
+     "date": "2026-08-03",
+     "activist": false
+    },
+    {
+     "name": "Schonfeld Strategic Advisors LLC",
+     "percent": 5.33,
+     "date": "2026-08-14",
+     "activist": false
+    },
+    {
+     "name": "BlackRock, Inc.",
+     "percent": 5.3,
+     "date": "2026-01-21",
+     "activist": false
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-28",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000050/inhibrx-20260928.htm"
+    },
+    {
+     "date": "2026-09-08",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000047/inhibrx-20260908.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-08-14",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000119380526001095/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Schonfeld Strategic Advisors LLC · 5,3 %"
+    },
+    {
+     "date": "2026-08-13",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000044/inhibrx-20260813.htm"
+    },
+    {
+     "date": "2026-08-13",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000042/inhibrx-20260630.htm"
+    },
+    {
+     "date": "2026-08-03",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000007085826000398/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Bank Of America Corp /de/ · 5,9 %"
+    },
+    {
+     "date": "2026-07-16",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000037/inhibrx-20260715.htm",
+     "detail": "Außerdem: Neue Schulden aufgenommen, Neue Aktien ausgegeben, Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-06-15",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000033/inhibrx-20260615.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-06-03",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000030/inhibrx-20260603.htm"
+    },
+    {
+     "date": "2026-05-14",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000028/inhibrx-20260514.htm"
+    },
+    {
+     "date": "2026-05-14",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000027/inhibrx-20260331.htm"
+    },
+    {
+     "date": "2026-05-11",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000020/inhibrx-20260511.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-04-23",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000014/inbx-20260422.htm"
+    },
+    {
+     "date": "2026-04-21",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000010/inhibrx-20260421.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-03-19",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000007/inhibrx-20260319.htm"
+    },
+    {
+     "date": "2026-03-19",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000006/inbx-20251231.htm"
+    },
+    {
+     "date": "2026-02-23",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000002/inhibrx-20260223.htm"
+    },
+    {
+     "date": "2026-02-11",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000089542126000038/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "Morgan Stanley · 7,9 %"
+    },
+    {
+     "date": "2026-01-21",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000201238326000675/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "BlackRock, Inc. · 5,3 %"
+    },
+    {
+     "date": "2025-12-16",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791925000097/inhibrx-20251216.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2025-11-14",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791925000094/inhibrx-20251114.htm"
+    },
+    {
+     "date": "2025-11-14",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791925000093/inhibrx-20250930.htm"
+    },
+    {
+     "date": "2025-10-23",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791925000089/inhibrx-20251023.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    }
+   ],
+   "balance": {
+    "date": "2026-06-30",
+    "cash": 133344000.0,
+    "debt": 176285000.0,
+    "shares": 14717660.0,
+    "sharesChange": 0.016,
+    "operatingCashFlow": -131889000.0,
+    "freeCashFlow": -131899000.0
+   },
+   "checks": [
+    {
+     "level": "warning",
+     "title": "Macht Verluste",
+     "detail": "Verlust von 133,4 Mio. $ in den letzten 4 Quartalen."
+    },
+    {
+     "level": "info",
+     "title": "Geld reicht rechnerisch etwa 12 Monate",
+     "detail": "Kasse 133,3 Mio. $, Abfluss 131,9 Mio. $ in zwölf Monaten. Danach bräuchte die Firma neues Geld – oft über neue Aktien."
+    },
+    {
+     "level": "info",
+     "title": "Mehr Schulden als Geld",
+     "detail": "Schulden 176,3 Mio. $, Kasse 133,3 Mio. $."
+    }
+   ]
+  },
+  {
+   "cik": 1551047,
+   "ticker": "BPRE",
+   "name": "Bluerock Private Real Estate Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:BPRE",
+   "sector": "Sonstige",
+   "industry": null,
+   "publicFloat": null,
+   "importance": 2.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 5,5 Mio. $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "6 Käufe · 22,9 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 22,9 Mio. $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-06",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-14",
+     "shares": 427609,
+     "value": 5477975
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-09",
+     "shares": 651063,
+     "value": 8501527
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-05",
+     "shares": 269164,
+     "value": 3408193
+    },
+    {
+     "name": "Ryan S MacDonald",
+     "role": "Direktor",
+     "date": "2026-10-02",
+     "shares": 6700,
+     "value": 85090
+    },
+    {
+     "name": "Jordan B. Ruddy",
+     "role": "President",
+     "date": "2026-09-30",
+     "shares": 4780,
+     "value": 59963
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "shares": 425590,
+     "value": 5351244
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "New York, NY"
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 19,
+     "people": 3,
+     "value": 23280698
+    },
+    "sells": {
+     "count": 0,
+     "people": 0,
+     "value": 0,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Ramin Kamfar",
+      "role": "Direktor",
+      "bought": 22763107,
+      "sold": 0,
+      "trades": 14
+     },
+     {
+      "name": "Ryan S MacDonald",
+      "role": "Direktor",
+      "bought": 457626,
+      "sold": 0,
+      "trades": 3
+     },
+     {
+      "name": "Jordan B. Ruddy",
+      "role": "President",
+      "bought": 59964,
+      "sold": 0,
+      "trades": 2
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-14",
+     "kind": "buy",
+     "shares": 157661,
+     "price": 12.63,
+     "value": 1991763,
+     "sharesAfter": 2254640,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 110964,
+     "price": 12.85,
+     "value": 1425954,
+     "sharesAfter": 2096979,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-12",
+     "kind": "buy",
+     "shares": 158984,
+     "price": 12.96,
+     "value": 2060258,
+     "sharesAfter": 1986015,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-09",
+     "kind": "buy",
+     "shares": 171094,
+     "price": 13.17,
+     "value": 2253171,
+     "sharesAfter": 1827031,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-08",
+     "kind": "buy",
+     "shares": 150937,
+     "price": 13.05,
+     "value": 1969441,
+     "sharesAfter": 1655937,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-07",
+     "kind": "buy",
+     "shares": 186612,
+     "price": 12.99,
+     "value": 2424165,
+     "sharesAfter": 1504574,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-06",
+     "kind": "buy",
+     "shares": 142420,
+     "price": 13.02,
+     "value": 1854750,
+     "sharesAfter": 1317962,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-05",
+     "kind": "buy",
+     "shares": 93744,
+     "price": 12.71,
+     "value": 1191308,
+     "sharesAfter": 1175524,
+     "planned": false
+    },
+    {
+     "name": "Ryan S MacDonald",
+     "role": "Direktor",
+     "date": "2026-10-02",
+     "kind": "buy",
+     "shares": 6700,
+     "price": 12.7,
+     "value": 85090,
+     "sharesAfter": 42275,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-02",
+     "kind": "buy",
+     "shares": 50931,
+     "price": 12.69,
+     "value": 646207,
+     "sharesAfter": 1081780,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-10-01",
+     "kind": "buy",
+     "shares": 124489,
+     "price": 12.62,
+     "value": 1570678,
+     "sharesAfter": 1030849,
+     "planned": false
+    },
+    {
+     "name": "Jordan B. Ruddy",
+     "role": "President",
+     "date": "2026-09-30",
+     "kind": "buy",
+     "shares": 2380,
+     "price": 12.6,
+     "value": 29988,
+     "sharesAfter": 16052,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-09-30",
+     "kind": "buy",
+     "shares": 154104,
+     "price": 12.61,
+     "value": 1943251,
+     "sharesAfter": 906360,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-09-29",
+     "kind": "buy",
+     "shares": 135817,
+     "price": 12.6,
+     "value": 1711294,
+     "sharesAfter": 752256,
+     "planned": false
+    },
+    {
+     "name": "Jordan B. Ruddy",
+     "role": "President",
+     "date": "2026-09-28",
+     "kind": "buy",
+     "shares": 2400,
+     "price": 12.49,
+     "value": 29976,
+     "sharesAfter": 13672,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Direktor",
+     "date": "2026-09-28",
+     "kind": "buy",
+     "shares": 135669,
+     "price": 12.5,
+     "value": 1695862,
+     "sharesAfter": 616439,
+     "planned": false
+    },
+    {
+     "name": "Ryan S MacDonald",
+     "role": "Direktor",
+     "date": "2026-09-21",
+     "kind": "buy",
+     "shares": 10400,
+     "price": 11.97,
+     "value": 124488,
+     "sharesAfter": 35575,
+     "planned": false
+    },
+    {
+     "name": "Ryan S MacDonald",
+     "role": "Insider",
+     "date": "2026-09-14",
+     "kind": "buy",
+     "shares": 20745,
+     "price": 11.96,
+     "value": 248048,
+     "sharesAfter": 22625,
+     "planned": false
+    },
+    {
+     "name": "Ramin Kamfar",
+     "role": "Insider",
+     "date": "2026-06-04",
+     "kind": "buy",
+     "shares": 1667,
+     "price": 15.0,
+     "value": 25005,
+     "sharesAfter": 25005,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Captrust Financial Advisors",
+     "percent": 5.4,
+     "date": "2026-08-25",
+     "activist": false
+    },
+    {
+     "name": "Saba Capital Management, L.p.",
+     "percent": 5.12,
+     "date": "2026-08-27",
+     "activist": true
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-08-27",
+     "title": "Aktiver Großinvestor ändert Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326004669/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Saba Capital Management, L.p. · 5,1 %"
+    },
+    {
+     "date": "2026-08-25",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326004619/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Captrust Financial Advisors · 5,4 %"
+    },
+    {
+     "date": "2026-08-07",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426013771/fp0100351-1_8kixbrl.htm"
+    },
+    {
+     "date": "2026-08-03",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326003985/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Saba Capital Management, L.p. · 5,0 %"
+    },
+    {
+     "date": "2026-07-02",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426011663/fp0099747-1_8kixbrl.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000207184426000752/bpre062026def14a.htm"
+    },
+    {
+     "date": "2026-05-04",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426008220/fp0098777-1_424b5ixbrl.htm"
+    }
+   ],
+   "balance": null,
+   "checks": []
+  },
+  {
    "cik": 1715497,
    "ticker": "BORR",
    "name": "Borr Drilling Ltd",
@@ -4447,8 +5970,8 @@
    "importance": 2.5,
    "trigger": {
     "kind": "insider",
-    "headline": "Direktor kaufte für 11,8 Mio. $",
-    "date": "2026-10-13"
+    "headline": "Direktor kaufte für 7,4 Mio. $",
+    "date": "2026-10-14"
    },
    "signals": [
     {
@@ -4476,8 +5999,8 @@
      "kind": "insider",
      "isActive": true,
      "isNew": true,
-     "headline": "4 Käufe · 29,8 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 29,8 Mio. $ eigene Aktien gekauft."
+     "headline": "5 Käufe · 37,2 Mio. $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 37,2 Mio. $ eigene Aktien gekauft."
     }
    ],
    "upswing": {
@@ -4494,6 +6017,13 @@
     "since": null
    },
    "insiderTrades": [
+    {
+     "name": "Tor Olav Troim",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "shares": 1500000,
+     "value": 7401600
+    },
     {
      "name": "Tor Olav Troim",
      "role": "Direktor",
@@ -4566,11 +6096,11 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
-     "count": 17,
+     "count": 18,
      "people": 4,
-     "value": 58714600
+     "value": 66116200
     },
     "sells": {
      "count": 6,
@@ -4582,9 +6112,9 @@
      {
       "name": "Tor Olav Troim",
       "role": "Direktor",
-      "bought": 54237150,
+      "bought": 61638750,
       "sold": 0,
-      "trades": 12
+      "trades": 13
      },
      {
       "name": "Patrick Schorn",
@@ -4617,6 +6147,17 @@
     ]
    },
    "insiderTransactions": [
+    {
+     "name": "Tor Olav Troim",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 1500000,
+     "price": 4.93,
+     "value": 7401600,
+     "sharesAfter": 38867808,
+     "planned": false
+    },
     {
      "name": "Tor Olav Troim",
      "role": "Direktor",
@@ -5077,7 +6618,7 @@
     "fiscalYearEndMonth": 4
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 1,
      "people": 1,
@@ -5360,6 +6901,197 @@
    ]
   },
   {
+   "cik": 2041338,
+   "ticker": "TDIC",
+   "name": "Dreamland Ltd",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:TDIC",
+   "sector": "Dienstleistungen",
+   "industry": "Services-Management Services",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 600.000 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "1 Kauf · 600.000 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 600.000 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-08",
+      0
+     ],
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Wai Yue Seto",
+     "role": "CEO",
+     "date": "2026-10-09",
+     "shares": 300000,
+     "value": 600000
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "Hong Kong, K3",
+    "fiscalYearEndMonth": 3
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 2,
+     "people": 1,
+     "value": 3045000
+    },
+    "sells": {
+     "count": 0,
+     "people": 0,
+     "value": 0,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Wai Yue Seto",
+      "role": "CEO",
+      "bought": 3045000,
+      "sold": 0,
+      "trades": 2
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Wai Yue Seto",
+     "role": "CEO",
+     "date": "2026-10-09",
+     "kind": "buy",
+     "shares": 300000,
+     "price": 2.0,
+     "value": 600000,
+     "sharesAfter": 1369890,
+     "planned": false
+    },
+    {
+     "name": "Wai Yue Seto",
+     "role": "CEO",
+     "date": "2026-07-07",
+     "kind": "buy",
+     "shares": 652000,
+     "price": 3.75,
+     "value": 2445000,
+     "sharesAfter": 749890,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Seto Wai Yue",
+     "percent": 53.15,
+     "date": "2026-10-14",
+     "activist": true
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-10-14",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226046947/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Seto Wai Yue · 53,1 %"
+    },
+    {
+     "date": "2026-08-17",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226038758/form20-f.htm"
+    },
+    {
+     "date": "2026-08-17",
+     "title": "Aktiver Großinvestor ändert Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226038585/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Seto Wai Yue · 33,0 %"
+    },
+    {
+     "date": "2026-07-13",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226032907/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Seto Wai Yue · 23,8 %"
+    },
+    {
+     "date": "2026-07-06",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226032050/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Imperial Vision Fund Spc Series 1 Sp · 13,0 %"
+    },
+    {
+     "date": "2026-05-04",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226021147/formf-1.htm"
+    },
+    {
+     "date": "2026-04-23",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226018678/form424b5.htm"
+    },
+    {
+     "date": "2026-03-06",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226009147/formf-1.htm"
+    }
+   ],
+   "balance": {
+    "shares": 28660000.0
+   },
+   "checks": []
+  },
+  {
    "cik": 1802883,
    "ticker": "API",
    "name": "Agora, Inc.",
@@ -5437,7 +7169,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 18,
      "people": 1,
@@ -5708,6 +7440,178 @@
    ]
   },
   {
+   "cik": 2002988,
+   "ticker": "RTSN",
+   "name": "Retension Pharmaceuticals, Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:RTSN",
+   "sector": "Pharma & Biotech",
+   "industry": "Pharmaceutical Preparations",
+   "publicFloat": null,
+   "importance": 2.0,
+   "trigger": {
+    "kind": "insider",
+    "headline": "2 Insider kauften für 369.600 $",
+    "date": "2026-10-13"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "2 Käufe · 369.600 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 369.600 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Franklin M Berger",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "shares": 10000,
+     "value": 120000
+    },
+    {
+     "name": "Eric L. Keller",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "shares": 20800,
+     "value": 249600
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "Mclean, VA",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 2,
+     "people": 2,
+     "value": 369600
+    },
+    "sells": {
+     "count": 0,
+     "people": 0,
+     "value": 0,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Eric L. Keller",
+      "role": "CEO",
+      "bought": 249600,
+      "sold": 0,
+      "trades": 1
+     },
+     {
+      "name": "Franklin M Berger",
+      "role": "Direktor",
+      "bought": 120000,
+      "sold": 0,
+      "trades": 1
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Franklin M Berger",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 12.0,
+     "value": 120000,
+     "sharesAfter": 10000,
+     "planned": false
+    },
+    {
+     "name": "Eric L. Keller",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 20800,
+     "price": 12.0,
+     "value": 249600,
+     "sharesAfter": 423377,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Eric Keller",
+     "percent": 7.07,
+     "date": "2026-10-14",
+     "activist": true
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-10-14",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026109425/xslSCHEDULE_13D_X02/primary_doc.xml",
+     "detail": "Eric Keller · 7,1 %"
+    },
+    {
+     "date": "2026-10-13",
+     "title": "Satzung geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026109024/ea0308462-8k_retension.htm"
+    },
+    {
+     "date": "2026-10-09",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026108587/ea0276911-10.htm"
+    },
+    {
+     "date": "2026-09-18",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026101499/ea0276911-07.htm"
+    }
+   ],
+   "balance": null,
+   "checks": []
+  },
+  {
    "cik": 1951667,
    "ticker": "CTNT",
    "name": "Cheetah Net Supply Chain Service Inc.",
@@ -5826,7 +7730,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 2,
      "people": 1,
@@ -6263,7 +8167,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 15,
      "people": 4,
@@ -6567,6 +8471,12 @@
    ],
    "events": [
     {
+     "date": "2026-10-14",
+     "title": "Sonstige wichtige Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1849380/000149315226046931/form8-k.htm"
+    },
+    {
      "date": "2026-09-29",
      "title": "Rechte der Aktionäre geändert",
      "kind": "other",
@@ -6775,7 +8685,7 @@
     "fiscalYearEndMonth": 2
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 2,
      "people": 1,
@@ -7086,7 +8996,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 25,
      "people": 21,
@@ -7534,386 +9444,6 @@
    ]
   },
   {
-   "cik": 1551047,
-   "ticker": "BPRE",
-   "name": "Bluerock Private Real Estate Fund",
-   "exchange": "NYSE",
-   "tradingViewSymbol": "NYSE:BPRE",
-   "sector": "Sonstige",
-   "industry": null,
-   "publicFloat": null,
-   "importance": 2.0,
-   "trigger": {
-    "kind": "insider",
-    "headline": "Direktor kaufte für 8,5 Mio. $",
-    "date": "2026-10-09"
-   },
-   "signals": [
-    {
-     "kind": "acceleration",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Vergleichszahlen",
-     "detail": "Für einen Vergleich fehlen Quartalszahlen."
-    },
-    {
-     "kind": "turnaround",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Gewinnzahlen",
-     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
-    },
-    {
-     "kind": "margin",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Margen-Angaben",
-     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": false,
-     "headline": "5 Käufe · 17,4 Mio. $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 17,4 Mio. $ eigene Aktien gekauft."
-    }
-   ],
-   "upswing": {
-    "score": 1,
-    "maxScore": 4,
-    "isNew": false,
-    "revenueGrowth": null,
-    "history": [
-     [
-      "2026-10-06",
-      1
-     ]
-    ],
-    "since": null
-   },
-   "insiderTrades": [
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-09",
-     "shares": 651063,
-     "value": 8501527
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-05",
-     "shares": 269164,
-     "value": 3408193
-    },
-    {
-     "name": "Ryan S MacDonald",
-     "role": "Direktor",
-     "date": "2026-10-02",
-     "shares": 6700,
-     "value": 85090
-    },
-    {
-     "name": "Jordan B. Ruddy",
-     "role": "President",
-     "date": "2026-09-30",
-     "shares": 4780,
-     "value": 59963
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-09-30",
-     "shares": 425590,
-     "value": 5351244
-    }
-   ],
-   "financials": [],
-   "valuation": null,
-   "about": {
-    "location": "New York, NY"
-   },
-   "insiderSummary": {
-    "since": "2025-10-14",
-    "buys": {
-     "count": 16,
-     "people": 3,
-     "value": 17802723
-    },
-    "sells": {
-     "count": 0,
-     "people": 0,
-     "value": 0,
-     "planned": 0
-    },
-    "byPerson": [
-     {
-      "name": "Ramin Kamfar",
-      "role": "Direktor",
-      "bought": 17285132,
-      "sold": 0,
-      "trades": 11
-     },
-     {
-      "name": "Ryan S MacDonald",
-      "role": "Direktor",
-      "bought": 457626,
-      "sold": 0,
-      "trades": 3
-     },
-     {
-      "name": "Jordan B. Ruddy",
-      "role": "President",
-      "bought": 59964,
-      "sold": 0,
-      "trades": 2
-     }
-    ]
-   },
-   "insiderTransactions": [
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-09",
-     "kind": "buy",
-     "shares": 171094,
-     "price": 13.17,
-     "value": 2253171,
-     "sharesAfter": 1827031,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-08",
-     "kind": "buy",
-     "shares": 150937,
-     "price": 13.05,
-     "value": 1969441,
-     "sharesAfter": 1655937,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-07",
-     "kind": "buy",
-     "shares": 186612,
-     "price": 12.99,
-     "value": 2424165,
-     "sharesAfter": 1504574,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-06",
-     "kind": "buy",
-     "shares": 142420,
-     "price": 13.02,
-     "value": 1854750,
-     "sharesAfter": 1317962,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-05",
-     "kind": "buy",
-     "shares": 93744,
-     "price": 12.71,
-     "value": 1191308,
-     "sharesAfter": 1175524,
-     "planned": false
-    },
-    {
-     "name": "Ryan S MacDonald",
-     "role": "Direktor",
-     "date": "2026-10-02",
-     "kind": "buy",
-     "shares": 6700,
-     "price": 12.7,
-     "value": 85090,
-     "sharesAfter": 42275,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-02",
-     "kind": "buy",
-     "shares": 50931,
-     "price": 12.69,
-     "value": 646207,
-     "sharesAfter": 1081780,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-10-01",
-     "kind": "buy",
-     "shares": 124489,
-     "price": 12.62,
-     "value": 1570678,
-     "sharesAfter": 1030849,
-     "planned": false
-    },
-    {
-     "name": "Jordan B. Ruddy",
-     "role": "President",
-     "date": "2026-09-30",
-     "kind": "buy",
-     "shares": 2380,
-     "price": 12.6,
-     "value": 29988,
-     "sharesAfter": 16052,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-09-30",
-     "kind": "buy",
-     "shares": 154104,
-     "price": 12.61,
-     "value": 1943251,
-     "sharesAfter": 906360,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-09-29",
-     "kind": "buy",
-     "shares": 135817,
-     "price": 12.6,
-     "value": 1711294,
-     "sharesAfter": 752256,
-     "planned": false
-    },
-    {
-     "name": "Jordan B. Ruddy",
-     "role": "President",
-     "date": "2026-09-28",
-     "kind": "buy",
-     "shares": 2400,
-     "price": 12.49,
-     "value": 29976,
-     "sharesAfter": 13672,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Direktor",
-     "date": "2026-09-28",
-     "kind": "buy",
-     "shares": 135669,
-     "price": 12.5,
-     "value": 1695862,
-     "sharesAfter": 616439,
-     "planned": false
-    },
-    {
-     "name": "Ryan S MacDonald",
-     "role": "Direktor",
-     "date": "2026-09-21",
-     "kind": "buy",
-     "shares": 10400,
-     "price": 11.97,
-     "value": 124488,
-     "sharesAfter": 35575,
-     "planned": false
-    },
-    {
-     "name": "Ryan S MacDonald",
-     "role": "Insider",
-     "date": "2026-09-14",
-     "kind": "buy",
-     "shares": 20745,
-     "price": 11.96,
-     "value": 248048,
-     "sharesAfter": 22625,
-     "planned": false
-    },
-    {
-     "name": "Ramin Kamfar",
-     "role": "Insider",
-     "date": "2026-06-04",
-     "kind": "buy",
-     "shares": 1667,
-     "price": 15.0,
-     "value": 25005,
-     "sharesAfter": 25005,
-     "planned": false
-    }
-   ],
-   "holders": [
-    {
-     "name": "Captrust Financial Advisors",
-     "percent": 5.4,
-     "date": "2026-08-25",
-     "activist": false
-    },
-    {
-     "name": "Saba Capital Management, L.p.",
-     "percent": 5.12,
-     "date": "2026-08-27",
-     "activist": true
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-08-27",
-     "title": "Aktiver Großinvestor ändert Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326004669/xslSCHEDULE_13D_X02/primary_doc.xml",
-     "detail": "Saba Capital Management, L.p. · 5,1 %"
-    },
-    {
-     "date": "2026-08-25",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326004619/xslSCHEDULE_13G_X02/primary_doc.xml",
-     "detail": "Captrust Financial Advisors · 5,4 %"
-    },
-    {
-     "date": "2026-08-07",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426013771/fp0100351-1_8kixbrl.htm"
-    },
-    {
-     "date": "2026-08-03",
-     "title": "Aktiver Großinvestor meldet Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000106299326003985/xslSCHEDULE_13D_X02/primary_doc.xml",
-     "detail": "Saba Capital Management, L.p. · 5,0 %"
-    },
-    {
-     "date": "2026-07-02",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426011663/fp0099747-1_8kixbrl.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-06-30",
-     "title": "Einladung zur Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000207184426000752/bpre062026def14a.htm"
-    },
-    {
-     "date": "2026-05-04",
-     "title": "Neue Aktien oder Anleihen angeboten",
-     "kind": "capital",
-     "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426008220/fp0098777-1_424b5ixbrl.htm"
-    }
-   ],
-   "balance": null,
-   "checks": []
-  },
-  {
    "cik": 1886190,
    "ticker": "GGR",
    "name": "Gogoro Inc.",
@@ -7987,7 +9517,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 1,
      "people": 1,
@@ -8190,7 +9720,7 @@
     "fiscalYearEndMonth": 9
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 5,
      "people": 2,
@@ -8731,7 +10261,7 @@
     "fiscalYearEndMonth": 11
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 10,
      "people": 9,
@@ -9161,7 +10691,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 103,
      "people": 1,
@@ -9798,125 +11328,91 @@
    ]
   },
   {
-   "cik": 1495320,
-   "ticker": "VRA",
-   "name": "Vera Bradley, Inc.",
+   "cik": 2019804,
+   "ticker": "IMSR",
+   "name": "Terrestrial Energy Inc. /DE/",
    "exchange": "Nasdaq",
-   "tradingViewSymbol": "NASDAQ:VRA",
-   "sector": "Konsumgüter",
-   "industry": "Leather & Leather Products",
-   "publicFloat": 39554468.0,
-   "importance": 2.0,
+   "tradingViewSymbol": "NASDAQ:IMSR",
+   "sector": "Industrie & Maschinenbau",
+   "industry": "Fabricated Plate Work (Boiler Shops)",
+   "publicFloat": 191475000.0,
+   "importance": 1.5,
    "trigger": {
     "kind": "insider",
-    "headline": "Direktor kaufte für 50.200 $",
-    "date": "2026-10-07"
+    "headline": "CEO kaufte für 50.818 $",
+    "date": "2026-10-14"
    },
    "signals": [
     {
      "kind": "acceleration",
      "isActive": false,
      "isNew": false,
-     "headline": "Umsatz +1 % (Vorquartal +8 %)",
-     "detail": "Umsatzwachstum gegenüber dem Vorjahresquartal."
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
     },
     {
      "kind": "turnaround",
      "isActive": false,
      "isNew": false,
-     "headline": "Gewinn, Vorjahr ohne Gewinn",
-     "detail": "Im Vorjahresquartal gab es keinen Gewinn – ein Vergleich in Prozent ist nicht möglich."
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
     },
     {
      "kind": "margin",
-     "isActive": true,
+     "isActive": false,
      "isNew": false,
-     "headline": "Bruttomarge 60 % (Vorjahr 50 %)",
-     "detail": "Von jedem Dollar Umsatz bleiben 60 Cent statt 50 Cent vor einem Jahr."
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
     },
     {
      "kind": "insider",
      "isActive": true,
-     "isNew": false,
-     "headline": "1 Kauf · 50.200 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 50.200 $ eigene Aktien gekauft."
+     "isNew": true,
+     "headline": "2 Käufe · 90.154 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 90.154 $ eigene Aktien gekauft."
     }
    ],
    "upswing": {
-    "score": 2,
+    "score": 1,
     "maxScore": 4,
     "isNew": false,
-    "revenueGrowth": 0.011163171413248962,
+    "revenueGrowth": null,
     "history": [
      [
-      "2026-10-08",
-      2
+      "2026-10-14",
+      1
      ]
     ],
-    "since": "2026-10-08"
+    "since": null
    },
    "insiderTrades": [
     {
-     "name": "Ivan Brockman",
+     "name": "Simon Irish",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "shares": 16900,
+     "value": 50818
+    },
+    {
+     "name": "Frederick W Buckman",
      "role": "Direktor",
-     "date": "2026-10-06",
-     "shares": 10000,
-     "value": 50200
+     "date": "2026-10-09",
+     "shares": 12000,
+     "value": 39336
     }
    ],
-   "financials": [
-    {
-     "period": "2024-Q4",
-     "revenue": 70483000.0,
-     "netIncome": -12800000.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 86361000.0,
-     "netIncome": -46973000.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 51652000.0,
-     "netIncome": -33460000.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 70858000.0,
-     "netIncome": -4672000.0
-    },
-    {
-     "period": "2025-Q4",
-     "revenue": 62253000.0,
-     "netIncome": -12365000.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 84888000.0,
-     "netIncome": 2657000.0
-    },
-    {
-     "period": "2026-Q2",
-     "revenue": 55702000.0,
-     "netIncome": -4825000.0
-    },
-    {
-     "period": "2026-Q3",
-     "revenue": 71649000.0,
-     "netIncome": 4500000.0
-    }
-   ],
+   "financials": [],
    "valuation": null,
    "about": {
-    "location": "Roanoke, IN",
-    "fiscalYearEndMonth": 1
+    "location": "Charlotte, NC",
+    "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
-     "count": 7,
-     "people": 3,
-     "value": 959341
+     "count": 2,
+     "people": 2,
+     "value": 90154
     },
     "sells": {
      "count": 0,
@@ -9926,253 +11422,2186 @@
     },
     "byPerson": [
      {
-      "name": "Andrew Meslow",
-      "role": "Direktor",
-      "bought": 684474,
+      "name": "Simon Irish",
+      "role": "CEO",
+      "bought": 50818,
       "sold": 0,
-      "trades": 3
+      "trades": 1
      },
      {
-      "name": "Ian Bickley",
+      "name": "Frederick W Buckman",
+      "role": "Direktor",
+      "bought": 39336,
+      "sold": 0,
+      "trades": 1
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Simon Irish",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 16900,
+     "price": 3.01,
+     "value": 50818,
+     "sharesAfter": 2312834,
+     "planned": false
+    },
+    {
+     "name": "Frederick W Buckman",
+     "role": "Direktor",
+     "date": "2026-10-09",
+     "kind": "buy",
+     "shares": 12000,
+     "price": 3.28,
+     "value": 39336,
+     "sharesAfter": 18669,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Roberto Marco Sella",
+     "percent": 14.34,
+     "date": "2026-01-22",
+     "activist": false
+    },
+    {
+     "name": "Simon Irish",
+     "percent": 12.8,
+     "date": "2025-11-04",
+     "activist": true
+    },
+    {
+     "name": "David LeBlanc",
+     "percent": 9.7,
+     "date": "2025-11-04",
+     "activist": true
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-08-11",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926094085/tmb-20260630x10q.htm"
+    },
+    {
+     "date": "2026-08-11",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926093776/tmb-20260811x8k.htm"
+    },
+    {
+     "date": "2026-07-28",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000018/tmb-20260723x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-07-21",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000013/tmb-20260721x8k.htm"
+    },
+    {
+     "date": "2026-07-17",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000006/tmb-20260714x8k.htm"
+    },
+    {
+     "date": "2026-06-12",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926073471/tmb-20260611x8k.htm"
+    },
+    {
+     "date": "2026-05-14",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926061234/tmb-20260331x10q.htm"
+    },
+    {
+     "date": "2026-05-14",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926060716/tmb-20260514x8k.htm"
+    },
+    {
+     "date": "2026-05-08",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926057977/tmb-20260505x8k.htm"
+    },
+    {
+     "date": "2026-04-29",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926051655/tmb-20260611xdef14a.htm"
+    },
+    {
+     "date": "2026-04-16",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926044426/tmb-20260416x8k.htm"
+    },
+    {
+     "date": "2026-03-30",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926036846/tmb-20251231x10k.htm"
+    },
+    {
+     "date": "2026-03-30",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926036467/tmb-20260330x8k.htm"
+    },
+    {
+     "date": "2026-01-29",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926007880/tmb-20260129x8k.htm"
+    },
+    {
+     "date": "2026-01-22",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000119380526000054/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "Roberto Marco Sella · 14,3 %"
+    },
+    {
+     "date": "2025-11-26",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925116127/tmb-20250930xs1.htm"
+    },
+    {
+     "date": "2025-11-24",
+     "title": "Wirtschaftsprüfer gewechselt",
+     "kind": "warning",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925115406/tm2531980d1_8k.htm"
+    },
+    {
+     "date": "2025-11-21",
+     "title": "Quartalsbericht nachträglich geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925114702/tm2531886d1_10-qa.htm"
+    },
+    {
+     "date": "2025-11-14",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025111005/ea0264298-10q_terres.htm"
+    },
+    {
+     "date": "2025-11-04",
+     "title": "Aktiver Großinvestor meldet Anteil",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925106326/xslSCHEDULE_13D_X01/primary_doc.xml",
+     "detail": "David LeBlanc · 9,7 %"
+    },
+    {
+     "date": "2025-11-03",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025105304/ea0263386-8k_terres.htm",
+     "detail": "Außerdem: Übernahme oder Verkauf abgeschlossen, Kontrollwechsel, Neue Aktien ausgegeben, Wechsel in Vorstand oder Aufsichtsrat, Rechte der Aktionäre geändert, Satzung geändert"
+    },
+    {
+     "date": "2025-10-29",
+     "title": "Rechte der Aktionäre geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025103554/ea0263000-8k_terrestrial.htm",
+     "detail": "Außerdem: Satzung geändert, Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2025-10-22",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025101312/ea0261843-8k425_hcm2acq.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung"
+    }
+   ],
+   "balance": {
+    "date": "2026-06-30",
+    "cash": 273518000.0,
+    "shares": 105935254.0,
+    "operatingCashFlow": -30722906.0,
+    "freeCashFlow": -31413213.0
+   },
+   "checks": [
+    {
+     "level": "warning",
+     "title": "Wirtschaftsprüfer gewechselt",
+     "detail": "Kann Routine sein – oder auf Uneinigkeit über die Bilanz hindeuten. Gemeldet am 24.11.2025."
+    },
+    {
+     "level": "info",
+     "title": "Geld reicht rechnerisch über zwei Jahre",
+     "detail": "Kasse 273,5 Mio. $, Abfluss 31,4 Mio. $ in zwölf Monaten. Danach bräuchte die Firma neues Geld – oft über neue Aktien."
+    },
+    {
+     "level": "ok",
+     "title": "Keine Finanzschulden",
+     "detail": "Kasse 273,5 Mio. $."
+    }
+   ]
+  },
+  {
+   "cik": 1956741,
+   "ticker": "ZONE",
+   "name": "Zone Frontier Inc.",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:ZONE",
+   "sector": "Chemie",
+   "industry": "Specialty Cleaning, Polishing and Sanitation Preparations",
+   "publicFloat": 52000000.0,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 85.200 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Umsatz −0 % (Vorquartal −3 %)",
+     "detail": "Bei so kleinem Umsatz sagen Prozente wenig."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Verlust im letzten Quartal",
+     "detail": "Die Firma schreibt noch rote Zahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Bruttomarge 50 % (Vorjahr 48 %)",
+     "detail": "Bruttomarge im Vergleich zum Vorjahresquartal."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "2 Käufe · 231.275 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 231.275 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": -0.003987678521422566,
+    "history": [
+     [
+      "2026-10-06",
+      0
+     ],
+     [
+      "2026-10-14",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Tyler Lewis Hassen",
+     "role": "CEO",
+     "date": "2026-10-14",
+     "shares": 750000,
+     "value": 85200
+    },
+    {
+     "name": "Tyler Lewis Hassen",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "shares": 1250000,
+     "value": 146075
+    }
+   ],
+   "financials": [
+    {
+     "period": "2024-Q3",
+     "revenue": 364900.0,
+     "netIncome": -856082.0
+    },
+    {
+     "period": "2024-Q4",
+     "revenue": 257269.0,
+     "netIncome": -1005030.0
+    },
+    {
+     "period": "2025-Q1",
+     "revenue": 557915.0,
+     "netIncome": -809354.0
+    },
+    {
+     "period": "2025-Q2",
+     "revenue": 892750.0,
+     "netIncome": -4071809.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 904699.0,
+     "netIncome": -13367699.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 1068851.0,
+     "netIncome": -104360352.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 543694.0,
+     "netIncome": -37264986.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 889190.0,
+     "netIncome": -19167827.0
+    }
+   ],
+   "valuation": null,
+   "about": {
+    "location": "Omaha, NE",
+    "fiscalYearEndMonth": 6
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 3,
+     "people": 2,
+     "value": 236950
+    },
+    "sells": {
+     "count": 0,
+     "people": 0,
+     "value": 0,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Tyler Lewis Hassen",
       "role": "CEO",
-      "bought": 214667,
+      "bought": 231325,
       "sold": 0,
       "trades": 2
      },
      {
-      "name": "Ivan Brockman",
-      "role": "Direktor",
-      "bought": 60200,
+      "name": "David James Enholm",
+      "role": "CFO",
+      "bought": 5625,
       "sold": 0,
+      "trades": 1
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Tyler Lewis Hassen",
+     "role": "CEO",
+     "date": "2026-10-14",
+     "kind": "buy",
+     "shares": 750000,
+     "price": 0.11,
+     "value": 85200,
+     "sharesAfter": 4000000,
+     "planned": false
+    },
+    {
+     "name": "Tyler Lewis Hassen",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 1250000,
+     "price": 0.12,
+     "value": 146125,
+     "sharesAfter": 3250000,
+     "planned": false
+    },
+    {
+     "name": "David James Enholm",
+     "role": "CFO",
+     "date": "2025-12-01",
+     "kind": "buy",
+     "shares": 18750,
+     "price": 0.3,
+     "value": 5625,
+     "sharesAfter": 292300,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Ansari Mohammad Jawad",
+     "percent": 11.8,
+     "date": "2025-09-04",
+     "activist": true
+    },
+    {
+     "name": "Mmcap International Inc. Spc",
+     "percent": 6.3,
+     "date": "2026-08-14",
+     "activist": false
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-10-14",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026109483/ea0308552-8k_zone.htm",
+     "detail": "Außerdem: Wichtiger Vertrag beendet, Übernahme oder Verkauf abgeschlossen, Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-09-30",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026105332/ea0306953-8k_zone.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026104157/ea0306318-10k_zone.htm"
+    },
+    {
+     "date": "2026-09-11",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026099309/ea0305227-8k_zone.htm"
+    },
+    {
+     "date": "2026-08-20",
+     "title": "Sonstige wichtige Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026092203/ea0302910-8k_clean.htm"
+    },
+    {
+     "date": "2026-08-19",
+     "title": "Satzung geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026091659/ea0302565-8k_clean.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-08-12",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026088083/ea0301703-8k_cleancore.htm"
+    },
+    {
+     "date": "2026-08-10",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026087260/ea0300880-424b5_cleancore.htm"
+    },
+    {
+     "date": "2026-07-29",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026082561/ea0299459-8k_cleancore.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-07-09",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026076740/ea0297471-8k_cleancore.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-07-07",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026075952/ea0297184-8k_cleancore.htm"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066054/ea029387401-8k_cleancore.htm",
+     "detail": "Außerdem: Wichtiger Vertrag beendet"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066052/ea029387402-424b5_cleancore.htm"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066049/ea0293889-8k_cleancore.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-05-28",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026062152/ea0292418-8k_cleancore.htm"
+    },
+    {
+     "date": "2026-05-18",
+     "title": "Quartalsbericht nachträglich geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026058489/ea0291213-10qa1_cleancore.htm"
+    },
+    {
+     "date": "2026-05-18",
+     "title": "Frühere Zahlen nicht mehr verlässlich",
+     "kind": "warning",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026058477/ea0291352-8k_cleancore.htm"
+    },
+    {
+     "date": "2026-05-11",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026054078/ea0289167-10q_cleancore.htm"
+    },
+    {
+     "date": "2026-04-29",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000210011926000300/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Vanguard Capital Management · 5,7 %"
+    },
+    {
+     "date": "2026-03-20",
+     "title": "Wechsel in Vorstand oder Aufsichtsrat",
+     "kind": "people",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026032356/ea0282716-8k_cleancore.htm"
+    },
+    {
+     "date": "2026-03-10",
+     "title": "Wichtiger Vertrag geschlossen",
+     "kind": "deal",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026025719/ea0280523-8k_clean.htm",
+     "detail": "Außerdem: Wechsel in Vorstand oder Aufsichtsrat"
+    },
+    {
+     "date": "2026-02-11",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026015016/ea0276195-10q_cleancore.htm"
+    },
+    {
+     "date": "2025-12-19",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025123866/ea0270308-8k_cleancore.htm"
+    },
+    {
+     "date": "2025-11-13",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000149315225022250/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "Ayrton Capital LLC · 5,5 %"
+    },
+    {
+     "date": "2025-11-13",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025109642/ea0264475-10q_cleancore.htm"
+    },
+    {
+     "date": "2025-11-13",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025109635/ea0265353-8k_cleancore.htm"
+    },
+    {
+     "date": "2025-10-28",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025103123/ea0262702-def14a_cleancore.htm"
+    },
+    {
+     "date": "2025-10-28",
+     "title": "Satzung geändert",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025103110/ea0262705-8k_clean.htm"
+    }
+   ],
+   "balance": {
+    "date": "2026-06-30",
+    "cash": 15435213.0,
+    "shares": 508830259.0,
+    "sharesChange": 44.5295,
+    "operatingCashFlow": -18157390.0,
+    "freeCashFlow": -18194945.0
+   },
+   "checks": [
+    {
+     "level": "warning",
+     "title": "Macht Verluste",
+     "detail": "Verlust von 174,2 Mio. $ in den letzten 4 Quartalen."
+    },
+    {
+     "level": "warning",
+     "title": "Geld reicht rechnerisch etwa 10 Monate",
+     "detail": "Kasse 15,4 Mio. $, Abfluss 18,2 Mio. $ in zwölf Monaten. Danach bräuchte die Firma neues Geld – oft über neue Aktien."
+    },
+    {
+     "level": "warning",
+     "title": "Aktienzahl +4453 % in einem Jahr",
+     "detail": "Neue Aktien verkleinern den Anteil bestehender Aktionäre (Verwässerung)."
+    },
+    {
+     "level": "warning",
+     "title": "Frühere Zahlen nicht mehr verlässlich",
+     "detail": "Bereits veröffentlichte Abschlüsse müssen korrigiert werden. Gemeldet am 18.5.2026."
+    },
+    {
+     "level": "ok",
+     "title": "Keine Finanzschulden",
+     "detail": "Kasse 15,4 Mio. $."
+    }
+   ]
+  },
+  {
+   "cik": 1625414,
+   "ticker": "BZUN",
+   "name": "Baozun Inc.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:BZUN",
+   "sector": "Einzelhandel",
+   "industry": "Retail-Catalog & Mail-Order Houses",
+   "publicFloat": null,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "CEO kaufte für 40.166 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "1 Kauf · 40.166 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 40.166 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "shares": 11800,
+     "value": 40166
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "Shanghai, F4",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 48,
+     "people": 2,
+     "value": 1571549
+    },
+    "sells": {
+     "count": 0,
+     "people": 0,
+     "value": 0,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Wenbin Qiu",
+      "role": "CEO",
+      "bought": 955455,
+      "sold": 0,
+      "trades": 35
+     },
+     {
+      "name": "Junhua Wu",
+      "role": "Vorstand",
+      "bought": 616094,
+      "sold": 0,
+      "trades": 13
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 5800,
+     "price": 3.47,
+     "value": 20126,
+     "sharesAfter": 1678572,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-10-12",
+     "kind": "buy",
+     "shares": 6000,
+     "price": 3.34,
+     "value": 20040,
+     "sharesAfter": 1672772,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-21",
+     "kind": "buy",
+     "shares": 6900,
+     "price": 2.85,
+     "value": 19665,
+     "sharesAfter": 1666772,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-18",
+     "kind": "buy",
+     "shares": 7000,
+     "price": 2.88,
+     "value": 20160,
+     "sharesAfter": 1659872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-17",
+     "kind": "buy",
+     "shares": 7100,
+     "price": 2.84,
+     "value": 20164,
+     "sharesAfter": 1652872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-16",
+     "kind": "buy",
+     "shares": 7300,
+     "price": 2.74,
+     "value": 20002,
+     "sharesAfter": 1645772,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-15",
+     "kind": "buy",
+     "shares": 7300,
+     "price": 2.72,
+     "value": 19856,
+     "sharesAfter": 1638472,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-09-15",
+     "kind": "buy",
+     "shares": 13900,
+     "price": 2.73,
+     "value": 37947,
+     "sharesAfter": 281170,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-09-14",
+     "kind": "buy",
+     "shares": 7300,
+     "price": 2.74,
+     "value": 20002,
+     "sharesAfter": 1631172,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-09-02",
+     "kind": "buy",
+     "shares": 13500,
+     "price": 2.85,
+     "value": 38475,
+     "sharesAfter": 267270,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-06-24",
+     "kind": "buy",
+     "shares": 29000,
+     "price": 2.85,
+     "value": 82650,
+     "sharesAfter": 253770,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-22",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.81,
+     "value": 28100,
+     "sharesAfter": 1623872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-18",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.77,
+     "value": 27700,
+     "sharesAfter": 1613872,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-06-17",
+     "kind": "buy",
+     "shares": 18500,
+     "price": 2.84,
+     "value": 52540,
+     "sharesAfter": 224770,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-17",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.83,
+     "value": 28300,
+     "sharesAfter": 1603872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-16",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.72,
+     "value": 27200,
+     "sharesAfter": 1593872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-15",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.79,
+     "value": 27900,
+     "sharesAfter": 1583872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-12",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.72,
+     "value": 27200,
+     "sharesAfter": 1573872,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-06-11",
+     "kind": "buy",
+     "shares": 18000,
+     "price": 2.69,
+     "value": 48420,
+     "sharesAfter": 206270,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-11",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.67,
+     "value": 26700,
+     "sharesAfter": 1563872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-10",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.64,
+     "value": 26400,
+     "sharesAfter": 1553872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-09",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.72,
+     "value": 27200,
+     "sharesAfter": 1543872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-08",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.77,
+     "value": 27700,
+     "sharesAfter": 1533872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-05",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.65,
+     "value": 26500,
+     "sharesAfter": 1523872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-04",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.67,
+     "value": 26700,
+     "sharesAfter": 1513872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-03",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.63,
+     "value": 26300,
+     "sharesAfter": 1503872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-02",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.69,
+     "value": 26900,
+     "sharesAfter": 1493872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-06-01",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.73,
+     "value": 27300,
+     "sharesAfter": 1483872,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-06-01",
+     "kind": "buy",
+     "shares": 20000,
+     "price": 2.7,
+     "value": 54000,
+     "sharesAfter": 188270,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-05-29",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.57,
+     "value": 25700,
+     "sharesAfter": 1473872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-05-28",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.56,
+     "value": 25600,
+     "sharesAfter": 1463872,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-05-28",
+     "kind": "buy",
+     "shares": 19500,
+     "price": 2.56,
+     "value": 49920,
+     "sharesAfter": 168270,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-05-27",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.58,
+     "value": 25800,
+     "sharesAfter": 1453872,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-05-26",
+     "kind": "buy",
+     "shares": 10000,
+     "price": 2.55,
+     "value": 25500,
+     "sharesAfter": 148770,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-17",
+     "kind": "buy",
+     "shares": 16000,
+     "price": 3.14,
+     "value": 50240,
+     "sharesAfter": 1433872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-16",
+     "kind": "buy",
+     "shares": 17500,
+     "price": 2.84,
+     "value": 49700,
+     "sharesAfter": 1417872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-15",
+     "kind": "buy",
+     "shares": 11000,
+     "price": 2.71,
+     "value": 29810,
+     "sharesAfter": 1400372,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-14",
+     "kind": "buy",
+     "shares": 11500,
+     "price": 2.63,
+     "value": 30245,
+     "sharesAfter": 1389372,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-04-13",
+     "kind": "buy",
+     "shares": 11084,
+     "price": 2.49,
+     "value": 27599,
+     "sharesAfter": 138770,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-13",
+     "kind": "buy",
+     "shares": 12100,
+     "price": 2.48,
+     "value": 30008,
+     "sharesAfter": 1377872,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-10",
+     "kind": "buy",
+     "shares": 12400,
+     "price": 2.43,
+     "value": 30132,
+     "sharesAfter": 1365772,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-04-10",
+     "kind": "buy",
+     "shares": 5372,
+     "price": 2.4,
+     "value": 12893,
+     "sharesAfter": 127686,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-09",
+     "kind": "buy",
+     "shares": 11650,
+     "price": 2.58,
+     "value": 30057,
+     "sharesAfter": 1353372,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-08",
+     "kind": "buy",
+     "shares": 11600,
+     "price": 2.58,
+     "value": 29928,
+     "sharesAfter": 1341722,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-04-08",
+     "kind": "buy",
+     "shares": 30886,
+     "price": 2.54,
+     "value": 78450,
+     "sharesAfter": 122314,
+     "planned": false
+    },
+    {
+     "name": "Wenbin Qiu",
+     "role": "CEO",
+     "date": "2026-04-07",
+     "kind": "buy",
+     "shares": 12000,
+     "price": 2.51,
+     "value": 30120,
+     "sharesAfter": 1330122,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-04-02",
+     "kind": "buy",
+     "shares": 30000,
+     "price": 2.47,
+     "value": 74100,
+     "sharesAfter": 91428,
+     "planned": false
+    },
+    {
+     "name": "Junhua Wu",
+     "role": "Vorstand",
+     "date": "2026-03-31",
+     "kind": "buy",
+     "shares": 14000,
+     "price": 2.4,
+     "value": 33600,
+     "sharesAfter": 61428,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "Jesvinco Holdings Limited",
+     "percent": 7.7,
+     "date": "2026-02-12",
+     "activist": false
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-04-23",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1625414/000110465926047177/bzun-20251231x20f.htm"
+    }
+   ],
+   "balance": {
+    "date": "2025-12-31",
+    "cash": 379569000.0,
+    "debt": 0.0,
+    "shares": 172548611.0,
+    "sharesChange": 0.0387,
+    "operatingCashFlow": 60121000.0,
+    "freeCashFlow": 44885000.0
+   },
+   "checks": [
+    {
+     "level": "info",
+     "title": "Aktienzahl +4 % in einem Jahr",
+     "detail": "Leichte Verwässerung, z. B. durch Mitarbeiteraktien."
+    },
+    {
+     "level": "ok",
+     "title": "Erwirtschaftet Geld",
+     "detail": "Free Cashflow von 44,9 Mio. $ in zwölf Monaten."
+    },
+    {
+     "level": "ok",
+     "title": "Keine Finanzschulden",
+     "detail": "Kasse 379,6 Mio. $."
+    }
+   ]
+  },
+  {
+   "cik": 1731388,
+   "ticker": "EDRY",
+   "name": "EuroDry Ltd.",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:EDRY",
+   "sector": "Transport & Logistik",
+   "industry": "Water Transportation",
+   "publicFloat": null,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "Direktor kaufte für 35.826 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "1 Kauf · 35.826 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 35.826 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-08",
+      0
+     ],
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "shares": 700,
+     "value": 35826
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "Maroussi, J3",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 3,
+     "people": 1,
+     "value": 93023
+    },
+    "sells": {
+     "count": 10,
+     "people": 4,
+     "value": 740059,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Aristeidis P Pittas",
+      "role": "Direktor",
+      "bought": 93023,
+      "sold": 246536,
+      "trades": 8
+     },
+     {
+      "name": "Symeon Pariaros",
+      "role": "Vorstand",
+      "bought": 0,
+      "sold": 311923,
+      "trades": 3
+     },
+     {
+      "name": "Anastasios Aslidis",
+      "role": "CFO",
+      "bought": 0,
+      "sold": 166200,
+      "trades": 1
+     },
+     {
+      "name": "Stefania Karmiri",
+      "role": "Corporate Secretary",
+      "bought": 0,
+      "sold": 15400,
+      "trades": 1
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-10-13",
+     "kind": "buy",
+     "shares": 700,
+     "price": 51.18,
+     "value": 35826,
+     "sharesAfter": 76788,
+     "planned": false
+    },
+    {
+     "name": "Anastasios Aslidis",
+     "role": "CFO",
+     "date": "2026-10-01",
+     "kind": "sell",
+     "shares": 3000,
+     "price": 55.4,
+     "value": 166200,
+     "sharesAfter": 46150,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-09-24",
+     "kind": "buy",
+     "shares": 900,
+     "price": 51.33,
+     "value": 46197,
+     "sharesAfter": 76113,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-08-25",
+     "kind": "sell",
+     "shares": 3450,
+     "price": 50.95,
+     "value": 175794,
+     "sharesAfter": 75663,
+     "planned": false
+    },
+    {
+     "name": "Symeon Pariaros",
+     "role": "Vorstand",
+     "date": "2026-08-21",
+     "kind": "sell",
+     "shares": 2676,
+     "price": 45.8,
+     "value": 122561,
+     "sharesAfter": 1900,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-08-21",
+     "kind": "sell",
+     "shares": 500,
+     "price": 44.56,
+     "value": 22280,
+     "sharesAfter": 75913,
+     "planned": false
+    },
+    {
+     "name": "Symeon Pariaros",
+     "role": "Vorstand",
+     "date": "2026-08-18",
+     "kind": "sell",
+     "shares": 2700,
+     "price": 42.0,
+     "value": 113400,
+     "sharesAfter": 4576,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-08-18",
+     "kind": "sell",
+     "shares": 600,
+     "price": 39.5,
+     "value": 23700,
+     "sharesAfter": 76163,
+     "planned": false
+    },
+    {
+     "name": "Symeon Pariaros",
+     "role": "Vorstand",
+     "date": "2026-08-12",
+     "kind": "sell",
+     "shares": 1900,
+     "price": 39.98,
+     "value": 75962,
+     "sharesAfter": 7276,
+     "planned": false
+    },
+    {
+     "name": "Stefania Karmiri",
+     "role": "Corporate Secretary",
+     "date": "2026-08-11",
+     "kind": "sell",
+     "shares": 400,
+     "price": 38.5,
+     "value": 15400,
+     "sharesAfter": 850,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-08-10",
+     "kind": "sell",
+     "shares": 500,
+     "price": 37.8,
+     "value": 18900,
+     "sharesAfter": 76463,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-07-14",
+     "kind": "sell",
+     "shares": 250,
+     "price": 23.45,
+     "value": 5862,
+     "sharesAfter": 77417,
+     "planned": false
+    },
+    {
+     "name": "Aristeidis P Pittas",
+     "role": "Direktor",
+     "date": "2026-06-22",
+     "kind": "buy",
+     "shares": 500,
+     "price": 22.0,
+     "value": 11000,
+     "sharesAfter": 77667,
+     "planned": false
+    }
+   ],
+   "holders": [],
+   "events": [
+    {
+     "date": "2026-09-11",
+     "title": "Neue Aktien oder Anleihen angeboten",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1731388/000091957426006294/p15075106_424b5.htm"
+    },
+    {
+     "date": "2026-08-27",
+     "title": "Ausgabe neuer Wertpapiere vorbereitet",
+     "kind": "capital",
+     "url": "https://www.sec.gov/Archives/edgar/data/1731388/000091957426005806/p15057625_f-3.htm"
+    },
+    {
+     "date": "2026-04-28",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/1731388/000117184326002768/edry20251231_20f.htm"
+    }
+   ],
+   "balance": {
+    "date": "2026-06-30",
+    "cash": 25617371.0,
+    "debt": 98056591.0,
+    "shares": 2890547.0,
+    "sharesChange": 0.0226,
+    "operatingCashFlow": 24860149.0,
+    "freeCashFlow": 24860149.0
+   },
+   "checks": [
+    {
+     "level": "info",
+     "title": "Mehr Schulden als Geld",
+     "detail": "Schulden 98,1 Mio. $, Kasse 25,6 Mio. $."
+    },
+    {
+     "level": "ok",
+     "title": "Erwirtschaftet Geld",
+     "detail": "Free Cashflow von 24,9 Mio. $ in zwölf Monaten."
+    }
+   ]
+  },
+  {
+   "cik": 1515940,
+   "ticker": "KIO",
+   "name": "KKR Income Opportunities Fund",
+   "exchange": "NYSE",
+   "tradingViewSymbol": "NYSE:KIO",
+   "sector": "Sonstige",
+   "industry": null,
+   "publicFloat": null,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "insider",
+    "headline": "President kaufte für 40.890 $",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Vergleichszahlen",
+     "detail": "Für einen Vergleich fehlen Quartalszahlen."
+    },
+    {
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Gewinnzahlen",
+     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
+    },
+    {
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Keine Margen-Angaben",
+     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
+    },
+    {
+     "kind": "insider",
+     "isActive": true,
+     "isNew": true,
+     "headline": "1 Kauf · 40.890 $",
+     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 40.890 $ eigene Aktien gekauft."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": null,
+    "history": [
+     [
+      "2026-10-10",
+      0
+     ],
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [
+    {
+     "name": "Rudy Pimentel",
+     "role": "President",
+     "date": "2026-10-08",
+     "shares": 4000,
+     "value": 40890
+    }
+   ],
+   "financials": [],
+   "valuation": null,
+   "about": {
+    "location": "San Francisco, CA",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 3,
+     "people": 1,
+     "value": 40890
+    },
+    "sells": {
+     "count": 2,
+     "people": 1,
+     "value": 248441,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Rudy Pimentel",
+      "role": "President",
+      "bought": 40890,
+      "sold": 0,
+      "trades": 3
+     },
+     {
+      "name": "Justin Takao",
+      "role": "CFO",
+      "bought": 0,
+      "sold": 248441,
       "trades": 2
      }
     ]
    },
    "insiderTransactions": [
     {
-     "name": "Ivan Brockman",
-     "role": "Direktor",
-     "date": "2026-10-06",
+     "name": "Rudy Pimentel",
+     "role": "President",
+     "date": "2026-10-08",
      "kind": "buy",
-     "shares": 10000,
-     "price": 5.02,
-     "value": 50200,
-     "sharesAfter": 12500,
+     "shares": 1000,
+     "price": 10.15,
+     "value": 10150,
+     "sharesAfter": 15154,
      "planned": false
     },
     {
-     "name": "Ivan Brockman",
-     "role": "Direktor",
-     "date": "2026-09-25",
+     "name": "Rudy Pimentel",
+     "role": "President",
+     "date": "2026-10-05",
      "kind": "buy",
-     "shares": 2500,
-     "price": 4.0,
-     "value": 10000,
-     "sharesAfter": 2500,
+     "shares": 2000,
+     "price": 10.22,
+     "value": 20440,
+     "sharesAfter": 14154,
      "planned": false
     },
     {
-     "name": "Ian Bickley",
-     "role": "CEO",
-     "date": "2026-06-12",
+     "name": "Rudy Pimentel",
+     "role": "President",
+     "date": "2026-10-01",
      "kind": "buy",
-     "shares": 28901,
-     "price": 3.87,
-     "value": 111847,
-     "sharesAfter": 135623,
+     "shares": 1000,
+     "price": 10.3,
+     "value": 10300,
+     "sharesAfter": 12154,
      "planned": false
     },
     {
-     "name": "Andrew Meslow",
-     "role": "Direktor",
-     "date": "2026-06-12",
-     "kind": "buy",
-     "shares": 24926,
-     "price": 3.73,
-     "value": 92974,
-     "sharesAfter": 650000,
+     "name": "Justin Takao",
+     "role": "CFO",
+     "date": "2026-02-04",
+     "kind": "sell",
+     "shares": 6410,
+     "price": 11.7,
+     "value": 74976,
+     "sharesAfter": 5040,
      "planned": false
     },
     {
-     "name": "Andrew Meslow",
-     "role": "Direktor",
-     "date": "2025-12-15",
-     "kind": "buy",
-     "shares": 50000,
-     "price": 1.93,
-     "value": 96500,
-     "sharesAfter": 600000,
-     "planned": false
-    },
-    {
-     "name": "Ian Bickley",
-     "role": "Direktor",
-     "date": "2025-12-12",
-     "kind": "buy",
-     "shares": 53000,
-     "price": 1.94,
-     "value": 102820,
-     "sharesAfter": 841629,
-     "planned": false
-    },
-    {
-     "name": "Andrew Meslow",
-     "role": "Direktor",
-     "date": "2025-12-12",
-     "kind": "buy",
-     "shares": 250000,
-     "price": 1.98,
-     "value": 495000,
-     "sharesAfter": 550000,
+     "name": "Justin Takao",
+     "role": "CFO",
+     "date": "2026-02-03",
+     "kind": "sell",
+     "shares": 14807,
+     "price": 11.72,
+     "value": 173465,
+     "sharesAfter": 6456,
      "planned": false
     }
    ],
    "holders": [
     {
-     "name": "Barbara B. Baekgaard 2009 Grantor Retained Annuity Trust",
-     "percent": 14.45,
-     "date": "2025-06-18",
-     "activist": true
-    },
-    {
-     "name": "Patricia R. Miller",
-     "percent": 10.9,
-     "date": "2025-08-01",
+     "name": "Morgan Stanley",
+     "percent": 5.6,
+     "date": "2026-05-12",
      "activist": false
     }
    ],
    "events": [
     {
-     "date": "2026-09-15",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026062019/vra-20260801.htm"
+     "date": "2026-05-12",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/1515940/000089542126000164/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "Morgan Stanley · 5,6 %"
     },
     {
-     "date": "2026-09-15",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026061971/vra-20260915.htm"
-    },
-    {
-     "date": "2026-07-24",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026049595/vra-20260724.htm"
-    },
-    {
-     "date": "2026-06-11",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026042444/vra-20260502.htm"
-    },
-    {
-     "date": "2026-06-11",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026042374/vra-20260611.htm"
-    },
-    {
-     "date": "2026-06-09",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026041779/vra-20260604.htm"
-    },
-    {
-     "date": "2026-04-24",
+     "date": "2026-02-13",
      "title": "Einladung zur Hauptversammlung",
      "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000119312526176477/d21015ddef14a.htm"
+     "url": "https://www.sec.gov/Archives/edgar/data/1515940/000119312526050307/d18935ddef14a.htm"
     },
     {
-     "date": "2026-04-24",
+     "date": "2025-10-31",
      "title": "Wechsel in Vorstand oder Aufsichtsrat",
      "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026027024/vra-20260424.htm"
+     "url": "https://www.sec.gov/Archives/edgar/data/1515940/000119312525260971/d30888d8k.htm"
+    }
+   ],
+   "balance": null,
+   "checks": []
+  },
+  {
+   "cik": 908315,
+   "ticker": "WINA",
+   "name": "Winmark Corp",
+   "exchange": "Nasdaq",
+   "tradingViewSymbol": "NASDAQ:WINA",
+   "sector": "Einzelhandel",
+   "industry": "Retail-Miscellaneous Retail",
+   "publicFloat": 888324416.0,
+   "importance": 1.5,
+   "trigger": {
+    "kind": "acceleration",
+    "headline": "Umsatz +23 % (Vorquartal +8 %)",
+    "date": "2026-10-14"
+   },
+   "signals": [
+    {
+     "kind": "acceleration",
+     "isActive": true,
+     "isNew": true,
+     "headline": "Umsatz +23 % (Vorquartal +8 %)",
+     "detail": "Der Umsatz wächst gegenüber dem Vorjahr schneller als noch im Quartal davor."
     },
     {
-     "date": "2026-04-17",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026025831/vra-20260417.htm",
-     "detail": "Außerdem: Rechte der Aktionäre geändert, Satzung geändert, Präsentation oder Mitteilung"
+     "kind": "turnaround",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Gewinn +6 % (Umsatz +23 %)",
+     "detail": "Gewinn gegenüber dem Vorjahresquartal."
     },
     {
-     "date": "2026-03-27",
-     "title": "Jahresbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026021640/vra-20260131.htm"
+     "kind": "margin",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Operative Marge 57 % (Vorjahr 66 %)",
+     "detail": "Operative Marge im Vergleich zum Vorjahresquartal."
     },
     {
-     "date": "2026-03-13",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026017726/vra-20260311.htm"
+     "kind": "insider",
+     "isActive": false,
+     "isNew": false,
+     "headline": "Kein Signal",
+     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
+    }
+   ],
+   "upswing": {
+    "score": 1,
+    "maxScore": 4,
+    "isNew": false,
+    "revenueGrowth": 0.23229899836079326,
+    "history": [
+     [
+      "2026-10-10",
+      0
+     ],
+     [
+      "2026-10-15",
+      1
+     ]
+    ],
+    "since": null
+   },
+   "insiderTrades": [],
+   "financials": [
+    {
+     "period": "2024-Q4",
+     "revenue": 19548200.0,
+     "netIncome": 9583100.0
     },
     {
-     "date": "2026-03-12",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026017020/vra-20260312.htm"
+     "period": "2025-Q1",
+     "revenue": 21919700.0,
+     "netIncome": 9956400.0
     },
     {
-     "date": "2025-12-11",
+     "period": "2025-Q2",
+     "revenue": 20416800.0,
+     "netIncome": 10601200.0
+    },
+    {
+     "period": "2025-Q3",
+     "revenue": 22632900.0,
+     "netIncome": 11136500.0
+    },
+    {
+     "period": "2025-Q4",
+     "revenue": 21086300.0,
+     "netIncome": 9960000.0
+    },
+    {
+     "period": "2026-Q1",
+     "revenue": 20849700.0,
+     "netIncome": 9254700.0
+    },
+    {
+     "period": "2026-Q2",
+     "revenue": 21966000.0,
+     "netIncome": 10394800.0
+    },
+    {
+     "period": "2026-Q3",
+     "revenue": 27890500.0,
+     "netIncome": 11818100.0
+    }
+   ],
+   "valuation": null,
+   "about": {
+    "location": "Minneapolis, MN",
+    "fiscalYearEndMonth": 12
+   },
+   "insiderSummary": {
+    "since": "2025-10-15",
+    "buys": {
+     "count": 0,
+     "people": 0,
+     "value": 0
+    },
+    "sells": {
+     "count": 4,
+     "people": 3,
+     "value": 4130706,
+     "planned": 0
+    },
+    "byPerson": [
+     {
+      "name": "Jenele C Grassle",
+      "role": "Direktor",
+      "bought": 0,
+      "sold": 2865708,
+      "trades": 2
+     },
+     {
+      "name": "Percy C Tomlinson Jr",
+      "role": "Direktor",
+      "bought": 0,
+      "sold": 764463,
+      "trades": 1
+     },
+     {
+      "name": "Renae M. Gaudette",
+      "role": "COO",
+      "bought": 0,
+      "sold": 500535,
+      "trades": 1
+     }
+    ]
+   },
+   "insiderTransactions": [
+    {
+     "name": "Jenele C Grassle",
+     "role": "Direktor",
+     "date": "2026-03-04",
+     "kind": "sell",
+     "shares": 3900,
+     "price": 475.8,
+     "value": 1855620,
+     "sharesAfter": 2500,
+     "planned": false
+    },
+    {
+     "name": "Percy C Tomlinson Jr",
+     "role": "Direktor",
+     "date": "2026-03-03",
+     "kind": "sell",
+     "shares": 1660,
+     "price": 460.52,
+     "value": 764463,
+     "sharesAfter": 800,
+     "planned": false
+    },
+    {
+     "name": "Jenele C Grassle",
+     "role": "Direktor",
+     "date": "2025-11-21",
+     "kind": "sell",
+     "shares": 2400,
+     "price": 420.87,
+     "value": 1010088,
+     "sharesAfter": 2500,
+     "planned": false
+    },
+    {
+     "name": "Renae M. Gaudette",
+     "role": "COO",
+     "date": "2025-10-24",
+     "kind": "sell",
+     "shares": 1200,
+     "price": 417.11,
+     "value": 500535,
+     "sharesAfter": 19960,
+     "planned": false
+    }
+   ],
+   "holders": [
+    {
+     "name": "BlackRock, Inc.",
+     "percent": 12.1,
+     "date": "2026-02-06",
+     "activist": false
+    },
+    {
+     "name": "Renaissance Technologies LLC",
+     "percent": 6.21,
+     "date": "2025-08-13",
+     "activist": false
+    },
+    {
+     "name": "First Trust Portfolios L.p.",
+     "percent": 5.32,
+     "date": "2026-07-27",
+     "activist": false
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-10-14",
      "title": "Quartalsbericht",
      "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828025056518/vra-20251101.htm"
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000040/wina-20260926x10q.htm"
     },
     {
-     "date": "2025-11-20",
-     "title": "Aktiver Großinvestor ändert Anteil",
+     "date": "2026-10-14",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000038/wina-20261013x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung, Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-07-27",
+     "title": "Neuer Großaktionär über 5 %",
      "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000092189525003170/xslSCHEDULE_13D_X01/primary_doc.xml",
-     "detail": "Fund 1 Investments, LLC · 0,0 %"
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000144554626005499/xslSCHEDULE_13G_X02/primary_doc.xml",
+     "detail": "First Trust Portfolios L.p. · 5,3 %"
     },
     {
-     "date": "2025-10-29",
+     "date": "2026-07-15",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000028/wina-20260627x10q.htm"
+    },
+    {
+     "date": "2026-07-15",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000027/wina-20260715x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung, Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-05-06",
      "title": "Wechsel in Vorstand oder Aufsichtsrat",
      "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828025046940/vra-20251029.htm"
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000021/wina-20260505x8k.htm"
     },
     {
-     "date": "2025-10-27",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828025046464/vra-20251021.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen"
+     "date": "2026-04-22",
+     "title": "Ergebnis der Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000019/wina-20260422x8k.htm"
     },
     {
-     "date": "2025-10-14",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828025044844/vra-20251010.htm",
-     "detail": "Außerdem: Rechte der Aktionäre geändert, Präsentation oder Mitteilung"
+     "date": "2026-04-15",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000017/wina-20260328x10q.htm"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000016/wina-20260415x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung, Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-03-16",
+     "title": "Sonstige wichtige Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000012/wina-20260316x8k.htm"
+    },
+    {
+     "date": "2026-03-04",
+     "title": "Einladung zur Hauptversammlung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000010/wina-20260304xdef14a.htm"
+    },
+    {
+     "date": "2026-02-25",
+     "title": "Jahresbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm"
+    },
+    {
+     "date": "2026-02-18",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000004/wina-20260218x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung"
+    },
+    {
+     "date": "2026-01-28",
+     "title": "Präsentation oder Mitteilung",
+     "kind": "other",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000002/wina-20260128x8k.htm",
+     "detail": "Außerdem: Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2026-01-21",
+     "title": "Neuer Großaktionär über 5 %",
+     "kind": "holder",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000174083726000003/xslSCHEDULE_13G_X01/primary_doc.xml",
+     "detail": "AltraVue Capital, LLC · 4,9 %"
+    },
+    {
+     "date": "2025-10-15",
+     "title": "Quartalszahlen veröffentlicht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831525000036/wina-20251015x8k.htm",
+     "detail": "Außerdem: Präsentation oder Mitteilung, Sonstige wichtige Mitteilung"
+    },
+    {
+     "date": "2025-10-15",
+     "title": "Quartalsbericht",
+     "kind": "report",
+     "url": "https://www.sec.gov/Archives/edgar/data/908315/000090831525000034/wina-20250927x10q.htm"
     }
    ],
    "balance": {
-    "date": "2026-08-01",
-    "cash": 34249000.0,
-    "debt": 10000000.0,
-    "shares": 28688664.0,
-    "sharesChange": 0.0269,
-    "operatingCashFlow": 31048000.0,
-    "freeCashFlow": 29333000.0
+    "date": "2026-09-26",
+    "cash": 27964200.0,
+    "debt": 47687500.0,
+    "shares": 3559195.0,
+    "sharesChange": -0.0008,
+    "operatingCashFlow": 44071400.0,
+    "freeCashFlow": 43775100.0
    },
    "checks": [
     {
-     "level": "warning",
-     "title": "Macht Verluste",
-     "detail": "Verlust von 10,0 Mio. $ in den letzten 4 Quartalen."
+     "level": "info",
+     "title": "Mehr Schulden als Geld",
+     "detail": "Schulden 47,7 Mio. $, Kasse 28,0 Mio. $."
+    },
+    {
+     "level": "ok",
+     "title": "Profitabel",
+     "detail": "Gewinn von 41,4 Mio. $ in den letzten 4 Quartalen."
     },
     {
      "level": "ok",
      "title": "Erwirtschaftet Geld",
-     "detail": "Free Cashflow von 29,3 Mio. $ in zwölf Monaten."
-    },
-    {
-     "level": "ok",
-     "title": "Mehr Geld als Schulden",
-     "detail": "Kasse 34,2 Mio. $, Schulden 10,0 Mio. $."
+     "detail": "Free Cashflow von 43,8 Mio. $ in zwölf Monaten."
     }
    ]
   },
@@ -10257,7 +13686,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 58,
      "people": 4,
@@ -11026,7 +14455,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 18,
      "people": 3,
@@ -11586,7 +15015,7 @@
     "fiscalYearEndMonth": 6
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 4,
      "people": 3,
@@ -11853,701 +15282,6 @@
    ]
   },
   {
-   "cik": 2019804,
-   "ticker": "IMSR",
-   "name": "Terrestrial Energy Inc. /DE/",
-   "exchange": "Nasdaq",
-   "tradingViewSymbol": "NASDAQ:IMSR",
-   "sector": "Industrie & Maschinenbau",
-   "industry": "Fabricated Plate Work (Boiler Shops)",
-   "publicFloat": 191475000.0,
-   "importance": 1.5,
-   "trigger": {
-    "kind": "insider",
-    "headline": "Direktor kaufte für 39.336 $",
-    "date": "2026-10-13"
-   },
-   "signals": [
-    {
-     "kind": "acceleration",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Vergleichszahlen",
-     "detail": "Für einen Vergleich fehlen Quartalszahlen."
-    },
-    {
-     "kind": "turnaround",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Gewinnzahlen",
-     "detail": "Für die letzten Quartale fehlen Gewinnzahlen."
-    },
-    {
-     "kind": "margin",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Keine Margen-Angaben",
-     "detail": "Für die letzten Quartale fehlen Margen-Angaben."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": true,
-     "headline": "1 Kauf · 39.336 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 39.336 $ eigene Aktien gekauft."
-    }
-   ],
-   "upswing": {
-    "score": 1,
-    "maxScore": 4,
-    "isNew": false,
-    "revenueGrowth": null,
-    "history": [
-     [
-      "2026-10-14",
-      1
-     ]
-    ],
-    "since": null
-   },
-   "insiderTrades": [
-    {
-     "name": "Frederick W Buckman",
-     "role": "Direktor",
-     "date": "2026-10-09",
-     "shares": 12000,
-     "value": 39336
-    }
-   ],
-   "financials": [],
-   "valuation": null,
-   "about": {
-    "location": "Charlotte, NC",
-    "fiscalYearEndMonth": 12
-   },
-   "insiderSummary": {
-    "since": "2025-10-14",
-    "buys": {
-     "count": 1,
-     "people": 1,
-     "value": 39336
-    },
-    "sells": {
-     "count": 0,
-     "people": 0,
-     "value": 0,
-     "planned": 0
-    },
-    "byPerson": [
-     {
-      "name": "Frederick W Buckman",
-      "role": "Direktor",
-      "bought": 39336,
-      "sold": 0,
-      "trades": 1
-     }
-    ]
-   },
-   "insiderTransactions": [
-    {
-     "name": "Frederick W Buckman",
-     "role": "Direktor",
-     "date": "2026-10-09",
-     "kind": "buy",
-     "shares": 12000,
-     "price": 3.28,
-     "value": 39336,
-     "sharesAfter": 18669,
-     "planned": false
-    }
-   ],
-   "holders": [
-    {
-     "name": "Roberto Marco Sella",
-     "percent": 14.34,
-     "date": "2026-01-22",
-     "activist": false
-    },
-    {
-     "name": "Simon Irish",
-     "percent": 12.8,
-     "date": "2025-11-04",
-     "activist": true
-    },
-    {
-     "name": "David LeBlanc",
-     "percent": 9.7,
-     "date": "2025-11-04",
-     "activist": true
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-08-11",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926094085/tmb-20260630x10q.htm"
-    },
-    {
-     "date": "2026-08-11",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926093776/tmb-20260811x8k.htm"
-    },
-    {
-     "date": "2026-07-28",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000018/tmb-20260723x8k.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-07-21",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000013/tmb-20260721x8k.htm"
-    },
-    {
-     "date": "2026-07-17",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000006/tmb-20260714x8k.htm"
-    },
-    {
-     "date": "2026-06-12",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926073471/tmb-20260611x8k.htm"
-    },
-    {
-     "date": "2026-05-14",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926061234/tmb-20260331x10q.htm"
-    },
-    {
-     "date": "2026-05-14",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926060716/tmb-20260514x8k.htm"
-    },
-    {
-     "date": "2026-05-08",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926057977/tmb-20260505x8k.htm"
-    },
-    {
-     "date": "2026-04-29",
-     "title": "Einladung zur Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926051655/tmb-20260611xdef14a.htm"
-    },
-    {
-     "date": "2026-04-16",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926044426/tmb-20260416x8k.htm"
-    },
-    {
-     "date": "2026-03-30",
-     "title": "Jahresbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926036846/tmb-20251231x10k.htm"
-    },
-    {
-     "date": "2026-03-30",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926036467/tmb-20260330x8k.htm"
-    },
-    {
-     "date": "2026-01-29",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465926007880/tmb-20260129x8k.htm"
-    },
-    {
-     "date": "2026-01-22",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000119380526000054/xslSCHEDULE_13G_X01/primary_doc.xml",
-     "detail": "Roberto Marco Sella · 14,3 %"
-    },
-    {
-     "date": "2025-11-26",
-     "title": "Ausgabe neuer Wertpapiere vorbereitet",
-     "kind": "capital",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925116127/tmb-20250930xs1.htm"
-    },
-    {
-     "date": "2025-11-24",
-     "title": "Wirtschaftsprüfer gewechselt",
-     "kind": "warning",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925115406/tm2531980d1_8k.htm"
-    },
-    {
-     "date": "2025-11-21",
-     "title": "Quartalsbericht nachträglich geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925114702/tm2531886d1_10-qa.htm"
-    },
-    {
-     "date": "2025-11-14",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025111005/ea0264298-10q_terres.htm"
-    },
-    {
-     "date": "2025-11-04",
-     "title": "Aktiver Großinvestor meldet Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000110465925106326/xslSCHEDULE_13D_X01/primary_doc.xml",
-     "detail": "David LeBlanc · 9,7 %"
-    },
-    {
-     "date": "2025-11-03",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025105304/ea0263386-8k_terres.htm",
-     "detail": "Außerdem: Übernahme oder Verkauf abgeschlossen, Kontrollwechsel, Neue Aktien ausgegeben, Wechsel in Vorstand oder Aufsichtsrat, Rechte der Aktionäre geändert, Satzung geändert"
-    },
-    {
-     "date": "2025-10-29",
-     "title": "Rechte der Aktionäre geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025103554/ea0263000-8k_terrestrial.htm",
-     "detail": "Außerdem: Satzung geändert, Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2025-10-22",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/2019804/000121390025101312/ea0261843-8k425_hcm2acq.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    }
-   ],
-   "balance": {
-    "date": "2026-06-30",
-    "cash": 273518000.0,
-    "shares": 105935254.0,
-    "operatingCashFlow": -30722906.0,
-    "freeCashFlow": -31413213.0
-   },
-   "checks": [
-    {
-     "level": "warning",
-     "title": "Wirtschaftsprüfer gewechselt",
-     "detail": "Kann Routine sein – oder auf Uneinigkeit über die Bilanz hindeuten. Gemeldet am 24.11.2025."
-    },
-    {
-     "level": "info",
-     "title": "Geld reicht rechnerisch über zwei Jahre",
-     "detail": "Kasse 273,5 Mio. $, Abfluss 31,4 Mio. $ in zwölf Monaten. Danach bräuchte die Firma neues Geld – oft über neue Aktien."
-    },
-    {
-     "level": "ok",
-     "title": "Keine Finanzschulden",
-     "detail": "Kasse 273,5 Mio. $."
-    }
-   ]
-  },
-  {
-   "cik": 1956741,
-   "ticker": "ZONE",
-   "name": "Zone Frontier Inc.",
-   "exchange": "NYSE",
-   "tradingViewSymbol": "NYSE:ZONE",
-   "sector": "Chemie",
-   "industry": "Specialty Cleaning, Polishing and Sanitation Preparations",
-   "publicFloat": 52000000.0,
-   "importance": 1.5,
-   "trigger": {
-    "kind": "insider",
-    "headline": "CEO kaufte für 146.075 $",
-    "date": "2026-10-13"
-   },
-   "signals": [
-    {
-     "kind": "acceleration",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Umsatz −0 % (Vorquartal −3 %)",
-     "detail": "Bei so kleinem Umsatz sagen Prozente wenig."
-    },
-    {
-     "kind": "turnaround",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Verlust im letzten Quartal",
-     "detail": "Die Firma schreibt noch rote Zahlen."
-    },
-    {
-     "kind": "margin",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Bruttomarge 50 % (Vorjahr 48 %)",
-     "detail": "Bruttomarge im Vergleich zum Vorjahresquartal."
-    },
-    {
-     "kind": "insider",
-     "isActive": true,
-     "isNew": true,
-     "headline": "1 Kauf · 146.075 $",
-     "detail": "Vorstände oder Direktoren haben in den letzten 90 Tagen für 146.075 $ eigene Aktien gekauft."
-    }
-   ],
-   "upswing": {
-    "score": 1,
-    "maxScore": 4,
-    "isNew": false,
-    "revenueGrowth": -0.003987678521422566,
-    "history": [
-     [
-      "2026-10-06",
-      0
-     ],
-     [
-      "2026-10-14",
-      1
-     ]
-    ],
-    "since": null
-   },
-   "insiderTrades": [
-    {
-     "name": "Tyler Lewis Hassen",
-     "role": "CEO",
-     "date": "2026-10-13",
-     "shares": 1250000,
-     "value": 146075
-    }
-   ],
-   "financials": [
-    {
-     "period": "2024-Q3",
-     "revenue": 364900.0,
-     "netIncome": -856082.0
-    },
-    {
-     "period": "2024-Q4",
-     "revenue": 257269.0,
-     "netIncome": -1005030.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 557915.0,
-     "netIncome": -809354.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 892750.0,
-     "netIncome": -4071809.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 904699.0,
-     "netIncome": -13367699.0
-    },
-    {
-     "period": "2025-Q4",
-     "revenue": 1068851.0,
-     "netIncome": -104360352.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 543694.0,
-     "netIncome": -37264986.0
-    },
-    {
-     "period": "2026-Q2",
-     "revenue": 889190.0,
-     "netIncome": -19167827.0
-    }
-   ],
-   "valuation": null,
-   "about": {
-    "location": "Omaha, NE",
-    "fiscalYearEndMonth": 6
-   },
-   "insiderSummary": {
-    "since": "2025-10-14",
-    "buys": {
-     "count": 2,
-     "people": 2,
-     "value": 151750
-    },
-    "sells": {
-     "count": 0,
-     "people": 0,
-     "value": 0,
-     "planned": 0
-    },
-    "byPerson": [
-     {
-      "name": "Tyler Lewis Hassen",
-      "role": "CEO",
-      "bought": 146125,
-      "sold": 0,
-      "trades": 1
-     },
-     {
-      "name": "David James Enholm",
-      "role": "CFO",
-      "bought": 5625,
-      "sold": 0,
-      "trades": 1
-     }
-    ]
-   },
-   "insiderTransactions": [
-    {
-     "name": "Tyler Lewis Hassen",
-     "role": "CEO",
-     "date": "2026-10-13",
-     "kind": "buy",
-     "shares": 1250000,
-     "price": 0.12,
-     "value": 146125,
-     "sharesAfter": 3250000,
-     "planned": false
-    },
-    {
-     "name": "David James Enholm",
-     "role": "CFO",
-     "date": "2025-12-01",
-     "kind": "buy",
-     "shares": 18750,
-     "price": 0.3,
-     "value": 5625,
-     "sharesAfter": 292300,
-     "planned": false
-    }
-   ],
-   "holders": [
-    {
-     "name": "Ansari Mohammad Jawad",
-     "percent": 11.8,
-     "date": "2025-09-04",
-     "activist": true
-    },
-    {
-     "name": "Mmcap International Inc. Spc",
-     "percent": 6.3,
-     "date": "2026-08-14",
-     "activist": false
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-30",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026105332/ea0306953-8k_zone.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-09-28",
-     "title": "Jahresbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026104157/ea0306318-10k_zone.htm"
-    },
-    {
-     "date": "2026-09-11",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026099309/ea0305227-8k_zone.htm"
-    },
-    {
-     "date": "2026-08-20",
-     "title": "Sonstige wichtige Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026092203/ea0302910-8k_clean.htm"
-    },
-    {
-     "date": "2026-08-19",
-     "title": "Satzung geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026091659/ea0302565-8k_clean.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-08-12",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026088083/ea0301703-8k_cleancore.htm"
-    },
-    {
-     "date": "2026-08-10",
-     "title": "Neue Aktien oder Anleihen angeboten",
-     "kind": "capital",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026087260/ea0300880-424b5_cleancore.htm"
-    },
-    {
-     "date": "2026-07-29",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026082561/ea0299459-8k_cleancore.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-07-09",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026076740/ea0297471-8k_cleancore.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-07-07",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026075952/ea0297184-8k_cleancore.htm"
-    },
-    {
-     "date": "2026-06-08",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066054/ea029387401-8k_cleancore.htm",
-     "detail": "Außerdem: Wichtiger Vertrag beendet"
-    },
-    {
-     "date": "2026-06-08",
-     "title": "Neue Aktien oder Anleihen angeboten",
-     "kind": "capital",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066052/ea029387402-424b5_cleancore.htm"
-    },
-    {
-     "date": "2026-06-08",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026066049/ea0293889-8k_cleancore.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-05-28",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026062152/ea0292418-8k_cleancore.htm"
-    },
-    {
-     "date": "2026-05-18",
-     "title": "Quartalsbericht nachträglich geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026058489/ea0291213-10qa1_cleancore.htm"
-    },
-    {
-     "date": "2026-05-18",
-     "title": "Frühere Zahlen nicht mehr verlässlich",
-     "kind": "warning",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026058477/ea0291352-8k_cleancore.htm"
-    },
-    {
-     "date": "2026-05-11",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026054078/ea0289167-10q_cleancore.htm"
-    },
-    {
-     "date": "2026-04-29",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000210011926000300/xslSCHEDULE_13G_X02/primary_doc.xml",
-     "detail": "Vanguard Capital Management · 5,7 %"
-    },
-    {
-     "date": "2026-03-20",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026032356/ea0282716-8k_cleancore.htm"
-    },
-    {
-     "date": "2026-03-10",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026025719/ea0280523-8k_clean.htm",
-     "detail": "Außerdem: Wechsel in Vorstand oder Aufsichtsrat"
-    },
-    {
-     "date": "2026-02-11",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026015016/ea0276195-10q_cleancore.htm"
-    },
-    {
-     "date": "2025-12-19",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025123866/ea0270308-8k_cleancore.htm"
-    },
-    {
-     "date": "2025-11-13",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000149315225022250/xslSCHEDULE_13G_X01/primary_doc.xml",
-     "detail": "Ayrton Capital LLC · 5,5 %"
-    },
-    {
-     "date": "2025-11-13",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025109642/ea0264475-10q_cleancore.htm"
-    },
-    {
-     "date": "2025-11-13",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025109635/ea0265353-8k_cleancore.htm"
-    },
-    {
-     "date": "2025-10-28",
-     "title": "Einladung zur Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025103123/ea0262702-def14a_cleancore.htm"
-    },
-    {
-     "date": "2025-10-28",
-     "title": "Satzung geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390025103110/ea0262705-8k_clean.htm"
-    }
-   ],
-   "balance": {
-    "date": "2026-06-30",
-    "cash": 15435213.0,
-    "shares": 508830259.0,
-    "sharesChange": 44.5295,
-    "operatingCashFlow": -18157390.0,
-    "freeCashFlow": -18194945.0
-   },
-   "checks": [
-    {
-     "level": "warning",
-     "title": "Macht Verluste",
-     "detail": "Verlust von 174,2 Mio. $ in den letzten 4 Quartalen."
-    },
-    {
-     "level": "warning",
-     "title": "Geld reicht rechnerisch etwa 10 Monate",
-     "detail": "Kasse 15,4 Mio. $, Abfluss 18,2 Mio. $ in zwölf Monaten. Danach bräuchte die Firma neues Geld – oft über neue Aktien."
-    },
-    {
-     "level": "warning",
-     "title": "Aktienzahl +4453 % in einem Jahr",
-     "detail": "Neue Aktien verkleinern den Anteil bestehender Aktionäre (Verwässerung)."
-    },
-    {
-     "level": "warning",
-     "title": "Frühere Zahlen nicht mehr verlässlich",
-     "detail": "Bereits veröffentlichte Abschlüsse müssen korrigiert werden. Gemeldet am 18.5.2026."
-    },
-    {
-     "level": "ok",
-     "title": "Keine Finanzschulden",
-     "detail": "Kasse 15,4 Mio. $."
-    }
-   ]
-  },
-  {
    "cik": 8947,
    "ticker": "AZZ",
    "name": "Azz Inc",
@@ -12654,7 +15388,7 @@
     "fiscalYearEndMonth": 2
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
@@ -13070,16 +15804,16 @@
     "fiscalYearEndMonth": 11
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
      "value": 0
     },
     "sells": {
-     "count": 31,
-     "people": 3,
-     "value": 4521519,
+     "count": 32,
+     "people": 4,
+     "value": 5050047,
      "planned": 21
     },
     "byPerson": [
@@ -13103,10 +15837,28 @@
       "bought": 0,
       "sold": 630908,
       "trades": 8
+     },
+     {
+      "name": "Julia P Gregory",
+      "role": "Direktor",
+      "bought": 0,
+      "sold": 528528,
+      "trades": 1
      }
     ]
    },
    "insiderTransactions": [
+    {
+     "name": "Julia P Gregory",
+     "role": "Direktor",
+     "date": "2026-10-14",
+     "kind": "sell",
+     "shares": 22583,
+     "price": 23.4,
+     "value": 528528,
+     "sharesAfter": 10750,
+     "planned": false
+    },
     {
      "name": "Christine Ring",
      "role": "Chefjurist",
@@ -13814,7 +16566,7 @@
     "fiscalYearEndMonth": 5
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 2,
      "people": 2,
@@ -14228,7 +16980,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 5,
      "people": 3,
@@ -14526,7 +17278,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
@@ -15211,7 +17963,7 @@
     "fiscalYearEndMonth": 11
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 0,
      "people": 0,
@@ -15432,7 +18184,7 @@
     "fiscalYearEndMonth": 6
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 4,
      "people": 4,
@@ -15656,7 +18408,7 @@
     "fiscalYearEndMonth": 5
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 1,
      "people": 1,
@@ -15867,1269 +18619,6 @@
    ]
   },
   {
-   "cik": 94845,
-   "ticker": "LEVI",
-   "name": "Levi Strauss & Co",
-   "exchange": "NYSE",
-   "tradingViewSymbol": "NYSE:LEVI",
-   "sector": "Konsumgüter",
-   "industry": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
-   "publicFloat": 1823793396.0,
-   "importance": 1.5,
-   "trigger": {
-    "kind": "margin",
-    "headline": "Bruttomarge 66 % (Vorjahr 62 %)",
-    "date": "2026-10-07"
-   },
-   "signals": [
-    {
-     "kind": "acceleration",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Umsatz +4 % (Vorquartal +8 %)",
-     "detail": "Umsatzwachstum gegenüber dem Vorjahresquartal."
-    },
-    {
-     "kind": "turnaround",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Gewinn −23 % (Umsatz +4 %)",
-     "detail": "Gewinn gegenüber dem Vorjahresquartal."
-    },
-    {
-     "kind": "margin",
-     "isActive": true,
-     "isNew": true,
-     "headline": "Bruttomarge 66 % (Vorjahr 62 %)",
-     "detail": "Von jedem Dollar Umsatz bleiben 66 Cent statt 62 Cent vor einem Jahr."
-    },
-    {
-     "kind": "insider",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
-    }
-   ],
-   "upswing": {
-    "score": 1,
-    "maxScore": 4,
-    "isNew": false,
-    "revenueGrowth": 0.04295710768433336,
-    "history": [
-     [
-      "2026-10-08",
-      1
-     ]
-    ],
-    "since": null
-   },
-   "insiderTrades": [],
-   "financials": [
-    {
-     "period": "2024-Q4",
-     "revenue": 1749900000.0,
-     "netIncome": 182500000.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 1526800000.0,
-     "netIncome": 135000000.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 1446000000.0,
-     "netIncome": 67000000.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 1543400000.0,
-     "netIncome": 218100000.0
-    },
-    {
-     "period": "2025-Q4",
-     "revenue": 1765800000.0,
-     "netIncome": 158000000.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 1742500000.0,
-     "netIncome": 175800000.0
-    },
-    {
-     "period": "2026-Q2",
-     "revenue": 1562000000.0,
-     "netIncome": 87300000.0
-    },
-    {
-     "period": "2026-Q3",
-     "revenue": 1609700000.0,
-     "netIncome": 168600000.0
-    }
-   ],
-   "valuation": null,
-   "about": {
-    "location": "San Francisco, CA",
-    "fiscalYearEndMonth": 11
-   },
-   "insiderSummary": {
-    "since": "2025-10-14",
-    "buys": {
-     "count": 0,
-     "people": 0,
-     "value": 0
-    },
-    "sells": {
-     "count": 21,
-     "people": 7,
-     "value": 42534483,
-     "planned": 17
-    },
-    "byPerson": [
-     {
-      "name": "Robert D. Haas",
-      "role": "Großaktionär",
-      "bought": 0,
-      "sold": 27903449,
-      "trades": 8
-     },
-     {
-      "name": "Harmit J Singh",
-      "role": "Vorstand",
-      "bought": 0,
-      "sold": 7771008,
-      "trades": 3
-     },
-     {
-      "name": "Peter E. Haas Jr. Family Fund",
-      "role": "Großaktionär",
-      "bought": 0,
-      "sold": 3601457,
-      "trades": 2
-     },
-     {
-      "name": "Margaret E. Haas",
-      "role": "Großaktionär",
-      "bought": 0,
-      "sold": 1200500,
-      "trades": 2
-     },
-     {
-      "name": "Karyn Hillman",
-      "role": "Vorstand",
-      "bought": 0,
-      "sold": 892070,
-      "trades": 1
-     }
-    ]
-   },
-   "insiderTransactions": [
-    {
-     "name": "Harmit J Singh",
-     "role": "Vorstand",
-     "date": "2026-07-23",
-     "kind": "sell",
-     "shares": 98144,
-     "price": 24.22,
-     "value": 2377048,
-     "sharesAfter": 98747,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-06-12",
-     "kind": "sell",
-     "shares": 202135,
-     "price": 24.02,
-     "value": 4855283,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Margaret E. Haas",
-     "role": "Großaktionär",
-     "date": "2026-06-11",
-     "kind": "sell",
-     "shares": 47721,
-     "price": 24.01,
-     "value": 1145781,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Peter E. Haas Jr. Family Fund",
-     "role": "Großaktionär",
-     "date": "2026-06-11",
-     "kind": "sell",
-     "shares": 145662,
-     "price": 24.01,
-     "value": 3497345,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-06-11",
-     "kind": "sell",
-     "shares": 488851,
-     "price": 24.11,
-     "value": 11786198,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-06-10",
-     "kind": "sell",
-     "shares": 3182,
-     "price": 24.0,
-     "value": 76368,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "David Jedrzejek",
-     "role": "Vorstand",
-     "date": "2026-06-03",
-     "kind": "sell",
-     "shares": 336,
-     "price": 22.82,
-     "value": 7668,
-     "sharesAfter": 106098,
-     "planned": true
-    },
-    {
-     "name": "Peter E. Haas Jr. Family Fund",
-     "role": "Großaktionär",
-     "date": "2026-05-27",
-     "kind": "sell",
-     "shares": 4338,
-     "price": 24.0,
-     "value": 104112,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Margaret E. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-27",
-     "kind": "sell",
-     "shares": 2279,
-     "price": 24.01,
-     "value": 54719,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-27",
-     "kind": "sell",
-     "shares": 5832,
-     "price": 24.0,
-     "value": 139968,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-26",
-     "kind": "sell",
-     "shares": 192451,
-     "price": 22.68,
-     "value": 4364789,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-22",
-     "kind": "sell",
-     "shares": 176549,
-     "price": 22.01,
-     "value": 3885843,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-21",
-     "kind": "sell",
-     "shares": 31000,
-     "price": 22.0,
-     "value": 682000,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Robert D. Haas",
-     "role": "Großaktionär",
-     "date": "2026-05-18",
-     "kind": "sell",
-     "shares": 100000,
-     "price": 21.13,
-     "value": 2113000,
-     "sharesAfter": 0,
-     "planned": true
-    },
-    {
-     "name": "Karyn Hillman",
-     "role": "Vorstand",
-     "date": "2026-05-06",
-     "kind": "sell",
-     "shares": 38938,
-     "price": 22.91,
-     "value": 892070,
-     "sharesAfter": 91522,
-     "planned": false
-    },
-    {
-     "name": "Harmit J Singh",
-     "role": "Vorstand",
-     "date": "2026-04-21",
-     "kind": "sell",
-     "shares": 121767,
-     "price": 23.52,
-     "value": 2863960,
-     "sharesAfter": 148757,
-     "planned": false
-    },
-    {
-     "name": "Harmit J Singh",
-     "role": "Vorstand",
-     "date": "2026-04-20",
-     "kind": "sell",
-     "shares": 110000,
-     "price": 23.0,
-     "value": 2530000,
-     "sharesAfter": 270514,
-     "planned": false
-    },
-    {
-     "name": "Jason Gowans",
-     "role": "EVP and CDTO",
-     "date": "2026-02-12",
-     "kind": "sell",
-     "shares": 40000,
-     "price": 21.83,
-     "value": 873200,
-     "sharesAfter": 92199,
-     "planned": false
-    },
-    {
-     "name": "David Jedrzejek",
-     "role": "Vorstand",
-     "date": "2026-02-03",
-     "kind": "sell",
-     "shares": 2248,
-     "price": 19.6,
-     "value": 44061,
-     "sharesAfter": 106818,
-     "planned": true
-    },
-    {
-     "name": "David Jedrzejek",
-     "role": "Vorstand",
-     "date": "2026-01-27",
-     "kind": "sell",
-     "shares": 7093,
-     "price": 21.38,
-     "value": 151648,
-     "sharesAfter": 98193,
-     "planned": true
-    },
-    {
-     "name": "David Jedrzejek",
-     "role": "Vorstand",
-     "date": "2025-11-10",
-     "kind": "sell",
-     "shares": 4341,
-     "price": 20.6,
-     "value": 89425,
-     "sharesAfter": 93571,
-     "planned": true
-    }
-   ],
-   "holders": [
-    {
-     "name": "Margaret E. Haas",
-     "percent": 30.2,
-     "date": "2026-05-15",
-     "activist": false
-    },
-    {
-     "name": "Jennifer C. Haas",
-     "percent": 18.2,
-     "date": "2026-05-15",
-     "activist": false
-    },
-    {
-     "name": "Jpmorgan Chase & Co",
-     "percent": 7.1,
-     "date": "2026-05-13",
-     "activist": false
-    },
-    {
-     "name": "Peter E. Haas, Jr.",
-     "percent": 5.5,
-     "date": "2026-05-15",
-     "activist": false
-    },
-    {
-     "name": "Elizabeth H. Eisenhardt",
-     "percent": 5.1,
-     "date": "2025-07-23",
-     "activist": false
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-10-07",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000048/levi-20261007.htm"
-    },
-    {
-     "date": "2026-10-07",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000047/lvis-20260830.htm"
-    },
-    {
-     "date": "2026-09-30",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937126021687/levi-8k_093026.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-08-18",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000041/levi-20260814.htm"
-    },
-    {
-     "date": "2026-08-07",
-     "title": "Sonstige wichtige Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937126017264/levi-8k_080726.htm"
-    },
-    {
-     "date": "2026-07-08",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000037/lvis-20260531.htm"
-    },
-    {
-     "date": "2026-07-08",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000038/levi-20260708.htm"
-    },
-    {
-     "date": "2026-06-15",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937126012853/levi-8k_061526.htm"
-    },
-    {
-     "date": "2026-05-13",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000001961726000220/xslSCHEDULE_13G_X02/primary_doc.xml",
-     "detail": "Jpmorgan Chase & Co · 7,1 %"
-    },
-    {
-     "date": "2026-04-30",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000210011926000690/xslSCHEDULE_13G_X02/primary_doc.xml",
-     "detail": "Vanguard Capital Management · 5,1 %"
-    },
-    {
-     "date": "2026-04-27",
-     "title": "Ergebnis der Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000027/levi-20260422.htm"
-    },
-    {
-     "date": "2026-04-27",
-     "title": "Satzung geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000026/levi-20260423.htm"
-    },
-    {
-     "date": "2026-04-07",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937126007834/levi-8k_040326.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-04-07",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000021/levi-20260407.htm"
-    },
-    {
-     "date": "2026-04-07",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000020/lvis-20260301.htm"
-    },
-    {
-     "date": "2026-03-11",
-     "title": "Einladung zur Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000130817926000050/levi014917_def14a.htm"
-    },
-    {
-     "date": "2026-01-29",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937126002055/levi-8k_012926.htm"
-    },
-    {
-     "date": "2026-01-28",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000009/levi-20260128.htm"
-    },
-    {
-     "date": "2026-01-28",
-     "title": "Jahresbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000008/lvis-20251130.htm"
-    },
-    {
-     "date": "2025-12-16",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/94845/000199937125020440/levi-8k_121625.htm",
-     "detail": "Außerdem: Präsentation oder Mitteilung"
-    }
-   ],
-   "balance": {
-    "date": "2026-08-30",
-    "cash": 779300000.0,
-    "debt": 1043600000.0,
-    "shares": 37602843.0,
-    "sharesChange": 0.0022,
-    "operatingCashFlow": 852000000.0,
-    "freeCashFlow": 643000000.0
-   },
-   "checks": [
-    {
-     "level": "info",
-     "title": "Mehr Schulden als Geld",
-     "detail": "Schulden 1,0 Mrd. $, Kasse 779,3 Mio. $."
-    },
-    {
-     "level": "ok",
-     "title": "Profitabel",
-     "detail": "Gewinn von 589,7 Mio. $ in den letzten 4 Quartalen."
-    },
-    {
-     "level": "ok",
-     "title": "Erwirtschaftet Geld",
-     "detail": "Free Cashflow von 643,0 Mio. $ in zwölf Monaten."
-    }
-   ]
-  },
-  {
-   "cik": 1144879,
-   "ticker": "APLD",
-   "name": "Applied Digital Corp.",
-   "exchange": "Nasdaq",
-   "tradingViewSymbol": "NASDAQ:APLD",
-   "sector": "Software & Internet",
-   "industry": "Services-Computer Processing & Data Preparation",
-   "publicFloat": 6900000000.0,
-   "importance": 1.5,
-   "trigger": {
-    "kind": "acceleration",
-    "headline": "Umsatz +225 % (Vorquartal +139 %)",
-    "date": "2026-10-07"
-   },
-   "signals": [
-    {
-     "kind": "acceleration",
-     "isActive": true,
-     "isNew": true,
-     "headline": "Umsatz +225 % (Vorquartal +139 %)",
-     "detail": "Der Umsatz wächst gegenüber dem Vorjahr schneller als noch im Quartal davor."
-    },
-    {
-     "kind": "turnaround",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Verlust im letzten Quartal",
-     "detail": "Die Firma schreibt noch rote Zahlen."
-    },
-    {
-     "kind": "margin",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Bruttomarge 6 % (Vorjahr 27 %)",
-     "detail": "Bruttomarge im Vergleich zum Vorjahresquartal."
-    },
-    {
-     "kind": "insider",
-     "isActive": false,
-     "isNew": false,
-     "headline": "Kein Signal",
-     "detail": "Keine Käufe von Vorständen oder Direktoren in den letzten 90 Tagen."
-    }
-   ],
-   "upswing": {
-    "score": 1,
-    "maxScore": 4,
-    "isNew": false,
-    "revenueGrowth": 2.2465342130624952,
-    "history": [
-     [
-      "2026-10-08",
-      1
-     ]
-    ],
-    "since": null
-   },
-   "insiderTrades": [],
-   "financials": [
-    {
-     "period": "2024-Q3",
-     "revenue": 34849000.0,
-     "netIncome": -4247000.0
-    },
-    {
-     "period": "2024-Q4",
-     "revenue": 36163000.0,
-     "netIncome": -138726000.0
-    },
-    {
-     "period": "2025-Q1",
-     "revenue": 52921000.0,
-     "netIncome": -35555000.0
-    },
-    {
-     "period": "2025-Q2",
-     "revenue": 20260000.0,
-     "netIncome": -52537000.0
-    },
-    {
-     "period": "2025-Q3",
-     "revenue": 80934000.0,
-     "netIncome": -16926000.0
-    },
-    {
-     "period": "2025-Q4",
-     "revenue": 126589000.0,
-     "netIncome": -14450000.0
-    },
-    {
-     "period": "2026-Q1",
-     "revenue": 126637000.0,
-     "netIncome": -70556000.0
-    },
-    {
-     "period": "2026-Q3",
-     "revenue": 262755000.0,
-     "netIncome": -184055000.0
-    }
-   ],
-   "valuation": null,
-   "about": {
-    "location": "Dallas, TX",
-    "fiscalYearEndMonth": 5
-   },
-   "insiderSummary": {
-    "since": "2025-10-14",
-    "buys": {
-     "count": 0,
-     "people": 0,
-     "value": 0
-    },
-    "sells": {
-     "count": 20,
-     "people": 7,
-     "value": 24313273,
-     "planned": 1
-    },
-    "byPerson": [
-     {
-      "name": "Wes Cummins",
-      "role": "Chairman",
-      "bought": 0,
-      "sold": 6009300,
-      "trades": 1
-     },
-     {
-      "name": "Richard N Nottenburg",
-      "role": "Direktor",
-      "bought": 0,
-      "sold": 5656422,
-      "trades": 8
-     },
-     {
-      "name": "Mohammad Saidal LaVanway Mohmand",
-      "role": "CFO",
-      "bought": 0,
-      "sold": 4775734,
-      "trades": 2
-     },
-     {
-      "name": "Chuck Hastings",
-      "role": "Direktor",
-      "bought": 0,
-      "sold": 4414969,
-      "trades": 3
-     },
-     {
-      "name": "Ella G. Benson",
-      "role": "Direktor",
-      "bought": 0,
-      "sold": 1701937,
-      "trades": 2
-     }
-    ]
-   },
-   "insiderTransactions": [
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2026-08-04",
-     "kind": "sell",
-     "shares": 75000,
-     "price": 31.15,
-     "value": 2336250,
-     "sharesAfter": 133378,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2026-04-30",
-     "kind": "sell",
-     "shares": 12500,
-     "price": 34.59,
-     "value": 432375,
-     "sharesAfter": 208378,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2026-04-28",
-     "kind": "sell",
-     "shares": 12500,
-     "price": 32.0,
-     "value": 400000,
-     "sharesAfter": 220878,
-     "planned": false
-    },
-    {
-     "name": "Douglas S Miller",
-     "role": "Direktor",
-     "date": "2026-04-27",
-     "kind": "sell",
-     "shares": 10000,
-     "price": 34.98,
-     "value": 349800,
-     "sharesAfter": 184859,
-     "planned": false
-    },
-    {
-     "name": "Chuck Hastings",
-     "role": "Direktor",
-     "date": "2026-01-29",
-     "kind": "sell",
-     "shares": 45987,
-     "price": 38.57,
-     "value": 1773719,
-     "sharesAfter": 388372,
-     "planned": false
-    },
-    {
-     "name": "Wes Cummins",
-     "role": "Chairman",
-     "date": "2026-01-16",
-     "kind": "sell",
-     "shares": 165000,
-     "price": 36.42,
-     "value": 6009300,
-     "sharesAfter": 4176329,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2026-01-15",
-     "kind": "sell",
-     "shares": 12000,
-     "price": 35.45,
-     "value": 425400,
-     "sharesAfter": 233378,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2026-01-14",
-     "kind": "sell",
-     "shares": 11606,
-     "price": 35.28,
-     "value": 409460,
-     "sharesAfter": 245378,
-     "planned": false
-    },
-    {
-     "name": "Douglas S Miller",
-     "role": "Direktor",
-     "date": "2026-01-12",
-     "kind": "sell",
-     "shares": 10000,
-     "price": 38.54,
-     "value": 385400,
-     "sharesAfter": 200859,
-     "planned": false
-    },
-    {
-     "name": "Douglas S Miller",
-     "role": "Direktor",
-     "date": "2025-11-28",
-     "kind": "sell",
-     "shares": 8000,
-     "price": 26.98,
-     "value": 215840,
-     "sharesAfter": 210859,
-     "planned": false
-    },
-    {
-     "name": "Ella G. Benson",
-     "role": "Direktor",
-     "date": "2025-11-24",
-     "kind": "sell",
-     "shares": 8581,
-     "price": 23.22,
-     "value": 199251,
-     "sharesAfter": 68422,
-     "planned": true
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2025-10-31",
-     "kind": "sell",
-     "shares": 9375,
-     "price": 35.91,
-     "value": 336656,
-     "sharesAfter": 249237,
-     "planned": false
-    },
-    {
-     "name": "Chuck Hastings",
-     "role": "Direktor",
-     "date": "2025-10-31",
-     "kind": "sell",
-     "shares": 25000,
-     "price": 34.27,
-     "value": 856750,
-     "sharesAfter": 426612,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2025-10-30",
-     "kind": "sell",
-     "shares": 5000,
-     "price": 34.8,
-     "value": 174000,
-     "sharesAfter": 258612,
-     "planned": false
-    },
-    {
-     "name": "Ella G. Benson",
-     "role": "Direktor",
-     "date": "2025-10-29",
-     "kind": "sell",
-     "shares": 42569,
-     "price": 35.3,
-     "value": 1502686,
-     "sharesAfter": 69256,
-     "planned": false
-    },
-    {
-     "name": "Chuck Hastings",
-     "role": "Direktor",
-     "date": "2025-10-29",
-     "kind": "sell",
-     "shares": 50000,
-     "price": 35.69,
-     "value": 1784500,
-     "sharesAfter": 451612,
-     "planned": false
-    },
-    {
-     "name": "Mohammad Saidal LaVanway Mohmand",
-     "role": "CFO",
-     "date": "2025-10-28",
-     "kind": "sell",
-     "shares": 37503,
-     "price": 36.47,
-     "value": 1367734,
-     "sharesAfter": 121409,
-     "planned": false
-    },
-    {
-     "name": "Rachel H. Lee",
-     "role": "Direktor",
-     "date": "2025-10-24",
-     "kind": "sell",
-     "shares": 24213,
-     "price": 33.2,
-     "value": 803872,
-     "sharesAfter": 59400,
-     "planned": false
-    },
-    {
-     "name": "Richard N Nottenburg",
-     "role": "Direktor",
-     "date": "2025-10-24",
-     "kind": "sell",
-     "shares": 34375,
-     "price": 33.23,
-     "value": 1142281,
-     "sharesAfter": 263612,
-     "planned": false
-    },
-    {
-     "name": "Mohammad Saidal LaVanway Mohmand",
-     "role": "CFO",
-     "date": "2025-10-24",
-     "kind": "sell",
-     "shares": 100000,
-     "price": 34.08,
-     "value": 3408000,
-     "sharesAfter": 158912,
-     "planned": false
-    }
-   ],
-   "holders": [
-    {
-     "name": "Hood River Capital Management LLC",
-     "percent": 7.89,
-     "date": "2026-02-17",
-     "activist": false
-    },
-    {
-     "name": "Wesley Cummins",
-     "percent": 7.6,
-     "date": "2026-07-08",
-     "activist": true
-    },
-    {
-     "name": "Jane Street Group, LLC",
-     "percent": 7.1,
-     "date": "2026-05-12",
-     "activist": false
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-10-07",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm"
-    },
-    {
-     "date": "2026-10-07",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm"
-    },
-    {
-     "date": "2026-09-25",
-     "title": "Einladung zur Hauptversammlung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226044325/formdef14a.htm"
-    },
-    {
-     "date": "2026-07-29",
-     "title": "Jahresbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm"
-    },
-    {
-     "date": "2026-07-27",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000044/apld-20260727.htm"
-    },
-    {
-     "date": "2026-07-08",
-     "title": "Aktiver Großinvestor ändert Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226032572/xslSCHEDULE_13D_X02/primary_doc.xml",
-     "detail": "Wesley Cummins · 7,6 %"
-    },
-    {
-     "date": "2026-06-26",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen, Neue Aktien ausgegeben"
-    },
-    {
-     "date": "2026-06-16",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen"
-    },
-    {
-     "date": "2026-06-09",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027984/form8-k.htm"
-    },
-    {
-     "date": "2026-06-09",
-     "title": "Sonstige wichtige Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027979/form8-k.htm"
-    },
-    {
-     "date": "2026-05-05",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.htm",
-     "detail": "Außerdem: Übernahme oder Verkauf abgeschlossen, Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2026-04-28",
-     "title": "Neuer Großaktionär über 5 %",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000210012126000111/xslSCHEDULE_13G_X02/primary_doc.xml",
-     "detail": "Vanguard Portfolio Management · 5,4 %"
-    },
-    {
-     "date": "2026-04-23",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000036/apld-20260423.htm"
-    },
-    {
-     "date": "2026-04-16",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226017092/form8-k.htm"
-    },
-    {
-     "date": "2026-04-08",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000030/apld-20260228.htm"
-    },
-    {
-     "date": "2026-04-08",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000029/apld-20260408.htm"
-    },
-    {
-     "date": "2026-04-01",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226014498/form8-ka.htm"
-    },
-    {
-     "date": "2026-03-13",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226010113/form8-ka.htm"
-    },
-    {
-     "date": "2026-03-04",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008849/form8-k.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen"
-    },
-    {
-     "date": "2026-03-04",
-     "title": "Sonstige wichtige Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008772/form8-k.htm"
-    },
-    {
-     "date": "2026-03-02",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008549/form8-k.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-02-17",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226006897/form8-k.htm"
-    },
-    {
-     "date": "2026-02-09",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226005788/form8-k.htm"
-    },
-    {
-     "date": "2026-01-16",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226002580/form8-k.htm",
-     "detail": "Außerdem: Sonstige wichtige Mitteilung"
-    },
-    {
-     "date": "2026-01-08",
-     "title": "Quartalsbericht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000006/apld-20251130.htm"
-    },
-    {
-     "date": "2026-01-08",
-     "title": "Aktiver Großinvestor ändert Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226000978/xslSCHEDULE_13D_X01/primary_doc.xml",
-     "detail": "Wesley Cummins · 7,6 %"
-    },
-    {
-     "date": "2026-01-08",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226000974/form8-k.htm"
-    },
-    {
-     "date": "2026-01-07",
-     "title": "Quartalszahlen veröffentlicht",
-     "kind": "report",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000002/apld-20260107.htm"
-    },
-    {
-     "date": "2025-12-29",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225029408/form8-k.htm"
-    },
-    {
-     "date": "2025-12-22",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225028791/form8-k.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen, Präsentation oder Mitteilung"
-    },
-    {
-     "date": "2025-12-05",
-     "title": "Ausgabe neuer Wertpapiere vorbereitet",
-     "kind": "capital",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225026369/forms-3.htm"
-    },
-    {
-     "date": "2025-12-02",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225025753/form8-k.htm"
-    },
-    {
-     "date": "2025-11-20",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024479/form8-k.htm",
-     "detail": "Außerdem: Neue Schulden aufgenommen"
-    },
-    {
-     "date": "2025-11-10",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021404/form8-k.htm"
-    },
-    {
-     "date": "2025-11-10",
-     "title": "Sonstige wichtige Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225021400/form8-k.htm"
-    },
-    {
-     "date": "2025-11-06",
-     "title": "Wechsel in Vorstand oder Aufsichtsrat",
-     "kind": "people",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000095/apld-20251105.htm",
-     "detail": "Außerdem: Satzung geändert, Ergebnis der Hauptversammlung"
-    },
-    {
-     "date": "2025-11-04",
-     "title": "Aktiver Großinvestor ändert Anteil",
-     "kind": "holder",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020786/xslSCHEDULE_13D_X01/primary_doc.xml",
-     "detail": "Wesley Cummins · 7,4 %"
-    },
-    {
-     "date": "2025-10-22",
-     "title": "Präsentation oder Mitteilung",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000076/apld-20251022.htm"
-    },
-    {
-     "date": "2025-10-21",
-     "title": "Wichtiger Vertrag geschlossen",
-     "kind": "deal",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm",
-     "detail": "Außerdem: Neue Aktien ausgegeben, Satzung geändert"
-    },
-    {
-     "date": "2025-10-17",
-     "title": "Satzung geändert",
-     "kind": "other",
-     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018464/form8-k.htm"
-    }
-   ],
-   "balance": {
-    "date": "2026-08-31",
-    "cash": 2949909000.0,
-    "debt": 7190000.0,
-    "shares": 302387140.0,
-    "sharesChange": 0.0812,
-    "operatingCashFlow": 235629000.0,
-    "freeCashFlow": 235629000.0
-   },
-   "checks": [
-    {
-     "level": "warning",
-     "title": "Macht Verluste",
-     "detail": "Verlust von 286,0 Mio. $ in den letzten 4 Quartalen."
-    },
-    {
-     "level": "info",
-     "title": "Aktienzahl +8 % in einem Jahr",
-     "detail": "Leichte Verwässerung, z. B. durch Mitarbeiteraktien."
-    },
-    {
-     "level": "ok",
-     "title": "Erwirtschaftet Geld",
-     "detail": "Free Cashflow von 235,6 Mio. $ in zwölf Monaten."
-    },
-    {
-     "level": "ok",
-     "title": "Mehr Geld als Schulden",
-     "detail": "Kasse 2,9 Mrd. $, Schulden 7,2 Mio. $."
-    }
-   ]
-  },
-  {
    "cik": 1837493,
    "ticker": "QTEX",
    "name": "QTREX Quantum Ltd.",
@@ -17210,7 +18699,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 3,
      "people": 1,
@@ -17540,7 +19029,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 14,
      "people": 3,
@@ -17872,7 +19361,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 5,
      "people": 2,
@@ -18114,7 +19603,7 @@
     "fiscalYearEndMonth": 12
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 162,
      "people": 32,
@@ -18805,7 +20294,7 @@
     "fiscalYearEndMonth": 6
    },
    "insiderSummary": {
-    "since": "2025-10-14",
+    "since": "2025-10-15",
     "buys": {
      "count": 1,
      "people": 1,
