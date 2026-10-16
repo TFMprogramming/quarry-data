@@ -1,0 +1,146 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1802883,
+  "ticker": "API",
+  "date": "2026-10-15",
+  "value": 101521,
+  "trades": [
+   {
+    "name": "Bin Zhao",
+    "role": "CEO",
+    "date": "2026-10-14",
+    "shares": 24132,
+    "value": 101521
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1854368,
+  "ticker": "DGXX",
+  "date": "2026-10-15",
+  "value": 55256,
+  "trades": [
+   {
+    "name": "Michel Amar",
+    "role": "CEO",
+    "date": "2026-10-14",
+    "shares": 20000,
+    "value": 55256
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-15",
+  "value": 45853,
+  "trades": [
+   {
+    "name": "Jordan B. Ruddy",
+    "role": "President",
+    "date": "2026-10-14",
+    "shares": 3520,
+    "value": 44317
+   },
+   {
+    "name": "Ryan S MacDonald",
+    "role": "Direktor",
+    "date": "2026-10-13",
+    "shares": 120,
+    "value": 1536
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-15",
+  "value": 3542550,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-14",
+    "shares": 750000,
+    "value": 3542550
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1034957,
+  "ticker": "CRESY",
+  "date": "2026-10-15",
+  "value": 92738,
+  "trades": [
+   {
+    "name": "Alejandro Gustavo Elsztain",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 8295,
+    "value": 92738
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2153598,
+  "ticker": "FLSC",
+  "date": "2026-10-15",
+  "value": 3000000,
+  "trades": [
+   {
+    "name": "Albert Cha",
+    "role": "CEO",
+    "date": "2026-10-15",
+    "shares": 300000,
+    "value": 3000000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1748137,
+  "ticker": "NEOV",
+  "date": "2026-10-15",
+  "value": 65250,
+  "trades": [
+   {
+    "name": "John A Hass",
+    "role": "Direktor",
+    "date": "2026-09-30",
+    "shares": 25000,
+    "value": 65250
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1569345,
+  "ticker": "CXM",
+  "date": "2026-10-15",
+  "value": 850500,
+  "trades": [
+   {
+    "name": "Jr Stephen M Ward",
+    "role": "Direktor",
+    "date": "2026-10-13",
+    "shares": 150000,
+    "value": 850500
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1680132,
+  "date": "2026-10-15",
+  "headline": "Gewinn +296 %",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
