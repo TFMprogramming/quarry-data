@@ -1,0 +1,187 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1950572,
+  "ticker": "N/A",
+  "date": "2026-10-16",
+  "value": 129001,
+  "trades": [
+   {
+    "name": "Mark Buffington",
+    "role": "CEO",
+    "date": "2026-10-15",
+    "shares": 1437,
+    "value": 49993
+   },
+   {
+    "name": "Mark Flickinger",
+    "role": "COO",
+    "date": "2026-10-15",
+    "shares": 2271,
+    "value": 79008
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1715497,
+  "ticker": "BORR",
+  "date": "2026-10-16",
+  "value": 3772150,
+  "trades": [
+   {
+    "name": "Tor Olav Troim",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 500000,
+    "value": 2299150
+   },
+   {
+    "name": "Harvey Edward Snowling",
+    "role": "COO",
+    "date": "2026-10-14",
+    "shares": 300000,
+    "value": 1473000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1354866,
+  "ticker": "BYRN",
+  "date": "2026-10-16",
+  "value": 70375,
+  "trades": [
+   {
+    "name": "Adam L. Roth",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 15000,
+    "value": 70375
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1731388,
+  "ticker": "EDRY",
+  "date": "2026-10-16",
+  "value": 28901,
+  "trades": [
+   {
+    "name": "Aristeidis P Pittas",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 600,
+    "value": 28901
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1136893,
+  "ticker": "FIS",
+  "date": "2026-10-16",
+  "value": 57694,
+  "trades": [
+   {
+    "name": "Jeffrey A Goldstein",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 1585,
+    "value": 57694
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1513845,
+  "ticker": "NBIS",
+  "date": "2026-10-16",
+  "value": 50317,
+  "trades": [
+   {
+    "name": "Arne Grimme",
+    "role": "Direktor",
+    "date": "2026-10-16",
+    "shares": 296,
+    "value": 50317
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1956741,
+  "ticker": "ZONE",
+  "date": "2026-10-16",
+  "value": 55150,
+  "trades": [
+   {
+    "name": "Tyler Lewis Hassen",
+    "role": "CEO",
+    "date": "2026-10-16",
+    "shares": 500000,
+    "value": 55150
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1469395,
+  "ticker": "PAM",
+  "date": "2026-10-16",
+  "value": 35139300,
+  "trades": [
+   {
+    "name": "Marcos Marcelo Mindlin",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 435000,
+    "value": 35139300
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 77476,
+  "ticker": "PEP",
+  "date": "2026-10-16",
+  "value": 23686389,
+  "trades": [
+   {
+    "name": "Robert C Pohlad",
+    "role": "Direktor",
+    "date": "2026-10-14",
+    "shares": 184646,
+    "value": 23686389
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 22444,
+  "date": "2026-10-16",
+  "headline": "Gewinn +40 % (Umsatz +26 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1467373,
+  "date": "2026-10-16",
+  "headline": "Gewinn +41 % (Umsatz +6 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 2087656,
+  "date": "2026-10-16",
+  "headline": "Gewinn +1661 % (Umsatz +222 %)",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
