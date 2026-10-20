@@ -1,0 +1,153 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1802883,
+  "ticker": "API",
+  "date": "2026-10-19",
+  "value": 76930,
+  "trades": [
+   {
+    "name": "Bin Zhao",
+    "role": "CEO",
+    "date": "2026-10-16",
+    "shares": 17345,
+    "value": 76930
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1144879,
+  "ticker": "APLD",
+  "date": "2026-10-19",
+  "value": 6664686,
+  "trades": [
+   {
+    "name": "Wes Cummins",
+    "role": "Chairman",
+    "date": "2026-10-16",
+    "shares": 55803,
+    "value": 1006686
+   },
+   {
+    "name": "Jason Gechen Zhang",
+    "role": "President",
+    "date": "2026-10-16",
+    "shares": 300000,
+    "value": 5658000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-19",
+  "value": 2422335,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-16",
+    "shares": 194228,
+    "value": 2422335
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2143850,
+  "ticker": "CTY",
+  "date": "2026-10-19",
+  "value": 3060000,
+  "trades": [
+   {
+    "name": "Robert Nelsen",
+    "role": "Direktor",
+    "date": "2026-10-19",
+    "shares": 170000,
+    "value": 3060000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2066836,
+  "ticker": "CNXU",
+  "date": "2026-10-19",
+  "value": 499998,
+  "trades": [
+   {
+    "name": "Lynn Sebastian Purcell",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 166666,
+    "value": 499998
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1053369,
+  "ticker": "ELTP",
+  "date": "2026-10-19",
+  "value": 25980,
+  "trades": [
+   {
+    "name": "Barry H Dash",
+    "role": "Direktor",
+    "date": "2026-10-09",
+    "shares": 100000,
+    "value": 25980
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 887396,
+  "ticker": "EP",
+  "date": "2026-10-19",
+  "value": 312811,
+  "trades": [
+   {
+    "name": "Phil E Mulacek",
+    "role": "Direktor",
+    "date": "2026-10-15",
+    "shares": 97981,
+    "value": 312811
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 39368,
+  "ticker": "FUL",
+  "date": "2026-10-19",
+  "value": 25000,
+  "trades": [
+   {
+    "name": "Muhammad Shahbaz Malik",
+    "role": "Senior VP, BAS",
+    "date": "2026-10-16",
+    "shares": 479,
+    "value": 25000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1997038,
+  "ticker": "IAM",
+  "date": "2026-10-19",
+  "value": 11500000,
+  "trades": [
+   {
+    "name": "Evan Lockwood Rachlin",
+    "role": "Direktor",
+    "date": "2026-10-16",
+    "shares": 718750,
+    "value": 11500000
+   }
+  ]
+ }
+]
