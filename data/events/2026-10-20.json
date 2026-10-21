@@ -1,0 +1,184 @@
+[
+ {
+  "kind": "insider",
+  "cik": 826675,
+  "ticker": "DX",
+  "date": "2026-10-20",
+  "value": 167260,
+  "trades": [
+   {
+    "name": "Michael Andrew Sartori",
+    "role": "CFO",
+    "date": "2026-10-20",
+    "shares": 1000,
+    "value": 10700
+   },
+   {
+    "name": "Smriti Laxman Popenoe",
+    "role": "President",
+    "date": "2026-10-20",
+    "shares": 12000,
+    "value": 156560
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 850027,
+  "ticker": "GRF",
+  "date": "2026-10-20",
+  "value": 108633,
+  "trades": [
+   {
+    "name": "David C Sims",
+    "role": "CFO",
+    "date": "2026-10-16",
+    "shares": 10787,
+    "value": 108633
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1852551,
+  "ticker": "NVA",
+  "date": "2026-10-20",
+  "value": 26933,
+  "trades": [
+   {
+    "name": "Avi Geller",
+    "role": "Direktor",
+    "date": "2026-10-16",
+    "shares": 1600,
+    "value": 5000
+   },
+   {
+    "name": "Christopher Gerteisen",
+    "role": "CEO",
+    "date": "2026-10-19",
+    "shares": 6737,
+    "value": 21933
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1513845,
+  "ticker": "NBIS",
+  "date": "2026-10-20",
+  "value": 25159,
+  "trades": [
+   {
+    "name": "Arne Grimme",
+    "role": "Direktor",
+    "date": "2026-10-19",
+    "shares": 148,
+    "value": 25159
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 33185,
+  "date": "2026-10-20",
+  "headline": "Gewinn +32 % (Umsatz +10 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 40987,
+  "date": "2026-10-20",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 66740,
+  "date": "2026-10-20",
+  "headline": "Gewinn +65 % (Umsatz +1 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 101829,
+  "date": "2026-10-20",
+  "headline": "Gewinn +35 % (Umsatz +11 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 764065,
+  "date": "2026-10-20",
+  "headline": "Umsatz +19 % (Vorquartal +6 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 917251,
+  "date": "2026-10-20",
+  "headline": "Gewinn +31 % (Umsatz +17 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1418819,
+  "date": "2026-10-20",
+  "headline": "Gewinn +188 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1434601,
+  "date": "2026-10-20",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1467858,
+  "date": "2026-10-20",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1616533,
+  "date": "2026-10-20",
+  "headline": "Umsatz +68 % (Vorquartal +48 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1752828,
+  "date": "2026-10-20",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
