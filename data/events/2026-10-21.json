@@ -1,0 +1,299 @@
+[
+ {
+  "kind": "insider",
+  "cik": 826675,
+  "ticker": "DX",
+  "date": "2026-10-21",
+  "value": 99970,
+  "trades": [
+   {
+    "name": "Byron L Boston",
+    "role": "Chairman",
+    "date": "2026-10-20",
+    "shares": 9180,
+    "value": 99970
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-21",
+  "value": 3345006,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-21",
+    "shares": 271555,
+    "value": 3345006
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 814083,
+  "ticker": "CLM",
+  "date": "2026-10-21",
+  "value": 97280,
+  "trades": [
+   {
+    "name": "Joshua Bradshaw",
+    "role": "Chairman",
+    "date": "2026-10-20",
+    "shares": 16000,
+    "value": 97280
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 33934,
+  "ticker": "CRF",
+  "date": "2026-10-21",
+  "value": 117600,
+  "trades": [
+   {
+    "name": "Joshua Bradshaw",
+    "role": "Chairman",
+    "date": "2026-10-20",
+    "shares": 20000,
+    "value": 117600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2031283,
+  "ticker": "NONE",
+  "date": "2026-10-21",
+  "value": 89603,
+  "trades": [
+   {
+    "name": "Scott Jonathan Bronner",
+    "role": "President",
+    "date": "2026-09-30",
+    "shares": 3418,
+    "value": 84531
+   },
+   {
+    "name": "Steven Henke",
+    "role": "CFO",
+    "date": "2026-09-30",
+    "shares": 137,
+    "value": 3381
+   },
+   {
+    "name": "Brian James Rooder",
+    "role": "CCO and Secretary",
+    "date": "2026-09-30",
+    "shares": 68,
+    "value": 1691
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 108985,
+  "ticker": "YORW",
+  "date": "2026-10-21",
+  "value": 41000,
+  "trades": [
+   {
+    "name": "Douglas S Brossman",
+    "role": "Direktor",
+    "date": "2026-10-20",
+    "shares": 32,
+    "value": 1000
+   },
+   {
+    "name": "David M Velazquez",
+    "role": "Direktor",
+    "date": "2026-10-20",
+    "shares": 1288,
+    "value": 40000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1649749,
+  "ticker": "FBK",
+  "date": "2026-10-21",
+  "value": 1537788,
+  "trades": [
+   {
+    "name": "Orrin H Ingram II",
+    "role": "Direktor",
+    "date": "2026-10-20",
+    "shares": 29081,
+    "value": 1537788
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1513845,
+  "ticker": "NBIS",
+  "date": "2026-10-21",
+  "value": 49713,
+  "trades": [
+   {
+    "name": "Arne Grimme",
+    "role": "Direktor",
+    "date": "2026-10-21",
+    "shares": 299,
+    "value": 49713
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2012593,
+  "ticker": "RAPP",
+  "date": "2026-10-21",
+  "value": 143550,
+  "trades": [
+   {
+    "name": "Troy A. Ignelzi",
+    "role": "CFO",
+    "date": "2026-10-21",
+    "shares": 5500,
+    "value": 143550
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1849894,
+  "ticker": "NONE",
+  "date": "2026-10-21",
+  "value": 310907,
+  "trades": [
+   {
+    "name": "Brian S Williams",
+    "role": "See Remarks",
+    "date": "2026-10-19",
+    "shares": 13130,
+    "value": 310907
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2025416,
+  "ticker": "OWLS",
+  "date": "2026-10-21",
+  "value": 52037,
+  "trades": [
+   {
+    "name": "Chun Kai Wang",
+    "role": "CEO",
+    "date": "2026-10-19",
+    "shares": 12192,
+    "value": 52037
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2079109,
+  "ticker": "VRXA",
+  "date": "2026-10-21",
+  "value": 32700,
+  "trades": [
+   {
+    "name": "Christoph Samuel Ziegler",
+    "role": "Direktor",
+    "date": "2026-10-20",
+    "shares": 30000,
+    "value": 32700
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 37634,
+  "date": "2026-10-21",
+  "headline": "Gewinn +96 % (Umsatz +9 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 89439,
+  "date": "2026-10-21",
+  "headline": "Umsatz +32 % (Vorquartal +25 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 277948,
+  "date": "2026-10-21",
+  "headline": "Gewinn +52 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 313616,
+  "date": "2026-10-21",
+  "headline": "Gewinn +36 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 717605,
+  "date": "2026-10-21",
+  "headline": "Gewinn +87 % (Umsatz +9 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 943452,
+  "date": "2026-10-21",
+  "headline": "Gewinn +32 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1065280,
+  "date": "2026-10-21",
+  "headline": "Gewinn +44 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1603923,
+  "date": "2026-10-21",
+  "headline": "Gewinn +48 % (Umsatz −7 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1798100,
+  "date": "2026-10-21",
+  "headline": "Umsatz +37 % (Vorquartal +27 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ }
+]
