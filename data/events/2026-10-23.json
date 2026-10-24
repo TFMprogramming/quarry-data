@@ -1,0 +1,315 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1625414,
+  "ticker": "BZUN",
+  "date": "2026-10-23",
+  "value": 39900,
+  "trades": [
+   {
+    "name": "Wenbin Qiu",
+    "role": "CEO",
+    "date": "2026-10-22",
+    "shares": 11400,
+    "value": 39900
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 726854,
+  "ticker": "CHCO",
+  "date": "2026-10-23",
+  "value": 68222,
+  "trades": [
+   {
+    "name": "Robert D Fisher",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 165,
+    "value": 23451
+   },
+   {
+    "name": "James A Hoyer",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 100,
+    "value": 14213
+   },
+   {
+    "name": "Javier A Reyes",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 95,
+    "value": 13502
+   },
+   {
+    "name": "Diane W Strong-Treister",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 120,
+    "value": 17056
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 764065,
+  "ticker": "CLF",
+  "date": "2026-10-23",
+  "value": 99826,
+  "trades": [
+   {
+    "name": "Edilson Camara",
+    "role": "Direktor",
+    "date": "2026-10-22",
+    "shares": 7400,
+    "value": 99826
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2114459,
+  "ticker": "CRAFX",
+  "date": "2026-10-23",
+  "value": 431249,
+  "trades": [
+   {
+    "name": "Matthew Eugene Worley",
+    "role": "Direktor",
+    "date": "2026-10-21",
+    "shares": 41910,
+    "value": 431249
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1468327,
+  "ticker": "RENT",
+  "date": "2026-10-23",
+  "value": 4493746,
+  "trades": [
+   {
+    "name": "Nexus Capital Management LP",
+    "role": "Direktor",
+    "date": "2026-10-21",
+    "shares": 632922,
+    "value": 2246873
+   },
+   {
+    "name": "Story3 Capital Partners, LLC",
+    "role": "Direktor",
+    "date": "2026-10-21",
+    "shares": 632922,
+    "value": 2246873
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1919369,
+  "ticker": "[NONE]",
+  "date": "2026-10-23",
+  "value": 100000,
+  "trades": [
+   {
+    "name": "Gregory T Galligan",
+    "role": "CEO",
+    "date": "2026-10-21",
+    "shares": 5144,
+    "value": 100000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1003078,
+  "ticker": "MSM",
+  "date": "2026-10-23",
+  "value": 50129,
+  "trades": [
+   {
+    "name": "Reuben E Slone",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 433,
+    "value": 50129
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1506488,
+  "ticker": "NXG",
+  "date": "2026-10-23",
+  "value": 479075,
+  "trades": [
+   {
+    "name": "Jerry V Swank",
+    "role": "See Remarks",
+    "date": "2026-10-23",
+    "shares": 10000,
+    "value": 439493
+   },
+   {
+    "name": "Blake Nelson",
+    "role": "CFO",
+    "date": "2026-10-23",
+    "shares": 900,
+    "value": 39582
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2012593,
+  "ticker": "RAPP",
+  "date": "2026-10-23",
+  "value": 98478,
+  "trades": [
+   {
+    "name": "Ramiro Sanchez",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 3600,
+    "value": 98478
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 4962,
+  "date": "2026-10-23",
+  "headline": "Gewinn +28 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 29915,
+  "date": "2026-10-23",
+  "headline": "Bruttomarge 18 % (Vorjahr 6 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 29989,
+  "date": "2026-10-23",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 45012,
+  "date": "2026-10-23",
+  "headline": "Gewinn +2217 % (Umsatz +2 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 97476,
+  "date": "2026-10-23",
+  "headline": "Gewinn +78 % (Umsatz +28 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 100790,
+  "date": "2026-10-23",
+  "headline": "Umsatz +38 % (Vorquartal +13 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 106040,
+  "date": "2026-10-23",
+  "headline": "Umsatz +55 % (Vorquartal +44 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 731012,
+  "date": "2026-10-23",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 898293,
+  "date": "2026-10-23",
+  "headline": "Umsatz +29 % (Vorquartal +12 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 917520,
+  "date": "2026-10-23",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1022079,
+  "date": "2026-10-23",
+  "headline": "Gewinn +27 % (Umsatz +10 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1022671,
+  "date": "2026-10-23",
+  "headline": "Gewinn +87 % (Umsatz +35 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1144215,
+  "date": "2026-10-23",
+  "headline": "Gewinn +52 % (Umsatz +3 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1384905,
+  "date": "2026-10-23",
+  "headline": "Gewinn +3144 % (Umsatz +6 %)",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
