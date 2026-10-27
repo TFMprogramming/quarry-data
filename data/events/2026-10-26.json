@@ -1,0 +1,269 @@
+[
+ {
+  "kind": "insider",
+  "cik": 2095486,
+  "ticker": "NONE",
+  "date": "2026-10-26",
+  "value": 795000,
+  "trades": [
+   {
+    "name": "Riad M Abrahams",
+    "role": "CEO",
+    "date": "2026-10-22",
+    "shares": 31213,
+    "value": 795000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 94344,
+  "ticker": "STC",
+  "date": "2026-10-26",
+  "value": 283710,
+  "trades": [
+   {
+    "name": "Thomas G Apel",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 2000,
+    "value": 95470
+   },
+   {
+    "name": "C Allen Bradley Jr",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 2000,
+    "value": 94600
+   },
+   {
+    "name": "William S. Corey Jr.",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 2000,
+    "value": 93640
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1702750,
+  "ticker": "BY",
+  "date": "2026-10-26",
+  "value": 44785,
+  "trades": [
+   {
+    "name": "Pamela C Stewart",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 1160,
+    "value": 44785
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1108134,
+  "ticker": "BBT",
+  "date": "2026-10-26",
+  "value": 104984,
+  "trades": [
+   {
+    "name": "Thomas J Hollister",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 3450,
+    "value": 104984
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-26",
+  "value": 2126091,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 170320,
+    "value": 2126091
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1781730,
+  "ticker": "TCBX",
+  "date": "2026-10-26",
+  "value": 40340,
+  "trades": [
+   {
+    "name": "William Bobbora",
+    "role": "See Remarks",
+    "date": "2026-10-26",
+    "shares": 1000,
+    "value": 40340
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 894556,
+  "ticker": "CITR",
+  "date": "2026-10-26",
+  "value": 500000,
+  "trades": [
+   {
+    "name": "Craig A Huff",
+    "role": "Direktor",
+    "date": "2026-10-22",
+    "shares": 200000,
+    "value": 500000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 903129,
+  "ticker": "THRM",
+  "date": "2026-10-26",
+  "value": 662600,
+  "trades": [
+   {
+    "name": "William T. Presley",
+    "role": "CEO",
+    "date": "2026-10-23",
+    "shares": 5000,
+    "value": 130000
+   },
+   {
+    "name": "Paul Anthony Mascarenas",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 20000,
+    "value": 532600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1513845,
+  "ticker": "NBIS",
+  "date": "2026-10-26",
+  "value": 122438,
+  "trades": [
+   {
+    "name": "Arne Grimme",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 770,
+    "value": 122438
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2131040,
+  "ticker": "RVII",
+  "date": "2026-10-26",
+  "value": 26625,
+  "trades": [
+   {
+    "name": "Meredith Whitney",
+    "role": "Direktor",
+    "date": "2026-10-23",
+    "shares": 1500,
+    "value": 26625
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 42682,
+  "date": "2026-10-26",
+  "headline": "Gewinn +100 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 205402,
+  "date": "2026-10-26",
+  "headline": "Umsatz +22 % (Vorquartal +12 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 751978,
+  "date": "2026-10-26",
+  "headline": "Umsatz +79 % (Vorquartal +49 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 917273,
+  "date": "2026-10-26",
+  "headline": "Gewinn +54 % (Umsatz +22 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1030894,
+  "date": "2026-10-26",
+  "headline": "Umsatz +83 % (Vorquartal +62 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1158463,
+  "date": "2026-10-26",
+  "headline": "Umsatz +21 % (Vorquartal +14 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1176334,
+  "date": "2026-10-26",
+  "headline": "Umsatz +37 % (Vorquartal +18 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1622194,
+  "date": "2026-10-26",
+  "headline": "Gewinn +353 % (Umsatz +9 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1709682,
+  "date": "2026-10-26",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ }
+]
