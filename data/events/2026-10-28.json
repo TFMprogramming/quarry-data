@@ -1,0 +1,942 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1467373,
+  "ticker": "ACN",
+  "date": "2026-10-28",
+  "value": 3200889,
+  "trades": [
+   {
+    "name": "Paula A Price",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 800,
+    "value": 199848
+   },
+   {
+    "name": "Julie Spellman Sweet",
+    "role": "CEO",
+    "date": "2026-10-26",
+    "shares": 12200,
+    "value": 3001041
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1116942,
+  "ticker": "TTMI",
+  "date": "2026-10-28",
+  "value": 1342810,
+  "trades": [
+   {
+    "name": "Wajid Ali",
+    "role": "Direktor",
+    "date": "2026-10-28",
+    "shares": 10000,
+    "value": 902460
+   },
+   {
+    "name": "Edwin Roks",
+    "role": "CEO",
+    "date": "2026-10-28",
+    "shares": 5000,
+    "value": 440350
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1694028,
+  "ticker": "LBRT",
+  "date": "2026-10-28",
+  "value": 223300,
+  "trades": [
+   {
+    "name": "Ken Babcock",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 14500,
+    "value": 223300
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1108134,
+  "ticker": "BBT",
+  "date": "2026-10-28",
+  "value": 61971,
+  "trades": [
+   {
+    "name": "Margaret Boles Fitzgerald",
+    "role": "Direktor",
+    "date": "2026-10-27",
+    "shares": 329,
+    "value": 10123
+   },
+   {
+    "name": "Eric S Rosengren",
+    "role": "Direktor",
+    "date": "2026-10-28",
+    "shares": 700,
+    "value": 21168
+   },
+   {
+    "name": "Karyn Polito",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 1000,
+    "value": 30680
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551047,
+  "ticker": "BPRE",
+  "date": "2026-10-28",
+  "value": 2229725,
+  "trades": [
+   {
+    "name": "Ramin Kamfar",
+    "role": "Direktor",
+    "date": "2026-10-27",
+    "shares": 178677,
+    "value": 2229725
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 910073,
+  "ticker": "NYSE:FLG",
+  "date": "2026-10-28",
+  "value": 101400,
+  "trades": [
+   {
+    "name": "Alan L Frank",
+    "role": "Direktor",
+    "date": "2026-10-27",
+    "shares": 10000,
+    "value": 101400
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1968487,
+  "ticker": "WS",
+  "date": "2026-10-28",
+  "value": 31492,
+  "trades": [
+   {
+    "name": "George John Ganem III",
+    "role": "CEO",
+    "date": "2026-10-15",
+    "shares": 800,
+    "value": 31492
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 717605,
+  "ticker": "HXL",
+  "date": "2026-10-28",
+  "value": 242010,
+  "trades": [
+   {
+    "name": "Neal J. Keating",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 3000,
+    "value": 242010
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 49196,
+  "ticker": "HBAN",
+  "date": "2026-10-28",
+  "value": 253720,
+  "trades": [
+   {
+    "name": "James D Rollins III",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 14000,
+    "value": 253720
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1718405,
+  "ticker": "HYMC",
+  "date": "2026-10-28",
+  "value": 50075,
+  "trades": [
+   {
+    "name": "Blake Rhodes",
+    "role": "Direktor",
+    "date": "2026-10-28",
+    "shares": 3000,
+    "value": 50075
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2027360,
+  "ticker": "RCT",
+  "date": "2026-10-28",
+  "value": 425000,
+  "trades": [
+   {
+    "name": "Nikolaus Beat Senn",
+    "role": "Direktor",
+    "date": "2026-10-28",
+    "shares": 1700000,
+    "value": 425000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1626878,
+  "ticker": "XBIT",
+  "date": "2026-10-28",
+  "value": 711251,
+  "trades": [
+   {
+    "name": "John Simard",
+    "role": "Direktor",
+    "date": "2026-10-26",
+    "shares": 368524,
+    "value": 711251
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 20212,
+  "date": "2026-10-28",
+  "headline": "Gewinn +111 % (Umsatz +2 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 30625,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 38725,
+  "date": "2026-10-28",
+  "headline": "Gewinn +262 % (Umsatz +9 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 48898,
+  "date": "2026-10-28",
+  "headline": "Umsatz +25 % (Vorquartal +15 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 75362,
+  "date": "2026-10-28",
+  "headline": "Umsatz +19 % (Vorquartal +0 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 84748,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 93751,
+  "date": "2026-10-28",
+  "headline": "Gewinn +27 % (Umsatz +13 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 103379,
+  "date": "2026-10-28",
+  "headline": "Gewinn +50 % (Umsatz −4 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 354963,
+  "date": "2026-10-28",
+  "headline": "Operative Marge -2 % (Vorjahr -8 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 700923,
+  "date": "2026-10-28",
+  "headline": "Umsatz +32 % (Vorquartal +20 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 745308,
+  "date": "2026-10-28",
+  "headline": "Bruttomarge 52 % (Vorjahr 44 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 759944,
+  "date": "2026-10-28",
+  "headline": "Gewinn +29 % (Umsatz +2 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 789019,
+  "date": "2026-10-28",
+  "headline": "Gewinn +32 % (Umsatz +19 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 789570,
+  "date": "2026-10-28",
+  "headline": "Operative Marge 3 % (Vorjahr -3 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 805928,
+  "date": "2026-10-28",
+  "headline": "Gewinn +230 % (Umsatz +26 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 816956,
+  "date": "2026-10-28",
+  "headline": "Gewinn +592 % (Umsatz −1 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 822818,
+  "date": "2026-10-28",
+  "headline": "Umsatz +21 % (Vorquartal +12 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 823768,
+  "date": "2026-10-28",
+  "headline": "Gewinn +36 % (Umsatz +6 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 835011,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 853816,
+  "date": "2026-10-28",
+  "headline": "Umsatz +25 % (Vorquartal +18 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 889331,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 906553,
+  "date": "2026-10-28",
+  "headline": "Operative Marge 20 % (Vorjahr 14 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 918541,
+  "date": "2026-10-28",
+  "headline": "Umsatz +26 % (Vorquartal +19 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 930420,
+  "date": "2026-10-28",
+  "headline": "Gewinn +40 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1005284,
+  "date": "2026-10-28",
+  "headline": "Gewinn +79 % (Umsatz +15 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1021860,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1023128,
+  "date": "2026-10-28",
+  "headline": "Gewinn +34 % (Umsatz +3 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1035002,
+  "date": "2026-10-28",
+  "headline": "Gewinn +524 % (Umsatz +43 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1037976,
+  "date": "2026-10-28",
+  "headline": "Gewinn +43 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1047340,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1048911,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1050377,
+  "date": "2026-10-28",
+  "headline": "Umsatz +23 % (Vorquartal +12 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1057352,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 1077183,
+  "date": "2026-10-28",
+  "headline": "Bruttomarge 46 % (Vorjahr 43 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1096056,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1096343,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1101239,
+  "date": "2026-10-28",
+  "headline": "Gewinn +31 % (Umsatz +11 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1111711,
+  "date": "2026-10-28",
+  "headline": "Gewinn +37 % (Umsatz +5 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1114995,
+  "date": "2026-10-28",
+  "headline": "Umsatz +17 % (Vorquartal +11 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1116942,
+  "date": "2026-10-28",
+  "headline": "Umsatz +60 % (Vorquartal +37 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1121788,
+  "date": "2026-10-28",
+  "headline": "Gewinn +35 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1169561,
+  "date": "2026-10-28",
+  "headline": "Gewinn +98 % (Umsatz +13 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1192448,
+  "date": "2026-10-28",
+  "headline": "Umsatz +58 % (Vorquartal +50 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1275014,
+  "date": "2026-10-28",
+  "headline": "Umsatz +49 % (Vorquartal +24 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1283699,
+  "date": "2026-10-28",
+  "headline": "Gewinn +27 % (Umsatz +7 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1289419,
+  "date": "2026-10-28",
+  "headline": "Gewinn +26 % (Umsatz +9 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1370637,
+  "date": "2026-10-28",
+  "headline": "Gewinn +1030 % (Umsatz +11 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1402829,
+  "date": "2026-10-28",
+  "headline": "Gewinn +66 % (Umsatz +14 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1410384,
+  "date": "2026-10-28",
+  "headline": "Gewinn +121 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1433270,
+  "date": "2026-10-28",
+  "headline": "Umsatz +29 % (Vorquartal +20 %)",
+  "signals": [
+   "acceleration",
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1452477,
+  "date": "2026-10-28",
+  "headline": "Gewinn +135 % (Umsatz +17 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1481582,
+  "date": "2026-10-28",
+  "headline": "Umsatz +87 % (Vorquartal +72 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1492691,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1517175,
+  "date": "2026-10-28",
+  "headline": "Gewinn +55 % (Umsatz +11 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1534701,
+  "date": "2026-10-28",
+  "headline": "Gewinn +4123 % (Umsatz +46 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1563411,
+  "date": "2026-10-28",
+  "headline": "Gewinn +33 % (Umsatz +22 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1623925,
+  "date": "2026-10-28",
+  "headline": "Gewinn +239 % (Umsatz +11 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1650729,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1659166,
+  "date": "2026-10-28",
+  "headline": "Gewinn +214 % (Umsatz +8 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1667313,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1670076,
+  "date": "2026-10-28",
+  "headline": "Umsatz +53 % (Vorquartal +38 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1674101,
+  "date": "2026-10-28",
+  "headline": "Umsatz +61 % (Vorquartal +24 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 1690334,
+  "date": "2026-10-28",
+  "headline": "Bruttomarge 33 % (Vorjahr 19 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1690820,
+  "date": "2026-10-28",
+  "headline": "Gewinn +91 % (Umsatz +42 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1717547,
+  "date": "2026-10-28",
+  "headline": "Gewinn +4670 % (Umsatz +4 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1722482,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1784535,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1808834,
+  "date": "2026-10-28",
+  "headline": "Umsatz +2277 % (Vorquartal +2101 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1809987,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1818383,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1834622,
+  "date": "2026-10-28",
+  "headline": "Gewinn +35 % (Umsatz +6 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 1836981,
+  "date": "2026-10-28",
+  "headline": "Umsatz +31 % (Vorquartal +13 %)",
+  "signals": [
+   "acceleration",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1848275,
+  "date": "2026-10-28",
+  "headline": "Gewinn +162 % (Umsatz +44 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 1860742,
+  "date": "2026-10-28",
+  "headline": "Operative Marge 11 % (Vorjahr 7 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1915657,
+  "date": "2026-10-28",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1932393,
+  "date": "2026-10-28",
+  "headline": "Gewinn +38 % (Umsatz +7 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1996810,
+  "date": "2026-10-28",
+  "headline": "Gewinn +186 % (Umsatz +27 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ }
+]
