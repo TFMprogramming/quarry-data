@@ -1,0 +1,1094 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1219120,
+  "ticker": "AVK",
+  "date": "2026-11-19",
+  "value": 202980,
+  "trades": [
+   {
+    "name": "Tracy V Maitland",
+    "role": "CEO",
+    "date": "2026-11-19",
+    "shares": 20000,
+    "value": 202980
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1818644,
+  "ticker": "LIDR",
+  "date": "2026-11-19",
+  "value": 25059,
+  "trades": [
+   {
+    "name": "Jonathon B. Husby",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 35860,
+    "value": 25059
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1053691,
+  "ticker": "CRVO",
+  "date": "2026-11-19",
+  "value": 152621,
+  "trades": [
+   {
+    "name": "John J Alam",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 100000,
+    "value": 152621
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2080921,
+  "ticker": "APC",
+  "date": "2026-11-19",
+  "value": 279000,
+  "trades": [
+   {
+    "name": "Andrew R Heyer",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 20000,
+    "value": 279000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1822523,
+  "ticker": "AFCG",
+  "date": "2026-11-19",
+  "value": 298409,
+  "trades": [
+   {
+    "name": "Leonard M Tannenbaum",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 85504,
+    "value": 298409
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2020932,
+  "ticker": "AGMB",
+  "date": "2026-11-19",
+  "value": 27850,
+  "trades": [
+   {
+    "name": "David R Epstein",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 5000,
+    "value": 27850
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1802883,
+  "ticker": "API",
+  "date": "2026-11-19",
+  "value": 31628,
+  "trades": [
+   {
+    "name": "Bin Zhao",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 8584,
+    "value": 31628
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1855474,
+  "ticker": "AIRJ",
+  "date": "2026-11-19",
+  "value": 50183,
+  "trades": [
+   {
+    "name": "Thomas Edward Murphy",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 28400,
+    "value": 50183
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1766478,
+  "ticker": "AOMR",
+  "date": "2026-11-19",
+  "value": 26250,
+  "trades": [
+   {
+    "name": "Jonathan Morgan",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 5000,
+    "value": 26250
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1428205,
+  "ticker": "ARR",
+  "date": "2026-11-19",
+  "value": 52248,
+  "trades": [
+   {
+    "name": "Scott Ulm",
+    "role": "CEO",
+    "date": "2026-11-19",
+    "shares": 5000,
+    "value": 52248
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1650372,
+  "ticker": "TEAM",
+  "date": "2026-11-19",
+  "value": 1881888,
+  "trades": [
+   {
+    "name": "Michael Cannon-Brookes",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 13400,
+    "value": 1881888
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1278027,
+  "ticker": "BGS",
+  "date": "2026-11-19",
+  "value": 249714,
+  "trades": [
+   {
+    "name": "Robert D Mills",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 69444,
+    "value": 249714
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 826675,
+  "ticker": "DX",
+  "date": "2026-11-19",
+  "value": 50003,
+  "trades": [
+   {
+    "name": "Byron L Boston",
+    "role": "Chairman",
+    "date": "2026-11-18",
+    "shares": 5187,
+    "value": 50003
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 876343,
+  "ticker": "LCTX",
+  "date": "2026-11-19",
+  "value": 796800,
+  "trades": [
+   {
+    "name": "Broadwood Partners, L.p.",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 1000000,
+    "value": 770700
+   },
+   {
+    "name": "Michael H. Mulroy",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 30000,
+    "value": 26100
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1357459,
+  "ticker": "PALI",
+  "date": "2026-11-19",
+  "value": 50285,
+  "trades": [
+   {
+    "name": "Robert Baltera Jr.",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 50000,
+    "value": 50285
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1872964,
+  "ticker": "MTEK",
+  "date": "2026-11-19",
+  "value": 30800,
+  "trades": [
+   {
+    "name": "Israel Bar",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 110000,
+    "value": 30800
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1069530,
+  "ticker": "FLNA",
+  "date": "2026-11-19",
+  "value": 63804,
+  "trades": [
+   {
+    "name": "Richard Barry",
+    "role": "CEO",
+    "date": "2026-11-17",
+    "shares": 132926,
+    "value": 63804
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1730984,
+  "ticker": "BCML",
+  "date": "2026-11-19",
+  "value": 151000,
+  "trades": [
+   {
+    "name": "Michael J Perdue",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 5000,
+    "value": 151000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 763907,
+  "ticker": "FUNC",
+  "date": "2026-11-19",
+  "value": 100000,
+  "trades": [
+   {
+    "name": "Shawn Robert Bender",
+    "role": "Direktor",
+    "date": "2026-11-16",
+    "shares": 2158,
+    "value": 100000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2021880,
+  "ticker": "HMH",
+  "date": "2026-11-19",
+  "value": 1736052,
+  "trades": [
+   {
+    "name": "Eirik Bergsvik",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 8000,
+    "value": 88080
+   },
+   {
+    "name": "Thomas W. McGee",
+    "role": "CFO",
+    "date": "2026-11-17",
+    "shares": 140000,
+    "value": 1647972
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 216228,
+  "ticker": "ITT",
+  "date": "2026-11-19",
+  "value": 501561,
+  "trades": [
+   {
+    "name": "Kevin C Berryman",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 2390,
+    "value": 501561
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1621434,
+  "ticker": "BSM",
+  "date": "2026-11-19",
+  "value": 337588,
+  "trades": [
+   {
+    "name": "Thomas L Carter Jr",
+    "role": "Chairman",
+    "date": "2026-11-19",
+    "shares": 25000,
+    "value": 337588
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1437958,
+  "ticker": "CCB",
+  "date": "2026-11-19",
+  "value": 737500,
+  "trades": [
+   {
+    "name": "Steven D Hovde",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 5000,
+    "value": 187500
+   },
+   {
+    "name": "Steven D Hovde",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 15000,
+    "value": 550000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1998768,
+  "ticker": "PAL",
+  "date": "2026-11-19",
+  "value": 162420,
+  "trades": [
+   {
+    "name": "Douglas L Col",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 30000,
+    "value": 84300
+   },
+   {
+    "name": "John Schraudenbach",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 28000,
+    "value": 78120
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1482512,
+  "ticker": "HPP",
+  "date": "2026-11-19",
+  "value": 80600,
+  "trades": [
+   {
+    "name": "Victor J Coleman",
+    "role": "CEO",
+    "date": "2026-11-19",
+    "shares": 10000,
+    "value": 80600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2041610,
+  "ticker": "SKYD",
+  "date": "2026-11-19",
+  "value": 494844,
+  "trades": [
+   {
+    "name": "Gerald J. Cardinale",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 70120,
+    "value": 494844
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1822791,
+  "ticker": "CLNN",
+  "date": "2026-11-19",
+  "value": 34240,
+  "trades": [
+   {
+    "name": "Reed N Wilcox",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 10000,
+    "value": 34240
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1127371,
+  "ticker": "CWBC",
+  "date": "2026-11-19",
+  "value": 293988,
+  "trades": [
+   {
+    "name": "Jagroop Gill",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 12000,
+    "value": 293988
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1502377,
+  "ticker": "CTGO",
+  "date": "2026-11-19",
+  "value": 299835,
+  "trades": [
+   {
+    "name": "John B Juneau",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 18300,
+    "value": 198738
+   },
+   {
+    "name": "Nieuwenhuyse Rick Van",
+    "role": "CEO",
+    "date": "2026-11-17",
+    "shares": 9258,
+    "value": 101097
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1494891,
+  "ticker": "SRTS",
+  "date": "2026-11-19",
+  "value": 187989,
+  "trades": [
+   {
+    "name": "Megan Cornish",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 2200,
+    "value": 5016
+   },
+   {
+    "name": "Eric Sachetta",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 81575,
+    "value": 182973
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1023512,
+  "ticker": "DRD",
+  "date": "2026-11-19",
+  "value": 35152,
+  "trades": [
+   {
+    "name": "Mark C A Hoffman",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 15923,
+    "value": 35152
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1537435,
+  "ticker": "TGEN",
+  "date": "2026-11-19",
+  "value": 57154,
+  "trades": [
+   {
+    "name": "Roger P. Deschenes",
+    "role": "CFO",
+    "date": "2026-11-18",
+    "shares": 10000,
+    "value": 17997
+   },
+   {
+    "name": "Earl Lewis",
+    "role": "Direktor",
+    "date": "2026-11-16",
+    "shares": 10000,
+    "value": 19557
+   },
+   {
+    "name": "John Kimball Whiting IV",
+    "role": "Chefjurist",
+    "date": "2026-11-16",
+    "shares": 10000,
+    "value": 19600
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1884516,
+  "ticker": "DTI",
+  "date": "2026-11-19",
+  "value": 106560,
+  "trades": [
+   {
+    "name": "Michael Wayne Domino Jr.",
+    "role": "President",
+    "date": "2026-11-18",
+    "shares": 35000,
+    "value": 56595
+   },
+   {
+    "name": "Aldo Rodriguez",
+    "role": "President",
+    "date": "2026-11-18",
+    "shares": 31500,
+    "value": 49965
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1024672,
+  "ticker": "ELTK",
+  "date": "2026-11-19",
+  "value": 2608426,
+  "trades": [
+   {
+    "name": "Yitzhak Nissan",
+    "role": "Direktor",
+    "date": "2026-08-11",
+    "shares": 18645,
+    "value": 161502
+   },
+   {
+    "name": "Yitzhak Nissan",
+    "role": "Direktor",
+    "date": "2026-10-05",
+    "shares": 258982,
+    "value": 2311090
+   },
+   {
+    "name": "Yitzhak Nissan",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 20163,
+    "value": 135834
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1411342,
+  "ticker": "EFC",
+  "date": "2026-11-19",
+  "value": 2075344,
+  "trades": [
+   {
+    "name": "Michael W Vranos",
+    "role": "Vorstand",
+    "date": "2026-11-18",
+    "shares": 192000,
+    "value": 2075344
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1520006,
+  "ticker": "MTDR",
+  "date": "2026-11-19",
+  "value": 127450,
+  "trades": [
+   {
+    "name": "Joseph Wm Foran",
+    "role": "CEO",
+    "date": "2026-11-17",
+    "shares": 2500,
+    "value": 127450
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1429260,
+  "ticker": "FBIO",
+  "date": "2026-11-19",
+  "value": 340397,
+  "trades": [
+   {
+    "name": "Lindsay A Md Rosenwald",
+    "role": "CEO",
+    "date": "2026-11-19",
+    "shares": 136723,
+    "value": 252583
+   },
+   {
+    "name": "David Jin",
+    "role": "CFO",
+    "date": "2026-11-19",
+    "shares": 47605,
+    "value": 87814
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1851961,
+  "ticker": "GCTS",
+  "date": "2026-11-19",
+  "value": 57500,
+  "trades": [
+   {
+    "name": "Hyunsoo Shin",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 50000,
+    "value": 57500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1823587,
+  "ticker": "SKYH",
+  "date": "2026-11-19",
+  "value": 56400,
+  "trades": [
+   {
+    "name": "Andrew J Gessow",
+    "role": "Direktor",
+    "date": "2026-11-13",
+    "shares": 5000,
+    "value": 56400
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1606242,
+  "ticker": "VTIX",
+  "date": "2026-11-19",
+  "value": 80870,
+  "trades": [
+   {
+    "name": "Jan Roger Goetgeluk",
+    "role": "CEO",
+    "date": "2026-11-19",
+    "shares": 100000,
+    "value": 40450
+   },
+   {
+    "name": "Thomas Lynn McGinnis",
+    "role": "CFO",
+    "date": "2026-11-19",
+    "shares": 100000,
+    "value": 40420
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1826667,
+  "ticker": "TLSI",
+  "date": "2026-11-19",
+  "value": 182205,
+  "trades": [
+   {
+    "name": "Gary B. Gordon",
+    "role": "Direktor",
+    "date": "2026-11-17",
+    "shares": 10000,
+    "value": 22000
+   },
+   {
+    "name": "Mary T Szela",
+    "role": "CEO",
+    "date": "2026-11-18",
+    "shares": 65192,
+    "value": 160205
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2094433,
+  "ticker": "RMIX",
+  "date": "2026-11-19",
+  "value": 182800,
+  "trades": [
+   {
+    "name": "Andrew R Heyer",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 25000,
+    "value": 182800
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1713334,
+  "ticker": "MSC",
+  "date": "2026-11-19",
+  "value": 26196,
+  "trades": [
+   {
+    "name": "Lawrence Yau Lung Ho",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 100948,
+    "value": 26196
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1778016,
+  "ticker": "NBP",
+  "date": "2026-11-19",
+  "value": 85882,
+  "trades": [
+   {
+    "name": "Mark Arnold Hagler",
+    "role": "Vorstand",
+    "date": "2026-11-18",
+    "shares": 230000,
+    "value": 85882
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 58361,
+  "ticker": "LEE",
+  "date": "2026-11-19",
+  "value": 120551,
+  "trades": [
+   {
+    "name": "David Henry Hoffmann",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 18201,
+    "value": 120551
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1141197,
+  "ticker": "PED",
+  "date": "2026-11-19",
+  "value": 48950,
+  "trades": [
+   {
+    "name": "John K Howie",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 5000,
+    "value": 48950
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1081745,
+  "ticker": "INLX",
+  "date": "2026-11-19",
+  "value": 39519,
+  "trades": [
+   {
+    "name": "Paul Seid",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 10121,
+    "value": 39519
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1516912,
+  "ticker": "OBK",
+  "date": "2026-11-19",
+  "value": 78660,
+  "trades": [
+   {
+    "name": "Michael Aubrey Jones",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 1500,
+    "value": 78660
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1530804,
+  "ticker": "TROX",
+  "date": "2026-11-19",
+  "value": 38998,
+  "trades": [
+   {
+    "name": "Stephen J Jones",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 25000,
+    "value": 38998
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1045609,
+  "ticker": "PLD",
+  "date": "2026-11-19",
+  "value": 587350,
+  "trades": [
+   {
+    "name": "Alfred F Kelly Jr",
+    "role": "Direktor",
+    "date": "2026-11-18",
+    "shares": 4700,
+    "value": 587350
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1551901,
+  "ticker": "SCM",
+  "date": "2026-11-19",
+  "value": 197100,
+  "trades": [
+   {
+    "name": "Robert T. Ladd",
+    "role": "CEO",
+    "date": "2026-11-17",
+    "shares": 30000,
+    "value": 197100
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1858660,
+  "ticker": "N/A",
+  "date": "2026-11-19",
+  "value": 45000,
+  "trades": [
+   {
+    "name": "Ankur Nagpal",
+    "role": "Portfolio Manager",
+    "date": "2026-09-18",
+    "shares": 889,
+    "value": 20000
+   },
+   {
+    "name": "Erik Syvertsen",
+    "role": "CEO",
+    "date": "2026-11-17",
+    "shares": 1064,
+    "value": 25000
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1388658,
+  "ticker": "IRTC",
+  "date": "2026-11-19",
+  "value": 763706,
+  "trades": [
+   {
+    "name": "Abhijit Y Talwalkar",
+    "role": "Direktor",
+    "date": "2026-11-19",
+    "shares": 7900,
+    "value": 763706
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 2969,
+  "date": "2026-11-19",
+  "headline": "Gewinn +11824 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 56978,
+  "date": "2026-11-19",
+  "headline": "Umsatz +131 % (Vorquartal +123 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 356309,
+  "date": "2026-11-19",
+  "headline": "Umsatz +17 % (Vorquartal +10 %)",
+  "signals": [
+   "acceleration",
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 785786,
+  "date": "2026-11-19",
+  "headline": "Gewinn +33 % (Umsatz +23 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "acceleration",
+  "cik": 875582,
+  "date": "2026-11-19",
+  "headline": "Umsatz +19 % (Vorquartal +13 %)",
+  "signals": [
+   "acceleration"
+  ]
+ },
+ {
+  "kind": "margin",
+  "cik": 884614,
+  "date": "2026-11-19",
+  "headline": "Operative Marge 6 % (Vorjahr 1 %)",
+  "signals": [
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 885462,
+  "date": "2026-11-19",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 896878,
+  "date": "2026-11-19",
+  "headline": "Gewinn +56 % (Umsatz +12 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 933974,
+  "date": "2026-11-19",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1032220,
+  "date": "2026-11-19",
+  "headline": "Gewinn +29 % (Umsatz −1 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1235468,
+  "date": "2026-11-19",
+  "headline": "Gewinn +52 % (Umsatz −10 %)",
+  "signals": [
+   "turnaround",
+   "margin"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1319161,
+  "date": "2026-11-19",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1327567,
+  "date": "2026-11-19",
+  "headline": "Gewinn +44 % (Umsatz +39 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1530950,
+  "date": "2026-11-19",
+  "headline": "Gewinn +41 % (Umsatz −13 %)",
+  "signals": [
+   "turnaround"
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1674910,
+  "date": "2026-11-19",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
