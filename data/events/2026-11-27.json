@@ -1,0 +1,345 @@
+[
+ {
+  "kind": "insider",
+  "cik": 1937891,
+  "ticker": "AMCI",
+  "date": "2026-11-27",
+  "value": 49199,
+  "trades": [
+   {
+    "name": "Shengwei (Sean) Da",
+    "role": "CEO",
+    "date": "2026-11-25",
+    "shares": 50132,
+    "value": 49199
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1774857,
+  "ticker": "AARD",
+  "date": "2026-11-27",
+  "value": 48300,
+  "trades": [
+   {
+    "name": "Tien-Li Lee",
+    "role": "CEO",
+    "date": "2026-11-24",
+    "shares": 50000,
+    "value": 48300
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1802883,
+  "ticker": "API",
+  "date": "2026-11-27",
+  "value": 231673,
+  "trades": [
+   {
+    "name": "Bin Zhao",
+    "role": "CEO",
+    "date": "2026-11-25",
+    "shares": 72608,
+    "value": 231673
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1784570,
+  "ticker": "BETA",
+  "date": "2026-11-27",
+  "value": 1601932,
+  "trades": [
+   {
+    "name": "Michael Robert Stone",
+    "role": "Direktor",
+    "date": "2026-11-27",
+    "shares": 100000,
+    "value": 1601932
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1798562,
+  "ticker": "TMC",
+  "date": "2026-11-27",
+  "value": 33400,
+  "trades": [
+   {
+    "name": "Gerard Barron",
+    "role": "CEO",
+    "date": "2026-11-25",
+    "shares": 20000,
+    "value": 33400
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1655888,
+  "ticker": "OBDC",
+  "date": "2026-11-27",
+  "value": 44958,
+  "trades": [
+   {
+    "name": "Logan Nicholson",
+    "role": "President",
+    "date": "2026-11-25",
+    "shares": 4102,
+    "value": 44958
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1499849,
+  "ticker": "LND",
+  "date": "2026-11-27",
+  "value": 30396,
+  "trades": [
+   {
+    "name": "Alejandro Gustavo Elsztain",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 10510,
+    "value": 30396
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 714562,
+  "ticker": "THFF",
+  "date": "2026-11-27",
+  "value": 73239,
+  "trades": [
+   {
+    "name": "William Curtis Brighton",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 1000,
+    "value": 73239
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1162194,
+  "ticker": "LAB",
+  "date": "2026-11-27",
+  "value": 2102438,
+  "trades": [
+   {
+    "name": "Casdin Partners Master Fund, L.p.",
+    "role": "Direktor",
+    "date": "2026-11-27",
+    "shares": 3546393,
+    "value": 2102438
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 766011,
+  "ticker": "CMCL",
+  "date": "2026-11-27",
+  "value": 88238,
+  "trades": [
+   {
+    "name": "Geralda Wildeschutt",
+    "role": "Direktor",
+    "date": "2026-11-26",
+    "shares": 4988,
+    "value": 88238
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 2041610,
+  "ticker": "SKYD",
+  "date": "2026-11-27",
+  "value": 149883,
+  "trades": [
+   {
+    "name": "Gerald J. Cardinale",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 22940,
+    "value": 149883
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1965473,
+  "ticker": "CCG",
+  "date": "2026-11-27",
+  "value": 1243200,
+  "trades": [
+   {
+    "name": "Lei Zhang",
+    "role": "CEO",
+    "date": "2026-11-25",
+    "shares": 120000,
+    "value": 1243200
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1801834,
+  "ticker": "PRFX",
+  "date": "2026-11-27",
+  "value": 64289,
+  "trades": [
+   {
+    "name": "Efraim Cohen-Arazi",
+    "role": "CEO",
+    "date": "2026-11-25",
+    "shares": 50000,
+    "value": 37774
+   },
+   {
+    "name": "Asaf Shavit",
+    "role": "Direktor",
+    "date": "2026-11-24",
+    "shares": 37879,
+    "value": 26515
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1503274,
+  "ticker": "QTRX",
+  "date": "2026-11-27",
+  "value": 542500,
+  "trades": [
+   {
+    "name": "William P Donnelly",
+    "role": "Direktor",
+    "date": "2026-11-24",
+    "shares": 250000,
+    "value": 542500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1499780,
+  "ticker": "GLBS",
+  "date": "2026-11-27",
+  "value": 220500,
+  "trades": [
+   {
+    "name": "Georgios Feidakis",
+    "role": "Direktor",
+    "date": "2026-11-24",
+    "shares": 90000,
+    "value": 220500
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 276720,
+  "ticker": "PCYO",
+  "date": "2026-11-27",
+  "value": 25025,
+  "trades": [
+   {
+    "name": "Christopher Fink",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 2500,
+    "value": 25025
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1048268,
+  "ticker": "IESC",
+  "date": "2026-11-27",
+  "value": 694150,
+  "trades": [
+   {
+    "name": "David B. Gendell",
+    "role": "Direktor",
+    "date": "2026-11-24",
+    "shares": 4000,
+    "value": 653000
+   },
+   {
+    "name": "Matthew J Simmes",
+    "role": "CEO",
+    "date": "2026-11-24",
+    "shares": 247,
+    "value": 41150
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1867729,
+  "ticker": "WRD",
+  "date": "2026-11-27",
+  "value": 593912,
+  "trades": [
+   {
+    "name": "Tony Xu Han",
+    "role": "CEO",
+    "date": "2026-11-24",
+    "shares": 597918,
+    "value": 593912
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1697500,
+  "ticker": "SEI",
+  "date": "2026-11-27",
+  "value": 32351,
+  "trades": [
+   {
+    "name": "Aj Teague",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 580,
+    "value": 32351
+   }
+  ]
+ },
+ {
+  "kind": "insider",
+  "cik": 1291855,
+  "ticker": "SPCB",
+  "date": "2026-11-27",
+  "value": 69843,
+  "trades": [
+   {
+    "name": "Arie Trabelsi",
+    "role": "Direktor",
+    "date": "2026-11-25",
+    "shares": 10519,
+    "value": 69843
+   }
+  ]
+ },
+ {
+  "kind": "turnaround",
+  "cik": 1333822,
+  "date": "2026-11-27",
+  "headline": "Gewinn nach Verlusten",
+  "signals": [
+   "turnaround"
+  ]
+ }
+]
